@@ -1,0 +1,171 @@
+"""새로 쓴 기사를 data/news.json, data/reading.json에 합쳐요.
+
+사용
+  python3 pipeline/merge.py --status [--cat stock,world]      지금 올라가 있는 기사 목록 보기(겹침 확인용)
+  python3 pipeline/merge.py --news work/new/news_*.json [--reading work/new/reading_*.json] [--today YYYY-MM-DD] [--dry-run]
+
+뉴스를 남기는 규칙(pipeline/categories.json의 keep 값)
+- 행사(events)가 아닌 분야: 최근 recentDays일(오늘 포함) 기사는 남기고, 분야별 minPerCat건이 안 되면
+  maxAgeDays일 안쪽의 더 오래된 기사로 채워요. 분야별 최대 maxPerCat건(최신 순).
+- 행사: 끝난 행사(when.end < 오늘)는 빼고, 시작일 순으로 최대 maxEvents건.
+- 새 기사에 "replaces": ["옛 id", ...]가 있으면 그 옛 기사는 빼요(같은 사안의 새 소식).
+- hot(홈 '오늘의 이슈'): 분야마다 1건. 새 기사 가운데 hot이 있으면 그것, 없으면 남은 기존 hot, 그것도 없으면 가장 최근 기사.
+읽을거리(역사·생활)는 지우지 않고 덧붙여요.
+"""
+import argparse
+import datetime
+import glob
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / 'data'
+CATS = json.loads((ROOT / 'pipeline' / 'categories.json').read_text(encoding='utf-8'))
+NEWS_ORDER = [c['key'] for c in CATS['news']]
+READ_ORDER = [c['key'] for c in CATS['reading']]
+SUBS = {c['key']: c['subs'] for c in CATS['news'] + CATS['reading']}
+KEEP = CATS['keep']
+KST = datetime.timezone(datetime.timedelta(hours=9))
+
+
+def now_kst():
+    return datetime.datetime.now(KST).replace(second=0, microsecond=0)
+
+
+def load(path):
+    return json.loads(Path(path).read_text(encoding='utf-8'))
+
+
+def save(path, obj):
+    Path(path).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+
+
+def days_between(a, b):
+    return (datetime.date.fromisoformat(a) - datetime.date.fromisoformat(b)).days
+
+
+def read_new(patterns):
+    out = []
+    for pat in patterns or []:
+        for f in sorted(glob.glob(pat)):
+            data = load(f)
+            out += data['articles'] if isinstance(data, dict) else data
+    return out
+
+
+def status(cats):
+    news = load(DATA / 'news.json')['articles']
+    reading = load(DATA / 'reading.json')['articles']
+    for a in news + reading:
+        if cats and a['cat'] not in cats:
+            continue
+        extra = f" 행사 {a['when']['start']}~{a['when']['end']}" if a.get('when') else ''
+        print(f"{a['cat']:<13} {a['id']:<22} {a['date']} [{a.get('sub', '')}] {'★' if a.get('hot') else ' '} {a['title']}{extra}")
+
+
+def merge_news(old, new, today):
+    replaced = {rid for a in new for rid in (a.get('replaces') or [])}
+    new_ids = {a['id'] for a in new}
+    clash = [a['id'] for a in old if a['id'] in new_ids]
+    if clash:
+        sys.exit(f'id가 이미 있어요: {clash}')
+    pool = [a for a in old if a['id'] not in replaced] + new
+    out, report = [], {}
+    for cat in NEWS_ORDER:
+        items = [a for a in pool if a['cat'] == cat]
+        if cat == 'events':
+            keep = [a for a in items if a.get('when') and a['when'].get('end', '') >= today]
+            keep.sort(key=lambda a: (a['when']['start'], a['id']))
+            keep = keep[:KEEP['maxEvents']]
+        else:
+            items.sort(key=lambda a: (a['date'], a['id'] in new_ids, a['id']), reverse=True)
+            recent = [a for a in items if days_between(today, a['date']) < KEEP['recentDays']]
+            older = [a for a in items if a not in recent and days_between(today, a['date']) <= KEEP['maxAgeDays']]
+            keep = recent + older[:max(0, KEEP['minPerCat'] - len(recent))]
+            keep = keep[:KEEP['maxPerCat']]
+        # hot: 분야마다 1건
+        hot_new = [a for a in keep if a['id'] in new_ids and a.get('hot')]
+        hot_old = [a for a in keep if a['id'] not in new_ids and a.get('hot')]
+        pick = (hot_new or hot_old or (sorted(keep, key=lambda a: a['date'], reverse=True)[:1] if cat != 'events' else keep[:1]))
+        pick_id = pick[0]['id'] if pick else None
+        for a in keep:
+            a['hot'] = a['id'] == pick_id
+            a.pop('replaces', None)
+        if cat == 'events':
+            keep.sort(key=lambda a: (a['when']['start'], a['id']))
+        else:  # hot 먼저, 그다음 최신 순
+            keep.sort(key=lambda a: a['id'])
+            keep.sort(key=lambda a: a['date'], reverse=True)
+            keep.sort(key=lambda a: not a['hot'])
+        out += keep
+        report[cat] = (len(keep), sum(1 for a in keep if a['id'] in new_ids))
+    return out, report
+
+
+def merge_reading(old, new):
+    ids = {a['id'] for a in old}
+    clash = [a['id'] for a in new if a['id'] in ids]
+    if clash:
+        sys.exit(f'id가 이미 있어요: {clash}')
+    allr = old + new
+    for a in allr:
+        a['hot'] = False
+
+    def key(a):
+        subs = SUBS.get(a['cat'], [])
+        return (READ_ORDER.index(a['cat']), subs.index(a['sub']) if a['sub'] in subs else 99, a['id'])
+    allr.sort(key=key)
+    return allr
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--status', action='store_true')
+    ap.add_argument('--cat', default='')
+    ap.add_argument('--news', nargs='*', default=[])
+    ap.add_argument('--reading', nargs='*', default=[])
+    ap.add_argument('--today', default='')
+    ap.add_argument('--dry-run', action='store_true')
+    args = ap.parse_args()
+    if args.status:
+        status([c for c in args.cat.split(',') if c])
+        return
+    now = now_kst()
+    today = args.today or now.strftime('%Y-%m-%d')
+    news_doc = load(DATA / 'news.json')
+    read_doc = load(DATA / 'reading.json')
+    new_news = read_new(args.news)
+    new_read = read_new(args.reading)
+    for a in new_news:
+        if a['cat'] not in NEWS_ORDER:
+            sys.exit(f"뉴스 파일에 뉴스 분야가 아닌 글이 있어요: {a['id']}")
+    for a in new_read:
+        if a['cat'] not in READ_ORDER:
+            sys.exit(f"읽을거리 파일에 읽을거리 분야가 아닌 글이 있어요: {a['id']}")
+    arts, report = merge_news(news_doc['articles'], new_news, today)
+    news_doc.update({
+        'edition': today,
+        'updatedAt': now.isoformat(),
+        'note': '매일 새벽 조사해 쉽게 다시 쓴 기사예요. 기사마다 원문 출처를 달았어요.',
+        'articles': arts,
+    })
+    print(f'뉴스 {len(arts)}건 (기준일 {today}, 새 기사 {len(new_news)}건)')
+    for cat in NEWS_ORDER:
+        n, k = report[cat]
+        flag = '  ← 5건 미만' if n < KEEP['minPerCat'] else ''
+        print(f'  {cat:<13} {n}건 (새 {k}건){flag}')
+    if new_read:
+        read_doc['articles'] = merge_reading(read_doc['articles'], new_read)
+        read_doc['updatedAt'] = now.isoformat()
+        print(f"읽을거리 {len(read_doc['articles'])}편 (새 글 {len(new_read)}편)")
+    if args.dry_run:
+        print('(dry-run: 파일은 그대로예요)')
+        return
+    save(DATA / 'news.json', news_doc)
+    if new_read:
+        save(DATA / 'reading.json', read_doc)
+
+
+if __name__ == '__main__':
+    main()
