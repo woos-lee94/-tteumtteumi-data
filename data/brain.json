@@ -1,0 +1,206 @@
+{
+ "updatedAt": "2026-09-27T21:39:00+09:00",
+ "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
+ "items": [
+  {
+   "id": "b260927p1",
+   "date": "2026-09-27",
+   "slot": "pm",
+   "n": 1,
+   "kind": "암호",
+   "title": "네 글자 암호",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, Z 다음은 다시 A로 이어져요.",
+   "clues": [
+    "BEAR → TGFS",
+    "MOON → ABDC",
+    "FISH → NOBA"
+   ],
+   "ask": "같은 규칙으로 ROSE를 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "글자마다 몇 칸 밀렸는지 적은 다음, 그 칸 수를 같은 낱말 안에서 찾아보세요.",
+   "h": "b3c0e54ef91d859120d0efbb76a3b20eee2be8f77f08239bb5116ce1be29563b",
+   "x": "djsN6r5MiTGbXPO4Ojc/e9kquUs+ldJTWbE5l1eRr+YQ8YsnW14aE+k1vcpVud1EQXTIdvTg0n8OYMP0cHyk3UnUQ5PXbdzTWDZB/rGnMgqVe6wox8sbzVuhopL/zeorzkf/PsTMOWrs0cgg+9qZI0sYRCfgAAS1wgmUGOaACAQuUSYFVq02uVyhQYXxnHhMFjE2rdHa/vSFpa6s8bCwZ8e7IuGl7Zif0/5WyNTLa/7o3rKmcsDf33X4FO8/gztxG1maYdvEdtMMMU+df7h9y/cjbJxNbUVjpaUkmxsh/UFhmi410MOXkEGxVCglAZhRUL19u3OSCf/0oYP1FfI=",
+   "level": 5
+  },
+  {
+   "id": "b260927p2",
+   "date": "2026-09-27",
+   "slot": "pm",
+   "n": 2,
+   "kind": "수열",
+   "title": "스스로 자라는 수",
+   "text": "일정한 규칙으로 이어지는 수예요.\n36, 45, 65, 76, 118, 128, 144, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "이웃한 두 수의 차가 앞 수를 이루는 숫자들과 어떤 관계인지 살펴보세요.",
+   "h": "03da11f66a4bc7f35c8659850ca28157d630d8d88507082bf7bc5a141d4c003b",
+   "x": "lu4D4gPtSQw8n0oAwBciNB5vTimiYTE54K+puZsCUoMcMN1yI7XjzPf3FKDuESbWQTRVb0sPevqR8dqZzrQYQEqiBF7aquxzvRAx8p/bKTbOnWz+U6LIwwZjXBdZjKx8jsYvzk3SW94rQ3/lzoJ/fRnvmjBN8lz2AR2qZr/UAbMiGs429iV6oyK9vWs0NyLj3wQMmJ9qwA6f8kXPBRpb8h7A0RCZnECc29w7Rzhu1qq5Yfnd6jVesiPE2l5R3OGwcrDRogCPTAOEiUd7O4t0zIvXmSdLanU9OANvMv7xSgrCakn0rkPRUXttQGH4sUgH9YS8MAFTGOlRSg==",
+   "level": 5
+  },
+  {
+   "id": "b260927p3",
+   "date": "2026-09-27",
+   "slot": "pm",
+   "n": 3,
+   "kind": "수리",
+   "title": "디지털 시계",
+   "text": "24시간제 디지털 시계가 00:00부터 23:59까지 1분마다 바뀌어요.\n예를 들어 12:34는 네 숫자의 합이 1+2+3+4=10, '시'는 12, '분'은 34예요.",
+   "ask": "하루 동안 네 숫자의 합이 '시'나 '분' 가운데 적어도 하나와 같아지는 때는 모두 몇 번일까요?",
+   "input": "number",
+   "unit": "번",
+   "hint": "시와 분에서 각각 자기 두 숫자의 합을 빼면 늘 어떤 수의 배수가 되는지 살펴보세요.",
+   "h": "f11a310e118048dc459ede96ab0022f45d59aecaee1400b72c8feaee186ecfce",
+   "x": "utpI3kfT084uyZQsxP3lLJ3UvEDX0gNIj7TymaawiWqJgxVTlhWowQC6gvhtI6C+t44Xrh8djGM7VvksHZalJSoN3UvGgb3HJqLI+cHPN4yKBmLV2/bNqVr50mRDBCC3FLeFZit7ZeZelCo2A/jb52bOhxs6jn1qYezfSYG96BLtkgZ/c9kl2OMbVH5ZRmqURRI+pmHKBndQnmDDUfqLDgXET1oUwWTDrzpiHDLH01vP6+glwB7UqLWCKBxcxhzRg1UGLTnKXqVQmTAtb2w247uniYFEa+Gt0jd/1wah2RB61Nm50zArCA/v0lXYk22U2LKW8/HG7ciiFTEW8rCVzNkSrIHwTizNTqP+UZ3eyEeePf8UmoheK/JkLqi8EXAQDJ95NNo8mihs59Es9Q6JlF875v7t3VFqlnCDMzx78f1QzWtDX4q0HjG3PAff5beNzuwOcGOgqskv+wNn/HTdRurq7jMX4nfL1ziUFp29gGPUakNBrzo9hlDZnHYm+PYMoKMGhm9LWoTk3/Xh6F2mDroDcMsA+911EW2dbFIVj3EsZFY2MmSw/Fb7MQ==",
+   "level": 5
+  },
+  {
+   "id": "b260928a1",
+   "date": "2026-09-28",
+   "slot": "am",
+   "n": 1,
+   "kind": "기호",
+   "title": "다섯 기호의 규칙",
+   "text": "3×3 칸에 ●▲■◆★ 다섯 가지 기호가 들어 있어요. 가로줄마다 셋째 칸은 첫째·둘째 칸에서 한 가지 규칙으로 만들어지고, 세로줄마다 셋째 칸도 위의 두 칸에서 같은 규칙으로 만들어져요. 칸 안 기호의 순서는 상관없어요.",
+   "grid": [
+    [
+     "▲",
+     "●▲",
+     "●■"
+    ],
+    [
+     "■◆",
+     "●▲■",
+     "●▲★"
+    ],
+    [
+     "▲■◆",
+     "▲◆",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "■★",
+    "▲■★",
+    "★",
+    "■",
+    "◆★"
+   ],
+   "hint": "두 칸에 같은 기호가 함께 있을 때 그 둘이 무엇으로 바뀌는지, 바뀐 기호가 다시 짝을 이루면 어떻게 되는지 살펴보세요.",
+   "h": "4b1c2e535056a5e38122c493bf1b4872200e3de1a67cff36b3105a8aadc18bdf",
+   "x": "/3IqjTKrswgDNaLW1wNycX/xU9/i/azGFmpg+s70nad8BmKjJhdUW+hWo23xbsggTdw8dY8+c+zD64OrQm4gc5USWo7XtHrQTUTGaRH/CWpkvBtImbkMhzQN/VeX27a7pnt6a2DD7/jlwPc/6Q2i4yivS9u8Y5qweddqKEk6qRXJ3ixtA8xcya3pMW5a1IAxxnxcXt7wfHfAdelFu1OxUSW9PQrH2ZmgK7/Ebj4NCGNkz87HDfoyigyTZ9WCPVP6ZeUFtjUi4LZKgOMd7o4M8+DdzvEKblMSsHFQyTW1Zu3bDH9NcYSX8czE2Mfdr+uvkkjSdcHhFPy5fTmFyaWI3P6wnWQ1QOJh0VcxDzeEFjZnUeLVSExn6V9g23uFd8Lblnke/LcPTyTL3Dd2MRvG6Ti/hSdtR8pfFUOT452iTefzg/F34W+Hl8ewOkEFnKqDbhHRl2djpbT8o7jPzuQgBQipIX9iDooi8CrfzDvq2gLVCmKk4QH81HVx/70MxidG6Clo00TNY2AC2QWdRkAqKOmJ/eNJyfVfb18rdLCy8iqovaybufZ7A4LxbmRDLn6c/W6dK45Zp8uIh5Cf/ukOWV/4wpQG6Xq16OqUbtjRoL4YShFrOZEghUZKYOijSmKWZ0NvpqkiQ0/RW29fEyLIZRB1DZG2Qn1a/HVwbFI4cbRB5NzzXHzdA6sFdpn7L0gNQI2rKbqzgaxEhizdcPhM5U/2sEPQ2Bv8yWNQV9SGv3UaIBBQcAqWP676oD7LwshfZJMLXWyU+qHdUc4M86k9NLsf9s+BjQpA0PFwEcycr7AysajrnWI9BcKigfAUNRDavQMUDe0C0WTT",
+   "level": 5
+  },
+  {
+   "id": "b260928a2",
+   "date": "2026-09-28",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "다섯 자리의 직업",
+   "text": "민준·서연·지호·하은·도윤이 한 줄로 놓인 1~5번 자리에 한 명씩 앉았어요(1번이 맨 왼쪽). 다섯의 직업은 교사·의사·요리사·경찰·화가로 모두 달라요. '왼쪽'은 번호가 작은 쪽, '바로 옆'은 번호 차이가 1, '사이에 딱 한 명'은 번호 차이가 2라는 뜻이에요. 한 단서에 함께 나오는 사람과 직업은 서로 다른 사람이에요.",
+   "clues": [
+    "도윤은 교사보다 왼쪽에 앉았어요.",
+    "도윤은 경찰보다 왼쪽인데, 바로 옆은 아니에요.",
+    "지호는 교사의 바로 옆에 앉았어요.",
+    "지호는 의사의 바로 옆에 앉았어요.",
+    "민준과 요리사 사이에는 딱 한 명이 있어요.",
+    "민준은 경찰도 아니고, 경찰의 바로 옆도 아니에요.",
+    "서연은 1번도 5번도 아니에요."
+   ],
+   "ask": "1번 자리에 앉은 사람과 그 사람의 직업은?",
+   "input": "choice",
+   "choices": [
+    "도윤·의사",
+    "민준·요리사",
+    "민준·화가",
+    "하은·화가",
+    "도윤·화가"
+   ],
+   "hint": "지호 양옆에 교사와 의사가 있으니, 지호의 자리로 경우를 나눠 보세요.",
+   "h": "64bc85eeb9040597bedb2b33bf2528cdcf38581c6ccbe3fe40860205577f82a5",
+   "x": "xH+fmi9BDHDxlqxo4LyrilAkAMkXBDwf4ucXcGzPrROYEJ05sMx0kmZ21YcCEreiElmPruV68lU7lXpJrOlQzUjZ4pC3WmV1Lx9ay9hE8rhl16JhHQHzX6TyhgZCVNgy9jIuxvjMh4EHffmjpdWxUYxmPYiSrCXl5ITXLqGY44w/r/Yr9h5jzZ6MNEzQ+TSZxlCf8fF0PrsXIEoG+f5J6oAaexMh+ArLFjIJ/L8sdFBgJAveMNWx7iTBHvGKU6rk/85zNqmOd9aDTfYy0XHSQvbg98Ef4+FxEzuR4R7gvLn6RXgRI/F4yQYbPkoFNt5eaR/eu4bWt4+TYL08bLd71k1gNgAJKNht6SJD0nTT8vFm1wr2RG1mp+yrQR4AxHR8I3l+QPErpMw1t3TDJ3c2UUJcnrG3yrQD++MRlEY1L5O5xCLXPkjnyGZigd4x4GFNSIKwdVzZWxqBv9Uby+2jOuTlSu3aSJTh1xLSoiNZN0atdG+BzQaqlr5r7FaL7MRWo0u9ljwxW7UprKZj/f2jIeEBrTgWa+vg6R6o6IviGCfGIGZNdmq+Ez9Ql1GOAAi07vgqZfJ3jIJa3nQ7VcnxeO3yDGHTQ/PFpwSIvZ1IASo5eGBkJlCukK9Wk6Yk8k6QRRY8m3Z7sHlNY0XAH44F5NvmyNMU6iK+Ut6yo/llXjOlyjIy8pRwwipiEaeiQ+bFCQi4kU6sbU3IuxAeHZx44xrY5AUXnK0WMnu6+0nNJx62tCh8PmcixcpTqZHeM/17XzY9BrQMYxg6Ni8a5qiQ4zuosCk+D3Fkuv2Q7gS4oj7FstDJ6RXtDxDCPHRdYSVyvDSXE2/EsnBHwFT2ZZUdCzA86yC6U2qOgycL0AHl1L/AVUxsal/gGCMTGonxV6mZMRjs7DfVqHPMlSdKSdkQ19rVLYa0hKFhB1tDepvJFuRFvZCHi4b8AwwCdYuARdWYdEHU5rXLmdNFdru3Lq5rrVdeQ4c=",
+   "level": 5
+  },
+  {
+   "id": "b260928a3",
+   "date": "2026-09-28",
+   "slot": "am",
+   "n": 3,
+   "kind": "수열",
+   "title": "들쭉날쭉 수열",
+   "text": "일정한 규칙으로 이어지는 수예요.\n3, 5, 14, 19, 54, 83, 202, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "각 수가 앞 수의 몇 배쯤인지 보고, 딱 떨어지지 않고 남거나 모자란 만큼을 모아 보세요.",
+   "h": "1c6b8ced412cb5818bf2c3b6a8334db46bf60b42cf719601ca427c1a6735af10",
+   "x": "dkBaXjuP6MPg+9ef7XLZiETOPRFyVWe/sV9nEj8I1ecnh+x7AbtJZeuJDEabWFlyBDrgpZx5NVnTgMqBdnnXnnWXBVvFOO1E+qcmC9ZlBjFAIixx0vKLcwWvo3Gwj/tD+tFDJb2P2zFRzIMXEJISCp4fcVK4SnVofJZcdb1cRX9MNaQTQadKec3iDMKn98vX7GJTNtGmZl/iyFm+Wwh21swpIfOmWMhTfPGZK7SCARpJsSUa5f+lrQmamc8nV3X6Y1CzkBIafclRi6quYNAZud/7HnaM/sN/nRqoGjtmIQ8It9uJEKb4aeRyAP3+b6FqowhWTrQcii+LkJKrFbLwGdMqNsg/oKI=",
+   "level": 5
+  },
+  {
+   "id": "b260928p1",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "점판 속 정사각형",
+   "text": "점 20개가 가로로 5개, 세로로 4개씩 바둑판처럼 찍혀 있어요. 이웃한 점 사이 거리는 1이에요.\n네 꼭짓점이 모두 이 점들 위에 있는 정사각형을 빠짐없이 찾아요. 비스듬히 기울어진 정사각형도 넣어요.",
+   "ask": "찾은 정사각형들의 넓이를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "기울어진 정사각형은 그것을 딱 감싸는 반듯한 정사각형 틀 안에서 찾아보세요.",
+   "h": "ad678f5aae9c91ffe0995d0e4dc65609429042cb4ce405953c0ebee85ea4e026",
+   "x": "hVijIG176kD/lKn7oc+wDbkUpn6vDsUtaLiais+my8E7KQcDdZGADbiJILOsSrS7/Er0OC/DDufax67qgGKQpTZgsaJppLUIbQtUeHX84f0xn6tPOwt79P6TsMCdm4g0Nr5H+t4ctBptwnf3WyZvZmcgQFmNefGgcnAHHCp7so5/+AbIYoYfsyUF6azKIyJASKiJ3LrRHkZOa7Kq//M+MZ2vdZyHLx7JAfheI7L29kS3GzFI7ZE2tAyEaIAHpN/RC4ehW3tyauBWy20cbNt75ha8Hzncj3PgGIhvB6T2iIWG0fO6dvCPKS5LKDTvLKD2jA7k5iobBMQHEc4RzxJYv97XIphVitUWsKEuYk4FSfCmeiLfsa1ebP5/C6Yc7jKf4gFQ30ZT77IParoJrDZQBVK9SyoEvNfXkZjwKPR0pJekrfZdN9RXYr9q34TRg+Ed8wkT1I8k+IvyEvuIe3gZ/i2Q9FhYP9jknF577h72dp9P84Sy7CJr/WZymbvyrZpftIB6/LXxt5gT/n4i",
+   "level": 5
+  },
+  {
+   "id": "b260928p2",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "n": 2,
+   "kind": "암호",
+   "title": "숫자가 된 낱말",
+   "text": "영어 낱말을 한 가지 규칙으로 숫자로 바꿨어요.",
+   "clues": [
+    "MOUNT → 25364",
+    "ROBIN → 59269",
+    "PUZZLE → 538837"
+   ],
+   "ask": "같은 규칙으로 WORLD를 바꾸면 무엇일까요?",
+   "input": "number",
+   "hint": "글자 수와 숫자 개수가 같아요. 글자마다 알파벳 순서 번호를 떠올리고, 숫자가 놓인 순서도 살펴보세요.",
+   "h": "a29de251bbfa15db2b9a6ec3356914c8f17997e153a248ce33bc1a6bcb3ab3b5",
+   "x": "j1+BnH80CkNR9H/COwpwgBWCMd2JhE4obDSlRyjsmq0CVYyBKUdQOHjXXOYLARFXs8k01VarnTLw4kG+Y3rYpqK/jCYtLP+fOBMDk9dKqalEY1PyS0VpnrXzQhtcwtZaBZonIPLNmuSCwMP8JlJqWvJktA+JaDW946yBflQljPBeplQQ0QJDa5qb4rnZcfXnEVxY44viyQLj5b1HMfi9kVvamEe676DTbBpQ9p8XaQiZZIROvQ3rBlyzLHW69lzQA61SEJp8wmt8fgFPhatMlZ8jQ4h3jneu1rCBc246xI5+VXstebOVjcriCVt+otcTHj+FG5evU2Vwtt17nPC1LjU4PsZglyo7UVsHg4lzG0F0LmpAG1aURHXVzt2Ezpl+dvvgRU01TcYrUFOB4vpkF8jK+qpK3bGnQ7VOC4Q47CEBklu3/f5xPByBtfIekOIh5IytGvR2LzzNXHGkna/azVxwE5g=",
+   "level": 5
+  },
+  {
+   "id": "b260928p3",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "도서관 당번",
+   "text": "민준·서연·지호·하은이 월~금 중 서로 다른 날 하루씩 도서관 당번을 서요. 닷새 중 하루는 당번이 없어요. 네 사람은 소설·역사·과학·만화 중 서로 다른 책을 하나씩 정리해요. '하루 뒤'는 화요일→수요일처럼 바로 다음 요일, '이틀 차이'는 월요일과 수요일처럼 두 요일 떨어진 거예요. '앞 요일'은 월요일에 가까운 쪽이에요.",
+   "clues": [
+    "서연의 당번 날은 소설 담당 날의 하루 뒤예요.",
+    "과학 담당과 지호의 당번 날은 이틀 차이예요.",
+    "만화 담당과 하은의 당번 날은 이틀 차이예요.",
+    "만화 담당은 역사 담당보다 앞 요일이에요.",
+    "당번이 없는 요일은 만화 담당 날의 하루 뒤예요."
+   ],
+   "ask": "민준은 무슨 요일에 어떤 책을 정리할까요?",
+   "input": "choice",
+   "choices": [
+    "수요일·과학",
+    "목요일·역사",
+    "금요일·소설",
+    "목요일·소설",
+    "월요일·만화"
+   ],
+   "hint": "만화 담당 날의 하루 뒤가 빈 날이라는 점으로 만화 담당 요일부터 좁혀 보세요.",
+   "h": "0687f7153e4670647da469cd06f2dcc587e84fa42371f7ab4e32c25903d9179a",
+   "x": "XEzbjBfE5p/uqj8Qpk/t4k6XOZfCx14daB1YmOkNe7A4ApSKZBwJajPiOfGUXy8h2qEFhzxt7crBcJYwM6ZNOJatzMY+ylkaBD7tH+MqNimjKJLODzBURBXRlc4AFK7T18UGnwHLIv2ZV6jcDSka6BlU09gqgO4vsM9ZFOWX9Lz/p3m3PrEG07aDBsz8I64mXGNK03bPTtgmL2tvM6Vqwo5bvV4xhCvjQjBb8tlaCP10eZtHYY8afct0xbAurE0ZPylz7sJJVBgajzo5tdpJH0hMZz2AMNKDhlv0LZf7pz8vSn8IElnvmvTeIU4LExiOcQQIQpAAK8HUSdWdzhRmivN6q2D622etWYT5R7ukPzdUgTclmBtFkgBhCygCVkH10bSwo7CNmWfWerK/qYbFCEWOp1Aaxg5D5TBif6PcbSMyXehgDS8d9JY28j/NH7dXG81QRCCXH6r7HxudMwA+fgg2r0dbHmFWtnPQ89wf2bfcmKRRRb1WPGyJWvz/HiGlScbVCVtIiD63jqcUb/N1I8i1NgLlBp2hu4ddoX8CMnE5w9thTEyUFkrQYFBbNzM9sj6HBtlADJ0ZA6wC3E/PWHFJ2uR/n/oAVi9YpXOqXmq3YbuzsAWgugtcgajSTJFxRs+wwRlMn85jTA9QG+T5bbi/PoSACPsYf5sBXFNhLkA3DncQF921SVjcuVGRRTru/lhBIEw22/lEqQsj+huvm9iYhPg618HRj9IqMEQtgn2nXUaXs8x1tvkrLo4spEUBZ14Gz9lQCEUY9v5fyHo2B5K+8lAtjICkl78O6ATmbPFjXNL2OG/AH667svyGvYalyB6eiichL7a+pnt7kvBEOxYy349Kp3LB5K78iQawvRIpG72FhkjjURnFJ8omnvGjnZmGrOWEXlN92JBG/Fpq77k6HUhbvAHregADtcUJrYpdSqHZzWMOgGwHOWP3f907kgovAqHgdbO+pe45tXEMSxnbTddgmYtHS9gYp25nl4eKTfH8X3JtOTyySRxJF1TJqAtlFOXvCDuXpVQtUyNQpvGV63UuaFS9jTXpEIJWOtLOnX0vMSNgo5s1R5aJ7ppmxJ7UK2VyKyUrEKU7Ca3sVZQOWeIzw8LZnBsjSWCkAkD4OqiKt21X6eN85Q7EsYYgPKtdSanjTKTK",
+   "level": 5
+  }
+ ]
+}

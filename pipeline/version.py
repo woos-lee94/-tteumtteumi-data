@@ -1,7 +1,7 @@
 """data/version.json 쓰기·읽기
 
 앱은 이 작은 파일(1KB 안팎)만 자주 받아 보고, 바뀐 파일만 새로 받아요.
-merge.py(기사 합치기)와 cards.py merge(카드 더하기)가 알아서 불러요.
+merge.py(기사 합치기), cards.py merge(카드 더하기), brain.py build(두뇌 게임 문제 더하기)가 알아서 불러요.
 
 사용
   python3 pipeline/version.py                          파일들의 updatedAt만 다시 적어요
@@ -9,7 +9,7 @@ merge.py(기사 합치기)와 cards.py merge(카드 더하기)가 알아서 불�
   python3 pipeline/version.py --age                    마지막 조사 뒤 몇 분 지났는지(쿨다운 확인)
 
 version.json 칸
-  news, reading, daily{분야}: 각 파일의 updatedAt
+  news, reading, daily{분야}, brain: 각 파일의 updatedAt
   times: 조사 예정 시각(pipeline/updates.json), cooldownMinutes: 관리자 '지금 새로 조사' 쉬는 시간
   checkedAt: 마지막으로 조사를 마친 시각(새 기사가 없어도 바뀜), lastRun: {mode, at, added}
 """
@@ -49,6 +49,7 @@ def write(mode=None, added=None):
     v['news'] = _stamp(DATA / 'news.json')
     v['reading'] = _stamp(DATA / 'reading.json')
     v['daily'] = {k: _stamp(DATA / 'daily' / f'{k}.json') for k in DAILY}
+    v['brain'] = _stamp(DATA / 'brain.json')
     v['times'] = cfg['times']
     v['cooldownMinutes'] = cfg['cooldownMinutes']
     if mode:
