@@ -4,7 +4,7 @@
 
 - 새벽 전체 업데이트: `pipeline/RUNBOOK.md`, 저녁·관리자 요청 빠른 업데이트: `pipeline/RUNBOOK_QUICK.md` 순서를 그대로 따라요. 조사 시각은 `pipeline/updates.json`.
 - `data/version.json`: 앱이 자주 받아 보는 작은 파일(각 파일 updatedAt, 조사 마친 시각). merge.py·cards.py가 고쳐요. 새 기사 없이 조사만 마쳤으면 `python3 pipeline/version.py --checked quick --added 0`.
-- 관리자 '지금 새로 조사': 앱 → GitHub Actions `owner-refresh.yml` → Claude 루틴 API. 열쇠(ROUTINE_TOKEN)는 저장소 비밀값에만 둬요.
+- 관리자 '지금 새로 조사': 관리자가 Claude에서 예약 작업 '틈틈이 빠른 업데이트'를 바로 실행해요(RUNBOOK_QUICK.md). 저장소에는 비밀 키가 필요 없어요.
 - 기사 형식·작성 규칙: `pipeline/news_spec.md`(뉴스), `pipeline/reading_spec.md`(역사·생활), `pipeline/cards_spec.md`(상식·유래 카드).
 - 오늘 할 일(읽을거리는 일요일, 카드는 이틀마다): `python3 pipeline/schedule.py`
 - 카드 보기·검증·더하기: `python3 pipeline/cards.py status|validate|merge ...` (카드는 지우지 않고 덧붙이기만)

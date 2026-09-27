@@ -19,10 +19,6 @@
 - 오래된 기사는 자동으로 정리돼요(최근 3일 기사 중심, 분야별 5건 안팎, 끝난 행사는 빠짐).
 
 ## 관리자 '지금 새로 조사'
-앱 관리자 화면 → GitHub Actions `지금 새로 조사 (관리자)`(`.github/workflows/owner-refresh.yml`) → Claude 루틴 '틈틈이 빠른 업데이트' API.
-- 저장소에 쓰기 권한이 있는 GitHub 열쇠로만 시작할 수 있어서, 다른 사람은 조사를 시작할 수 없어요.
-- 마지막 조사를 마친 지 50분이 안 됐으면 건너뛰어요(`pipeline/updates.json`의 cooldownMinutes).
-- 처음 한 번 준비
-  1. claude.ai/code/routines → '틈틈이 빠른 업데이트' → 편집 → 트리거 추가 → API → 토큰 만들기(한 번만 보여요).
-  2. 이 저장소 Settings → Secrets and variables → Actions → New repository secret: 이름 `ROUTINE_TOKEN`, 값은 1의 토큰.
-  3. GitHub → Settings → Developer settings → Fine-grained tokens → 이 저장소만, 권한 Actions: Read and write → 만든 열쇠를 앱 관리자 화면에 붙여넣기(그 폰에만 저장).
+- 관리자 폰의 틈틈이 앱 → 'Claude에서 실행' → 관리자 Claude 계정에서 예약 작업 '틈틈이 빠른 업데이트'를 바로 실행 → 이 저장소에 올라가면 모든 사람 앱이 다음 확인 때 받아 가요.
+- 조사는 관리자의 Claude 계정으로만 시작돼서, 다른 사람은 조사를 시작할 수 없어요.
+- 마지막 조사를 마친 지 50분이 안 됐으면 작업이 스스로 건너뛰어요(`pipeline/updates.json`의 cooldownMinutes).
