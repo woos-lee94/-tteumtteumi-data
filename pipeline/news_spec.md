@@ -16,7 +16,8 @@
 
 ## 조사 도구 요령
 - WebSearch는 에이전트당 12회 이내로 아껴 써. 나머지는 WebFetch로 확인해.
-- WebFetch로 잘 열리는 곳: Bing 뉴스 검색(https://www.bing.com/news/search?q=검색어), 뉴시스, 뉴스1, YTN, SBS, 경향, 서울신문, 한국일보, 한국경제, 매일경제, 머니투데이, 파이낸셜뉴스, 이데일리, 뉴스핌, 세계일보, 헤럴드경제, 아시아경제, 서울경제, 전자신문, 디지털데일리, 정책브리핑(korea.kr), 국회 의사중계(assembly.webcast.go.kr), 알자지라.
+- WebFetch는 검색 결과나 이미 연 페이지에 나온 주소만 열 수 있어요. Bing 뉴스 검색 주소를 직접 여는 건 막혀 있으니 쓰지 마. 최신 소식은 WebSearch에 날짜(예: "9월 28일")나 '속보'를 넣어 찾고, 결과에 나온 언론사의 섹션 목록·기사 페이지를 WebFetch로 열어 날짜를 확인해.
+- WebFetch로 잘 열리는 곳(검색 결과에 나오면): 뉴시스, 뉴스1, YTN, SBS, 경향, 서울신문, 한국일보, 한국경제, 매일경제, 머니투데이, 파이낸셜뉴스, 이데일리, 뉴스핌, 세계일보, 헤럴드경제, 아시아경제, 서울경제, 전자신문, 디지털데일리, 정책브리핑(korea.kr), 국회 의사중계(assembly.webcast.go.kr), 알자지라.
 - 자주 막히는 곳(시간 낭비 금지): 연합뉴스, KBS, MBC, 한겨레, 동아, 조선, 중앙, 국회 누리집(assembly.go.kr), reuters.com, apnews.com, bloomberg.com, nytimes.com, wsj.com, cnbc.com, cnn.com.
 - 검색 결과에 지난해 기사가 올해 것처럼 섞여 나와. 반드시 본문에서 연도와 날짜를 확인해.
 
