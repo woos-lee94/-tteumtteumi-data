@@ -1,4 +1,6 @@
-# 틈틈이 데이터 매일 업데이트 절차
+# 틈틈이 데이터 매일 업데이트 절차 (새벽 전체 업데이트)
+
+> 저녁 예약과 관리자 '지금 새로 조사'는 더 가벼운 `pipeline/RUNBOOK_QUICK.md`를 따른다. 조사 시각은 `pipeline/updates.json`.
 
 목표: 13개 뉴스 분야에 새 기사를 더하고(분야마다 2건 안팎), 일요일에는 역사·생활 읽을거리, 이틀마다 상식·유래 카드도 더한 뒤 `data/` 파일을 main 브랜치에 올린다.
 앱은 이 파일들을 `https://raw.githubusercontent.com/woos-lee94/-tteumtteumi-data/main/data/` 에서 바로 받아 간다(올린 뒤 5분 안팎이면 반영). Netlify에 다시 올릴 필요가 없다.
@@ -73,10 +75,11 @@ cards_K.json은 python3 {REPO}/pipeline/cards.py validate {파일} 로 오류 0.
 ## 5. 합치기와 검증
 ```
 cd {REPO}
-python3 pipeline/merge.py --news work/new/news_*.json --reading work/new/reading_*.json --today {today}   # 읽을거리 파일이 없으면 --reading 부분은 빼요
+python3 pipeline/merge.py --news work/new/news_*.json --reading work/new/reading_*.json --today {today} --mode full   # 읽을거리 파일이 없으면 --reading 부분은 빼요
 python3 pipeline/cards.py merge work/new/cards_K.json          # 카드를 만든 날만
 python3 pipeline/validate.py data/news.json data/reading.json --today {today}
 ```
+- merge.py와 cards.py merge가 data/version.json(앱이 새 판을 알아채는 작은 파일)도 알아서 고친다.
 - merge가 id 충돌로 멈추면 새 파일의 id를 고쳐 다시 한다.
 - 검증 오류가 남으면 work/new 파일을 고친 뒤 `git checkout -- data`로 되돌리고 5단계를 다시 한다. 끝내 못 고치면 올리지 않고 보고한다.
 
@@ -89,6 +92,7 @@ git fetch origin main && git rebase origin/main
 git push origin HEAD:main
 ```
 - work/ 폴더는 올리지 않는다(.gitignore).
+- rebase가 data 파일 충돌로 멈추면(다른 업데이트가 먼저 올라감): `git rebase --abort && git reset --hard origin/main` 뒤 5단계부터 다시 한다. work/new 파일은 그대로 남아 있다.
 - push가 거절되면 fetch·rebase 후 한 번만 다시 한다. 그래도 main에 못 올리면 `claude/data-{yymmdd}` 브랜치로 올리고, main에 못 올린 이유를 보고한다.
 
 ## 7. 마지막 보고(사용자에게 보이는 짧은 메시지)

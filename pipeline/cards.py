@@ -15,6 +15,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import version  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DAILY = ROOT / 'data' / 'daily'
 KST = datetime.timezone(datetime.timedelta(hours=9))
@@ -122,6 +125,8 @@ def merge(path, dry):
             (DAILY / f'{cat}.json').write_text(json.dumps(pool, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     if dry:
         print('(dry-run: 파일은 그대로예요)')
+    else:
+        version.write()  # 카드 파일 시각을 version.json에 반영(앱이 새 카드를 알아채게)
 
 
 if __name__ == '__main__':

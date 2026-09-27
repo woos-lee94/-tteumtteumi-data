@@ -2,7 +2,7 @@
 
 사용
   python3 pipeline/merge.py --status [--cat stock,world]      지금 올라가 있는 기사 목록 보기(겹침 확인용)
-  python3 pipeline/merge.py --news work/new/news_*.json [--reading work/new/reading_*.json] [--today YYYY-MM-DD] [--dry-run]
+  python3 pipeline/merge.py --news work/new/news_*.json [--reading work/new/reading_*.json] [--today YYYY-MM-DD] [--mode full|quick] [--dry-run]
 
 뉴스를 남기는 규칙(pipeline/categories.json의 keep 값)
 - 행사(events)가 아닌 분야: 최근 recentDays일(오늘 포함) 기사는 남기고, 분야별 minPerCat건이 안 되면
@@ -11,6 +11,7 @@
 - 새 기사에 "replaces": ["옛 id", ...]가 있으면 그 옛 기사는 빼요(같은 사안의 새 소식).
 - hot(홈 '오늘의 이슈'): 분야마다 1건. 새 기사 가운데 hot이 있으면 그것, 없으면 남은 기존 hot, 그것도 없으면 가장 최근 기사.
 읽을거리(역사·생활)는 지우지 않고 덧붙여요.
+합친 뒤 data/version.json(앱이 새 판을 알아채는 작은 파일)도 알아서 고쳐요. --mode는 전체 조사(full)·빠른 조사(quick) 구분이에요.
 """
 import argparse
 import datetime
@@ -18,6 +19,9 @@ import glob
 import json
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import version  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / 'data'
@@ -126,6 +130,7 @@ def main():
     ap.add_argument('--news', nargs='*', default=[])
     ap.add_argument('--reading', nargs='*', default=[])
     ap.add_argument('--today', default='')
+    ap.add_argument('--mode', choices=['full', 'quick'], default='full')
     ap.add_argument('--dry-run', action='store_true')
     args = ap.parse_args()
     if args.status:
@@ -147,7 +152,7 @@ def main():
     news_doc.update({
         'edition': today,
         'updatedAt': now.isoformat(),
-        'note': '매일 새벽 조사해 쉽게 다시 쓴 기사예요. 기사마다 원문 출처를 달았어요.',
+        'note': '하루 두 번(새벽·저녁) 조사해 쉽게 다시 쓴 기사예요. 기사마다 원문 출처를 달았어요.',
         'articles': arts,
     })
     print(f'뉴스 {len(arts)}건 (기준일 {today}, 새 기사 {len(new_news)}건)')
@@ -165,6 +170,8 @@ def main():
     save(DATA / 'news.json', news_doc)
     if new_read:
         save(DATA / 'reading.json', read_doc)
+    v = version.write(args.mode, len(new_news) + len(new_read))
+    print(f"version.json: 뉴스 {v['news']} · 조사 마침 {v['checkedAt']} ({args.mode})")
 
 
 if __name__ == '__main__':

@@ -1,0 +1,7 @@
+{
+ "tz": "Asia/Seoul",
+ "times": ["04:20", "17:20"],
+ "full": "04:20",
+ "cooldownMinutes": 50,
+ "note": "예약 작업 시각을 바꾸면 times도 같이 바꿔요. 앱은 version.json에 복사된 times로 '다음 조사' 시각을 보여 줘요. full은 전체 조사(RUNBOOK.md), 나머지는 빠른 조사(RUNBOOK_QUICK.md)예요."
+}
