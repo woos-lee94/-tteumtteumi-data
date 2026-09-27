@@ -6,12 +6,14 @@
 정답이 들어 있는 후보 파일은 work/ 아래에만 두고(공개 저장소에 올리지 않음) 올리지 않아요.
 
 사용
-  python3 pipeline/brain.py need [--today YYYY-MM-DD] [--days 2]   채워야 할 판과 추천 종류
+  python3 pipeline/brain.py need [--today YYYY-MM-DD] [--days 1]   채워야 할 판과 추천 종류
+  python3 pipeline/brain.py recent                                 최근 문제 목록(비슷한 문제를 또 내지 않게 후보 만들 때 참고)
+  python3 pipeline/brain.py merge 합친.json 후보1.json 후보2.json...  후보 파일 합치기(확인 결과 칸도 그대로)
   python3 pipeline/brain.py check 후보.json...                      1차 확인: verify 코드 실행(정답 같음 + 경우의 수 1)
   python3 pipeline/brain.py strip 후보.json 풀이용.json              2차 확인용: 정답·풀이·힌트·코드를 뺀 파일
   python3 pipeline/brain.py compare 후보.json 풀이결과.json          2차 확인: 따로 푼 답과 비교
   python3 pipeline/brain.py verdict 후보.json 반박결과.json          3차 확인: 반박 검사 결과 반영
-  python3 pipeline/brain.py build 후보.json [--today YYYY-MM-DD] [--days 2] [--dry-run]
+  python3 pipeline/brain.py build 후보.json [--today YYYY-MM-DD] [--days 1] [--dry-run]
                                                                     세 번 다 통과한 후보로 빈 판을 채워 data/brain.json에 합쳐요
   python3 pipeline/brain.py validate [data/brain.json]             형식 검사
   python3 pipeline/brain.py status                                 올라가 있는 판 보기
@@ -68,10 +70,11 @@ def load_brain():
 
 # ---------------------------------------------------------------- 정답 맞추기(앱 app.js의 brainNorm과 똑같이)
 def norm(ans, kind):
-    s = unicodedata.normalize('NFC', str(ans)).strip()
+    s = unicodedata.normalize('NFC', str(ans))
+    s = ''.join(chr(ord(ch) - 0xFEE0) if 0xFF01 <= ord(ch) <= 0xFF5E else ch for ch in s).replace('\u3000', ' ').strip()  # 전각 → 보통 글자
     if kind == 'number':
         s = re.sub(r'[\s,]', '', s)
-        m = re.fullmatch(r'([+-]?)(\d*)(?:\.(\d*))?', s)
+        m = re.fullmatch(r'([+-]?)([0-9]*)(?:\.([0-9]*))?', s)
         if not m or (m.group(2) == '' and (m.group(3) or '') == ''):
             return s
         sign = '-' if m.group(1) == '-' else ''
@@ -80,7 +83,7 @@ def norm(ans, kind):
         res = whole + ('.' + frac if frac else '')
         return ('' if res == '0' else sign) + res
     if kind == 'choice':
-        d = re.sub(r'\D', '', s)
+        d = re.sub(r'[^0-9]', '', s)
         return str(int(d)) if d else s
     return re.sub(r"[\s.,!?·'\"~\-]", '', s).upper()
 
@@ -150,8 +153,12 @@ def check_fields(c):
             errs.append('choice는 서로 다른 보기 5개')
         if norm(c.get('answer', ''), 'choice') not in {'1', '2', '3', '4', '5'}:
             errs.append('choice 정답은 1~5 번호')
-    if c.get('input') == 'number' and not re.fullmatch(r'-?\d+(\.\d+)?', norm(c.get('answer', ''), 'number')):
-        errs.append('number 정답이 숫자가 아님')
+    if c.get('input') == 'number' and not re.fullmatch(r'[0-9]+(\.[0-9]+)?', norm(c.get('answer', ''), 'number')):
+        errs.append('number 정답은 0 이상의 수(휴대폰 숫자 자판에 빼기 표시가 없어요)')
+    if c.get('input') == 'text' and not re.fullmatch(r'[A-Z0-9가-힣]{1,12}', norm(c.get('answer', ''), 'text')):
+        errs.append('text 정답은 12자 이하의 영어 대문자·숫자·한글 낱말')
+    if str(c.get('title', '')).strip() in recent_titles():
+        errs.append('최근 문제와 제목이 같아요')
     if len(str(c.get('text', ''))) > 400:
         errs.append('text가 너무 길어요(400자 이하)')
     if len(c.get('clues') or []) > 8:
@@ -164,6 +171,34 @@ def check_fields(c):
     if c.get('input') in ('number', 'text') and len(ans) >= 2 and ans in re.sub(r'[\s,]', '', hint).upper():
         errs.append('힌트에 정답이 드러나요')
     return errs
+
+
+def recent_titles():
+    return {it.get('title', '') for it in load_brain()['items']}
+
+
+def cmd_recent():
+    items = load_brain()['items']
+    if not items:
+        print('(아직 올린 문제가 없어요)')
+    for it in items:
+        body = ' / '.join(x for x in str(it.get('text', '')).split('\n') if x.strip())[:90]
+        print(f"{it['date']} {it['slot']} [{it['kind']}] {it['title']} — {body} / {it.get('ask', '')[:40]}")
+
+
+def cmd_merge(dst, srcs):
+    out = []
+    for p in srcs:
+        cands = load(p)
+        stem = Path(p).stem
+        for i, c in enumerate(cands):
+            c['_cid'] = c.get('_cid') or f'{stem}-{i + 1}'
+            out.append(c)
+    ids = [c['_cid'] for c in out]
+    if len(ids) != len(set(ids)):
+        sys.exit('후보 _cid가 겹쳐요. 후보 파일 이름을 서로 다르게 해 주세요.')
+    save(dst, out)
+    print(f'{dst}: 후보 {len(out)}개(세 번 다 통과 {sum(1 for c in out if c.get("_ok1") and c.get("_ok2") and c.get("_ok3") and not c.get("_used"))}개)')
 
 
 def run_verify(code):
@@ -369,9 +404,13 @@ def main():
     def opt(name, default=None):
         return a[a.index(name) + 1] if name in a else default
     today = datetime.date.fromisoformat(opt('--today')) if opt('--today') else today_kst()
-    days = int(opt('--days', 2))
+    days = int(opt('--days', 1))
     if cmd == 'need':
         print(json.dumps(need(today, days), ensure_ascii=False, indent=1))
+    elif cmd == 'recent':
+        cmd_recent()
+    elif cmd == 'merge':
+        cmd_merge(a[1], [x for x in a[2:] if not x.startswith('--')])
     elif cmd == 'check':
         cmd_check([x for x in a[1:] if not x.startswith('--')])
     elif cmd == 'strip':

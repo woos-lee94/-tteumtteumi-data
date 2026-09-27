@@ -10,7 +10,7 @@ merge.py(기사 합치기), cards.py merge(카드 더하기), brain.py build(두
 
 version.json 칸
   news, reading, daily{분야}, brain: 각 파일의 updatedAt
-  times: 조사 예정 시각(pipeline/updates.json), cooldownMinutes: 관리자 '지금 새로 조사' 쉬는 시간
+  times: 조사 예정 시각(pipeline/updates.json), full: 그중 전체 조사 시각, cooldownMinutes: 관리자 '지금 새로 조사' 쉬는 시간
   checkedAt: 마지막으로 조사를 마친 시각(새 기사가 없어도 바뀜), lastRun: {mode, at, added}
 """
 import argparse
@@ -51,6 +51,7 @@ def write(mode=None, added=None):
     v['daily'] = {k: _stamp(DATA / 'daily' / f'{k}.json') for k in DAILY}
     v['brain'] = _stamp(DATA / 'brain.json')
     v['times'] = cfg['times']
+    v['full'] = cfg.get('full', cfg['times'][0])
     v['cooldownMinutes'] = cfg['cooldownMinutes']
     if mode:
         t = now_iso()

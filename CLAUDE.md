@@ -6,6 +6,7 @@
 - `data/version.json`: 앱이 자주 받아 보는 작은 파일(각 파일 updatedAt, 조사 마친 시각). merge.py·cards.py가 고쳐요. 새 기사 없이 조사만 마쳤으면 `python3 pipeline/version.py --checked quick --added 0`.
 - 관리자 '지금 새로 조사': 관리자가 Claude에서 예약 작업 '틈틈이 빠른 업데이트'를 바로 실행해요(RUNBOOK_QUICK.md). 저장소에는 비밀 키가 필요 없어요.
 - 기사 형식·작성 규칙: `pipeline/news_spec.md`(뉴스), `pipeline/reading_spec.md`(역사·생활), `pipeline/cards_spec.md`(상식·유래 카드).
+- 두뇌 게임: `pipeline/RUNBOOK_BRAIN.md`(예약 작업 '틈틈이 두뇌 게임'), 문제 규칙 `pipeline/brain_spec.md`, 도구 `pipeline/brain.py`. 정답·풀이는 `work/brain/`에만 두고 절대 올리지 않아요(`data/brain.json`에는 확인값 h와 잠긴 풀이 x만). 보고에도 정답을 쓰지 않아요.
 - 오늘 할 일(읽을거리는 일요일, 카드는 이틀마다): `python3 pipeline/schedule.py`
 - 카드 보기·검증·더하기: `python3 pipeline/cards.py status|validate|merge ...` (카드는 지우지 않고 덧붙이기만)
 - 검증: `python3 pipeline/validate.py 파일 --today YYYY-MM-DD` (오류 0이어야 올려요).

@@ -1,7 +1,17 @@
 {
  "tz": "Asia/Seoul",
- "times": ["04:20", "17:20"],
+ "times": [
+  "04:20",
+  "16:00"
+ ],
  "full": "04:20",
  "cooldownMinutes": 50,
- "note": "예약 작업 시각을 바꾸면 times도 같이 바꿔요. 앱은 version.json에 복사된 times로 '다음 조사' 시각을 보여 줘요. full은 전체 조사(RUNBOOK.md), 나머지는 빠른 조사(RUNBOOK_QUICK.md)예요."
+ "note": "예약 작업 시각을 바꾸면 times도 같이 바꿔요. 앱은 version.json에 복사된 times로 '다음 조사' 시각을 보여 줘요. full은 전체 조사(RUNBOOK.md), 나머지는 빠른 조사(RUNBOOK_QUICK.md)예요. brain.make는 두뇌 게임 문제 만들기(RUNBOOK_BRAIN.md) 시각, brain.open은 앱이 판을 여는 시각(앱에 고정)이에요.",
+ "brain": {
+  "make": "01:40",
+  "open": {
+   "am": "06:00",
+   "pm": "17:00"
+  }
+ }
 }
