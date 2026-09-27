@@ -7,6 +7,7 @@
 뉴스를 남기는 규칙(pipeline/categories.json의 keep 값)
 - 행사(events)가 아닌 분야: 최근 recentDays일(오늘 포함) 기사는 남기고, 분야별 minPerCat건이 안 되면
   maxAgeDays일 안쪽의 더 오래된 기사로 채워요. 분야별 최대 maxPerCat건(최신 순).
+  --dry-run에 나오는 '최근 N일 M건'이 새 기사 목표를 정하는 기준이에요(RUNBOOK 1단계).
 - 행사: 끝난 행사(when.end < 오늘)는 빼고, 시작일 순으로 최대 maxEvents건.
 - 새 기사에 "replaces": ["옛 id", ...]가 있으면 그 옛 기사는 빼요(같은 사안의 새 소식).
 - hot(홈 '오늘의 이슈'): 분야마다 1건. 새 기사 가운데 hot이 있으면 그것, 없으면 남은 기존 hot, 그것도 없으면 가장 최근 기사.
@@ -103,7 +104,8 @@ def merge_news(old, new, today):
             keep.sort(key=lambda a: a['date'], reverse=True)
             keep.sort(key=lambda a: not a['hot'])
         out += keep
-        report[cat] = (len(keep), sum(1 for a in keep if a['id'] in new_ids))
+        fresh = len(keep) if cat == 'events' else sum(1 for a in keep if days_between(today, a['date']) < KEEP['recentDays'])
+        report[cat] = (len(keep), sum(1 for a in keep if a['id'] in new_ids), fresh)
     return out, report
 
 
@@ -157,9 +159,10 @@ def main():
     })
     print(f'뉴스 {len(arts)}건 (기준일 {today}, 새 기사 {len(new_news)}건)')
     for cat in NEWS_ORDER:
-        n, k = report[cat]
+        n, k, fresh = report[cat]
         flag = '  ← 5건 미만' if n < KEEP['minPerCat'] else ''
-        print(f'  {cat:<13} {n}건 (새 {k}건){flag}')
+        recent = '' if cat == 'events' else f" · 최근 {KEEP['recentDays']}일 {fresh}건"
+        print(f'  {cat:<13} {n}건 (새 {k}건{recent}){flag}')
     if new_read:
         read_doc['articles'] = merge_reading(read_doc['articles'], new_read)
         read_doc['updatedAt'] = now.isoformat()

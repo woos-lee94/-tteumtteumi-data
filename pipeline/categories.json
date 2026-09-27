@@ -185,7 +185,7 @@
  "keep": {
   "recentDays": 3,
   "minPerCat": 5,
-  "maxAgeDays": 10,
+  "maxAgeDays": 5,
   "maxPerCat": 8,
   "maxEvents": 10
  }
