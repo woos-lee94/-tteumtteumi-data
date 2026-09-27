@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-27T21:39:00+09:00",
+ "updatedAt": "2026-09-28T05:26:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -200,6 +200,140 @@
    "hint": "만화 담당 날의 하루 뒤가 빈 날이라는 점으로 만화 담당 요일부터 좁혀 보세요.",
    "h": "0687f7153e4670647da469cd06f2dcc587e84fa42371f7ab4e32c25903d9179a",
    "x": "XEzbjBfE5p/uqj8Qpk/t4k6XOZfCx14daB1YmOkNe7A4ApSKZBwJajPiOfGUXy8h2qEFhzxt7crBcJYwM6ZNOJatzMY+ylkaBD7tH+MqNimjKJLODzBURBXRlc4AFK7T18UGnwHLIv2ZV6jcDSka6BlU09gqgO4vsM9ZFOWX9Lz/p3m3PrEG07aDBsz8I64mXGNK03bPTtgmL2tvM6Vqwo5bvV4xhCvjQjBb8tlaCP10eZtHYY8afct0xbAurE0ZPylz7sJJVBgajzo5tdpJH0hMZz2AMNKDhlv0LZf7pz8vSn8IElnvmvTeIU4LExiOcQQIQpAAK8HUSdWdzhRmivN6q2D622etWYT5R7ukPzdUgTclmBtFkgBhCygCVkH10bSwo7CNmWfWerK/qYbFCEWOp1Aaxg5D5TBif6PcbSMyXehgDS8d9JY28j/NH7dXG81QRCCXH6r7HxudMwA+fgg2r0dbHmFWtnPQ89wf2bfcmKRRRb1WPGyJWvz/HiGlScbVCVtIiD63jqcUb/N1I8i1NgLlBp2hu4ddoX8CMnE5w9thTEyUFkrQYFBbNzM9sj6HBtlADJ0ZA6wC3E/PWHFJ2uR/n/oAVi9YpXOqXmq3YbuzsAWgugtcgajSTJFxRs+wwRlMn85jTA9QG+T5bbi/PoSACPsYf5sBXFNhLkA3DncQF921SVjcuVGRRTru/lhBIEw22/lEqQsj+huvm9iYhPg618HRj9IqMEQtgn2nXUaXs8x1tvkrLo4spEUBZ14Gz9lQCEUY9v5fyHo2B5K+8lAtjICkl78O6ATmbPFjXNL2OG/AH667svyGvYalyB6eiichL7a+pnt7kvBEOxYy349Kp3LB5K78iQawvRIpG72FhkjjURnFJ8omnvGjnZmGrOWEXlN92JBG/Fpq77k6HUhbvAHregADtcUJrYpdSqHZzWMOgGwHOWP3f907kgovAqHgdbO+pe45tXEMSxnbTddgmYtHS9gYp25nl4eKTfH8X3JtOTyySRxJF1TJqAtlFOXvCDuXpVQtUyNQpvGV63UuaFS9jTXpEIJWOtLOnX0vMSNgo5s1R5aJ7ppmxJ7UK2VyKyUrEKU7Ca3sVZQOWeIzw8LZnBsjSWCkAkD4OqiKt21X6eN85Q7EsYYgPKtdSanjTKTK",
+   "level": 5
+  },
+  {
+   "id": "b260929a1",
+   "date": "2026-09-29",
+   "slot": "am",
+   "n": 1,
+   "kind": "암호",
+   "title": "두 겹 암호",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요.",
+   "clues": [
+    "TAKE → EVIL",
+    "WIND → OXFP",
+    "FOREST → UGISVT"
+   ],
+   "ask": "같은 규칙으로 바꾼 결과가 MQPEVI라면, 바꾸기 전 낱말은 무엇일까요?",
+   "input": "text",
+   "hint": "글자의 자리도 바뀌었고, 글자마다 움직인 칸 수도 달라요. 알파벳을 성격이 다른 두 무리로 나눠 보세요.",
+   "h": "1eecbc3dbdcb73858eaad3fb56bcdfe1b892eb1e451830e43d521b6443ab2cb9",
+   "x": "G0s3GdVqyKn3y46Sr+T1eEgLHfWUxWoFbaojmpncCaYCQaK420Jlgf1tDaO56dBZ/Z8SvUV7sTPRxSdbimPySJxqy2RPlV5nK+jOMUXSVG/4YP7wphVoxVYo0rX1gLyr8gKibxdODgy0Kx1kiM4J+7lsNsDH0Cxeq4GGTM4HkaK1KulM3znhgd1VCzQCj+CvaOm5j1IVxRrsj0A1xIo1tWx1NgRSGGWL0H6YvSrkwWDs86iMCsDlJVKH1cAeqts4wzs43r7GogTyOEUC+99iic52kW/4cgP4RHrjbeRDuhX7W9PscfN1uPDOuxm38fQyZlG0FKnZrZCWqth8uDGJ0+ymPH9tvMB0+s2AM9Oqz5iJQQ4Ht7yFctM5yitRAmcMdAIzf3gtQMQJ9a9Q6TUfuzeAC7IK9h0ZIt9JgPLibShB6iRJOzVtIX7KLwLzB56uk0aSXkCVDS+52S37A30T9A1ptrIsqPKyqqLVVSynY6sZu+oaWxA7snLHCIC6MYoq+hmw2y7swqB9iuDWbnrP1FtxdNq3+VFtcCfCrqeeRwiOxVHPCfKScvMNrbSct0Qz",
+   "level": 5
+  },
+  {
+   "id": "b260929a2",
+   "date": "2026-09-29",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "장기 리그전",
+   "text": "민준·서연·지호·하은 네 사람이 서로 한 번씩, 모두 여섯 판의 장기를 뒀어요. 한 판에서 이기면 3점, 비기면 1점, 지면 0점을 받아요.",
+   "clues": [
+    "네 사람의 점수는 모두 달라요.",
+    "네 사람의 점수를 모두 더하면 15점이에요.",
+    "하은의 점수는 짝수예요.",
+    "서연의 점수는 지호보다 높아요.",
+    "지호의 점수는 하은보다 높아요."
+   ],
+   "ask": "민준·서연·지호·하은의 점수를 차례로 이어 쓰면 네 자리 수가 돼요. 그 수는 무엇일까요?",
+   "input": "number",
+   "hint": "점수를 모두 더한 값으로 비긴 판이 몇 판인지부터 알아내 보세요.",
+   "h": "ec554606fa38e40579347f9a4665bb2eb34dd6872260be3afe6c9136286b0c61",
+   "x": "Y2ppiU1MCpohzxWVxdmLdPcIgjqZUhuo5zynEaGVxRWD/6PEkQsWfYUu+y4jgTcnduKdWNmZcNVv9eSBP46WR/7/I50O+SbZvSkXzZnLEnK/GRTk+O463sAewQ+R7cs8Dmopj/5yyz8+BkxUi+7i4IQ6qUdI4BmADFrREUWFVMXlntNdULsvRdU5XLumEQdFfkxTWBeICRAK1QGRfJBll2WiMYtDF4ooZ3mAWBIPwTdmDr8AQrX4+Ji82NktqfLujZH1P0SxLm0Sh7OB9Bbg0rll2VwBbZTZK+gc9PFfkOVnEAlBNqGQ8zeVe9HN/g6LErbyGe2GVlMpTnJVOzFPhTYnwCeKlC/jrKpPt1wsQ2UcYsF2S0vBp+ECgGopBcFuius+O4M0DFl9NIvMWPhWjNnzFFu3VMWX8il7NcPKSxArK8MRvcy2KPgvaes90qsfltZp1ykcteJqnF3VfPNJ4+MnxXY4EFKGyUe8E8iQ43+hNYFZ1aD5kPSO7dO/KTw7AG2g/b3AXnfUhdNy9RbBIWWLnnjJ8lcXXEfakbKLYmse5kknZMC9oFi95GoqEat4q3OHl2OkUrByibvqgg8nK13tyRzseM1Y0AaomXTe2h7cCxsS3ZgvQiNEPQrZc5QbHodk0pS5xZNtZ4bvVXfoYR3BuNM4HROZB4wti4oCxn1M4AVllayofj8McfJ3yjU+hzzmml+hnKXaEAPrFCZ1kPq2uGutdMEjie0Ax2YsGGAsoG3G3tLzM01hdhUgXUAzYelsmK9CCgx0/b2kg5igiosQKXY6gNhxciy23Ghr79hzJjqDPb2w4RGLsHfZtnWVWqy/VbCrJEej1AG/eZ0VizMCUJvx37uxLGfpt0XL2RHRZ/SbsVPxZxi8hhRT/fdNAOdkn1TM55xRmrHYvp7SaGWsRavj1GVBbltcDRY8zooeoijQn2uuMF4qPlUsVSdum9KrqODYUmbg+sfobyJeoWK4WGSaaAC6QmKxQU7U79P0ATJasDspYr9xACc5GrPMID/tjVVM7ryILYS/yU9DJfCddm8UDQ8vWZK246yXK7d6czeU2pbMHqCB11A7nZGjo6mOU8OrapA=",
+   "level": 5
+  },
+  {
+   "id": "b260929a3",
+   "date": "2026-09-29",
+   "slot": "am",
+   "n": 3,
+   "kind": "기호",
+   "title": "네 자리 겨루기",
+   "text": "칸마다 네 자리에 ○△□◇☆ 가운데 한 기호씩 놓여 있어요. 가로줄의 셋째 칸은 첫째·둘째 칸으로, 세로줄의 셋째 칸은 위의 두 칸으로 똑같은 한 가지 규칙에 따라 만들어져요. 다섯 기호 사이에는 정해진 서열이 있어요. 칸 안 기호의 순서가 중요해요.",
+   "grid": [
+    [
+     "☆☆○□",
+     "◇□□☆",
+     "□◇□○"
+    ],
+    [
+     "□□◇☆",
+     "☆△△◇",
+     "◇□△◇"
+    ],
+    [
+     "□□□○",
+     "◇◇△△",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "◇◇△○",
+    "○□□△",
+    "○◇◇△",
+    "□△○□",
+    "□□△○"
+   ],
+   "hint": "셋째 칸의 기호는 모두 앞의 두 칸에 있던 기호예요. 어느 칸의 어느 자리에서 왔는지 살펴보세요.",
+   "h": "10ace48ab79354133f47b3d22d673ad9952767b12b102df010f2443188b449b7",
+   "x": "G49UM0D64IO9gtw5OCfin0Abryhpf96UlyI9RIrEK3cSZlANkexf03QDLvtllYPE+SmhWH3ol0KOylFs38GGKWDGjI0Vtj/jox2SAn2g9x53UUrU+4yHa55gHp8ITduQwp/lDlLA0O1l/4J/I4Poimt31bduXa2zT1rSH08EfATlcvSBzrQdFB/XEDhGOf1UZutEKfErUlWuK44v2vA3sxZixd1ZlkWc+v/yg7yAiaEEqL5KXPOCn9AIo8S96gbr4g00kaFtkun/mF0U7BvCjTRJuj3/z+/e1II6i3nljNxu2YK0LMFiNQw6bAXfReSy5cKmTFq1/qomVZ2bBX7/6DvCK/D0fatyqnrCZSTXyPmOjA4HhZtzE0TJuDZmOBI9bQ9ke7o++sMUutTXTkq7qxSBrwvmxK3PulfG5ZgeCZ2NDoOSAMGyUqewUKMwAvIduakDNHlsLsZSyN0yLkEXNAxuVQoRzAtNe//0oJWN2ntQ8UjCQZddxOqrWcCAyiKl9QId8QNnKavzBFWnCGnck2LRiqjNqXGcdT0KP1BigA19cB0KuXRUmzmmZC7Cm2SLJE2XZE0EOpx07sy1KaVBDvCzITwlU8nLegpdo7zNcHh/AK8N/+tQBmuqK5lu8H+wBpmZqpwysZ07zFIJoz0SUuXI8k6g1r+a8piybSUhwAfxi5jrw25p0KQZla7ExWGFCxUYzv4sIqJ9IDBP4l1U9a/3MADYmVeV53rVb+dg2ZBttP+qNLHJIUv8FcKY",
+   "level": 5
+  },
+  {
+   "id": "b260929p1",
+   "date": "2026-09-29",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수열",
+   "title": "순서의 무게",
+   "text": "일정한 규칙으로 이어지는 수예요.\n4, 2, 9, 12, 25, 42, 70, 120, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "각 수가 몇 번째 수인지와 어떤 관계인지 살펴보세요.",
+   "h": "6d9803d0fdcf34add98fef05f4b2141b5169352ca68177764282d338b20828c8",
+   "x": "sb3zq9zs+eV+fv/oLFcrRDRJq7J3TOkPAyU2scj0UogrXHCHplMo0WvDvn/k/Khb+tseQJNmc1qylJQysfq2K6cuTZAooStBA/fETDpCqEuYBvXegtred+TJOaK8lZXM72Pm+pkL4RQtNaZBUkBA3QfoqDbEd5CzPOuPxh1x8QjBW0NxfDXgQXaWbrBX12tVxzHOf4I3h06gUSFfLhIUAzSqdsrr9/BDkrkaHlNgiE5wc/LVYwLpZnoaOTXJXOQTvYMlD6d0VGSXX9V3NcfxUxjyswG6eU+YnNP4OrOd+V5r/hGT7p1+qsorfG8GhXDcyhcAuoUkfRCWUzK7w+72vBPdc23hkf1p8Kxhda99FUpkZluE1k06LbCtnVhc7qFOzHf7rXHSffnODKGsQW9q7tqURfIZ4cbuEfxDCAHyOCBbNEEAZ/9HuEDZPF3bpnT4Zl7oI6PYQKFfPUjcWiAVAMJ0xsrIKW2QNA0PlIIPVuflpQdz/gmwi7BZCgVaNyv+nqoZI7psJNcjPruEExzD",
+   "level": 5
+  },
+  {
+   "id": "b260929p2",
+   "date": "2026-09-29",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "반반이를 찾아라",
+   "text": "1번부터 5번까지 다섯 사람이 두 마디씩 했어요. 참말쟁이는 두 마디가 모두 참, 거짓말쟁이는 모두 거짓, 반반이는 둘 중 딱 하나만 참이에요. 사람마다 이 세 부류 중 하나이고, '같은 부류'는 부류가 같다는 뜻이에요. '우리'는 다섯 모두를 말해요.",
+   "clues": [
+    "1번: 2번과 3번은 같은 부류예요. / 우리 중 반반이가 거짓말쟁이보다 많아요.",
+    "2번: 3번은 반반이예요. / 3번과 4번은 같은 부류예요.",
+    "3번: 우리 중 반반이가 참말쟁이보다 많아요. / 1번과 4번은 같은 부류예요.",
+    "4번: 1번과 2번은 같은 부류예요. / 우리 중 반반이는 딱 한 명이에요.",
+    "5번: 1번과 4번은 서로 다른 부류예요. / 우리 중 반반이는 딱 두 명이에요."
+   ],
+   "ask": "반반이들의 번호를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "1번과 4번이 같은 부류인지 아닌지부터 나눠서 따져 보세요.",
+   "h": "8e73efd0cfcded77c7f13c119c9d139691391b29083ba323525ac11b417a8a83",
+   "x": "/f1lOCHVhR09jlqnTQzTmtQjmIcek81ewPb2owbRb5EIlkwW7Xpr9PqOOl0gbrCl8P52WHHYk8C1Wratlua7+0/lQYJrM/VJZov6KpPx/71nGiyb9gcZvheRABJ8mP39yrBZHhfntZ9AeGnIPQOUz1naCxXpTiC6/PH+eJLxR536FRIf0n3PrY4Y8y2xy7AGyxK60ftaVTRPd45viBCHZXkCXUtvgyMNLfWEcraVpAO60J/c9YWAm1m/yJJEoiyExe5RsYoDDUWF2SPhIINKOmDN782sLEMFVAgxhfxXm3JSG7+dyc/SUWJ1r0+s38d5JWzRwI6WDxiusotOu46N9L2TMBtBMKv04vmhG8YGjr12UHu5bz8eTuAJNCB3x3agWTyXh4GG484FNRCK8OvvR3ezdg5B4s/+geaFMJUJ3eb0YHks0tej+iXyG5CQXsAefXkXl5k/UvZdwaLvPuv9OXxv52sQ1oV5jHmmK6ZX2AaHuGPfeWGxEOurihGF5NPdLNJQYQUeLHKvHURwrVdEcb7dflhJKNjVB6YPxLzRFYX0HlZUajRGuECLlHMbDg5V4Ib7VKHJbqzQdOTtbhzipfcHqY7DCNcdtsWgtxv7pUQY6EnFODKB9GO63DIoqfMHr8fWKjWKaeu7udnbrSk/nks3xL6wtWV0507EwPfg6NQEvVP0RvL6KhDtNFacbUpEFNgGecX3Gc7r5qB6zPQK1dl49JmHCIBVpjFfjpjO1Z7ZXsfxLWa7nplO1ua8U7vtzLFlmh4aUZvwEn6LiKnfQexIiSyFwKI1F10WRvdyVv5cxFJKsPzI3HUvRI4fUYk+fkHpOUf0kbGbD75EyDdyTFp0oABi49R7B/evRvHNk5UbccLGswan+9qQNnzeHjyTS5K76d2IucOTC1KOoT2IaryfwZWjLP8EEN+oIOdwHnZu08sKG3q582vUJVTw6EnamQ9UXC68QXvWiR1VpgbihOYBzEMXCd7k0Zcxvv6n5wU+LzepCx5gEq/s0XLqlOjz9rHHFQDLapdyX2bes3XeTXZFAQ/7VAGTRo5EwhJfYjM4jZoqU15ZRRgq35+QeGtWVP1TO5cpZKMx1HVDeQjxZ70dGZlfUqf/",
+   "level": 5
+  },
+  {
+   "id": "b260929p3",
+   "date": "2026-09-29",
+   "slot": "pm",
+   "n": 3,
+   "kind": "수리",
+   "title": "정육면체 산책",
+   "text": "철사로 만든 정육면체 틀(모서리 12개)의 꼭짓점 A에 개미가 있어요. B는 A와 한 면을 함께 쓰면서 그 면의 대각선으로 A와 마주 보는 꼭짓점 가운데 미리 정해 둔 한 곳이에요. 개미는 철사를 따라서만 움직여 B까지 가요.\nA를 포함해 한 번 지난 꼭짓점은 다시 지나지 않고, B에 닿으면 멈춰요. 지나는 꼭짓점의 순서가 다르면 다른 길로 쳐요.",
+   "ask": "개미가 A에서 B까지 갈 수 있는 길은 모두 몇 가지일까요?",
+   "input": "number",
+   "unit": "가지",
+   "hint": "가장 짧은 길만 있는 게 아니에요. 첫걸음이 어느 쪽인지로 나누고, 서로 대칭인 경우는 한 번만 세어 보세요.",
+   "h": "6d3577866099ee2dd18f3ac685bd6ccb74381cb4cba7e67770abfa4ad1668c68",
+   "x": "xQqRcPE1U+lwQGiUISRbfMhqH32G8/gnLPZ8JZX8REpAgFKaT5KO2HAHre1P4vwhcMr3HIDTllayhlYmZE9AEMbRIJwPKcbPxwBc7pXjGH8z0ruZYfv2P3uVQsLEmpAMvV86fOCJ+3tsBMu8cqU2ynCGsElaIsNylt/66DAFKnobrHyGNvCq45Ov9U+8iLm0uBewOkdpCHA2CHN7/jJx3nhX1hB9k1dib8LXtkyY+da4gN5izyyJvIe+EKZQpEXXICw+Thax+aT+1lyUwefe50xa9wYyl309Gp1Uqbuhsrg6C5X88+HFuZd3OXrHA7ENQDdVeOD1Lfe4FLarOYJe6cLcdVLbZx+4FAS/u5+pCLSlb2ES5KB0a/GYPDOsRF+KIpjBZNIFFBCacKdCWfFFASFB0DxaoJFt/DV+Iux5Wg+kPEV1KylDsyDABH7xdiyUXHMChQUmKTY8gVfUh4I8UntT8DhYGYGywL6ThvMi+Ipf/LM1h71U7xpdUgQ88rk7EZt4nDzAwTQFQYaHbCxYExWOxjjxLRA1kNdqX9gRelGLBF6Y3sChzF+ZGGdilJtl0tpNIF6h5mBvLslX",
    "level": 5
   }
  ]
