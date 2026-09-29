@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T10:53:00+09:00",
+ "updatedAt": "2026-09-30T02:14:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -473,6 +473,163 @@
    "hint": "◆가 있는 칸에서는 어떤 기호가 보이지 않는지 살펴보세요.",
    "h": "0aa1384d99d5ccab9bca26e61b10a944a04bc6e86bfee95bbfcdea93146408aa",
    "x": "7PlZ+BtDnfiFqmPCXGCSLlecCgBP19QtHA8FqbWQilR35bqqLk//HH+B0DVr/aoEMqJ+ePHV+abNiGX37Qu/0N3OXxBU9lEQ8QYmL7U3nlR8ioN4bZsYghgUiHuv2MnLWqTkKwRouzuIC/jiVQE9G40A9Sys8+inDxMuU4xWGAy+FBRKZgimBUJSjKlfYGyGhnERG5anblMEifl/3iZDnsVaxzhJqjClFqX/xowSSSSD3hD+T1rFU+CAn1H0nIJGy4pQZnyj3LLvdhzku+w7mRnkd4eilFgjnU3RLwmncEZOqdC07U64FkvFLp4Qn1P+zlT8C3GZomLMOinu6FaQHzsbKx0+VcRkRUE2PckFvuACTQu6PNoiYSILHhyJ1XFPgK/T0p12XxlMSgs9f+3QItAxw9lQs4jxKfwoLbLbFJeYs7HTni73FWyVp9dL/xgWCxNCEdB9x7F3HguO1UVlplGs/0gp2J+ItILZU3fGkDFHBDWeP8K72FESR1+ym8408W2fBPT/GBdpaieQixyveQ0sHI4YV1uIDL19I2TRmtmbHTxlWDoyYyIjvt8SwdWjpzgNLfUs0WjCxIIOxzfSw6pH9oae075ypiuY4CoCqYy9GyWxCnu0bD7ruPFEikDKacOpjxDbAq//Jj4mxsECHkSdx3M6OUhqvht+IsJT4p1mbvt3r0wSUOpoH0NK8l1T08tsZh/+7F7vwjqq",
+   "level": 5
+  },
+  {
+   "id": "b261001a1",
+   "date": "2026-10-01",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "여섯 상자 저울",
+   "text": "상자 A, B, C, D, E, F의 무게는 1kg, 2kg, 3kg, 4kg, 5kg, 6kg이고 상자마다 모두 달라요. 양팔 저울로 재 본 결과예요.",
+   "clues": [
+    "A와 C를 함께 올린 쪽과 D를 올린 쪽이 평형이에요.",
+    "B와 E를 올린 쪽과 C와 D를 올린 쪽이 평형이에요.",
+    "E와 F 쪽이 A와 D 쪽보다 무거웠어요.",
+    "A, B, D 쪽이 C와 F 쪽보다 무거웠어요.",
+    "D와 E 쪽이 B와 F 쪽보다 무거웠어요.",
+    "A와 F 쪽이 E 쪽보다 무거웠어요."
+   ],
+   "ask": "A, B, C, D, E, F의 무게(kg 수)를 차례로 이어 쓴 여섯 자리 수는 무엇일까요?",
+   "input": "number",
+   "hint": "평형 두 개를 식으로 쓰고 하나로 합쳐 보세요. 여러 상자의 무게 사이에 관계가 나와요.",
+   "h": "9b08dd9edccb2ff14414c1fbd078be0bdc22e6e349ec03d25af7dd3d51397644",
+   "x": "JnFHc1tb3HiUVOREYoHMpedd3Ea2E7c99ZAzxiLCishV0Ft5wBpQzQRdUF7Ew8enih4pcmBhQoY7BCuut28NOv+bo7Zx1I3HJIuTePdLsQLqoH1xWZSTlppnqTx6SiJfXOJLFD0XNDrHfuWQ6oqS6ZM0c2To0FGaQ9G3skP8didpug2LhrDuFGq36ItCEYsuT7YMc86nrr2YCxOWt+sGq0MwT9MGKHPtkNlQZxG10OzD7pzjEg6Dgq9EoRAsD/aBaEyCzF0U328JSH1S4OfThOsfLK43PDluNNDNf0lGiu0Ti8eW0B3kpr4J59eRLcmEMCfhblNYF8xLVWOD+9ZH84BqAXqYbCbtkBfcDsNceUGEqSVEkedacmMB9pgHVEnJuuuUVZlUUUDYCkYjNZstRuoLdzPsBUhOh9JF",
+   "level": 5
+  },
+  {
+   "id": "b261001a2",
+   "date": "2026-10-01",
+   "slot": "am",
+   "n": 2,
+   "kind": "수열",
+   "title": "갈림길 수열",
+   "text": "일정한 규칙으로 이어지는 수예요.\n4, 6, 9, 28, 35, 106, 159, 478, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "앞 항이 홀수인지 짝수인지에 따라 다음 항을 만드는 방법이 달라져요. 짝수일 때 더해지는 수는 그 수 안에 숨어 있어요.",
+   "h": "afa8eb78d2ea0dcbfef7453b0678241bd97001959ec831b0e024b0116091a273",
+   "x": "Ds4e8Z0g8IggrH/ZvxLBBOGhb8Z2Qkb6wJ0t2KzmdgFx2nJD4R0yj/8QSdfWKXe26+TWjezaiCOS9kLM4DyuohXBcwQ+KWLhHzETtaoyshS9YyIZYgQN12JuFgFUgFBJ/Mk34NQs41W8oAlgPlQriRr7IO89UkXOTQJNEGJdNH1evYp8c+wT12WYK/frERvLsgnEMW60g2w6Xo/kbrlxiJhwdDqe7KSCMQQjWnGDhOyK3CeSnfJdCg4R7ur8BTACHon6AtLV874RtZ1MItOs3p1RtjxDwwx5obg3pNXwtRwuNLPs/bQ5sSnJfBO4EqZp8ckN7ayGkF2rtok15kb370l50C1TMv/yl/HRPZhp0ytAD5wc1vsXOGY4bDQIGMo7xeIH/UJt2SwbycFZOmoqSDBLyOPcKEJE60gftKw=",
+   "level": 5
+  },
+  {
+   "id": "b261001a3",
+   "date": "2026-10-01",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "마지막 돌은 피해요",
+   "text": "돌이 쌓여 있고 민준과 서연이 번갈아 가며 돌을 가져가요. 한 번에 1개, 5개, 6개 중 한 가지 개수만 가져갈 수 있고(남은 돌보다 많이는 못 가져가요), 마지막 돌을 가져가는 사람이 져요. 민준이 먼저 시작하고 두 사람 모두 끝까지 최선을 다해요.\n처음 돌이 1개, 2개, …, 100개인 100가지 경우를 모두 따져 봐요.",
+   "ask": "민준이 반드시 이길 수 있는 경우는 모두 몇 가지일까요?",
+   "input": "number",
+   "unit": "가지",
+   "hint": "돌이 적을 때부터 차례로 \"먼저 하는 사람이 지는 개수\"를 표시해 가면 되풀이되는 모양이 보여요.",
+   "h": "49297bcb1d9475361cc2eb6a40cff92307896325702664c9adf74d9221f7a7b5",
+   "x": "yqYfjrY92I3a4hFz7z9rcX8DiBftY6h3wDq7Sa9s2Rkcr//hwzrMvYkT9Ltabg5uStQQQn39RjfadaM31UeTZSL5Rorl/rFb75V+JJpz8cnt+hv4cbMAMwU6Bp6T2Fa6/Ue1m86yjZXeLmeTkmh+JGj+GUH64eJn2lN3Zn/Oe6peSJMisfTJZc2CWPwFUNGFYVesgfLAz+/UGHyGHmxTAD4t/oJ53zl+/ZJOgXnjhJYT2aKkOWNlVdkBItMrHCgUzLsTr3zWXZ1YI2B6JgMXyOQNdJH9AkZbsdwCl4YVhMvBZlkkyRTAaSsXHb4cO7JdZhbBguiRmIVaZa89JxEa6iLRpVuOG9PRJG1e75lhuTAS1k6vHNOAvNcTXLG6kRaFAJ240HU05s+OY1t++c1dBq+SpZmive0tlxxUwEfjZIIivE+K+PoEyWstuunC4HXoEIcfJ4Tk3MUlf0538t2kPK+SyxQD2/DTHF2SRXhBl3G5/L4pMSCeOOeBJ0jtTjGjm2jaBN4GTtnSh/eTyntXyHkjO8x/wpMrKBJvqdlvTalXpxBBhAKv1Gle+ja0U/foT1b9EaRyRVT90AqAN8+F8zTijxXWrw==",
+   "level": 5
+  },
+  {
+   "id": "b261001p1",
+   "date": "2026-10-01",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "12를 피해 고르기",
+   "text": "1부터 100까지의 자연수 가운데 몇 개를 골라요. 고른 수 중 서로 다른 어느 두 수를 골라 더해도 그 합이 12의 배수가 되지 않게 하려고 해요.",
+   "ask": "최대 몇 개까지 고를 수 있을까요?",
+   "input": "number",
+   "unit": "개",
+   "hint": "수 자체보다 12로 나눈 나머지를 기준으로 수를 묶어 보세요. 어느 묶음끼리 짝이 되면 안 되는지 따져요.",
+   "h": "1da2f32a1114501475a8eca61dbd44352b6aa1b6e151db34a812af6ec987af40",
+   "x": "aaGGe5YsWKCHSsqND7pC4FwSwnFNj7AarJHB9uryN8ZwMahY9likYSo6zBvIZV/25pNhwo7/k/o9V/PdN6i8QyghDE62xi87EFmYuyS/F3C/z8yHEfXbbKDr0z+GgykLe5YRd0hOn5YwklGQsARImmRN83HcGGTr2hQjCieALgn/3S1M8oqc9mabgl7SFDtTSuPw+TpV5I08JYT8sXygG0r5Vja2r0Er2uBil1l5tMs15d7g2RxkzgKAMFqjGILr7J9JiZA2PvfyvSpd0ugddHSFqTItp2mimeuVLipA6DOyhWU8z0KXCs9z40Wl0QZjfiByWIK/ASQnZWAWX29FrZGmvygy1mKZSw9qjMFlMSfmXYmd2LZ43qXREMR6x3GPJL1IT32SrAnZnPyiWHuh+wsDAzN6toUOXomlHV1el5RuM63w4601O0xDA9fEINca2h7sZr1sYCQFlnaAIokzHs4Y6aaWLfSGHOiyLZ3jZrgWeD6pChF6dN2BVhMuBpt3aralWbw6cIGGIZe6IFdOlD4FiNN9KqXPMHOV1Yu+8Kgt8HbN/UUwlA8723JX9gghjumFaTZOKiFmeDUcUB6k86AbQL9Tr0M6vgC8Tt2ymvNUDTjm0PP2ArWWY3DYka4N9R3tjz5s0Hw8qu9Osoi6GYp4lsmVuXRH7cMAjOF9K7UlkCNYlR2cXntdtQk16yYTjrl90BrbkD/7r9KR4UEVL3HTTNBxA0Ch442jwy80YnX5o1tq3jShTA==",
+   "level": 5
+  },
+  {
+   "id": "b261001p2",
+   "date": "2026-10-01",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "이웃을 보는 섬",
+   "text": "섬에 12명이 3줄×4칸으로 앉아 있어요. 참말쟁이는 언제나 참말만, 거짓말쟁이는 언제나 거짓말만 해요.\n모두 이렇게 말했어요. \"내 위·아래·왼쪽·오른쪽에 바로 붙어 앉은 사람 중 거짓말쟁이는 ○명이에요.\" 표는 각자가 말한 ○의 수예요.\n번호는 왼쪽 위부터 가로로 1~12번이에요(맨 윗줄이 1~4번).",
+   "grid": [
+    [
+     "0",
+     "1",
+     "1",
+     "1"
+    ],
+    [
+     "0",
+     "0",
+     "2",
+     "3"
+    ],
+    [
+     "0",
+     "0",
+     "1",
+     "1"
+    ]
+   ],
+   "ask": "거짓말쟁이들의 번호를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "말이 참이든 거짓이든 자기 자리에서 정해지는 것은 이웃의 수가 아니라 말의 참거짓이에요. 이웃이 적은 모서리 칸에서 시작해 보세요.",
+   "h": "f03f2ebced50183d0943abd27c357c4756a3de3842bcb311372c99118370a4b0",
+   "x": "+V33E5uH2WFA8LT8LYg2a/FE26qTvei2Bmy8kzB9tMEUVgZI/Urvh5hv8q/WJJvEikQjZ70pM5tK/pKsM3OEqvBAPhSdSZJzY8dC9r+1adYd1CF9/R02yy+/n8BZaHviRnS7FWNbzvjQu242Tb2OossiT8IENFuvg+3TUSW023cp8yI2D/jvF/MuaxPvx6Et2aGFmVjv8EMDhn6GLyfUKiS+cQdbiDzBryDkf9AmVS1dQpRaefcyPZ1are8tV/JASkr38725rcVnY24Q2h2uEagr8XH2zNsBWf83nhKgcJCIl13FIPFJQwvBXxrQmwFdqan9MG+NPCkosM5nVIHniZp5atPXRoNWGowNXSelVHNqkg9y24j+IKqGuSfyNJ3n0QQbNPFVmvhFdzNfZZqyyodjUuvsxaTFM5rULHztTrFtfEhRjoYmzsvUXrOi+ONqWtSHCBFYaUrNiTmqN6Uv9CgPa5xphaUQCx3tDw1KdknKu1nzSsB0DKpAFOHmASMKIZjvT4hv6lGE8UW2pJ0I1/+T3NpeaUAprt5T9p1v3MG/wQorML4z+TWLmCSjxHSe6fGAxa2MHeU=",
+   "level": 5
+  },
+  {
+   "id": "b261001p3",
+   "date": "2026-10-01",
+   "slot": "pm",
+   "n": 3,
+   "kind": "행렬",
+   "title": "대각선도 겹침 없이",
+   "text": "5×5 표의 칸마다 1부터 5까지의 수가 하나씩 들어가요. 가로줄, 세로줄, 그리고 두 대각선(왼쪽 위에서 오른쪽 아래, 오른쪽 위에서 왼쪽 아래)에는 각각 1, 2, 3, 4, 5가 한 번씩만 들어가요. □는 아직 모르는 칸이고, 구하는 칸은 ?예요.",
+   "grid": [
+    [
+     "□",
+     "□",
+     "4",
+     "□",
+     "□"
+    ],
+    [
+     "□",
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "□",
+     "□",
+     "1",
+     "4",
+     "2"
+    ],
+    [
+     "□",
+     "□",
+     "5",
+     "□",
+     "4"
+    ],
+    [
+     "□",
+     "□",
+     "□",
+     "?",
+     "□"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "보이는 수부터 시작해 어느 수가 어느 칸에만 들어갈 수 있는지 하나씩 지워 가 보세요. 한 칸이 안 풀리면 두 가지로 나누어 따져 보아도 좋아요.",
+   "h": "e19d0efba66197eb086d90d6d19b5c8e9d275c217aae42dea9abb47a78582396",
+   "x": "NIKMuxiydbZNmANs/gXldvTxsjuQdsv8+nLXP+JFcac0YpV0hJqNw06uj1gF4eychIiHE8JgMGmh1TtOC87nUun9UVDjdC9tssaw/uttkIyglkbOsLDBmoCy9f/82NWQmkjYjn+hw9eMzK8v7fYGAlVI3J/upUDBZJen4al6XssftDIHdJX62DufV/PWqZ4e+XS6+CcYcywB4MmXcX9bCAem8VLuphlvLzIKivBBVJ8hqxgqRMiak/dbhmnXmvv7MIgSmnTlhLDcGEN3CHJ6h9SYehyRbhCgvN/e0L42ho+WxzaUebQE9GQOoeyjon29IC2TYEOXKiAKl1ZxlzZXhNacDMHIaqJq6nD29uSkn5wK8ZgClhI7ao8al6hWIjDK+3O5t5zJcQSS0yl58t65zBjjRhhdf3YdN/W5XZeQfegl2rt2h8KtSfWJ252yFls=",
    "level": 5
   }
  ]
