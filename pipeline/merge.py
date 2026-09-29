@@ -13,6 +13,12 @@
 - hot(홈 '오늘의 이슈'): 분야마다 1건. 새 기사 가운데 hot이 있으면 그것, 없으면 남은 기존 hot, 그것도 없으면 가장 최근 기사.
 읽을거리(역사·생활)는 지우지 않고 덧붙여요.
 합친 뒤 data/version.json(앱이 새 판을 알아채는 작은 파일)도 알아서 고쳐요. --mode는 전체 조사(full)·빠른 조사(quick) 구분이에요.
+
+전체 조사(--mode full) 안전장치 (2026-09-30 새벽 예약이 뉴스 조사를 건너뛰고 0건을 올린 일 뒤에 넣었어요)
+- 뉴스 5개 조 파일(work/new/news_A*.json ~ news_E*.json)이 모두 있어야 해요.
+- 새 기사가 모두 합쳐 FULL_MIN건 이상이어야 해요.
+- 둘 중 하나라도 어기면 아무 파일도 바꾸지 않고 멈춰요. 조를 다시 띄워 조사하세요.
+- 조사를 제대로 했는데도 정말 새 소식이 모자랄 때만 --allow-few "이유"로 넘길 수 있어요(보고에 그 이유를 적어요).
 """
 import argparse
 import datetime
@@ -32,6 +38,8 @@ READ_ORDER = [c['key'] for c in CATS['reading']]
 SUBS = {c['key']: c['subs'] for c in CATS['news'] + CATS['reading']}
 KEEP = CATS['keep']
 KST = datetime.timezone(datetime.timedelta(hours=9))
+FULL_TEAMS = ['A', 'B', 'C', 'D', 'E']
+FULL_MIN = 8
 
 
 def now_kst():
@@ -125,6 +133,24 @@ def merge_reading(old, new):
     return allr
 
 
+def check_full(patterns, new_news, allow_few):
+    names = [Path(f).name for pat in patterns or [] for f in glob.glob(pat)]
+    missing = [t for t in FULL_TEAMS if not any(n.startswith(f'news_{t}') for n in names)]
+    problems = []
+    if missing:
+        problems.append(f"뉴스 조 파일이 없어요: {', '.join('news_' + t + '.json' for t in missing)}")
+    if len(new_news) < FULL_MIN:
+        problems.append(f'새 기사가 {len(new_news)}건뿐이에요(전체 조사는 {FULL_MIN}건 이상)')
+    if not problems:
+        return
+    if allow_few.strip():
+        print('안전장치 넘김(--allow-few): ' + allow_few.strip() + ' / ' + ' · '.join(problems))
+        return
+    sys.exit('전체 조사 안전장치: ' + ' · '.join(problems) + '\n'
+             'RUNBOOK 2단계대로 뉴스 5개 조(A~E) 에이전트를 모두 띄워 조사하고, 모두 끝난 뒤 다시 합치세요. '
+             '직전 조사가 몇 시간 전이었어도 건너뛰지 않아요. 아무 파일도 바꾸지 않았어요.')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--status', action='store_true')
@@ -134,6 +160,7 @@ def main():
     ap.add_argument('--today', default='')
     ap.add_argument('--mode', choices=['full', 'quick'], default='full')
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--allow-few', default='', help='전체 조사 안전장치를 넘길 이유(정말 새 소식이 모자랄 때만)')
     args = ap.parse_args()
     if args.status:
         status([c for c in args.cat.split(',') if c])
@@ -150,6 +177,8 @@ def main():
     for a in new_read:
         if a['cat'] not in READ_ORDER:
             sys.exit(f"읽을거리 파일에 읽을거리 분야가 아닌 글이 있어요: {a['id']}")
+    if args.mode == 'full' and not args.dry_run:
+        check_full(args.news, new_news, args.allow_few)
     arts, report = merge_news(news_doc['articles'], new_news, today)
     news_doc.update({
         'edition': today,

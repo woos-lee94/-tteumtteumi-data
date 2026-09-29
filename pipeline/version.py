@@ -79,7 +79,11 @@ def main():
     ap.add_argument('--checked', choices=['full', 'quick'])
     ap.add_argument('--added', type=int, default=0)
     ap.add_argument('--age', action='store_true')
+    ap.add_argument('--allow-few', default='')
     args = ap.parse_args()
+    if args.checked == 'full' and args.added < 8 and not args.allow_few.strip():
+        raise SystemExit('전체 조사는 새 기사 8건 이상이어야 마쳤다고 적어요. 뉴스 5개 조를 띄워 조사한 뒤 merge.py로 합치세요'
+                         '(정말 새 소식이 모자라면 --allow-few "이유").')
     if args.age:
         print(json.dumps(age(), ensure_ascii=False))
         return
