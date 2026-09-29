@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-28T05:26:00+09:00",
+ "updatedAt": "2026-09-29T10:53:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -334,6 +334,145 @@
    "hint": "가장 짧은 길만 있는 게 아니에요. 첫걸음이 어느 쪽인지로 나누고, 서로 대칭인 경우는 한 번만 세어 보세요.",
    "h": "6d3577866099ee2dd18f3ac685bd6ccb74381cb4cba7e67770abfa4ad1668c68",
    "x": "xQqRcPE1U+lwQGiUISRbfMhqH32G8/gnLPZ8JZX8REpAgFKaT5KO2HAHre1P4vwhcMr3HIDTllayhlYmZE9AEMbRIJwPKcbPxwBc7pXjGH8z0ruZYfv2P3uVQsLEmpAMvV86fOCJ+3tsBMu8cqU2ynCGsElaIsNylt/66DAFKnobrHyGNvCq45Ov9U+8iLm0uBewOkdpCHA2CHN7/jJx3nhX1hB9k1dib8LXtkyY+da4gN5izyyJvIe+EKZQpEXXICw+Thax+aT+1lyUwefe50xa9wYyl309Gp1Uqbuhsrg6C5X88+HFuZd3OXrHA7ENQDdVeOD1Lfe4FLarOYJe6cLcdVLbZx+4FAS/u5+pCLSlb2ES5KB0a/GYPDOsRF+KIpjBZNIFFBCacKdCWfFFASFB0DxaoJFt/DV+Iux5Wg+kPEV1KylDsyDABH7xdiyUXHMChQUmKTY8gVfUh4I8UntT8DhYGYGywL6ThvMi+Ipf/LM1h71U7xpdUgQ88rk7EZt4nDzAwTQFQYaHbCxYExWOxjjxLRA1kNdqX9gRelGLBF6Y3sChzF+ZGGdilJtl0tpNIF6h5mBvLslX",
+   "level": 5
+  },
+  {
+   "id": "b260930a1",
+   "date": "2026-09-30",
+   "slot": "am",
+   "n": 1,
+   "kind": "수열",
+   "title": "어긋난 덧셈",
+   "text": "일정한 규칙으로 이어지는 수예요.\n12, 23, 53, 67, 111, 187, 892, 1079, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "앞의 두 수만으로 다음 수가 정해져요. 12+23과 53을 나란히 놓아 보고, 111에서 한 번 더 의심해 보세요.",
+   "h": "76cec2db36200bb65c8d88e6533d383515ed970bea0154e60e8c26455796b60a",
+   "x": "xdz4omOuUCUNY8z7TUFqAm5o79vPTlvqNNlUyP4QQSn8ieCDrVT1gmq91zv6mEwE/1uHiueDxQ0xMU1dmFP3zrAIF+JJ0vs8r7v14aFJ3E5HcX3b0LmQVSrjaQwAj/dQDuULPpNtHnsKHPnHH0QAEOASysTXv2DltETJaoj9GGLEGhXgf650BpPzIXg+xDlxMGT5ZOyUgWSv67R3JJZQLmlJjiAKmPq6FV6qpp8bSoOSJbDNxQYYojXjW1dOn7E9Kj8r6qNIl6cgranM8QJz84H9hQAS1jCyMYKRTt3GfbHxslEaUwPdNNxHkYDENFzcFby/nCmA3mFwVmQ8edmD4/y6KGQFTJbSh6CWxFo4DMIP6kYHXPlZD78k2WAAak3BfKa46sxkLYdpt8VsutcRuTW4Ue6ri2/5fVOYkw2uatEFjkDx6B33dYyewsFbjfz2W+0L1dL5V+txW0pS9nZ3TRYZEy6j8tc=",
+   "level": 5
+  },
+  {
+   "id": "b260930a2",
+   "date": "2026-09-30",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "네 자리 숫자 야구",
+   "text": "민준이 1~9 가운데 서로 다른 숫자 네 개로 네 자리 비밀번호를 정했어요. 서연이 네 자리 수를 말하면 민준은 두 가지 개수만 알려 줘요. 숫자와 자리가 모두 맞은 것은 스트라이크, 숫자는 비밀번호에 있지만 자리가 다른 것은 볼이에요. 서연이 다섯 번 물어본 결과는 아래와 같아요.",
+   "clues": [
+    "5431 → 스트라이크 0, 볼 2",
+    "2134 → 스트라이크 2, 볼 1",
+    "7526 → 스트라이크 0, 볼 2",
+    "7413 → 스트라이크 1, 볼 1",
+    "2754 → 스트라이크 2, 볼 0"
+   ],
+   "ask": "비밀번호는 무엇일까요?",
+   "input": "number",
+   "hint": "먼저 자리는 잊고, 비밀번호에 어떤 숫자 네 개가 들어 있는지부터 개수로 좁혀 보세요.",
+   "h": "119109d93f25fdd60af1a694cbc55502cc1e98872d4a203ff41924071aa2f2c9",
+   "x": "aU8aun5abIFonARIYl6591HNgviX+m/RirmHTl3m/6njadjfLqJZl7dNO1t4BZht5exjgqTgCdclCdGpT8RjkcIQHm4rxoJ6vjLnJmaT+r1fg6BIFg/Hqefwwj0zuETx/ZYKG3scbpCJX7R/YcHujesyu87MiOmrsr3wGwTHFdAwlYELCMCko1ag6Ghy5yGXpLvDkHp/uDSZt1DuByxrDG5TydJCoRS3CwOPYjE/1oLQtMg5RynET5zN4vI0fs4FoO9AQSXlD+Hj0D+rE0lUgAJI3Whvd0rAXSBoO+jAxyKI7IC80iCUYT/Z0jJ0IyM3GYvrgky94mUxZ47UxD3xbVkmHM5GziiFc5ylzNIuQiwEhW1Jt8YQqTBCFV2aRyRWHuNHIMvml8ukqTLV/4rkJHViKeRuZTOciIcqKA782U/J1BW/j7TSBqGX80bXJvH82MgUg0RI6mtqhsgp7yHj1x2Al3RRt2mJyZRqWEAAcWq5I5aw+IE5W8q685QisxhhGEw4VNedW9tx17A4nA719fH8CywPVpPDPcoZj0W+UcAoVEUhpWB0TquRHrHAvIW+ENfSwPjVfUKB11dRQpPVJxevbLMBEsgHFQJFOXwWAdCxCY70eJfY6jOwQCRsY0A9bL8+RP0D+JQAdATBXl+iM1JxN612buep/lG9DCOFEhEfq50mJGa56G6+L6gJPjxev460CMaRWqmaTUkhfLwRj5MOZLC8S7SeAIZobyBZWAKKEXJrOAm5ltb+UlW0divQbUwYnK4WjEgegvcDr7g1DkTlEwAi442rFDXOpgOQSHnF0+mRQMtoCC6ObcuW7I+Gx3c=",
+   "level": 5
+  },
+  {
+   "id": "b260930a3",
+   "date": "2026-09-30",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "나누어떨어지는 생일",
+   "text": "엄마와 딸, 아들 세 사람은 생일이 같은 날이고, 오늘이 바로 그 생일이에요(나이는 만 나이). 아이마다 1살 생일부터 해마다 생일날 엄마 나이가 그 아이 나이로 나누어떨어지는지 세어 봤어요. 예를 들어 엄마가 30살, 아이가 5살이면 나누어떨어져요.",
+   "clues": [
+    "딸: 1살 생일부터 오늘까지 모두 5번이었고, 앞으로는 딱 1번 더 있어요.",
+    "아들: 1살 생일부터 오늘까지 모두 3번이었고, 앞으로도 딱 3번 더 있어요.",
+    "오늘은 딸과 아들 모두 나누어떨어지는 날이에요.",
+    "엄마는 아직 100살이 안 됐고, 세 사람 모두 오래오래 산다고 해요."
+   ],
+   "ask": "오늘 엄마는 몇 살일까요?",
+   "input": "number",
+   "unit": "살",
+   "hint": "엄마와 아이의 나이 차는 몇 년이 지나도 그대로라는 점을 이용해 보세요.",
+   "h": "ff51c954833a9fbe21469d48ac7677d5231098a4ea0901949b7116756f24f4d0",
+   "x": "hQLJywrMk2x/l3TLPy/b9gsJ7/1g9/RWXVt9Aw/kzDnxzsHgZthM4qWbNXQ6VvQYZiboWXn1T4fG07XGDCfDxufJmxM7cS1U4qPGKAiSqooDzcrBGuTB5AetsYru3cfao8tSUpdi3qfqoNnjtmAfPZ36f7hqzVWBDOyJ9K56gOXRGAUZzdE1rHvxyNnce4bUXVRmjcVmzQSEc3CgX4o2KQfAKWku6uZzEQSlASxYV0BVsW1c+mrFzG8v7ho34fFMLgMasOlivP5xf+DxZabM3+XLSCSY2BHmYz3R9iR1IplunVNvbMkBU6Zqeh0P56JB669bSqqZcVBXSt3n5a8cOyczPsM3+UQ9XfeyeI4IZkDtopBcHnRBKeSKyRW6Syo8Ky4DCPTpzQrCqKLbbwEjaAM5oHiUNtzSsuL/TBpuWceO7BqvS2/hPL4cncMhZzrBSdsIxj9hpzOoYvEHA2XNmglldlvfCVE0pGo1t7fOnjICoOrzfUL11FYAreY78TJYwP2KTZO2y1DRiyFzndCgmzjwxfR0XA/4a0koxdpnSUZd+dJiHpMf5pfVhUmEsMW4UXl+U7m/3c4V8/cSeIWBSguJ/oVzanvnNfSe8ed46d/8TQ4mZ9Qh5AQUShD2xka+W9492ZorOz5hndUpapdzqGCg6nnfVXOvRH8uMkTSpT3BTpos8x0ViKcBYuNHmaEIy0E4FsWT8e1BKYty+f7we1bcwrX5DcUbIPkXnIiZ26VRmtNGQii7XQZCZLOV5bDMHdzVwC1YuUA50yg7IIwhZMM/HxQshQLAVC3SC0mhwtgqYa7Ws4WWzSRsVC/X6wg92qKHisIgQjUmIxbHSzpV+JxFHpjqoZQu7T4ogxDaOz+evKxJUj5mc2xhs8GdShdxamMbDLTcBIJxAaegfOHNaLUUJDKab9DmMRhdF8uowp9I8iSX/rJKl7HAe7hjBu5GneDu9jgXT4pWdjV3FOTaTPCASGUM2tL4yPmAKl2m",
+   "level": 5
+  },
+  {
+   "id": "b260930p1",
+   "date": "2026-09-30",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "요일마다 거짓말",
+   "text": "민준은 월·화·수요일, 서연은 수·목·금요일, 지호는 금·토·일요일에 거짓말만 하고, 다른 요일에는 참말만 해요. A·B·C는 민준·서연·지호 중 한 명씩인데 누가 누구인지는 몰라요. 오늘 세 사람이 아래처럼 말했어요. '어제'와 '내일'은 오늘의 하루 전과 하루 뒤예요(일요일 다음 날은 월요일).",
+   "clues": [
+    "A: B에게 어제는 거짓말하는 날이었어요.",
+    "B: A에게 내일은 거짓말하는 날이에요.",
+    "C: B에게 오늘은 거짓말하는 날이에요.",
+    "C: 저에게 어제는 거짓말하는 날이었어요."
+   ],
+   "ask": "오늘은 무슨 요일일까요? 월요일은 1, 화요일은 2, …, 일요일은 7로 답해 주세요.",
+   "input": "number",
+   "hint": "C의 두 말은 참·거짓이 같아야 해요. 그러면 C에게 어제와 오늘은 어떤 날이어야 할까요?",
+   "h": "7cc5afd36e5010504bcb3a27f7d7f79622e464738693f3ad7a9e1d46fda98ecc",
+   "x": "2YzKwxcI79uP1YyV0lWBNM6MQOq3WmVlxUvog2psBU1uKkd3j96bYNGTUv7AxryENEEKJK+5Ufd3d5DawTiQ2KZjqnykreiC9au4t4HTrAs36MhPdYF2jxhzaMwaskMwca3+pVPV2DCFX5yBjbp0Jzo84glhhT3+Fbpg+2ZfvdMRe7rSRhjslanrSyApuTG9ej6GwBTUksVTXch6/4S9UCOBuYPDgx2Pv0K7SCAKloA3741n2MQ1M0NLjTHD7Nws8SE66XzhRxv8wJCYsRG1obgFo3r0pUJfpzcFnv2KyXKH9SlPJTEZe4QcvoUpRKUwcxDjEICJMEB3lD3lS49RT88lIE5N91rtYNlqbJxjsi98eh8k6aIEDBaaeF12TTcCfyG5x4xaHdYpiNO+/D6h7UmWJtcqgABDcAF7RL6+iR4onfHCvqOuIP3NF06rpm8ttN4CPXEXPPOg18Bfe+sl9Q/CPwlhcBwPQ9yHnffXgIc/dUtubPv1oauwM2w8Zv73DFfrPdwY8fCGa8AA6PXyvrBIxvEmoiKidRHwqNo8dw5MjaHDdDU7CkMiNwTuSjd09hgaI3XsfZSIGJSz1girgFHdaHo7ciczUUWjjodhmnCJqsBwtVH75LxVTL3wLTxzWfntdlsklxdI67Ugxe9V+eYtwLTcBJo6m0/Vbn3A9N2UL1JUghRbkTKzfONVPJAM2p4OsDwiZ8gWStjzJGYvDwTfkyrpEQwFwGdfdIXsUBMcWqgB7DBi9OuHOQO6xQJmAYA6s1+pAqNr6OmYbXoRlVz3/LVC0m3otlKSa8NAIRWZByp1PAnbpXDbpHArgmqMusdiMlRa1ymHPooQOdxtE1R05eVMb36tgnEkUSKvdnHcC9HX/H64WZok1C11U9tEU12ICNN+ly4iOfl3ypoPMAuV5pFTTKA3J9AOS5Nwf7Nq4vv/pxDMX51GVaP73XiWoKo1jTzNqJfOz1In",
+   "level": 5
+  },
+  {
+   "id": "b260930p2",
+   "date": "2026-09-30",
+   "slot": "pm",
+   "n": 2,
+   "kind": "암호",
+   "title": "네 자리 자물쇠",
+   "text": "네 자리 수를 한 가지 규칙으로 다른 네 자리 수로 바꿨어요. 규칙은 모든 수에 똑같이 쓰였어요.",
+   "clues": [
+    "2026 → 4182",
+    "3589 → 5123",
+    "6214 → 3498"
+   ],
+   "ask": "같은 규칙으로 바꾼 결과가 1069라면, 바꾸기 전 네 자리 수는 무엇일까요?",
+   "input": "number",
+   "hint": "맨 끝자리끼리 먼저 짝지어 보세요. 바뀐 수는 어떤 계산 결과의 일부예요.",
+   "h": "3d8d6cd6247c8e0fae1a06f16fd9eb5f3ef89c131cc31ecd00f99faf781ac98e",
+   "x": "I5wMuXE9m3u6AfmVPOn3Su5jGSbRcDOvNK0bJx/HEz7NQzzJoGmhBhXEFSeoR4PLq7muoQCYrXzdexrFVPUe6FlC+lLWXwuKeyJQsOwQTKsKqaosHtioYUiMAm5tEomKiVukqELOpnsjOl6ad1wNg7LhecevMYNuiL/+6faBwqhjYTPe0sIZsFLx5g7Yl600KhuAQRiuAv3pIXXgpxXNkEMfv2SKtXue4b4xaKkJGtrFSS7qG0KwnQxruWYFxAe4qrOlusgEMoIstWp9oLOsF4y14AL5yN7udcpDRovdYWqPail8laZkajPbe1vPcNGxe2Zk6XKMbIfcRGrUc63KQG00qVoDAoQVbWkpp8w/fnnKRvnRSUNxAV7zBs86jcQUZl4QYXSv1VxgI6oy5DTu",
+   "level": 5
+  },
+  {
+   "id": "b260930p3",
+   "date": "2026-09-30",
+   "slot": "pm",
+   "n": 3,
+   "kind": "기호",
+   "title": "고리 위의 기호",
+   "text": "칸마다 여섯 자리가 한 줄로 있고, 맨 오른쪽 자리 다음은 맨 왼쪽 자리로 이어져요. ○는 빈자리예요. ●·▲·■는 칸마다 한 자리씩 차지하는데, 오른쪽 칸으로 갈 때마다 기호마다 정해진 방향·칸 수만큼, 아래 칸으로 갈 때마다도 기호마다 정해진 방향·칸 수만큼 자리를 옮겨요. ◆가 무엇을 뜻하는지도 찾아내야 해요.",
+   "grid": [
+    [
+     "▲○■○●○",
+     "●○○■▲○",
+     "○○◆○■○"
+    ],
+    [
+     "■○▲○○●",
+     "▲◆○○○○",
+     "○○■●▲○"
+    ],
+    [
+     "●○○○◆○",
+     "○○◆○○■",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "■○○○◆○",
+    "◆○○○●○",
+    "▲○○○◆○",
+    "◆○○●○○",
+    "○○○◆▲○"
+   ],
+   "hint": "◆가 있는 칸에서는 어떤 기호가 보이지 않는지 살펴보세요.",
+   "h": "0aa1384d99d5ccab9bca26e61b10a944a04bc6e86bfee95bbfcdea93146408aa",
+   "x": "7PlZ+BtDnfiFqmPCXGCSLlecCgBP19QtHA8FqbWQilR35bqqLk//HH+B0DVr/aoEMqJ+ePHV+abNiGX37Qu/0N3OXxBU9lEQ8QYmL7U3nlR8ioN4bZsYghgUiHuv2MnLWqTkKwRouzuIC/jiVQE9G40A9Sys8+inDxMuU4xWGAy+FBRKZgimBUJSjKlfYGyGhnERG5anblMEifl/3iZDnsVaxzhJqjClFqX/xowSSSSD3hD+T1rFU+CAn1H0nIJGy4pQZnyj3LLvdhzku+w7mRnkd4eilFgjnU3RLwmncEZOqdC07U64FkvFLp4Qn1P+zlT8C3GZomLMOinu6FaQHzsbKx0+VcRkRUE2PckFvuACTQu6PNoiYSILHhyJ1XFPgK/T0p12XxlMSgs9f+3QItAxw9lQs4jxKfwoLbLbFJeYs7HTni73FWyVp9dL/xgWCxNCEdB9x7F3HguO1UVlplGs/0gp2J+ItILZU3fGkDFHBDWeP8K72FESR1+ym8408W2fBPT/GBdpaieQixyveQ0sHI4YV1uIDL19I2TRmtmbHTxlWDoyYyIjvt8SwdWjpzgNLfUs0WjCxIIOxzfSw6pH9oae075ypiuY4CoCqYy9GyWxCnu0bD7ruPFEikDKacOpjxDbAq//Jj4mxsECHkSdx3M6OUhqvht+IsJT4p1mbvt3r0wSUOpoH0NK8l1T08tsZh/+7F7vwjqq",
    "level": 5
   }
  ]
