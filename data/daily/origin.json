@@ -1,7 +1,7 @@
 {
  "category": "origin",
  "label": "알고 보면 유래",
- "updatedAt": "2026-09-28T07:19:00+09:00",
+ "updatedAt": "2026-09-30T04:22:00+09:00",
  "items": [
   {
    "id": "or01",
@@ -613,6 +613,74 @@
    "source": {
     "name": "국립민속박물관 웹진 – 불티났던 성냥! 유물이 되어 박물관에 모셔지다",
     "url": "https://webzine.nfm.go.kr/2020/10/30/%EB%B6%88%ED%8B%B0%EB%82%AC%EB%8D%98-%EC%84%B1%EB%83%A5-%EC%9C%A0%EB%AC%BC%EC%9D%B4-%EB%90%98%EC%96%B4-%EB%B0%95%EB%AC%BC%EA%B4%80%EC%97%90-%EB%AA%A8%EC%85%94%EC%A7%80%EB%8B%A4/"
+   }
+  },
+  {
+   "id": "or37",
+   "title": "'아르바이트'는 어느 나라 말일까?",
+   "answer": "독일어 '일(Arbeit)'에서 왔어요",
+   "body": "아르바이트는 독일어로 '일, 노동'을 뜻하는 Arbeit에서 온 외래어예요. 독일어에서는 그냥 모든 일을 가리키지만, 일본을 거쳐 들어오며 본업 외에 잠깐 하는 일이라는 뜻으로 굳었어요. 줄여서 '알바'라고도 해요.",
+   "kind": "말",
+   "reliability": "유력한 설",
+   "tags": [
+    "외래어",
+    "말"
+   ],
+   "level": 1,
+   "source": {
+    "name": "한자·한글 사전 hangulhanja",
+    "url": "https://hangulhanja.com/en/words/아르바이트"
+   }
+  },
+  {
+   "id": "or38",
+   "title": "햄버거에 햄이 없는 이유는?",
+   "answer": "독일 도시 '함부르크'에서 온 이름이라서예요",
+   "body": "햄버거의 '햄'은 돼지고기 햄이 아니에요. 독일 도시 함부르크(Hamburg)에 사는 사람이나 그곳 음식을 뜻하는 'Hamburger'에서 왔어요. 그래서 나중에 '버거'만 떼어 치즈버거, 치킨버거처럼 쓰게 됐어요. 음식과 도시의 정확한 관계는 확실하지 않아요.",
+   "kind": "물건·음식",
+   "reliability": "유력한 설",
+   "tags": [
+    "음식",
+    "외래어"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Online Etymology Dictionary",
+    "url": "https://www.etymonline.com/de/word/Hamburg"
+   }
+  },
+  {
+   "id": "or39",
+   "title": "케첩은 원래 토마토 소스가 아니었다고?",
+   "answer": "처음엔 생선을 절인 국물 소스였다고 해요",
+   "body": "케첩이라는 말은 중국 남부 푸젠 지방 말로 절인 생선 국물을 뜻하는 '꿰찝' 비슷한 말에서 왔다고 봐요. 17~18세기에 동남아시아에서 영국으로 전해졌고, 토마토가 들어간 케첩은 1800년대 초에야 나왔어요.",
+   "kind": "말",
+   "reliability": "유력한 설",
+   "tags": [
+    "음식",
+    "외래어"
+   ],
+   "level": 3,
+   "source": {
+    "name": "Wikipedia Ketchup",
+    "url": "https://en.wikipedia.org/wiki/Ketchup"
+   }
+  },
+  {
+   "id": "or40",
+   "title": "송편은 왜 반달 모양일까?",
+   "answer": "여러 이야기가 있지만 확실한 정설은 없어요",
+   "body": "백제 의자왕 때 거북 등에서 '백제는 보름달, 신라는 반달'이라는 글이 나와 반달로 빚었다는 이야기가 전해져요. 달이 차오르듯 살림이 풍성해지길 바라는 뜻이라는 설명도 있어요. 다만 모두 전해 오는 이야기예요.",
+   "kind": "물건·음식",
+   "reliability": "여러 설",
+   "tags": [
+    "명절",
+    "민속"
+   ],
+   "level": 2,
+   "source": {
+    "name": "주간경향",
+    "url": "https://weekly.khan.co.kr/article/201209251403311"
    }
   }
  ]
