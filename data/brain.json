@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-01T02:33:00+09:00",
+ "updatedAt": "2026-10-02T02:17:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -766,6 +766,142 @@
    "hint": "몇 번 굴리면 주사위가 처음 놓인 모습 그대로 돌아오는지 먼저 찾아보세요.",
    "h": "e91d93970bdbefc79a5e49cf173f5ac24f6b47d3957b7dbd11788671327c0168",
    "x": "iUB3pKN1vDtJyKEEzbCmcToYEZk9SvoS4x+akCsjBTNxcYSxri9v9frCjd8/PmCVNk5oUjfwujIQvvxt66YbfNOhaRluj217BTU4MWGS3XKVADVZi5SR65MUWg1wjPbY5dhMgYABnFnpXiKPQJSiuEw78T+RHwFLb78IY7LeoJvUALzBjtlKWPxNLqWEsVSpf8cdoQ9wLMv3bxEHdXfWlg5IdDZPHuFCPtvl5jjAMIXcHfAufQhre1MsztIIp1yIoEgJiPc5+XHW/JWEoVinY4KY9KrQ+uZ70Wrm9J5AmomV7m2Ei63WJ0w1pCh7Z93KdI4EzsNigzcGl0Bb8tTQels2BNfYsoEps1783hjBLim3uuI5gT/3nxk/Q0k=",
+   "level": 5
+  },
+  {
+   "id": "b261003a1",
+   "date": "2026-10-03",
+   "slot": "am",
+   "n": 1,
+   "kind": "수열",
+   "title": "세제곱인 척하는 수",
+   "text": "일정한 규칙으로 이어지는 수예요. 첫째 수를 1번째로 쳐요.\n1, 8, 27, 28, 35, 54, 91, 80, 81, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "1, 8, 27 다음이 64가 아닌 까닭을, 몇 번째 수인지와 함께 생각해 보세요.",
+   "h": "629cc4cc1d79e70b195000650d276e908da6bede0c2dbf3f385926911550f650",
+   "x": "XpN0nGLNPcoCvRj4e/gBcBwLnlIKr0I6wj0KJ88yfkCIySwDBPdWhsHWiP11N/C2R/j0UTdFTaqw6/JI52U888niL0wU22skfcdOKpayjHbCa77utk0rgtHg1H6HorBj4KaTCJtbHscjyS1cqDzB5Ch39YqEoa/6k5wnDitd1Apz/Y3u6HXk7qDGCy7MugOAwXhmjInZIMaUcKuMt/JD2f2PIQUlZsd6IAHdRT26KE2n1JOW5ouC8NHJpsDVRJK3H7KI6u43++EPn8qEGGx7zYL2dwSysG9HR4rcmkG83d/IeuVGX5ISsDlNgRpFK5WyJlMZzqLb7T+EkM6gDfE6U//tZYas3hXh9ndT1M5ssYpEnNOt15+e0rh8N8BLXsmDfMZYiPNX5ySdIKc7gr59/P+G8ltlC3kCV999X1Dc7hp4DEpMFYOHP/lzdHAQWwn404x76m8Kk/VjqE+Mu8JC8GIt2MNIMzbv82xAP+ytvptpapVeTVnQ",
+   "level": 5
+  },
+  {
+   "id": "b261003a2",
+   "date": "2026-10-03",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "앞이 보이는 줄",
+   "text": "민준·서연·지호·하은·도윤 다섯 명은 키가 모두 달라요. 다섯이 모두 앞을 보고 한 줄로 섰어요.\n내 앞에 선 사람 X를 '볼 수 있다'는 건 나와 X 사이에 선 사람이 모두 X보다 작다는 뜻이에요. 그래서 바로 앞사람은 늘 볼 수 있고, 내 키는 상관없어요. 뒤에 선 사람은 볼 수 없어요.",
+   "clues": [
+    "하은은 아무도 볼 수 없어요.",
+    "서연은 정확히 두 사람을 볼 수 있어요.",
+    "서연을 볼 수 있는 사람은 정확히 두 명이에요.",
+    "지호를 볼 수 있는 사람은 정확히 세 명이에요.",
+    "민준은 하은보다 키가 커요."
+   ],
+   "ask": "맨 앞사람부터 차례로 키 순위(가장 작은 사람이 1, 가장 큰 사람이 5)를 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "하은의 자리부터 정하고, 지호가 세 명에게 보이려면 지호 뒤에 누가 몇 명 서야 하는지 따져 보세요.",
+   "h": "7e43d72227a275353123be532425ce687f00faaed2d8b087bc7a36bccb5bb1cb",
+   "x": "0VZIgmWVKX/idLUTPZuotjMNdT0ITyFJBbQdH6iLirHwwiRIhs9uYBO8IGBfvxZDlAVxmabOD24Db2V1G7PgYWLDV+U/6esNUVQiFZ4Pwq41uK5N9Ph1y2zBB+olf8/tJP/XaVzX+tLgZZ5rSQ1deWga9BQnbZezeQVD/yyhxXiWsujSqE01EYfb6fROqyjJoaVuOiubgVb5hgqn8DkaRnO5NrwSPePpGSkMwRxFDOAqrfjafJG6CQJij9cx+Bkr10zV5ibgdkQrZS3pvZM/TFsZnViXs2c09WnzRCjpvzOhvoPbOlAjmy1ja7n3Yaaov8q+XUBmLr22TMnQeW96yvR7zA+LNTAeifOxLqQ7Aeafj+eBcp1XDSbctN7JdcNEWz/2hPxqFB/WT52zALmMTiQziBcDh9yP6rcDA7nY9rDpQHoiW12+MnpbDZ8yoY208IGGTVUGK9b3Mw2xNQ40lgrXM+2I6ME+lr08mjVtLPszMd2gb4ocD8SnZDi9Cr0FnI2nRbPtmn3KBj7S9Yg0pIz9fkcz0WpEsmqfAZhYauz6w/wRGZAwe+wl5U5yMe7WOL4WiBtT4zwLy6DyOcys6T4WrGAFTuy5ESuypJoG6kCF0vsevS6aSGaGeLefoWEiWIanoMDAOGF2PGLovjy8///uVHwGMoi1W7KLB1yd+uRuu/6lPOTkZPUpjenkDYLtImmuX87hP+y1EP7mi1SBfIM51tbQ2ORm77x5m5d3hzt7iL23vliNmio89NX/H99HT8TDbNs9XWro0crigGIbgy0t8q+AmzxJ1QmO+ZIx/NIGXra7/3Ehe9b/hrIK7EFeKYs2ppu/zUj6MutJYYri0srrwxhjraNMAj+xOVJ4WVulllgvCtpXAaUTMZZDbV1vmWQw/iJXwIipSK65ICs8fJw5AVVLUbYxC8r63nOGI980tX42feurBxIAhgOzGqS7suQ1U9gafQD/chlCfg==",
+   "level": 5
+  },
+  {
+   "id": "b261003a3",
+   "date": "2026-10-03",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "정사각형 오려 내기",
+   "text": "가로·세로 길이가 cm 단위 자연수인 직사각형 종이가 있어요. 이 종이에서 잘라 낼 수 있는 가장 큰 정사각형을 한 장 잘라 내고, 남은 종이에서 다시 가장 큰 정사각형을 잘라 내는 일을 종이가 남지 않을 때까지 되풀이했어요.",
+   "clues": [
+    "잘라 낸 정사각형은 모두 8장이고, 크기는 네 가지예요.",
+    "가장 큰 정사각형은 2장, 가장 작은 정사각형도 2장이에요.",
+    "가장 큰 정사각형의 한 변은 18cm, 가장 작은 정사각형의 한 변은 2cm예요."
+   ],
+   "ask": "처음 직사각형 종이의 넓이는 몇 cm²일까요?",
+   "input": "number",
+   "unit": "cm²",
+   "hint": "마지막에 잘라 낸 정사각형들부터 거꾸로 종이를 다시 붙여 보세요.",
+   "h": "d01e6f5ffce396f32c918d328f637e9734827b85582671a4440f389535a11684",
+   "x": "RKfLZ5yX3xBSz9P/tiYuWppzQWGWrsmXihiJHKdiIvy5VvKWsGKriLmwpVjO16dRYw/FVmj44q0YyUA2Z95phgV1FK+b6ZsdcQi5q90uBVnqWqfMOyEv2I5ISMyRRiFf0yC69T/z+MKI3HUZLZ2TgajXZZ1XaL/JBokLHjt9ZTA3TI3CMKnQhfdhU8Z/lx1ikJgd8RP75CwWz+fNr/vC2zfJptOwqEfko0hX/cxRBJg4mVChlZMV5xSjosB7ShcqItKt4P78nfAfvDGM30N8ueng62Q0wBbJvd8eksi6+4qw51oZ2cDSdp3Uxvk1d2a5GM87eSd7hdSKZn2i4UxnfjHbQA1QVZMNn6C6fXfsE4S7HAp147wqXV5YO6DFHEdhFk5YrIdr9jXyIDCwYaqbu6wySsplyRc18w0HIfulvL1WUh7c8PIALpGWzwYOtPs4NItAyA8+4TX9MaBqQ0RIDVaXs0s3NZwHKlTwXBUtA+SsoSXwKegi3lseUSjMgOBAjTuZb1nEGEk9Gw9x/P2r3ACvgmoJdfrcTTkzIj6gWYPppWUxfqGFB6kgHL4YzavfHujlWx4PRIU0a7v/d+G3+z2hvxciC2+5J/w=",
+   "level": 5
+  },
+  {
+   "id": "b261003p1",
+   "date": "2026-10-03",
+   "slot": "pm",
+   "n": 1,
+   "kind": "행렬",
+   "title": "숨은 한붓 길",
+   "text": "4×4 칸에 한 자리 숫자가 들어 있어요. 어느 한 칸에서 출발해 가로나 세로로 붙은 칸으로 한 칸씩 옮겨 가며 16칸을 모두 한 번씩 지나는 길이 있어요. 그 길을 따라 숫자를 읽으면, 셋째 숫자부터는 모두 바로 앞 두 숫자로 똑같은 한 가지 규칙에 따라 정해져요.",
+   "grid": [
+    [
+     "1",
+     "6",
+     "4",
+     "7"
+    ],
+    [
+     "7",
+     "5",
+     "1",
+     "7"
+    ],
+    [
+     "?",
+     "3",
+     "7",
+     "0"
+    ],
+    [
+     "5",
+     "3",
+     "8",
+     "1"
+    ]
+   ],
+   "ask": "?에 들어갈 숫자는 무엇일까요?",
+   "input": "number",
+   "hint": "출발 칸은 네 모서리가 아니에요. 두 수로 한 자리 숫자를 만드는 가장 단순한 방법을 떠올려 보세요.",
+   "h": "0b47896529ad9bef36ee47cdaf0d05f119287cc5f35ce9c02e5b0aea539dcbcf",
+   "x": "iA+SPbBoK53OawUuRIzQtAWF6w5JAC7fNgaWgVg/mPpicPCmjJnuVYB8OQ5DDG5mO8M1F+NYs+KigMCldknusdbFNM7QQWLHNkOCCFC4fp9NL+TA2fI/WfMAqXl34CiwjRiZk99Q4GFCOTvFIqw3DFkKM9LeeJnPY8MHXQwftCfrGmtgE89CgAPX0Ot5YP8187dPMqU8BaDQj3pIC61OiFwitTh+WNFycWVsYKyCbQ5kCGIadXPhKTlsDMSf2Qumi++kmCVdwa9VJOuTpJVuyqE5VdWuEjIxXJWQqWAvOn4tMgoZML3W1Yagqhzp5kwiuaExChWM8z6uwIMcG0f/VGfO0aXbzWxOsFj7jRbQWCp4xM1oC2TAJ5SVYC1U7qbeGz9unk2ITt0HLx7w7NfTewIUGXrVQroi7I8ElWX2Ftfn2wG8ezTklkBQoGdLkWca32/nC4hTFu04wZ84/61el+zXZXDQv5JPn6oXq7IS1/DKk9/h0XhwCTr+rTRcmAjZTznvJpjcw4EZ51wM0sZK",
+   "level": 5
+  },
+  {
+   "id": "b261003p2",
+   "date": "2026-10-03",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "참말쟁이의 카드",
+   "text": "1~5번 다섯 사람이 1부터 5까지 수가 적힌 카드를 한 장씩 가졌어요(같은 수는 없어요). 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요.\n참말쟁이들의 카드 수를 모두 더하면 8이에요. 다섯이 한 마디씩 했어요.",
+   "clues": [
+    "1번: \"3번은 거짓말쟁이예요.\"",
+    "2번: \"내 카드의 수는 우리 다섯 중 참말쟁이의 수와 같아요.\"",
+    "3번: \"4번의 카드는 내 카드보다 커요.\"",
+    "4번: \"2번의 카드는 내 카드보다 1 커요.\"",
+    "5번: \"3번의 카드는 2번의 카드보다 1 커요.\""
+   ],
+   "ask": "1번부터 5번까지 카드의 수를 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "1번과 3번은 서로 다른 부류예요. 합이 8이 되는 카드 묶음과 참말쟁이 수를 함께 따져 보세요.",
+   "h": "f8d264196d916e94671a5a8628c7719cb19cff308d7ad352970cebde9194cac0",
+   "x": "yH9fUPDRz/px+17InboT0FxbKplOOFGZLWgRuwL324GR+nNlAFLa+GIKVAzD91yE2bKaW5znQJvzLDLi9CvJXkHeQ1zBQBiR5hOOKhs0fXff9OfJ2GowEV7RTcQSRH4QgtVUVoftyC7N69yd6GYuJCroKeAc2Q0CDXb0XTUZixlV7DWGOhghLRJQ6jAeJYLfc46usJsFzez2aeY/DsZfc0pWKSnX4rxdLFdojETCc5yQRgAnsRiQhua/3nOHf45oMMroRFwr9LBscOsK79vX7fHGBgsbTv9ilH/u8KCjUJ2Kimkkkx0HVzt2t6m0an+o9YZxAnhi6azve0XTcB5XmzWcxmEy0MpLRHinmjKUs292JKaUuwXPvxf+Ce/bSQXc4VhoNiOeJJqd5rxlro5ewMjJ9ldCQEXMS7pb/x2PF51PGfFGHN3X6aP9E+ec2ElK06tzh8qti24VyK6qUyiY9SW1VrBKPgcffuBGwcx/O3ccH2lu5XRoP3weMiQJzU7C/q+ybhQcmf3Q1fnGq8FGpbg11g6k3YO1MMxlGmwUf5nA6U5hWAD/nR60vRJkKHMykanp+Qjtbz4MWxTVTTKDYONZuhphU3UVGnoWKngJd9thZI1Jp+uGw+opZaRG9P9cYR/2Xm7J+YQXuDKDEEW+Sy5/eCi1N17FK0hkvxyOTkJa7nxhKDyaE/N7GNb1eGqlX8UR9QbfwY9g25erXTQ7B74470sABUPmJxsIPWHG50z2spYJnaGonXIxNX23I/k66Gq/JzsRtDBXao3oV/eECLgRGD5iwffZMy+BiuMlTs7YAdQeSlJ1s0jStTRwWvFZ09v/Mkl/IdrjXEMRYrm7NiGr73vPyBXWvmtlj4KfI/z5TcEb0pPX3og=",
+   "level": 5
+  },
+  {
+   "id": "b261003p3",
+   "date": "2026-10-03",
+   "slot": "pm",
+   "n": 3,
+   "kind": "암호",
+   "title": "자리 바꾼 소리",
+   "text": "한글 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였고, 바뀐 결과는 뜻이 없어도 돼요.\n모래시계 → 계미래소\n호두과자 → 자화두고\n바다표범 → 버뵤다팜",
+   "ask": "같은 규칙으로 도토리묵을 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "글자를 통째로 보지 말고, 한 글자를 이루는 조각들이 저마다 어디로 갔는지 따로 쫓아 보세요.",
+   "h": "531e8310c67fafbfee332b07065323a694c97fd16a7d5b9f269fbe0015725ea1",
+   "x": "5yeg88VcNLfiywByJU3qQpcuyxCL+t9wNa+ABERU1ulah39Lbdw2XaIAcDeoQap09pSmrrIjYfRkNLvavlD2+CIEX2y3CbUVhWytqr2Aqh0xji+aJi6K/UOPYIJq8qFPYVGa3X93sJF7pzMOkk2y+3wP+piZkhOU2Zpl1UXeYwpsmp9awMMOBBQjOnuMz4f2AyP+869qRV6iW9/pxJY5Wrp81kuWnGkar6miiAILJaz9m5kJDv1vbQqerat0umK2dopiTU4svfN3glJyAo3CWBC1r2fFn2S+cISIitBVpCc3Jrm1lOL5Oz8lKgbNW86NOSRFHSXBRM1meGNfs2hryiRKnEdYf7fgaV8er8sJmQdXMMxJ1bUYdwl7wdWyM7lGlNu+BLLSzMtd1VQCR30AVT5KOr2RrZ2WELrnvb6lryEI/feDwAnzZ8tnAKOc7cVV9ANDU8sBgsqnX0VfvK/+MBrkN0pxqfog/Hg9IlFJfeSYjWO57appSwsvrIC+VBG5nb49WVo1KIFAMTKgyXZn/lEwa98cGAJ8btkRfQ9dbPt6ctG0OtQrfORl4qPSmwPv4vmIwsRpUqUzoBdnUd83ftE6whHB1Lu3uvPD",
    "level": 5
   }
  ]
