@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-02T02:17:00+09:00",
+ "updatedAt": "2026-10-03T02:16:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -902,6 +902,161 @@
    "hint": "글자를 통째로 보지 말고, 한 글자를 이루는 조각들이 저마다 어디로 갔는지 따로 쫓아 보세요.",
    "h": "531e8310c67fafbfee332b07065323a694c97fd16a7d5b9f269fbe0015725ea1",
    "x": "5yeg88VcNLfiywByJU3qQpcuyxCL+t9wNa+ABERU1ulah39Lbdw2XaIAcDeoQap09pSmrrIjYfRkNLvavlD2+CIEX2y3CbUVhWytqr2Aqh0xji+aJi6K/UOPYIJq8qFPYVGa3X93sJF7pzMOkk2y+3wP+piZkhOU2Zpl1UXeYwpsmp9awMMOBBQjOnuMz4f2AyP+869qRV6iW9/pxJY5Wrp81kuWnGkar6miiAILJaz9m5kJDv1vbQqerat0umK2dopiTU4svfN3glJyAo3CWBC1r2fFn2S+cISIitBVpCc3Jrm1lOL5Oz8lKgbNW86NOSRFHSXBRM1meGNfs2hryiRKnEdYf7fgaV8er8sJmQdXMMxJ1bUYdwl7wdWyM7lGlNu+BLLSzMtd1VQCR30AVT5KOr2RrZ2WELrnvb6lryEI/feDwAnzZ8tnAKOc7cVV9ANDU8sBgsqnX0VfvK/+MBrkN0pxqfog/Hg9IlFJfeSYjWO57appSwsvrIC+VBG5nb49WVo1KIFAMTKgyXZn/lEwa98cGAJ8btkRfQ9dbPt6ctG0OtQrfORl4qPSmwPv4vmIwsRpUqUzoBdnUd83ftE6whHB1Lu3uvPD",
+   "level": 5
+  },
+  {
+   "id": "b261004a1",
+   "date": "2026-10-04",
+   "slot": "am",
+   "n": 1,
+   "kind": "기호",
+   "title": "명령이 된 기호",
+   "text": "칸마다 ●▲■ 가운데 기호 네 개가 한 줄로 놓여 있어요. 세 기호는 저마다 아래 명령 가운데 서로 다른 하나를 뜻해요.\n· 맨 앞(왼쪽 끝) 기호를 맨 뒤로 보내기\n· 네 기호의 순서를 거꾸로 뒤집기\n· 맨 앞의 두 기호 자리 바꾸기\n가로줄마다 둘째 칸의 기호를 왼쪽부터 차례로 명령으로 읽어 첫째 칸에 하나씩 적용하면 셋째 칸이 돼요. 세로줄마다 가운데 칸을 명령으로 읽어 맨 위 칸에 적용하면 맨 아래 칸이 돼요.",
+   "grid": [
+    [
+     "●●■▲",
+     "▲●▲■",
+     "●▲●■"
+    ],
+    [
+     "▲●▲▲",
+     "●●●▲",
+     "▲▲●▲"
+    ],
+    [
+     "●■▲●",
+     "▲■●▲",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "●■▲●",
+    "●▲■●",
+    "▲●■●",
+    "●●▲■",
+    "■●●▲"
+   ],
+   "hint": "명령 네 개를 한 번에 따지기 어렵다면, 어떤 명령이 몇 번 들어 있는지와 같은 명령 두 번이 서로 지워지는지부터 살펴보세요.",
+   "h": "0b9a24c989f6caabe029e61794c2b1868fb350cfcae01460a0b81aaa2512fe4c",
+   "x": "dOjpxUo7KapxfKVbk+g9kYvz+HgQfLdF4cDDbflwRE3ObgKeeI95FuYkSw2JxCbp8/P+6R8NnL4jzrpedJZW5238QnmIPPR3YXULzPweIMdyqji7oX6bRrYIwbtZL+PCKvKJqfVuZjXJjwvpvq/EnneDnpGCvlR+gosxITHeymVPlSwExL/rVCYpOnlDeMZN1VBHEj6GdgXU67x7N0lmmcebtq9JyyzsDJVy+MigjKrxgW3wzK09sfmdiBFF+YCQAKRjQ+d2oljtP/89+0DD8BwqEuQQhQbj+gloI32jbME7dkXZRPIvjDBeze+QCnJp1ffgATgvf64rPaxohWj3ZGsvlCpEEg0eJD3HBdfThDNRioYg9WlWrC/FnycsIp1GRdNM/N0u0EtJ6i0OnKVVLGJpKoVTegyWIzUDGWwV5bADm+Vb1tu8RRIl6YWHhoeb+bGybwtpdT7aIuwzs5FqSujRvTwbcXvb7NYUyEvfYNX+eIqrp0gGG6CkBZCc9GerWS8Gib2fhmaEjyUEe4Ywp5p4ji1ytX+s75xTQv8B4OkWojCbp7I0NKUreaoScTGXZAuL19ciLNVkVhXzzn232WzciUJKgJoEI5Srm1U3XkmBUhFIYF1y3OPvkewHtCgkrq39Y2Fs23h4yjbU/rjFh+TCOfhhtP13wUQJXgdG8PZROCeG",
+   "level": 5
+  },
+  {
+   "id": "b261004a2",
+   "date": "2026-10-04",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "다섯 주자의 추월",
+   "text": "1~5번 다섯 주자가 1번이 맨 앞, 5번이 맨 뒤인 순서로 한 줄로 서서 달리기 시작했어요. '추월'은 바로 앞 주자를 앞지르는 것이고, 경주 중 순서가 바뀌는 건 추월뿐이에요. 같은 두 주자 사이의 추월은 많아야 한 번이었어요(한 번 앞지른 주자에게 다시 앞질리지 않았어요).",
+   "clues": [
+    "결승선을 통과한 순서에서 4번과 5번은 바로 앞뒤로 붙어 있어요.",
+    "4번은 1번을 추월하지 않았어요.",
+    "경주 내내 한 번도 추월당하지 않은 주자는 딱 세 명이에요.",
+    "5번은 4번을 추월하지 않았어요.",
+    "3번은 한 번 이상 추월했고, 3번에게 추월당한 주자는 모두 5번에게도 추월당했어요."
+   ],
+   "ask": "결승선을 통과한 순서대로 주자의 번호를 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "같은 두 사람 사이 추월이 한 번뿐이면, 처음과 끝의 순서만 보고도 누가 누구를 추월했는지 모두 알 수 있어요.",
+   "h": "c1c328c6882b15549938e7c8e4dcd861b7aecb3d11c47c54e18cea82e8fab944",
+   "x": "rF4bOtiEyayltPv4tebZM+X+d3uKB+nTinNgAp2UMJZoNcRZ3h1q2lu6DGJru4cd8TIC+7JArVN+Kfa2WePt1ZQAs7L2VbLUiyMM4s5QRhJPazrn5WhIZJ6kdcOUShkEcIxGaEZP20Twif2EmNw4v8L+I3AQcyIeUgy9MS2QZ5Ms8afH2plFpvnW1/2lL0DBhYGTnodUImSYWjNc1ZYgC39BxbWC0qQB/nDz43mfy2wPECP12Qy75k5+p20oIM3NXOJBwzI2NbWjblNxaDtiLYPX13fYPvZu+62a6F29XaffBhayMjQkXPmR5Y9NsluXHcg7dxud6n4RXUy58hLFjstpq+lUwl/TB/8eRYXzT9skQqp6CCm0TgW1vsKYwhLCsX7JGveKzgovkYS9cZm5iA1/gWL/VneV8n3mABerPDt+zxUxU4XqsKnjFB1Qid6Erihavvq9uZtfRdFxTP1ZUL0+gk6TG8kmva6Bln6DpFd/1GDCAe6LxoEpsoVylrKDIfqZY8urBcLsYob0FbwVroH1XX8QfI5hqwKjlLiuYy5jxylGUIywVYenYxRKPr/8uoDxPssIU8ltfo75rItAjfplv3u7Z3D/XgLE8S5otPa3VmDyca8K9MHEhAX4fsnrrOhlPY7PWdVov3zoTHv52oXphW78jfj+ZEQlkAIgwUxNrxfXiDo9I0HyAGI4Ogz1wu5LFosN67aZa90oKDtGpXNfu9Bt3LLQJ6FjC4c4qid2udGf2TkYgQXTWGxQF74fh5EC6tWaaeRDV8RRzpO3VSWlVJqKZRss/VyrW0v5syIHvlf/g44q0jNMgzwlPkSpCRjlvjsERt5PyQitmOGgYU8upQ==",
+   "level": 5
+  },
+  {
+   "id": "b261004a3",
+   "date": "2026-10-04",
+   "slot": "am",
+   "n": 3,
+   "kind": "수열",
+   "title": "열둘씩 늘다가",
+   "text": "일정한 규칙으로 이어지는 수예요. 둘째 수부터 모두 바로 앞의 수 하나만으로 정해져요.\n30, 42, 54, 66, 78, 90, 144, 259, 45, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "12씩 커지는 건 우연이에요. 앞 수를 나누어떨어지게 하는 수들을 떠올려 보세요.",
+   "h": "1e7e120f194a2e6c14c0adc3eaa139426b7e449f332682a69daa3fba1ae4cdb5",
+   "x": "Drc2fEMRaJn55gcD7uhkcNKR/m70HYWxyLy9xxmmcE0If7e293aQFy5WEeTfjd3UKHhh8W8ULaoJyUA20/F5szGQ94LUu10Xvc8s7lNEByEZNAPhfWL75I+9lF2AG4dNhMp6d1YiWD/PHoDC8oXbHAvp0aOGznFXSoN6jtbggIltk4xZ9RI5lT4vU2zvZ00KlbHGfFARUuWE/oYOvhTFmffHtXTs3i6a7QY5nGW7wgWnes8mMR7rKA655Ks1PpA9eQr5NfPem/qo77Ksg2Kcn9/kdK36caHCoDKz1WvtkWZBUJ2VXpprLhZyi9oE5XMyByQ2WucUhA==",
+   "level": 5
+  },
+  {
+   "id": "b261004p1",
+   "date": "2026-10-04",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "칠하지 않은 속",
+   "text": "겉면을 모두 칠한 직육면체 나무토막을 한 변이 1cm인 정육면체 조각으로 빠짐없이 잘랐어요. 나무토막의 가로·세로·높이는 cm 단위 자연수이고 셋 모두 달라요.\n잘라 보니 한 면도 칠해지지 않은 조각이 적어도 하나 있었고, 그 개수가 딱 한 면만 칠해진 조각의 개수와 똑같았어요.",
+   "ask": "이런 나무토막이 될 수 있는 것 가운데 부피가 가장 큰 것은 몇 cm³일까요?",
+   "input": "number",
+   "unit": "cm³",
+   "hint": "세 변에서 각각 2를 뺀 수로 두 개수를 식으로 쓴 뒤, 양쪽을 세 수의 곱으로 나눠 보세요.",
+   "h": "af97fd6653be0ce49936e3d392b0aab1492689936f6733f1c5d0edfb2350fe43",
+   "x": "RpPE6b3sZNb33wsXaLgbIjAm+r+mg/faI4XLpHUuXaz1TUpF1qFub3Pc4eFWY8ey4hV22zKaqLitpqmlSL25gct8+z5Dr73j83Ejd/dQKiPnFdflUb7FXsZmWk02fHCnUsCVTrE51V21L1Bt+rA2SwiBc1uYAvJpzOJmGP/C5pZD+kRjqbDJFAOoddNctzwTXRaHgHsVJsAiWv++wACLX8UmHYCPxTZRAh24l/jSAk1OWlp6aipPbmo6LPMWkNuAUYabW3cz1sk0Pf3KNSWOnOQHQnmnWWBIVejTTyAvE1NTEtgAMaH73aligkHzjA2X2B9TG9VjVul6OXrUf2qiv19VuNSgg/v+wgqLocdHWJ6fAU44LLuwUwtgGqTMFx5Ssh8KRLV8MLCd7Mf6oDAqewbAyqK1of2g0mI+0jumQtOf1s7x/5RI9wO9hpkpNK5YdqnBuYB/9xDMVBRbucZhMetP72ozg/5LiS8wrtNbZ3Wn9g==",
+   "level": 5
+  },
+  {
+   "id": "b261004p2",
+   "date": "2026-10-04",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "섞여 든 스파이",
+   "text": "1~5번 다섯 사람 가운데 딱 한 명은 스파이이고, 나머지는 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요. 스파이는 참말도 거짓말도 마음대로 해요.\n'같은 부류'는 참말쟁이·거짓말쟁이·스파이 가운데 같은 쪽이라는 뜻이고, 참말쟁이 수에 스파이는 세지 않아요.",
+   "clues": [
+    "1번: 스파이와 번호가 1 차이 나는 사람 가운데 참말쟁이가 있어요.",
+    "2번: 우리 다섯 가운데 참말쟁이는 딱 두 명이에요.",
+    "3번: 1번과 2번은 같은 부류예요.",
+    "4번: 저와 5번은 같은 부류예요.",
+    "5번: 3번은 참말쟁이예요."
+   ],
+   "ask": "1번부터 5번까지 참말쟁이는 1, 거짓말쟁이는 2, 스파이는 3으로 바꿔 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "스파이가 될 수 없는 사람부터 지워 보세요. 4번의 말은 4번이 참말쟁이일 때와 거짓말쟁이일 때 5번에 대해 서로 다른 것을 알려 줘요.",
+   "h": "35e0420c5cfbfdd0dad7542b37301380478e0c71c5b072b21ba25c1b43a31d2a",
+   "x": "dn7oJx5ft25MnQ2z71EmP2W+xp5JQwg7y/fY3JQxEWBMGQlKOcTDyW9y91seSt6s7sjIjltq3oQ+vU4HUw3Dl8DUKFyqZbgqsZ1LI4bP66ec6gN+NOgAdn3nKi3XE3OeRyTF3yeYiTh0hVxNKSlvL5s4tVNc8xrU7WaqA0SuB90gU1PU9owKL07SyZVzhMUGrGGRO12p7d46tJRuv+tTJMqjNfUJKyy/OLWL9eYq5PIetKt83AYK8+eULdMaqjiMhQNJXIqdKRG6tsVocabpVz1+wmCJH3+4MAyQLRya/lna5RfBzfVLS4bxAdzT4XvVxtOBGqHuSGVocfnwQmthzT77aHiCrGQiIPiG4TbA1S1SjioAIspOwZbVTVb/OFKu1i4TixUoASHSikxil1mdzfkq9W1Nl6YaB5LDEdn+V5dyGyqVtSz93eoJ05JDeaC0pIhEReHsxxpVF279wfpBTjxbMfcnNKHC6GOj4cHGWS9dxqVci7VnhGzvH+0JISXx+btZYZCdBbQt1HVSBACBjK4Oux0hz2uXQ/ZfwjSKvOUAjh7MYZmlkV9h15/Q/7JHDJcOSLogmxsMOnU5w92wVubEQDEWytP5izIW1zTwoWjITe66GqD8lwDwpgLF0GljtfSTObHvuT8Ph7ZcVwEvrszfHlLQBeHSWAye1RNyjkOqswIbIIYSayx2K7Lobb5SsftTkuZh9l0xNnggX/APKZUpVVUeKM97fI1tnXtviN6UBCLpRjYIGzmIsR3TXkMyNwId6ntEdwFlSUC0CvwGGiXXJPf0XqY+WfTMNSrsQnhs/RA348Uf2X0ngyqHT55l8oOOc/L2QtKgwRFouKpIMxybDCCJLdZPQ7Cr4Y8RdFPQO2lc",
+   "level": 5
+  },
+  {
+   "id": "b261004p3",
+   "date": "2026-10-04",
+   "slot": "pm",
+   "n": 3,
+   "kind": "행렬",
+   "title": "숨은 수의 표",
+   "text": "가로줄마다 자연수가 하나씩, 세로줄마다 자연수가 하나씩 숨어 있어요. 각 칸의 수는 그 칸의 가로줄 수와 세로줄 수 두 개로, 16칸 모두 똑같은 한 가지 규칙에 따라 만들어졌어요.",
+   "grid": [
+    [
+     "12",
+     "8",
+     "60",
+     "84"
+    ],
+    [
+     "6",
+     "24",
+     "30",
+     "42"
+    ],
+    [
+     "18",
+     "72",
+     "45",
+     "63"
+    ],
+    [
+     "30",
+     "40",
+     "30",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "칸의 수가 크다고 숨은 수가 큰 건 아니에요. 한 줄의 수들을 모두 나누어떨어지게 하는 수를 찾아보세요.",
+   "h": "8a4ea75ea6f7421d84f4ff8f96e893b0c7e3016b27d3ceeb62fa8cc3ac9a8f0b",
+   "x": "se7smW5/+x8oIKT2uIA/BXihYox9NNBu2BCUhzOLmONFI05b7GZ9VKDAxeHpFjQnborCVYbK7E/QG/JRmbV9zjza2bAQl1VlnrHJjxIgVkI0MA4Hu8QqUsRhWQZV5/rEibhOxKsoE4aChQgVUefmOjS0p0W+HEG1AkLQK/3a2jAK2L+FCzDfwxF2/Fhzmu3DZGuqC9AYQfn046a6Y0rChDVXMZXmzVFVM0F1pXYOVsv6r5i5eU6sIdUKjbqecxLGjWsl0zyMynSe3KETKMkVbfeEr7OwsBGoDkQlqAkU509SFKbPhJdTjmNctjzrDpZ2P2KppcasEZsdz2wtbGuFhkhLUUPi2B8TO+8N8mn/JMLWWJs6L+YzOTDMgLC1XsesUvkpQ2U2jUC61Ft+d6yedunYwxwwd2qk3P7lFSA5j6QDC94zYcMQRfpLE3kwWlgcek+tT5ucydMz4i83oDmNr9dFD93iiFM5SaGZQJo1GXdW9t+cyGLPzxaQnXIpL3/rX9W7BXZ1z4OsPaHGskdB6QvFD3y4L3oTPmyrQZWhZ3nSVYMkbNo2gdgocq1J6YPqDVbgrskkudPMEEHNqieYlSEio/axTVG6JODTmvj7iaZ9GcvLYPavZjCwAE+W6M0vE4GYU1kio2h/C0hIW0X0HBI3onSAIYkM4geCZBbLHPlxLAAYgzyg4Ey1mdeO2zKgy3gqyYR3jSxegTBV26STbfGg4xz2MrgRY3gSwdFcBg79i/kH0HmsVDAJZar0VJ/wfnzve2fS",
    "level": 5
   }
  ]
