@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T02:16:00+09:00",
+ "updatedAt": "2026-10-04T02:40:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -1057,6 +1057,91 @@
    "hint": "칸의 수가 크다고 숨은 수가 큰 건 아니에요. 한 줄의 수들을 모두 나누어떨어지게 하는 수를 찾아보세요.",
    "h": "8a4ea75ea6f7421d84f4ff8f96e893b0c7e3016b27d3ceeb62fa8cc3ac9a8f0b",
    "x": "se7smW5/+x8oIKT2uIA/BXihYox9NNBu2BCUhzOLmONFI05b7GZ9VKDAxeHpFjQnborCVYbK7E/QG/JRmbV9zjza2bAQl1VlnrHJjxIgVkI0MA4Hu8QqUsRhWQZV5/rEibhOxKsoE4aChQgVUefmOjS0p0W+HEG1AkLQK/3a2jAK2L+FCzDfwxF2/Fhzmu3DZGuqC9AYQfn046a6Y0rChDVXMZXmzVFVM0F1pXYOVsv6r5i5eU6sIdUKjbqecxLGjWsl0zyMynSe3KETKMkVbfeEr7OwsBGoDkQlqAkU509SFKbPhJdTjmNctjzrDpZ2P2KppcasEZsdz2wtbGuFhkhLUUPi2B8TO+8N8mn/JMLWWJs6L+YzOTDMgLC1XsesUvkpQ2U2jUC61Ft+d6yedunYwxwwd2qk3P7lFSA5j6QDC94zYcMQRfpLE3kwWlgcek+tT5ucydMz4i83oDmNr9dFD93iiFM5SaGZQJo1GXdW9t+cyGLPzxaQnXIpL3/rX9W7BXZ1z4OsPaHGskdB6QvFD3y4L3oTPmyrQZWhZ3nSVYMkbNo2gdgocq1J6YPqDVbgrskkudPMEEHNqieYlSEio/axTVG6JODTmvj7iaZ9GcvLYPavZjCwAE+W6M0vE4GYU1kio2h/C0hIW0X0HBI3onSAIYkM4geCZBbLHPlxLAAYgzyg4Ey1mdeO2zKgy3gqyYR3jSxegTBV26STbfGg4xz2MrgRY3gSwdFcBg79i/kH0HmsVDAJZar0VJ/wfnzve2fS",
+   "level": 5
+  },
+  {
+   "id": "b261005a1",
+   "date": "2026-10-05",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "네 교시 네 활동",
+   "text": "민준·서연·지호·하은이 1~4교시 동안 수영·독서·요리·그림을 한 교시에 하나씩 해서, 저마다 네 활동을 모두 한 번씩 했어요. 한 교시에는 네 사람이 모두 서로 다른 활동을 했어요.\n'바로 다음 교시'는 교시 번호가 1 큰 교시예요.",
+   "clues": [
+    "지호는 하은이 수영한 바로 다음 교시에 수영했어요.",
+    "하은은 민준이 요리한 바로 다음 교시에 요리했어요.",
+    "하은은 요리를 그림보다 먼저 했어요.",
+    "서연은 수영을 독서보다 먼저 했어요.",
+    "민준은 서연이 독서한 바로 다음 교시에 독서했어요.",
+    "지호는 독서를 수영보다 먼저 했어요."
+   ],
+   "ask": "민준이 1~4교시에 한 활동을 수영 1, 독서 2, 요리 3, 그림 4로 바꿔 차례로 이어 쓰면 어떤 네 자리 수일까요?",
+   "input": "number",
+   "hint": "'바로 다음' 단서는 교시가 1 차이 나는 짝을 만들어요. 한 교시에 같은 활동이 겹칠 수 없다는 점과 함께 따져 보세요.",
+   "h": "bae4c1311d30f9fb7490f2587885df97dfcda40158ba1b6b32a8274aca73565d",
+   "x": "ts5Im52ISzc8760QAQTi/pm14vCnJES+BoA4r9J/I0o3vnVJdeVBuOclzrHzJTUxYNTQq/rtHkOi9WFCr2I1zTxmpzeb8l1kE+jj31Ou5IhyM8J0AXFoxBHnO8eIIt9jIdRLbFUqKL4pfEPtNbBGqpHRx+1/Ayp80+Q0NcGVgW88cZGSXBTyYCf5ZnRYQjM3uk8+90Mkkte1mh94NLuAi+GnXmAEM4OLSUdiow8gBxBMQf+d4kA3bZ+mVWnrilqJ4IdRU+wvz+wfBRkA8B2ZLynogAK2YXMdVWLGtJV41Y1Xp0lqDUsYiEyK0HrZfs6CFy52YiekjKXZo2QKbq7dryWfJ77OOThMfECImhjCNzL9wwzX6nyEDIQy5E/HNG6xy1DZas+OHljVaPVZ8I/0LzK0u6YPcdxWdIgbtV6uYKWDlUeoEkbozBCDxnCHxKBKiGdCDLMZ5TSYdCummTbkBOXgQ/c0sw97ow4Cf7MNGSj9kn/ZGuVk1A9p7GQYq+eyjD/t1aFlAq/Mu9ylFRRC5F7+mYB+zgMERbz1ZGBku9pmWYTghf2LGUXdf3TURnGVrTD1GnroUFivqtrhJo5PmTpI3ZPd5yx9IWkHtN7uzZY00TtiyCGVYAuvZO+Uu+NUltqvB8eb9K1iyPK0higFp2hAuXWGk/alloMoycrCdxaShzKQWo4/iej5gdQREwiRiyijtCF9HVBeo48S+pRzJpfbEA3qdR812+DrkiFQjRe47ekCqX7uR/ZYzEhd0FOC1UJCDn6uI1yo3zZbUgeSUKq0gzwAbmrx455AJ5nDXAk02y/91QjrvgDjNAZdCGS2UH6BdUk0XOZzKZm3",
+   "level": 5
+  },
+  {
+   "id": "b261005a2",
+   "date": "2026-10-05",
+   "slot": "am",
+   "n": 2,
+   "kind": "기호",
+   "title": "번지는 점무늬",
+   "text": "칸마다 ●·○ 여섯 개가 한 줄로 있어요. 오른쪽 칸은 왼쪽 칸에서, 아래 칸은 위 칸에서 한 번에 바뀌어 만들어져요. 새 칸의 각 자리는 원래 칸의 같은 자리와 그 양옆 자리, 세 자리 기호만 보고 정해지고(양 끝 바깥은 ○로 쳐요), 이 방법은 모든 자리에 똑같이 쓰여요. 가로로 갈 때와 세로로 갈 때의 방법은 서로 달라요.",
+   "grid": [
+    [
+     "○●●○●○",
+     "●●●○○●",
+     "●○●●●○"
+    ],
+    [
+     "●○○○●●",
+     "○●○●●●",
+     "●○○●○●"
+    ],
+    [
+     "●●○●○○",
+     "●●○○●○",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "●●●●○○",
+    "○○●●●●",
+    "●●○●○●",
+    "●●●●○●",
+    "●○●●○●"
+   ],
+   "hint": "같은 세 자리 무늬가 여러 곳에서 어떻게 바뀌었는지 모아 보세요. 두 방향이 보는 자리 수가 서로 달라요.",
+   "h": "c1f4f973fb367b969517f155616d639e7fa641fe31b988435d64dcbf03a73429",
+   "x": "QXnVmNAFiANqZsdkVFvYCdVwyaanTGN5/+4WrGa6UwLbCF8f36mMgXxg9bs/jwBCyiqX6Ip5ZD19xNyHweKQgP/fOReBSDmjWunb23n8FjTgFXSQLqMazUTIczvq+F/j6L80Aq+Z02LLi4MzWaSP78yG+lRUWExrXQI4mTyASWG6CwALF4Du455DB4QODKWC0wfaU5LoxlPp4x9reRHuqPtFWXhOxiiy/pGyHphNW1ocENRKVvgQ1IEynh/lCbP9lc3WpJSBCv4pibv3rZLRoNXhqExn3aiuesG13oELNWyvFc3sSzq6iZY+eybrL2NXdhnHtJJdDg3vl89ob33/4t4uA2IBYsf/lOXWBi4u4KSfrnji6vDGfq1nFwUuFTecQ1aFg/y6xhX8Igyz6JYkFirKwzER6PYmKC1K2ZI0t+nf06CF1N/yu4KSOaGIQldNBkiHRPpuw3Xotzs7AOVhcWAiZQ4us9+LJC6xKKIo7jtWVgxJbxuJP+SLHhLW0/2FkkJLIhEiTxISwbH7a16OMciextIYjkJGZi5GrTkmAX0/Wtk94BgRnnJ612aal/66Y2BCwQONnT9mbSXlzAtXezg5/l4YiyRl80Rjj7ZH3c7NnTFRKg9s",
+   "level": 5
+  },
+  {
+   "id": "b261005a3",
+   "date": "2026-10-05",
+   "slot": "am",
+   "n": 3,
+   "kind": "참거짓",
+   "title": "케이크 도둑",
+   "text": "1~6번 여섯 사람은 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요. 이 가운데 딱 한 명이 케이크를 몰래 먹은 범인이에요. 여섯이 한 마디씩 했어요. '종류'는 참말쟁이·거짓말쟁이 가운데 어느 쪽인지를 말해요.",
+   "clues": [
+    "1번: 범인은 3번 아니면 5번이에요.",
+    "2번: 1번과 나는 서로 다른 종류예요.",
+    "3번: 나와 범인은 같은 종류예요.",
+    "4번: 범인은 거짓말쟁이예요.",
+    "5번: 범인보다 번호가 큰 사람은 모두 거짓말쟁이예요. (범인보다 번호가 큰 사람이 없으면 이 말은 참으로 쳐요.)",
+    "6번: 범인의 번호는 거짓말쟁이의 수와 같아요."
+   ],
+   "ask": "범인의 번호를 쓰고, 이어서 거짓말쟁이들의 번호를 작은 수부터 차례로 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "누가 말했든 늘 같은 결론이 나오는 말이 두 개 숨어 있어요. 말한 사람이 참말쟁이일 때와 거짓말쟁이일 때를 모두 따져 보세요.",
+   "h": "36ed8659162a0b4398994a81ed7f7769f30672fe3cad5461286e6c90ff69d222",
+   "x": "4Rq2gp77pgccVdgHXq1kaQgrDVykzPeEzMzQ/rrMbE4WOXIyw8MQoMdPbjss3faIEz3r2UziHctp2IUSfrp7Sm1DBdn4kzLpbQAkS1TtZC8ftHC2V5neaLAyiZlDZlRCPlCSdOcd/6zrRXdFoYv0XdApMeJEFM70fFcninatGzjjvYCZXUKEq3tCMLYFdv42c5+aPm052lTaehAEGb/gJ26CkUWJoKcdf/kECe0iJfJtL3YJ3J96F5Ge+7n02kge+G7fi1G7E7Hh/WJRiMth9sMLvPZ6hJWJQWD9k5ZQvUdo1Bu4WDxvXK2OC8uV8FPhTZitLMhSQQTQMlmzLgFDs0GwC3iDyBmVpPADvdbTJ+XhZvMuebzHnq3b+FKuFgbNUqF/WkM2wS24wv1wzm/BvEXzKXuEniCv8THYyVrIvzVakfSZ7lESnL8MMJDGMhChqs3N5LStW06T4lXS8a4pyBD2tqoReTDxVmmN77SINHY3XL86SjzVI8FRJp+8fuXQNvvtH2Rc0OD7sZ299fRzBge/Egqjyl50jKV5jGENlXL5IAg3udd3ccJS6AYR67MgqkC1ILRhYwJ8Cw1I78c1ZXq4FwDuVO+HLcBdkx0awjkDQ/zYZMzU26t56FNYdKnndzhaoymA+6ANyry9tgR1dVseyE72wVXhXLxqBKeUqLTmdfSnKgcpwHOETHRMDuPnESRAZUF2514xzEgXPjT+CSbvMw7PlKmZI8xguFdmjJiHxJCaoxUGV+Zt7EWfbkQNiy9SYFZ5s9xVqUNBtUlA0iSdRtC3bdLzdgmGX80Zs7AvWYXyTrTZ4Vn5KapNxzTvLRXVG+fSmgZeI5Btlz6yI2rwhjvTMIddW0B9P/xik5CK155onAw1SZhYAoxZ4nAbVOWFohZDeReXIJeD61Cv+KvDmWEAEZsgNE1oDEbdBDJj6EabxppqOBeaWaLThNXf9HtBVYe0GE2FahFXQ2EXino4D+C1g+dBL3vhOPvVeL9m+8+Gn+AqJ1nkBI4MFTyK6x9zLH9crqHn3RVxGP3PIsx4xvMZO4HM8HvM7ND+oaVC6nvv2bGB1p7xo6B1OyM9ONc2sTEo2DMXc/swWhnxGBTS1m9Bz9U+K/FKNT5ln57qlSi5NowOv2PF1eUPtrXOnto=",
    "level": 5
   }
  ]
