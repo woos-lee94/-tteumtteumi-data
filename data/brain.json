@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T02:40:00+09:00",
+ "updatedAt": "2026-10-05T02:40:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -1142,6 +1142,223 @@
    "hint": "누가 말했든 늘 같은 결론이 나오는 말이 두 개 숨어 있어요. 말한 사람이 참말쟁이일 때와 거짓말쟁이일 때를 모두 따져 보세요.",
    "h": "36ed8659162a0b4398994a81ed7f7769f30672fe3cad5461286e6c90ff69d222",
    "x": "4Rq2gp77pgccVdgHXq1kaQgrDVykzPeEzMzQ/rrMbE4WOXIyw8MQoMdPbjss3faIEz3r2UziHctp2IUSfrp7Sm1DBdn4kzLpbQAkS1TtZC8ftHC2V5neaLAyiZlDZlRCPlCSdOcd/6zrRXdFoYv0XdApMeJEFM70fFcninatGzjjvYCZXUKEq3tCMLYFdv42c5+aPm052lTaehAEGb/gJ26CkUWJoKcdf/kECe0iJfJtL3YJ3J96F5Ge+7n02kge+G7fi1G7E7Hh/WJRiMth9sMLvPZ6hJWJQWD9k5ZQvUdo1Bu4WDxvXK2OC8uV8FPhTZitLMhSQQTQMlmzLgFDs0GwC3iDyBmVpPADvdbTJ+XhZvMuebzHnq3b+FKuFgbNUqF/WkM2wS24wv1wzm/BvEXzKXuEniCv8THYyVrIvzVakfSZ7lESnL8MMJDGMhChqs3N5LStW06T4lXS8a4pyBD2tqoReTDxVmmN77SINHY3XL86SjzVI8FRJp+8fuXQNvvtH2Rc0OD7sZ299fRzBge/Egqjyl50jKV5jGENlXL5IAg3udd3ccJS6AYR67MgqkC1ILRhYwJ8Cw1I78c1ZXq4FwDuVO+HLcBdkx0awjkDQ/zYZMzU26t56FNYdKnndzhaoymA+6ANyry9tgR1dVseyE72wVXhXLxqBKeUqLTmdfSnKgcpwHOETHRMDuPnESRAZUF2514xzEgXPjT+CSbvMw7PlKmZI8xguFdmjJiHxJCaoxUGV+Zt7EWfbkQNiy9SYFZ5s9xVqUNBtUlA0iSdRtC3bdLzdgmGX80Zs7AvWYXyTrTZ4Vn5KapNxzTvLRXVG+fSmgZeI5Btlz6yI2rwhjvTMIddW0B9P/xik5CK155onAw1SZhYAoxZ4nAbVOWFohZDeReXIJeD61Cv+KvDmWEAEZsgNE1oDEbdBDJj6EabxppqOBeaWaLThNXf9HtBVYe0GE2FahFXQ2EXino4D+C1g+dBL3vhOPvVeL9m+8+Gn+AqJ1nkBI4MFTyK6x9zLH9crqHn3RVxGP3PIsx4xvMZO4HM8HvM7ND+oaVC6nvv2bGB1p7xo6B1OyM9ONc2sTEo2DMXc/swWhnxGBTS1m9Bz9U+K/FKNT5ln57qlSi5NowOv2PF1eUPtrXOnto=",
+   "level": 5
+  },
+  {
+   "id": "b261005p1",
+   "date": "2026-10-05",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수열",
+   "title": "제곱 너머의 걸음",
+   "text": "일정한 규칙으로 이어지는 수예요. 둘째 수부터 모두 바로 앞의 수 하나만으로 정해져요.\n10, 11, 13, 17, 18, 20, 24, 32, 39, 42, 48, 60, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "차이가 커지다가 갑자기 작아지는 곳이 몇 군데 있어요. 바로 그 자리의 수들을 눈여겨보세요.",
+   "h": "51aedff238ab0b65c84a4618dbd21b07b030e59c1ec80b9aa4d8dad685e6f0ba",
+   "x": "6eErR0FsLEK9cW+UggVoDEdBfnMy7SqenScKG+Xi5R1nAMpa47bBAdCrAmn0jsxOAcdF3IdnpZyJsGZpXlF3a/SUjbECg+I9ZADlpye7ZBd+lRFU+bBOSIwO4Vs/3tbJH+faLgyyxyWMqqCWDMtkOc3Eg0RrAlDIl4vWdrKbgN7uoyENvHpPxvNQIzea535U1kdP5Jl5ZX/eeq3UyyoKNjVGu6e/Am4G2HH1tYbrctLJo/1rSYn7aA0PlqQM+Fsc1LlrHjz51loP7uE4TQEOFOT5w3Hv1aSc8kM0h4mQmZ/z7EFpP9Ki4FTQG7zU0azZeY00Sw1UJ7Mposavok70igM1QpyLJnDuew0bK4ojny3XwG58yGBIeKFnDzY4/ZJoOKdtubU3IPDWb3LeyF6L9TVsfYGGy3rB/FJ2WJL8R9mIrgCwst06S8BpNCGQEk2+ZbX/J/Hk0Va8dkFFSukAM6k3imO+IPGP65fitRQ3X+4CEmaQvFmMzmnjHrBR",
+   "level": 5
+  },
+  {
+   "id": "b261005p2",
+   "date": "2026-10-05",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "만약이라는 말",
+   "text": "1~6번 여섯 사람은 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요. 여섯이 한 마디씩 했어요.\n'P라면 Q예요'라는 말은 P가 맞는데 Q가 틀릴 때만 거짓이고, 그 밖에는 모두 참이에요(P가 틀리면 Q와 상관없이 참).",
+   "clues": [
+    "1번: 4번이 참말쟁이라면, 6번은 거짓말쟁이예요.",
+    "2번: 1번이 참말쟁이라면, 6번도 참말쟁이예요.",
+    "3번: 4번이 참말쟁이라면, 2번도 참말쟁이예요.",
+    "4번: 5번이 거짓말쟁이라면, 6번은 참말쟁이예요.",
+    "5번: 3번이 참말쟁이라면, 2번은 거짓말쟁이예요.",
+    "6번: 1번과 4번이 같은 종류라면, 2번은 거짓말쟁이예요."
+   ],
+   "ask": "참말쟁이들의 번호를 작은 수부터 차례로 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "거짓말쟁이가 한 'P라면 Q' 말은 거짓이어야 하니, P는 맞고 Q는 틀려야 해요. 누가 거짓말쟁이라고 가정하면 무엇이 한꺼번에 정해지는지 따라가 보세요.",
+   "h": "3e763da1883cb337276e00013cff43d70ad481da7b085bf8c3f20675d49ff2e7",
+   "x": "jrM1o/J5mMlkNX/NphnPk61Sb9Hd/ofDlhwXN6+5Z1zKeHgRwgg3yg7Tx0QiimqKWmaJj1biFoq3FHe44Bxb8asUy21XnyvHMrkUDylc8tOYo94XouckXzqs5xbAhGSPyXdpD/1rtUKup6k29Qj4oQBr0sxGGxAn2Nn8QHJu2U94wK+HZy3auX45+5bt+UisXaWpDbMsjP6y9DQXasMFviNL/dtM2KANPRLMrY66v6so5mX7+DvfYCezo9ujHXf1GfsrlE1eX827sBAmNXLM0OwHp2XrIApGEmKTho50OJPtEQJwTZ8+2XtZPIxsUbaA56CArVEH0qsD+ycZCg9eZJZ4UrLILCy8CmL2HKOahLHWYVko26g5lbqrRglDa4c5ADgUL+qHNhq6DEkqrAOJkWEthN/6N1YTU/Q0QO6MnWZpB7a5dv/AeAcAGz+L8UpYYE0rLC2MeyPm0ZXRaQTSG02soQAwlKKrjzhYJCsAvY8Nnjw08Afdvuqb2RLk1jbQHR5vGKvzIMn/sZMsjg29xvIE8emlkxi5vVa6YbVTX44fOdRvwM7kXyEOleltxsx6m20r1/1b4fzi9AnyIHIQkZpkJNHAlNoLGNV+YQGma6uDhYeCGyO/UcemAnolRCKn5fdu4e/RH0cy4iPLjUwfnv9GUDQQDq+v1ZdvaEysDfs9Ksw0y2EwmQZRt7EcRTB3ZeKtwQqAhnJQANY+6kZ3s/XspZ5tuHT6ak4lBus1Dciej+kEdbouLELjpxR+2R/QbQKHXs2wLskcVnIeH6G0BVWm/8fKbUfClgbU8EK4i8RrOZMZ+D+lgXz4oJEh+enhqa8dFUpyk8Kc78pQFA7StURZalpZm6B3chODt38VETzN0nSAivGqx6DB3Ud2pCUqh4pBsyb2Ltx1VQdgNsa/AHtkuNpe4YZ53HsHF8imjctzVZn36HyVT4TBI6/kIR/fegMCCBVIzUvqJ0ukFzIJWOlNtNdFoqF5+3JurhOTKPsq/Ips3XiLG0I8twVdCMOm/ZUcNHJYR8SdqnI4G7wpdf2lYJ2ihqnWIsu0HH0KLxGlfo2YE+tp62sppLz1aLqi/l3C4Ddbmozv",
+   "level": 5
+  },
+  {
+   "id": "b261005p3",
+   "date": "2026-10-05",
+   "slot": "pm",
+   "n": 3,
+   "kind": "수리",
+   "title": "홀수 번호의 손길",
+   "text": "1번부터 200번까지 전등 200개가 모두 꺼져 있어요. 1번부터 200번까지 200명이 차례로 지나가는데, 번호가 홀수인 사람만 자기 번호의 배수인 전등의 스위치를 모두 한 번씩 눌러요. 짝수 번호인 사람은 아무것도 누르지 않아요.\n스위치를 누르면 켜진 전등은 꺼지고, 꺼진 전등은 켜져요.",
+   "ask": "200명이 모두 지나간 뒤 켜져 있는 전등은 몇 개일까요?",
+   "input": "number",
+   "unit": "개",
+   "hint": "전등 n은 n의 약수 가운데 홀수인 것의 개수만큼 눌려요. 그 개수가 홀수가 되는 n의 모양을 생각해 보세요.",
+   "h": "3629cb0a1f574d051d5f61373f57c507a078b6d7077e9e42750d06304f13fe9b",
+   "x": "KArX4EPe2qNIkLBfrZr27KhT2AyfG18+oK0zxRi520PYAxYyH6OH2TlH1B4BBV54phkvy1f8Md1TqJf94YwyXY5oOgpsY20SUCdGobhUGbjTTH2uNwgVVMcr3wt+GMenTobHV+OlOHlxdBEcC2sG5IJ41CQL59yZiXb4yckMd5onSB8eX4AuzfoOa5numiGUBIOgdxTQgt48AyRnFg/8BFFUgSbcC37l7A0ZsJFmfqc03uELd1gi+rcx0LuoIlhO1cb868WYHohqgWGGAJ3jEHub7irnkCGymTfw5SyifVy5ijOxbFNOSJYCfPzliXHYa18uF4v+6krvGbF+CzxvZd/SnNm5dQ7yTU808MO2MP4GAHeSUAPjlOwql+z+fPRFQMPkJ1uNBBS1tOXgTFaOWr8lRJxiTT6u6C/JNmUMn6ZE0a3+s0jkSakcgPeAA7O592GXKpyys3KT3OF8TxIV25ZKD1ybssfkrk+KVW+m51UJ0Izim9sZABi+9HS23ULOaaPXmTsuyPb+ha3dBFlMoCATdW7S2AN9w06q1pfPIXP55qnXEVAm0yHpzt4tgnLGtQ==",
+   "level": 5
+  },
+  {
+   "id": "b261006a1",
+   "date": "2026-10-06",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "여섯 상자 저울",
+   "text": "A~F 여섯 상자의 무게는 1kg, 2kg, 3kg, 4kg, 5kg, 6kg 가운데 하나씩이고 모두 달라요. 양팔 저울의 두 접시에 상자를 나눠 올려 다섯 번 쟀어요. 'A+E'는 A와 E를 한 접시에 함께 올린 것이에요.",
+   "clues": [
+    "C+B 쪽이 A+E 쪽보다 가벼웠어요.",
+    "B+E 쪽이 D+A 쪽보다 무거웠어요.",
+    "B+D+A 쪽이 C+F 쪽보다 무거웠어요.",
+    "D+C 쪽과 F+A 쪽이 똑같았어요.",
+    "D+B 쪽이 C+F 쪽보다 가벼웠어요."
+   ],
+   "ask": "A·B·C·D·E·F의 무게(kg)를 차례로 이어 쓰면 어떤 여섯 자리 수일까요?",
+   "input": "number",
+   "hint": "3번과 5번 단서는 같은 접시(C+F)와 견줬어요. 4번의 평형과 함께 쓰면 D가 어떤 무게일 수밖에 없는지 보일 거예요.",
+   "h": "eecdfa82b9c3c87ed2fc503601a24f334ed4d0aab0bd0dbdfcabf2244d5561fb",
+   "x": "MbyYNQm4q3zaSauDJi+3KfzTChGK/Z+v5xipgroePKhFZTyh31ysvM0xkyPVPk50SoRnIUIg5SP6n6oXl8wkfP6Kzp+c07sTNECj6ncfnMUhMLhElrwd/oQmof3sKzO5Ey539eCRiTuxyyMcJ5UqUNL0kVe3IiTuModVssQ0a9HKlBE6dW/ZKjclSbGWiqWpHleECX0N5zyR0JFSVloP+GQDwkD5Dwtu444Ap599ZBVa38inbncft72mBYROYi02vIfIs+HBE9WLiGEqi4FaKiVPZajgTe16Zhe5kqz56w6ojClt2daI5HgrVmDJkyy6lsCMDoCI/ePNJrfopb582LFIFgjuAvQcqcRZk92Vju4JfckYxqvBECgCPa249ebWV1qP0puqiSgVGzmXJYfn4rRBa8x4W1XoU+K4Q1vzuXCb5CX33+V8hnGPQYzjwdFGlfQ20MbhdWjpDWY=",
+   "level": 5
+  },
+  {
+   "id": "b261006a2",
+   "date": "2026-10-06",
+   "slot": "am",
+   "n": 2,
+   "kind": "수리",
+   "title": "곱셈표의 셋",
+   "text": "가로줄과 세로줄에 1부터 12까지 수를 써 놓고, 칸마다 두 수의 곱을 적은 12×12 곱셈표(칸 144개)가 있어요. 예를 들어 3번째 가로줄·5번째 세로줄 칸에는 15, 5번째 가로줄·3번째 세로줄 칸에도 15가 있어요.",
+   "ask": "적힌 수가 3의 배수이지만 9의 배수는 아닌 칸을 모두 골라 그 수들을 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "한 칸씩 더하지 말고, 여러 칸을 묶어 한꺼번에 더할 방법을 찾아보세요.",
+   "h": "7cee262b7a261e647d84c3130f226142c59106c26a579cea425ee936de62d1ba",
+   "x": "i+vCLQVeWjayX//doWPU+01l/uHsRRAzhl1x1AP2mfxFr4m63Fo1dWkHjsKMpUZ8zRGuHLG+Qq1pNL3DXWmfpiG/NvXLsssdNH/ZttRodPW/jLHoSu3sNyztr7JeDRoa6iV3o/1lo1D1U01zkgXG5rwCs2v1JntzHYVAzM4CqSCj3qhdX+SbijmFqvnSG1FiXZgt2hlg6ORHSIdcAjsoaXSlPbfO7S/9D0GQ5kx4I8RMDer4ktp79YnW6/0xa+mbYoNtAqLHxZ7XOSZJ8iMx6V8WHs8PKTJApJ5gq+2Jl/7gOTz+Fonnn0nvJEPEIva3Ao0PAlld0M4yonlK3ET93i3hxhoJXJN+bNb2+y3/niJ7PBv+pDLDtobWm4DCfMVvo/l8Xjzf5jvyRHav7AN3aS1RfGY3yNVugXwCb0PvJPukXzlsKyGNegaK0UkNTk+YxTLHO9ayIngQrHdkLa5iwG6GdvUfhiraYNH96H0IO8k2unWGE6IxFnQryACz3BPW6eVhjC9780bzXEul5nsQYrBNDrHnV52J5s/KGboe",
+   "level": 5
+  },
+  {
+   "id": "b261006a3",
+   "date": "2026-10-06",
+   "slot": "am",
+   "n": 3,
+   "kind": "행렬",
+   "title": "세 이웃의 셈",
+   "text": "4×4 칸의 수예요. 맨 윗줄과 맨 왼쪽 줄을 뺀 아홉 칸은 모두 똑같은 한 가지 규칙으로, 그 칸의 바로 왼쪽 칸·바로 위 칸·왼쪽 위 대각선 칸의 세 수로 정해져요.",
+   "grid": [
+    [
+     "2",
+     "2",
+     "2",
+     "3"
+    ],
+    [
+     "3",
+     "4",
+     "6",
+     "16"
+    ],
+    [
+     "1",
+     "1",
+     "2",
+     "?"
+    ],
+    [
+     "4",
+     "3",
+     "5",
+     "128"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "더하기·빼기만으로는 4, 6, 16을 함께 설명할 수 없어요. 곱셈을 섞어 보세요.",
+   "h": "fdcdc9e16fb45770abb385d1b98501ee52a757da0c9c0f8ca9e03ae5830d5994",
+   "x": "JIK/PcVkJ1jHzz1m9QeUv44k6lm1+ZLDuOTKj/8L26OU6KureGezdNos/cC0i6Ksr4PvbKL6sntSZXv0kidOE+KgGbAN8F1Kpn6qOAG2jX0ih2HyO0RjP/bxn1st8vIoBi6e4FDWH4NsC2YHUX3MIuhukX6DtT9HioKmMfNzYi0TG09TIF+VUI/mQy/r/klrN5suEG2/q06hwmT9m3N/w4uQVk56ieZKeq3NHVptx36ezRpzODl8sqFB6SRZsBSlIGdsXF/ckkCYRD92qpN1JeoyrlrpfUo22Q4AJ32blXiSJ9QYMUbhei8qrYxUWgAfvayi33XuWRMlOb+FbJc30/tpl0qxLCJJUw==",
+   "level": 5
+  },
+  {
+   "id": "b261006p1",
+   "date": "2026-10-06",
+   "slot": "pm",
+   "n": 1,
+   "kind": "행렬",
+   "title": "왼쪽 수의 그림자",
+   "text": "4×4 칸의 수예요. 맨 왼쪽 세로줄의 수는 모두 두 자리 수예요. 나머지 칸은 같은 가로줄 맨 왼쪽 수로 정해지는데, 세로줄마다 그 방법이 하나씩 정해져 있어요.",
+   "grid": [
+    [
+     "14",
+     "2",
+     "0",
+     "5"
+    ],
+    [
+     "71",
+     "3",
+     "1",
+     "8"
+    ],
+    [
+     "41",
+     "1",
+     "6",
+     "5"
+    ],
+    [
+     "?",
+     "1",
+     "5",
+     "7"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "오른쪽 세 세로줄의 수는 저마다 넘지 못하는 한계가 있는 듯해요.",
+   "h": "389f7771a36c5adce08621c95734026086f764b2b04d1319c375c221fca4267c",
+   "x": "z2MZ3NM/H5zrjhTBt5/GS5MdkG0/Irt1vLWz+WoxRe2HoZV6UsYCiKUaBA++YyCWDp7xPK/SMg0dTLagFuDyHn9tefP0q8zCjCl01K6+DOxP1PfjlXtiwsqC+DCMF15Ufx0FXE9dqiAathhXX8F7cwi+rZmcSVTSiCCaxIkSG8n8z08Iiqkd/8VSWgq2/0f+enlE5WkOrJKS7jdC61N7vRgXPzwqOYcLR1uGHpbcYKnQvzf/0RSnwwiHRnaF116Pcr+XrbNJrRTZQ6TpVpjrmnSQPzOUPCqubASg26X/zUt/mFIVm5VAH0mG6CS7uyFreXpjOX5HlwkcYHzdAoJnmIaF85m0iDd6Ma9rf6a/YVDLGbPhETF2/f2QhXmbF86EKHT1Qzj6AxuCwTfHTAmNnCATWCraBycHPJSgBNuGqtUzKQQqUjhs3uACJrbTQWrXcBE9lH/c90uHHvbaYuCROCEyZnSk3IhXrIGFNQ99UC9G/UINiQ1iRUIn2B8w4FlzeB/aDZAXnMA0+A96V2WLbjY3MwyKv/o=",
+   "level": 5
+  },
+  {
+   "id": "b261006p2",
+   "date": "2026-10-06",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "둥근 탁자의 일곱",
+   "text": "1~7번 일곱 사람이 둥근 탁자에 번호 차례로 둘러앉았어요(7번 다음은 1번). 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요.\n'왼쪽 사람'은 번호가 1 작은 사람(1번의 왼쪽은 7번), '왼쪽 두 사람'은 번호가 1·2 작은 두 사람(2번이라면 1번과 7번), '양옆'은 번호가 1 작은 사람과 1 큰 사람이에요. 0명은 짝수예요.",
+   "clues": [
+    "1번: 나를 뺀 여섯 가운데 거짓말쟁이는 짝수 명이에요.",
+    "2번: 내 왼쪽 두 사람 가운데 참말쟁이는 딱 한 명이에요.",
+    "3번: 내 왼쪽 두 사람은 같은 종류예요.",
+    "4번: 내 양옆 두 사람은 서로 다른 종류예요.",
+    "5번: 내 양옆 두 사람은 모두 거짓말쟁이예요.",
+    "6번: 내 양옆 두 사람은 같은 종류예요.",
+    "7번: 내 양옆 두 사람은 서로 다른 종류예요."
+   ],
+   "ask": "거짓말쟁이들의 번호를 작은 수부터 차례로 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "5번이 참말쟁이라고 가정하고 6번→7번→1번→2번→3번 차례로 따라가 보세요.",
+   "h": "2ca94dc359afccc46f08f74d8d627970718a80566c5693d0b7abdb8a417bb584",
+   "x": "9DtruqyZKaysZ9XoIB9xTDme5NAjtL7bS7HhEbxjUEIqc3Xrq9u5d48PkxWnchFSGDMJL0Lpk9CDIUPVtkhXaUN+Iqm5oBRoVyCD/Hnc7pXfKwczqsrYd6y6hhaqBf7c3l+oRQADD8wklS8Y794vtThAQ+DZLHKv6JfEKLyx+SckK2lydsuTSSDGK/KNvWmdwvz3dEv4GjF+TOMvESXhxF+NYfzd69On4pa5WbE9QpH2CfuHoY5AxWEgn11esY63KxFX/EiURGMpegobiFulk5xBZI9PbjHlerjcW2/M5kh13qO97SQcXv0Xn9MJsuzP8bCZ3eIcmwDJZcmZ7aVscxZvu9nGj0uPkBYuSusBtbN1JTqoi2cSytKy3gMMqmn09RxP4XEl7PFI52vIEwGTcLi9hsWFIiml/b5ko2XKEdIMnCHbZ1064KXcHXhA9iP+SlKFQ977hI64rdYPxMKTG+N+xuGahrMHtle+okexd7ASNhlD4I0XCs9okEOw1Lh6/tvNz5R3vV52Z63PxbpwnIdOn1T9KPI6IORAAfL5n0Aui2E5X7brStvz3NrE4qszceNCZpXDNbvnBxLqtSRKYl9qZ/trJHwXL1zYws7dFoXej2aYAyBbYA1pcPxLKxOeXGG9Ln3H6zml/LYvishAXAPOssksRPycmrwp1qEx8gx7VRTA+BwvvK/86/+rKIeBdtObFKxHMpH+gKcnid/gpBmnW5LJEJOLb6xIqpssTBV0S3C0d+wRZA+FTpsK7oOHCc1rqPqsq/bgZeGzcERV1tAmSooUtklBp+qCPSLX0wucJDsnMZU54m2a8+LOZVlMCpiC8XTW7HCqjoYiCyUFZ8h6XwypDX58WtxnlX6OL4CK0UMNup17eY2Ar5tFr9bJsYf/4xVDiQi022Oy70DaVjclqRxQ8bxUm08Jj5Nn0skWSAFh3W/UBVX2Xlk2RD9LyGNCTsYl3hgEx98hDx6m6EryKXUbEAjMVv7vciZj1yku1i2C5qu62xyrPnQvBDVMw3hzvhyaiQ1VrRZNHUoMp23Jatd6o39wehmUX7o=",
+   "level": 5
+  },
+  {
+   "id": "b261006p3",
+   "date": "2026-10-06",
+   "slot": "pm",
+   "n": 3,
+   "kind": "암호",
+   "title": "줄 선 숫자들",
+   "text": "숫자를 한 가지 규칙으로 바꿨어요. 규칙은 모든 수에 똑같이 쓰였고, 바뀐 수도 원래 수와 자릿수가 같아요.",
+   "clues": [
+    "5281934 → 4130200",
+    "3606152 → 3403010",
+    "74471820 → 53331210"
+   ],
+   "ask": "같은 규칙으로 7395153을 바꾸면 무엇일까요?",
+   "input": "number",
+   "hint": "바뀐 수의 맨 끝자리는 늘 같은 숫자예요. 왜 그럴 수밖에 없는지 생각해 보세요.",
+   "h": "513804c937a19b38022e4d58ab1fb19cb61a07511cf1a67a410c8ba8e2b9540d",
+   "x": "sNgp9HzpsAoYJcds+uBVaqa/udtOdJxq73jl7G9b1ty72BfLghLgKfzDsHoO6pt6UHXxsajAJKHK13XpNLnyF6a96TIRogETtmrKYCxF8DraUUglpsieTRDiMWoCIXs7pebpMlMb1uS32wrEApgBR6RiR3qx0igrAIOiixYGDs4d+Hf1A9Xc2cXZiuJjVR4Asg59xMC2KWRE2AleWyXXuUZN/pl1xGcrzmIVuPxamunHynKHFxXXNefYRJMAy+bK5ZqSWgbqw3AIRC2rPsbVLKfRzFbfhYhhdbENw5SDv/fCl72oiF0pfeH0cXZVs51JfAGJY2Zh+7l0Oh3KPlGiNt3CUDicDKeB3L3x6OQtclHIpxMbebSWmcWvEoDKMbVTmIj3FyJV7Xjp464XvUpLeCUuvVCN/ALXmDvdlNWdlCZqZae2O4+zaQYVGUxZBM2vUf2Ivy+9gHcv1utKUfgnQ+YAGAh3SjbrPJWtyocC8R9Prw+GyVW845MRnLmI5CJv/gDb+oS2HhjA4ZWzSn1zCcmxOnFOtK5COfPMsqkYzvYwp6Tc8anc/WyiqAMOaIjKi4PwFpzQLp3XYpa+PjRwJlwnvCtbSgC8eF1PbcaoFpcFiswGukf0",
    "level": 5
   }
  ]
