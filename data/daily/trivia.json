@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-10-04T04:35:00+09:00",
+ "updatedAt": "2026-10-06T04:34:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -734,6 +734,80 @@
    "source": {
     "name": "캐나다 국립연구위원회(NRC)",
     "url": "https://cnrc.canada.ca/en/certifications-evaluations-standards/canadas-official-time/what-years-are-leap-years"
+   }
+  },
+  {
+   "id": "tv50",
+   "title": "연필에 적힌 HB는 무슨 뜻일까?",
+   "answer": "심의 단단함(H)과 진하기(B)를 함께 나타낸 등급이에요",
+   "body": "연필심은 흑연과 점토를 섞어 구워 만들어요. 점토가 많을수록 단단하고 흐린 H 쪽, 흑연이 많을수록 무르고 진한 B 쪽이 돼요. 흔히 H는 Hard, B는 Black의 머리글자로 풀이하고, 숫자가 클수록 그 성질이 강해서 4B는 HB보다 훨씬 진해요. HB는 딱 가운데라 글씨 쓰기에 가장 많이 쓰여요.",
+   "tags": [
+    "물건"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Cult Pens(필기구 전문점) 연필심 경도 안내",
+    "url": "https://cultpens.com/pages/lead-hardness"
+   }
+  },
+  {
+   "id": "tv51",
+   "title": "전자레인지 접시는 왜 빙글빙글 돌까?",
+   "answer": "안에 생기는 뜨거운 곳과 찬 곳을 골고루 지나가게 하려고요",
+   "body": "전자레인지는 1초에 약 24억 5천만 번 떨리는 마이크로파로 음식 속 물 분자를 흔들어 데워요. 이 파동이 금속 벽에 부딪쳐 되돌아오며 서로 겹치면, 약 6cm 간격으로 세게 데워지는 곳과 거의 안 데워지는 곳이 생겨요. 접시가 돌면 음식이 이 자리들을 번갈아 지나가서 고르게 데워져요.",
+   "tags": [
+    "물건",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "네덜란드 델프트 공과대학 물리 실험 교재",
+    "url": "https://interactivetextbooks.tudelft.nl/showthephysics/demos/demo49/demo49.html"
+   }
+  },
+  {
+   "id": "tv52",
+   "title": "탄산음료 페트병 바닥은 왜 울퉁불퉁할까?",
+   "answer": "안에서 미는 탄산가스 압력을 고르게 버티려고요",
+   "body": "압력을 가장 잘 견디는 모양은 공처럼 둥근 모양이에요. 하지만 바닥이 둥글면 병이 서 있지 못하죠. 그래서 바닥은 반구처럼 둥글게 부풀리고, 둘레에 작은 다리 여러 개를 내어 똑바로 서게 했어요. 납작한 바닥은 탄산 압력에 볼록 밀려 나와 병이 기우뚱해지기 쉬워요. 이런 바닥 설계는 1980년 미국 특허 출원에도 나와요.",
+   "tags": [
+    "물건",
+    "과학"
+   ],
+   "level": 2,
+   "source": {
+    "name": "미국 특허 US4368825 '스스로 서는 병 구조'",
+    "url": "https://patents.google.com/patent/US4368825A/en"
+   }
+  },
+  {
+   "id": "tv53",
+   "title": "철새는 왜 V자로 날아갈까?",
+   "answer": "앞 새가 만든 위로 오르는 바람을 타 힘을 아끼려고요",
+   "body": "새가 날갯짓하면 날개 끝에서 공기 소용돌이가 생겨, 바로 뒤는 공기가 내려가고 비스듬한 옆 뒤쪽은 공기가 올라가요. 뒤따르는 새가 그 자리에 서면 떠받치는 바람을 얻어 힘이 덜 들어요. 2014년 「네이처」에 실린 북방대머리따오기 연구에서는 새들이 앞 새의 날갯짓 박자에 맞춰 날개를 움직인다는 것도 밝혀졌어요.",
+   "tags": [
+    "동물",
+    "과학"
+   ],
+   "level": 2,
+   "source": {
+    "name": "내셔널지오그래픽",
+    "url": "https://www.nationalgeographic.com/science/article/birds-that-fly-in-a-v-formation-use-an-amazing-trick"
+   }
+  },
+  {
+   "id": "tv54",
+   "title": "골프공 표면은 왜 오목오목할까?",
+   "answer": "공 뒤에 생기는 공기 저항을 줄여 더 멀리 날게 해요",
+   "body": "매끈한 공이 날면 공기가 표면에서 일찍 떨어져 나가 공 뒤에 커다란 소용돌이가 생기고, 이것이 공을 뒤로 잡아끌어요. 오목한 홈(딤플)은 표면에 얇은 난류층을 만들어 공기가 공을 더 오래 감싸고 흐르게 해요. 그러면 뒤쪽 소용돌이가 작아져 저항이 줄어요. 공이 회전할 때 위로 뜨는 힘을 키워 주는 효과도 있어요.",
+   "tags": [
+    "과학",
+    "물건"
+   ],
+   "level": 3,
+   "source": {
+    "name": "일리노이 대학교 물리학과 'Ask the Van'",
+    "url": "https://van.physics.illinois.edu/ask/listing/945"
    }
   }
  ]
