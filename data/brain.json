@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T02:40:00+09:00",
+ "updatedAt": "2026-10-06T02:43:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -1359,6 +1359,155 @@
    "hint": "바뀐 수의 맨 끝자리는 늘 같은 숫자예요. 왜 그럴 수밖에 없는지 생각해 보세요.",
    "h": "513804c937a19b38022e4d58ab1fb19cb61a07511cf1a67a410c8ba8e2b9540d",
    "x": "sNgp9HzpsAoYJcds+uBVaqa/udtOdJxq73jl7G9b1ty72BfLghLgKfzDsHoO6pt6UHXxsajAJKHK13XpNLnyF6a96TIRogETtmrKYCxF8DraUUglpsieTRDiMWoCIXs7pebpMlMb1uS32wrEApgBR6RiR3qx0igrAIOiixYGDs4d+Hf1A9Xc2cXZiuJjVR4Asg59xMC2KWRE2AleWyXXuUZN/pl1xGcrzmIVuPxamunHynKHFxXXNefYRJMAy+bK5ZqSWgbqw3AIRC2rPsbVLKfRzFbfhYhhdbENw5SDv/fCl72oiF0pfeH0cXZVs51JfAGJY2Zh+7l0Oh3KPlGiNt3CUDicDKeB3L3x6OQtclHIpxMbebSWmcWvEoDKMbVTmIj3FyJV7Xjp464XvUpLeCUuvVCN/ALXmDvdlNWdlCZqZae2O4+zaQYVGUxZBM2vUf2Ivy+9gHcv1utKUfgnQ+YAGAh3SjbrPJWtyocC8R9Prw+GyVW845MRnLmI5CJv/gDb+oS2HhjA4ZWzSn1zCcmxOnFOtK5COfPMsqkYzvYwp6Tc8anc/WyiqAMOaIjKi4PwFpzQLp3XYpa+PjRwJlwnvCtbSgC8eF1PbcaoFpcFiswGukf0",
+   "level": 5
+  },
+  {
+   "id": "b261007a1",
+   "date": "2026-10-07",
+   "slot": "am",
+   "n": 1,
+   "kind": "기호",
+   "title": "돌아가는 화살표",
+   "text": "칸마다 ↑→↓← 가운데 화살표 네 개가 한 줄로 놓여 있어요. 가로줄은 셋째 칸이 첫째·둘째 칸으로, 세로줄은 맨 아래 칸이 위의 두 칸으로 만들어지고, 가로와 세로의 규칙은 서로 달라요.\n두 규칙 모두 '어떤 화살표를 다른 화살표가 뜻하는 만큼 시계 방향이나 반대 방향으로 돌리기'(↑=0°, →=90°, ↓=180°, ←=270°)로 설명돼요. 무엇을 무엇만큼, 어느 쪽으로, 어느 자리끼리 돌리는지는 찾아야 해요.",
+   "grid": [
+    [
+     "↓→→←",
+     "↓↑←↑",
+     "→→↑↓"
+    ],
+    [
+     "→↓↑↓",
+     "←→↓↓",
+     "→→↑←"
+    ],
+    [
+     "←→←←",
+     "→→←↓",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "↑↓↓→",
+    "↑↑↑→",
+    "↑↑↑←",
+    "↓↓↑→",
+    "→↑↑↑"
+   ],
+   "hint": "세로줄부터 자리마다 위 두 화살표와 아래 화살표의 각도를 비교해 보세요. 가로줄은 같은 자리끼리 맞지 않으면 한 칸의 순서를 바꿔 보세요.",
+   "h": "00b90c4f7b8e3afac5ee96689405f7cb6b7748ae518c7b84ae177bbe9b5ef73b",
+   "x": "Wa0/pJ8gNSZSoXWen1OhOBW5evc9eQ/CmKGE3Z3wiKaJ6WL/xl9ByUxvV4QtslkC5zOZRWveWKX80FKlGxQ9GJxZ+pgoFz8wpwrHIRMz0PFyNgjgznYKGPFSlH8VMggRpCzkCOsRrUzmUWps8ak8VkrLs1sC5MQdmfoIIQDRKRjCZIjAV+YNYbqAOqi16YI2WSkDuroJHxG+TtMCilkpEd1StVEactczmZcNBWQjtBxos1rjK0RZpNrE1QVsnkiqJdGFWTxXgKjM3nxMimw7j3RGCq/cFhQEyRWzVvXt1xjo9wlVfuPbFOZXlo6uN1diF1OiNfC9TNxdhBPHiTCakvZITMLw5QCvNKrB1+5HdRoEpuPiBdbPioT8VnXFPnQBFhnkO+kHC0lrMCMi1z6tAlDJ8PSAi55aXPoRLZ3b11DOSZDU9b9b3JNYnPRgu8RvIItNwvX699XfULXvvN1bBzugld6evWeFvV9aoDgUe40m82aa3HGf0Dz2229DaUaU5YaYmFr/sK/fREWsvqjm6LJgiMSi+bGKFKomlhmuvcZu5HdcSNdEVEFyPYQyavvU6AI0BYZQ3rsuLX7RIGOx+QTXACLe91LyT11ZZ9rgVNg6qzp2vehxDxjwZ7K/jQ9Gq17ai8L39GF+HztnQztZ5YwIVIitAw==",
+   "level": 5
+  },
+  {
+   "id": "b261007a2",
+   "date": "2026-10-07",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "여덟 명의 토너먼트",
+   "text": "1~8번 여덟 명이 토너먼트로 탁구 시합을 했어요. 1회전은 1·2번, 3·4번, 5·6번, 7·8번이 맞붙어요. 준결승은 1·2번 경기 승자와 3·4번 경기 승자, 5·6번 경기 승자와 7·8번 경기 승자가 맞붙고, 두 준결승 승자가 결승에서 맞붙어요. 모두 일곱 경기이고 비긴 경기는 없어요. '많이 이겼다'는 이긴 경기 수가 더 많다는 뜻이에요.",
+   "clues": [
+    "8번은 2번보다 많이 이겼어요.",
+    "3번은 4번보다 많이 이겼어요.",
+    "우승자의 번호가 준우승자의 번호보다 커요.",
+    "번호가 둘 다 짝수인 두 사람이 맞붙은 경기는 없어요.",
+    "8번은 우승자에게 졌어요.",
+    "일곱 경기 가운데 번호가 작은 사람이 이긴 경기는 딱 네 번이에요."
+   ],
+   "ask": "준결승에서 진 두 사람의 번호를 작은 수부터 쓰고, 이어서 준우승자, 우승자의 번호를 쓰면 어떤 네 자리 수일까요?",
+   "input": "number",
+   "hint": "8번이 몇 번 이겼는지와 누구에게 졌는지부터 정하고, 짝수끼리 맞붙지 않았다는 단서로 준결승 대진을 좁혀 보세요.",
+   "h": "53f75e946b527f4be1cb7457e113f4c4b0e12f03ea4201a9280058fd67bfe930",
+   "x": "p4IwDB3nqeHwybkCjPFV3ZkGZPLiSq+Uzdwf6oKhgXy2j8v3WiFNIuOPIVP67IRH3ZxSEaeQElH84S8qNjUZJfSxkNuE3XFTFHEI9wjXdpOrtlaXOp7a6/Hk2tqUUmyrx8LqG0rvP36BlWJBd+4/udaF8S5JZcclO/AJp5t7oKyBmxRbPHAuEtGqf67uZhKHRIUgGuo6wkSIZHTFECSEI53YCz81V+t/Bd0LzhIx7wWRMdtLyy6kB1d6JBDuQBVliwKZjY258YHYaiDhwaGEabNHHJ0wDf8xws+b8oxdR4EbwmnGHs26/d4BxLibcDE5CbIFdDCYVHLOnIQzqy79gaVlM1q41MkHoKFL0G2/Ka571kz4LfLgpKJ8cl1aQqgvOIcld7smDuDcJfkjcSlbIiItWk7Yjg6ajqf67SpG5fDYJhNrHbhhZZ/iX6RaufWpK7LRupU8D9W1wVvZygsilNtr88H+8+H3qO4fVBZCDABVHG/30FFlkFuru64Csu7xj8RCq5mmfKPiaXXGvd+b34NUl5rJeZTDnz8SqWT+63sKp6lEnX+ehj9/Xq3+SEAmvBjESKrzDBMiELxbDdKBOfoz2HfKwnNgwFVpXvzZ4abnFImIUkkfKs50F1eCsizn5kYF19KtFfHUbovEvyH9oFWRNYT2x9K9bF+yUmfiYfEzsOrIirPMHkeQDGoDpccOSyZZKHvsliGsc/P8sv6kiP+WNvvb/EzNrLiCSofY4fix7xVTA4DGIGKPuqtpvWatNeAUUZ12K8YSbXHDrj7XAYq4e2jmzb70e2lIDFbi8ZXp8pXYv2Sp8rXNkPNPtVRYjrt/FdeeRMCRUcFlhD72Uljoi9ZKMipUxyyTe9dkqB5oq/pRjXNb9pRw4vT7LIKST7r8M0QSVWMd5e0tuBDtT+7oZBXSvR2MKNDEHXlyuHvk6LiQBTFDgC8SQp+fo1Q=",
+   "level": 5
+  },
+  {
+   "id": "b261007a3",
+   "date": "2026-10-07",
+   "slot": "am",
+   "n": 3,
+   "kind": "수열",
+   "title": "엇갈린 오르내림",
+   "text": "일정한 규칙으로 이어지는 수예요.\n12, 7, 61, 44, 93, 134, 119, 217, 173, 276, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "오르내림이 들쭉날쭉한 까닭은 수의 크기보다 생김새에 있어요.",
+   "h": "d3f1adcbe5df633f574448056e9dd58a51b32860e56265038d177584336e603c",
+   "x": "Hb2tR4AzVTJYO95widOmqXKAHkANlPeANqRXeMhYpXYbxpw/3cWFxA6f1dgOxHJoi31N0DtGDSXmrA9lomXxSZjrMx7vkvXyt/wemwynmfzQk83RMXReqnacpXvri4udxxiB9JbCJLlfZu9DdDuHstIznvMBRji9qA+bR9yeUCN1/Oc3jKHiDXd5S70vU1o6zwcaYsRuwftIllTyYmyrDj2QE2BLKWGadKxoVlsR9lNWjRxgk0rvTMEV/gbFQct7IgjWE2d6H7YOSetoRbNTPPy73qLw05P7t0j3lohT9BjWsLeH5QTHS3aOvPmyLzUXqcMgwCbrMMdXO8QA2eywcUfC4ddPa+C+zkeuYsmEcCllsigsaWEipEnG0QPMrZAjx8+u2bs=",
+   "level": 5
+  },
+  {
+   "id": "b261007p1",
+   "date": "2026-10-07",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "세 동전의 빈틈",
+   "text": "어느 나라에는 동전이 10원·12원·15원 세 가지뿐이에요. 같은 동전은 몇 개든 쓸 수 있어요.\n물건값은 자연수(원)이고, 거스름돈 없이 동전만으로 값을 딱 맞춰 내야 해요. 이렇게 낼 수 없는 물건값은 몇 가지뿐이에요.",
+   "ask": "낼 수 없는 물건값을 모두 더하면 몇 원일까요?",
+   "input": "number",
+   "unit": "원",
+   "hint": "값을 끝자리(10으로 나눈 나머지)별로 나눠, 끝자리마다 처음으로 낼 수 있는 값을 찾아보세요.",
+   "h": "a38c6f34470d080b75c3cffc6b8f30d6e341d50b4ec8e39b1b83c32c33c1920a",
+   "x": "19n0okcgDVZCS/UsU4mgeIUNBW62YxEBj91/wkDlBUSwEmiqm5n/EHlNWNT66gAkT9AM70MEw34JTBjbiae1svlqas7jt4Ntf+9zO5LSRYHNRmtf4PQhZopaWsatW+zba2Nm8xd/c7IFviX64+PDuryRoRGtqGpevgvPzc1/vdoWyP1fvtx0qlre11AQa/UoXd7fcQFKqrpc6SKv6hit5JUc+U/vWEMGRjHBJB9QMoWXLvIfmr4j4/DIGjWFXiD3BChfrmDmrwHHpVA2AIHy050PWEu5mxCLEUU1Bi01OW7FukbKsxcE/e2izukqk/R7Be8ZDCLp9j3KGQdvN327HRuhQJIclYaFQXgXSnWhinL99h3i2xCiuXkgKcsySEd/yvOjWHl9WVrL/FNJFiXN7bICO/UFgmOlVgedAUmy7z3QFMekmO8R6wzMUUdSbkaBYhtlIW4P0ZlFxF/wisfuzzMw1E0LzbTJFzZIAHPUQ/qB0eYznte70By9N9/hLrs/hzb3Ve2r3Np520I8hXLMrijglvkylFzd59rujb+U/C1B",
+   "level": 5
+  },
+  {
+   "id": "b261007p2",
+   "date": "2026-10-07",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "마음을 바꾼 지호",
+   "text": "지호가 1부터 50까지의 자연수 가운데 비밀 수 하나를 정하고, 아래 일곱 마디를 차례로 했어요. 지호는 처음에는 참말만 하다가 어느 마디부터는 끝까지 거짓말만 했어요. 첫 마디는 참, 마지막 마디는 거짓이에요.\n한 자리 수의 십의 자리 숫자는 0으로 쳐요.",
+   "clues": [
+    "① 비밀 수는 3의 배수예요.",
+    "② 비밀 수는 홀수예요.",
+    "③ 비밀 수의 십의 자리 숫자는 제가 한 일곱 마디 가운데 거짓말의 개수와 같아요.",
+    "④ 이 말 앞에 한 세 마디는 모두 참이에요.",
+    "⑤ 제 일곱 마디 가운데 참말이 거짓말보다 많아요.",
+    "⑥ 제 세 번째 마디는 거짓이에요.",
+    "⑦ 비밀 수는 7의 배수예요."
+   ],
+   "ask": "비밀 수는 무엇일까요?",
+   "input": "number",
+   "hint": "⑥이 참이라면 ③은 어때야 하는지, ④가 거짓말이 시작되는 첫 마디일 수 있는지부터 따져 보세요.",
+   "h": "aa3417e558f46e6f217bcec1216fe79ca2ae92758d4318acffd905dd5db81fa9",
+   "x": "juApj2TBh4G4B2hio1PVcxU6DcrIQhdfVSFn2z38URhaYnJyBRh0Nq3R8EAQVcw04ETELl9EV3TRo46PIom7IJE1kipL85AmWuQFrUin62387GJNqTwHS7UIMbKVrH980vSkaVdv/GPOZhIlINO8Hy95h50vJcQGOw7GwtGVQelQjf6wUHpWsbQQpUjVj8BI5GbYO7uVK4tEPW7xMRYKv+hASAxXvskpn6Dga9t723xyt6/AFjUygGiW28nrrGQq4U4O16iCWYkhamVddYlwZ7WqXmIxuljjvH0CFDWy39L5dWA9E9JhhZa26FImWfV/VaxlMq9Z3JeLI3jQf5QfrY7Ip4NPCuoNTD1OKE1l6DRvOd/tYvjmjwC9RdajCNSForvDBnt3/vmi/ll3EVoO6xgL/wle8c9jqjv5ohWcvq6VvwtUtENOllZXh938hkdeNv2rNTXRJTTvFw8gPmEaE3H+uGhABAm6GzBWnav3/2v7GkelF34n/tzkIPGSXyaZous1SEhPkMvZDDyebhyol6jKEiZt9PW8gm9fGdX8CbLJuRxzY0p8fQ81i61un3d3fHai1rRJ9TbtiQpySMmYifo0dfUWSkw9aURhV5uc5JNCLTi5ErWgWfOpQZ5MBblNCAWbDsn2xiR/J4zZnYhpiJPk6lNEBh1AUWwIFlpvmTTe8DNlFWgG9TQvm9IM/BJ14wnp+miURrXUz474DkoMTtmCo2dXYWgxHJp5lroInDLYZR0ZEdTf8Sns",
+   "level": 5
+  },
+  {
+   "id": "b261007p3",
+   "date": "2026-10-07",
+   "slot": "pm",
+   "n": 3,
+   "kind": "행렬",
+   "title": "곱이 같은 아홉 칸",
+   "text": "3×3 칸마다 자연수가 하나씩 들어가요. 가로줄 셋, 세로줄 셋, 대각선 둘, 이 여덟 줄 모두 세 수를 곱한 값이 똑같아요. □는 아직 모르는 칸이에요.",
+   "grid": [
+    [
+     "□",
+     "81",
+     "?"
+    ],
+    [
+     "9",
+     "□",
+     "□"
+    ],
+    [
+     "□",
+     "16",
+     "□"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "가운데 칸을 지나는 줄들의 곱을 서로 견주면, 가운데를 사이에 두고 마주 보는 두 칸의 곱이 무엇과 같은지 알 수 있어요.",
+   "h": "7d69005ac90a4b9fc82563950d62f9f5c808101d67a067b04c1e2db33e07093d",
+   "x": "UkgpP/jn2E+/FcPOT/959xIZXSre+wynAgdLWUryUKdVNGsxU1KsfSshAgeh2Plf6x1cNoQLdLbfJjM77Y2U7PNNp38X+t+Oi2bBb1PvQo+HZ3mOiLQMwu7+NAWveT3g+NXco7tTmbyjQTfWlL/E4ipF/dhgaswEPXSGjByx/EkR9seDHuDpacF2pfuAfAGfL2mMBp0VNKUKKY0wRqE8+ovKMh3pJzrp5bmkUXk509Wh43nG7+vdg7jaACtq1PoYENd3UpBU/ucLcpXkQVUZ7PO/eVbswNtjc74ckG85rYhp8OqbMPdA/lhc/O+e7hNYLjZGge23wpJwguRq8cGoPHCpwgosLHxznHYexGoUGWiavCesNpEPXqGDWySKIlu/VdSvS/VgxJtbiblTVAD219FFD9xBxTpieP7N",
    "level": 5
   }
  ]
