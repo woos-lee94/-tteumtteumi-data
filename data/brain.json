@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T02:43:00+09:00",
+ "updatedAt": "2026-10-07T02:10:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -1508,6 +1508,161 @@
    "hint": "가운데 칸을 지나는 줄들의 곱을 서로 견주면, 가운데를 사이에 두고 마주 보는 두 칸의 곱이 무엇과 같은지 알 수 있어요.",
    "h": "7d69005ac90a4b9fc82563950d62f9f5c808101d67a067b04c1e2db33e07093d",
    "x": "UkgpP/jn2E+/FcPOT/959xIZXSre+wynAgdLWUryUKdVNGsxU1KsfSshAgeh2Plf6x1cNoQLdLbfJjM77Y2U7PNNp38X+t+Oi2bBb1PvQo+HZ3mOiLQMwu7+NAWveT3g+NXco7tTmbyjQTfWlL/E4ipF/dhgaswEPXSGjByx/EkR9seDHuDpacF2pfuAfAGfL2mMBp0VNKUKKY0wRqE8+ovKMh3pJzrp5bmkUXk509Wh43nG7+vdg7jaACtq1PoYENd3UpBU/ucLcpXkQVUZ7PO/eVbswNtjc74ckG85rYhp8OqbMPdA/lhc/O+e7hNYLjZGge23wpJwguRq8cGoPHCpwgosLHxznHYexGoUGWiavCesNpEPXqGDWySKIlu/VdSvS/VgxJtbiblTVAD219FFD9xBxTpieP7N",
+   "level": 5
+  },
+  {
+   "id": "b261008a1",
+   "date": "2026-10-08",
+   "slot": "am",
+   "n": 1,
+   "kind": "암호",
+   "title": "순서만큼 밀린 글자",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, Z 다음은 다시 A로 이어져요. 여기 나오는 낱말에는 같은 글자가 두 번 나오지 않아요.",
+   "clues": [
+    "WOLF → ARNG",
+    "MUSIC → PZWKD",
+    "PLANET → UOBRGZ"
+   ],
+   "ask": "같은 규칙으로 바꾼 결과가 YTWKQH라면, 바꾸기 전 낱말은 무엇일까요?",
+   "input": "text",
+   "hint": "글자마다 뒤로 몇 칸 밀렸는지 적어 보면, 낱말마다 1부터 글자 수까지의 수가 한 번씩 나와요.",
+   "h": "755fdbf14dcb866eaef2f66b1cc463a87be9f4d8828313dcfa648568c8bccde5",
+   "x": "tIctElszScrb+TJ8bafpd4oV19qYipyZrfRmVI7Cz8SCwA04Lmoz6Ec5P5bQX4Gj8KhpnStm567tgt9vrS+VZiQZ8bmondVBWk2xKXXtr2YEk3zG5HQj1nVjQPW9fGdTdXTPOT/wpzSDaz+OZiQucgILbRfIMMGjRS3nYiX30G2++PK6HQX83121drLyJTlxK0hg76EbCeBqEAzGZxXjuCl2D08ZCPvECJgN+ZjrhVJW2ApQxCB2Bj3gqGgkCKWnjqmI5C4CoZIxM2KVuCvyEYo0yRDsDr8+GbF5pSRhsn6gOMTZMipWXRgiZbsyP6+ay4C9l/W5a4CTyv5bqpgH8rl+c0wgK0G3TbLVOENPg2XaXKKaAbOYs0V+5LeS0yFpqUIcBq2axn05r8FJ6kE7DIgVcsb7gno0STcFks3jvSMoUK1ONL415+sTF496HQJssOg+BxYsG1m6v8N+Fzjjm0bqEHe2RX2QwL3o8Whwkl1imxkoMDKAwqbN2d82n2VSxAKMm+U7hUUZ1LXK+R1kC9LZyspcmO9Qz3ZU2Zab2ewJNMHmNEQQ0f+GqOvjoC75rEkCctGNnwXLIAR2JuJWkkfanAsDKBBDgRHO4fya/fnK29FOlpURVg/nM+aTyLb+9v0SeNJ+97EB2BCGczFNs/icml318QxmNyw0KdtU+brad3txdsJKYiPFhl6CQq+7383NJpUzo3OKCfCI1ODAEae+ZtRFrit63h4C5CnmOgI=",
+   "level": 5
+  },
+  {
+   "id": "b261008a2",
+   "date": "2026-10-08",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "숨은 지뢰 다섯 개",
+   "text": "5×5 칸에 숫자 칸과 □ 칸이 있어요. 숫자 칸에는 지뢰가 없고, 숫자는 그 칸을 둘러싼 칸(가로·세로·대각선으로 붙은 칸, 가장자리면 더 적어요) 가운데 지뢰가 있는 칸의 수예요. □ 칸 가운데 꼭 5칸에만 지뢰가 하나씩 있어요.\n칸 번호는 맨 윗줄 왼쪽부터 1~5, 둘째 줄 6~10, …, 맨 아랫줄 21~25예요.",
+   "grid": [
+    [
+     "□",
+     "□",
+     "□",
+     "1",
+     "□"
+    ],
+    [
+     "□",
+     "2",
+     "1",
+     "□",
+     "□"
+    ],
+    [
+     "□",
+     "□",
+     "2",
+     "□",
+     "□"
+    ],
+    [
+     "3",
+     "□",
+     "□",
+     "□",
+     "1"
+    ],
+    [
+     "2",
+     "□",
+     "□",
+     "□",
+     "□"
+    ]
+   ],
+   "ask": "지뢰가 있는 다섯 칸의 번호를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "숫자 몇 개가 저마다 '이 무리 안에 지뢰가 몇 개'라고 말하는데, 서로 겹치지 않는 무리들의 지뢰 수를 더해 전체 개수와 견줘 보세요.",
+   "h": "f2abe79b40e45733269a344cf7320d9f05336b52200121228fed963912ad5b69",
+   "x": "gp1HopnEuVOMczzRitNqQuQL5FMNNDUCP++YnIyt035u1rFtoHE1Ivi+qMZTVB/bteRUBgvSr0zEf80nv7dw9biE5eXOb9HC6wyi5JwyxSSs48gcm7Pfw792lQcplZ/x+Gfzdot5vBwAfoMRHu0aaDob6nNRNjA3JV7GZ2OMIARB3tjfKxeRUlGPByuHaR/2TVuCOMs2Qb89L9ohtpqwn2X9Yf/WePkigV7hTpm9oeWbAMhPOfMPXCnqkxhozyG1r7T5IOmRgjLJnYpGEyvfQlvOIDvF2SnXGSst+arL3eJCmj1g3k//YRgHB0qTOMb13Tk5tWNgtbyyV3u00pGwmhCnNcCH8QowdLBSAB9iDNL4ww2+TruzmHC8RzQyAwyy8lWgRbnTOmYLP60SdZOnsKSZzhli9eqgCvmV4WePawdKcVH7EXKTT7zm6Dps7FgzkBnpy5FTvI0UJnl9Bb+kdxwkKU23oBi9ISxJK9t7+EXiK2b9GranbxTuBLY5PEL7LHGuRiJho1qPph+jGOPUFNcGCZT+YWLgWO6LPSDvwB9YWcRgNujt4ysrRNrDZdPAxlelhhFRuLWx6Mr5FBvim0BOQrH+k7FWgx+fQmQhXBtbNKWE7El95P+hqfra0Fju2GbTnIAjvPKn7/ks/ctSCm7/PV3mQBynsW0FO8kr5xCd4H0K68dIex3wmkLc2/pERmk8kbdMd1EAz9DRGp7Mhq4DdasYYGja+ChpUtp9FR3JySE1B9qQHs4fme2+4jt29ElmHlr+ZcgDFFqMjtmkJd6KQZmkkuuh/wnMer9NHzAHmIST4OTOuQVvyDSxGg5QboZzxxaffck=",
+   "level": 5
+  },
+  {
+   "id": "b261008a3",
+   "date": "2026-10-08",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "태어난 해의 숫자",
+   "text": "오늘은 2026년 10월 6일이에요. 민준·서연·지호 세 사람은 오늘 만 나이가 모두 달라요. 그런데 세 사람 모두, 오늘의 만 나이가 자기가 태어난 해(네 자리 수)의 네 숫자를 모두 더한 값과 똑같아요.\n만 나이는 태어난 날 0살이고, 해마다 생일이 되면 한 살씩 늘어요(오늘이 생일이면 이미 늘어난 것으로 쳐요).",
+   "ask": "세 사람의 만 나이를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "unit": "살",
+   "hint": "올해 생일이 이미 지난 사람과 아직 안 지난 사람을 따로 따져 보세요.",
+   "h": "fb29d475450bba580a1b7db616aa3620ac99035eadfbbb646fcedd6491704d20",
+   "x": "199VkOKllNTSSwya139qS5d/OYlARDbe8PgqLupijAF+WRev9QymFIw0g41oZ79L/JlvpatFJ+qOvnv+/QTmDvvz/WMrfpChORoWxekx1xc6icOxavt5cvcj/owkZUb1OFoxwHbz2QyPk4fs58OZdHwqew2LMRvZNFiR16pA/NeYKH+qKqxMf50Uk1grAqO+fxzdMQKlm8Adl4Zeed3JpXUnx9nxyQoc9pkcMcYrBxgyAnAqT4cXxh7ryrllf+zp96XyNYJmA5zaAjuYmwZyA01MM3/K5O3dpGN+uxl4qWT8DwHTMj2Wa3pFe38F9/Ynl5kqwZT3RCdgpClyK6He7FpWbyWBoCay4bpVECDDbqMtsJotb5xCotlqy1rdj/LPIUHlEK1l5PY62+MJCJS6MGlbuKMM5RYNOr9sety5rOqZyhgizEPKuswcbQVDSXoZ4WAiW5pO00TblZq7E4sjVlJyTLXez7nsGnY8wLfgwKIISKYIdPAX2mk3KMaudqoSTROFxlkNjbr++XERRSz0P8XkMXCOGxehAImkub6eDBwS90gnGGOhxX30frHDbPaptXJpLSYO9UlihEPTPX5Tf0Gmdor68AyqY6FWwRxB2VDKgQGQMzs=",
+   "level": 5
+  },
+  {
+   "id": "b261008p1",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "아홉 방의 표지판",
+   "text": "3×3으로 붙은 방 아홉 개가 있어요. 맨 윗줄이 왼쪽부터 1·2·3번, 가운데 줄이 4·5·6번, 맨 아랫줄이 7·8·9번이에요. '붙은 방'은 가로나 세로로 벽을 맞댄 방이에요. 방마다 표지판이 하나씩 있는데 참일 수도 거짓일 수도 있어요. 보물은 한 방에만 있고, 보물이 있는 방의 표지판은 반드시 참이에요.",
+   "clues": [
+    "1번·2번: 보물은 이 방과 붙은 방에 있어요.",
+    "3번: 이 방과 붙은 방의 표지판 가운데 거짓은 2개예요.",
+    "4번: 보물은 이 방에 없어요.",
+    "5번: 보물은 맨 윗줄에 없어요.",
+    "6번: 1번 방의 표지판은 거짓이에요.",
+    "7번·8번: 이 방과 붙은 방의 표지판 가운데 거짓은 1개예요.",
+    "9번: 보물은 맨 왼쪽 세로줄에 있어요."
+   ],
+   "ask": "보물이 있는 방의 번호를 쓰고, 이어서 참인 표지판의 개수를 쓰면 어떤 두 자리 수일까요?",
+   "input": "number",
+   "hint": "1번과 6번처럼 서로를 가리키는 표지판과, 보물 방 표지판은 참이라는 조건부터 엮어서 보물이 있을 수 없는 방을 지워 가세요.",
+   "h": "ecfef4e73fc9126928f5972b0ffded3e5234d6b6de90c9dbeb504a45b14bba85",
+   "x": "ErflzYke5t+EVnnaH4l9um3GMOA5s0ng5bSdyiX1J50DJsOrculcnJL5SzIkIii4RGwu08YDliKBoO/5WTZQSBzV66lR7FM/LOkhMZ/bUHCqcSCdhp/GL1jdIx9cTqNSMMmuAxzBoVsf30FDhSKVCAe/KnPelumux4VeG2nPHxkAB243Zg2YK2JR1RFZSO6xCVR5YTNlfwTJF3+fV28A3GANFNDMm7UW7RSGwFQqvO487m5HOfAQGBt0uDe0r+OGUgrGPxG4sbyF5PnzZ2ftoGQBjNPIQ4jF6Y8wSLuyNJB+LbIMB0wxSMqiqa/HI59PGOh6aSUvLeNxUcGVWo1lZEYs1srOWPaBO9oY9PBkM1d/9EW6eKS+PiN9ED4Ah9CtzulZvha2XVETBDWM4GvN1tiBZFoqpoCTidcJOk1AFdc7o54s9XgXbMRH/KeD1cG/nu/bGUOqRMHB7OhgJcygGV/Zicwq1tsXutGPYU5d5A+MoX1XrGqcWaTYjCnpy8hgFGah6A66rpSYYqlV4M+2jQUEsAA4PS36FUIOeMjAyGMVvjUsE0G4hfb1f+yd7Ae3rybc+lSSEineSKVRKb8iM1Z3mw29HB85M3NuGy43F9+yq/PPXnRbuUydAFciSV1ACaIOqKJdk8JYbkNDDnGuGd+djDo5IgJf/flLLKQ2H70n7KlnsebYC5f/Wv/maYXWONPK9SiVMBBNAl538SCaCPpzFc1yxfZl6UWDLm24w5+5j49CvyArb45cL02AvxTkpVydSn5G+tUpzPlholuReXveEvREbqHT8CTfGuwUcUnBveNncdUPtYlzwqxCs1Rxwrz+jZINFq6+X2OIk533MbEFxdZ/JQ51h/GvT+Zyp2YZ",
+   "level": 5
+  },
+  {
+   "id": "b261008p2",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "n": 2,
+   "kind": "암호",
+   "title": "양옆이 정한 글자",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, 계산한 값이 26보다 크면 26을 빼요.",
+   "clues": [
+    "STONE → YHHTG",
+    "PIANO → XQWPD",
+    "GARDEN → OYEWRL"
+   ],
+   "ask": "같은 규칙으로 DRAGON을 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "바뀐 글자 하나는 원래 낱말의 글자 두 개로 정해지는데, 같은 자리의 글자는 쓰이지 않아요.",
+   "h": "7aa342e66b97fa54c657a5d4a36727befa27893428fe1feed580a9c67f4084a6",
+   "x": "3bekh4YA8l0tTsB81o8U7e4pdNPlSXRCee0gf7fyDikaq9y92DT2aUoJVGmM/VbLMkWQtZc+zU/9kq5ZZk3bO44PSHaigHt2lSSdEzMmtqRPFXKU2rBhsByA+ugzHCq5/86bYY16JA/aN/GORH2/bQ3oi2e7HpluDZ8lflW9DTz34M6KuUlhiJevQtAOL5EBHtbO6S+DOnwahgEJM4jsWXYnAGZKqN79JuysfPhKpvGFVGZ97pSiIXIBFzQHeW5aep3rqxxksGmqlsvA5m9gu4Yx1IKjKKfFWm7D7jHf6cwP53jB/V2VG0tGcDNS+BPDkhA4rbdsINr6kcKtFPYljI3bSsva1L4MSDCVEfMzuCaYVqi3n95iVw20u3c7lUErldgz1B5UN7jhHzqxgbL4NCTnVN1JiYSBaHSbYD2c459/qrvj7AmNyuzQmLHBTV3rC1BhftuiazwYNwSOO7iERcG0KsaW3Ck89zbLPpOnxaT/lWCuXU7V4e8B7/zUcGoe3oDE6CxgmstMyLkqAKEO0oqMJB8wyqLwTBkyJZGk3KevOHo7SseeuqMaYKk3i/VErAx7igYG4U+QspuWA3vsyALjK11u69ZvBHU=",
+   "level": 5
+  },
+  {
+   "id": "b261008p3",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "가위바위보 여섯 판",
+   "text": "민준과 서연이 가위바위보를 여섯 판 했어요. 가위는 보를, 바위는 가위를, 보는 바위를 이겨요.",
+   "clues": [
+    "민준은 가위·바위·보를 꼭 두 번씩 냈어요.",
+    "서연은 같은 손을 두 판 연달아 낸 적이 없어요.",
+    "서연은 첫 판에 바위를 냈어요.",
+    "서연은 보를 모두 세 번 냈어요.",
+    "민준은 네 판을 이기고 두 판을 졌어요(비긴 판은 없어요).",
+    "민준은 진 판의 바로 다음 판에는 늘, 그 진 판에서 서연이 낸 손을 이기는 손을 냈어요."
+   ],
+   "ask": "민준이 첫 판부터 낸 손을 가위 1, 바위 2, 보 3으로 바꿔 차례로 이어 쓰면 어떤 여섯 자리 수일까요?",
+   "input": "number",
+   "hint": "서연의 보 세 번이 들어갈 수 있는 자리부터 정해 보고, 비긴 판이 없다는 점과 민준의 손 개수를 함께 따져 보세요.",
+   "h": "a192410015d433c5c066243b982479c25d3165780f9531c1afdda9edad667d46",
+   "x": "c6eDlHtlcr3u9b6MnDNewOJtLo5RbuttT9wLAhhBvcklRa4zVvHG2Jz/2HKvrg/JVOi/2p4XZR8MC1ayKnt8jPbGQCXj6zoDLN5mGCpgB4UYqgCEhH2eQ5C0vpD1y+WAMyUgCNc6dad5umlR6wuuA/Frba9aZnSwOh07LIr5sVuLhrEVS8wLN6/7LPRHxyG3ruV03W3IUYo4MjQVpv5vZucU7mMBoLz+35peBl80puZ0AApXTi++2D6sQHr0H+j6J7VgPMN5ycN/VlqBFY8UPJsdSZ31vFl9CBRAauBHXFyD1dWfP9XRFNa3E14q4xdmLngeqQW54NJYFawu7rM5SntgiDFDvjleSyhV+f0OvdFnpv7F5tNVW7Y/H6t7YpyC4a+4Jd4QRFns3a7MD3YzDDtszAtdP4vI7QTBxsifkr7iQRl5iyFgx605EF0ux5g/8mceZD9UHdyjSGLgPKB2zyDSbGLjFR73NrhyuOiH/bM586XpPql080zp4rz8OtHFIoH/tb4wfwytVGnsbahOA6SG2AEMK7VrkL5MA++6e3HLB9LFTgLe+KlBxvRnUm1W+kDOsLeTXClBujs5Qqku0EEBZRQSCsPB9LG8oyNjKUooz0ZWdiBPnh2jbBlgwhluRk4CnFWUU2vsHJermf7Hg4LWcXl2mL1a5iFF1tnK40GTpt/dILqlLAraav2QQxojGqZuivabs2AfwJqpNt5GN3vlDZly83coRR5o6ozq/mcjZ5kIY6MjCYM88Zg0j6gtBh+AfE7uJUtniGAkYnvXsBrJklcPRNDOrugqACAvNF4LXF+uGIf1vV7dxD1+6E2mATbWkwwaZg==",
    "level": 5
   }
  ]
