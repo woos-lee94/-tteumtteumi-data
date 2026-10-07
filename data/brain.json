@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T02:10:00+09:00",
+ "updatedAt": "2026-10-08T02:08:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -1663,6 +1663,145 @@
    "hint": "서연의 보 세 번이 들어갈 수 있는 자리부터 정해 보고, 비긴 판이 없다는 점과 민준의 손 개수를 함께 따져 보세요.",
    "h": "a192410015d433c5c066243b982479c25d3165780f9531c1afdda9edad667d46",
    "x": "c6eDlHtlcr3u9b6MnDNewOJtLo5RbuttT9wLAhhBvcklRa4zVvHG2Jz/2HKvrg/JVOi/2p4XZR8MC1ayKnt8jPbGQCXj6zoDLN5mGCpgB4UYqgCEhH2eQ5C0vpD1y+WAMyUgCNc6dad5umlR6wuuA/Frba9aZnSwOh07LIr5sVuLhrEVS8wLN6/7LPRHxyG3ruV03W3IUYo4MjQVpv5vZucU7mMBoLz+35peBl80puZ0AApXTi++2D6sQHr0H+j6J7VgPMN5ycN/VlqBFY8UPJsdSZ31vFl9CBRAauBHXFyD1dWfP9XRFNa3E14q4xdmLngeqQW54NJYFawu7rM5SntgiDFDvjleSyhV+f0OvdFnpv7F5tNVW7Y/H6t7YpyC4a+4Jd4QRFns3a7MD3YzDDtszAtdP4vI7QTBxsifkr7iQRl5iyFgx605EF0ux5g/8mceZD9UHdyjSGLgPKB2zyDSbGLjFR73NrhyuOiH/bM586XpPql080zp4rz8OtHFIoH/tb4wfwytVGnsbahOA6SG2AEMK7VrkL5MA++6e3HLB9LFTgLe+KlBxvRnUm1W+kDOsLeTXClBujs5Qqku0EEBZRQSCsPB9LG8oyNjKUooz0ZWdiBPnh2jbBlgwhluRk4CnFWUU2vsHJermf7Hg4LWcXl2mL1a5iFF1tnK40GTpt/dILqlLAraav2QQxojGqZuivabs2AfwJqpNt5GN3vlDZly83coRR5o6ozq/mcjZ5kIY6MjCYM88Zg0j6gtBh+AfE7uJUtniGAkYnvXsBrJklcPRNDOrugqACAvNF4LXF+uGIf1vV7dxD1+6E2mATbWkwwaZg==",
+   "level": 5
+  },
+  {
+   "id": "b261009a1",
+   "date": "2026-10-09",
+   "slot": "am",
+   "n": 1,
+   "kind": "수열",
+   "title": "쪼개어 더한 걸음",
+   "text": "일정한 규칙으로 이어지는 수예요. 둘째 수부터 모두 바로 앞의 수 하나만으로 정해져요.\n18, 26, 41, 82, 125, 140, 156, 176, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "41에서 82로 가는 걸음이 왜 41인지 생각해 보고, 다른 수들도 곱셈으로 잘게 쪼개 보세요.",
+   "h": "fc8601373e1a9e48c0ef38b595fc0e862b884c75b55398e39a288aefebbee139",
+   "x": "z5TmcvnMUjXo3d6aAuF/efznrcF/znlHN946e1Sb7zUqXRqaUc12eXa6nO4Lrkk0X3DMhOG3fv2fla6sk1K4VgCj3OQV+HHqi3bn7Bv6LI9qGLvOoE5bEi3lWIcOEPhxxGq/JUoBq+B+po9uW7ebA5eCignKrEwiYUxc7ao1eD1zqvc4FTgsNfq4WoOhIIG/zV5g/yHWEpKNFTcBJk0BMWcjvWPgtVyq5X5YmFMHTJOmv7KDQIY9OdK5pD7EYDnBAZXCgqbGijeqTy+WkYhaLU9dKdUKihxNetrKZeVlHJ5AWfgxRUbN7LQxXqYrSm6qBmO79HboQcd+8pI/wdizhg+v332pR39O+BKlirBqBHObYqBezbkMPkEMmyENXSl2ABqCYERwMRCk0kQJEfmlMRbwmQHtMFHWtNATDo8kIEhrm0lFNZpnPb1+SzukFFPVamcT0ge9hf2ROexx9zerPhjPHO50ww==",
+   "level": 5
+  },
+  {
+   "id": "b261009a2",
+   "date": "2026-10-09",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "일곱 정류장 버스",
+   "text": "버스가 1번부터 7번 정류장까지 차례로 달려요. 민준·서연·지호·하은·도윤은 저마다 한 정류장에서 타서 그보다 뒤 정류장에서 내렸어요. 다섯이 탄 정류장은 모두 다르고, 내린 정류장도 모두 달라요.\n'함께 탔다'는 두 사람이 버스 안에서 어느 두 정류장 사이를 같이 지났다는 뜻이에요. 한 사람이 내린 정류장에서 다른 사람이 탔다면 함께 탄 게 아니에요.",
+   "clues": [
+    "민준은 서연보다 앞 번호 정류장에서 탔어요.",
+    "서연은 지호보다 앞 번호 정류장에서 탔어요.",
+    "하은이 내린 정류장에서 서연이 탔어요.",
+    "도윤은 탄 정류장보다 번호가 2 큰 정류장에서 내렸어요.",
+    "서연과 지호는 함께 탔어요.",
+    "서연과 도윤은 함께 탄 적이 없어요.",
+    "민준과 하은은 함께 탄 적이 없어요."
+   ],
+   "ask": "민준·서연·지호·하은·도윤이 내린 정류장 번호를 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "탄 정류장 다섯 개와 내린 정류장 다섯 개가 각각 모두 다르다는 점에서, 맨 처음과 맨 끝 정류장에서 누가 타고 내렸을지부터 따져 보세요.",
+   "h": "aeb3556e6f49e3bd4fe24aca4f36b0f82122596a1492ef33c101c90ac2685824",
+   "x": "d92/oLNo8t2PS/pzuiv97pDp2XG8i9e5GcttSl5VK6wQsQ9mB8g3Vrjz4EH+gknPJg/CjGuAsaSaHV0a2RdJyk5ZvmFsmQkfuQjwqU4fIdPVXcK5FM1OT/W5NYlF4T0dO4qBAv2KG4843p8EMl8OfRvWMKvZ1dvrCdgP6iX6AOrYrW7OkTl5N+/qYLfV98tMX0CZYw6cBG8uc4Tv1UG4imS9Koj6BaToBfgNxZ9ZSuKhYXyE/MblyNmGGyDpI41L6R+6ca13T2HC++TKBqqJuB8mVQVRD1BN78EN4Mw7G/4HBDTmf7W5PA8jF2WI1oQMrzYnFzLxCm5Dn0sMHfJZ7+DpEewYyJrW61RCSWC+5u3Zm6SPoF4iWR1b1XJduLUI34gfEfl6rBq9PAGZ9N755Cf6tImNvRBDdTp3r99RwTHlTtGvjR10gO1VG2lRD5UeDh+kHKrVr+RfcRcufzs7z2M2KW2RgfokpTM6KBgAHENp2mqf1k57R6RENIgN26oc0A4X/dshdIJL/ejiwPAEyPQTkwh297RwAYb2ATwWFWA4iOWOHB5B8rVUPbhKfT5L9D/VV8Nv8KXaNRV1yU/Xma/OJnkKrWd/PSDY7wqxDT+lT2dnd7RnJkTFYLPUmEzyAdlgOaU90aB7qVoKYq6GLwDEaDFrN1QTN5ofiQhc3xEYsa4WqwSTBGli82q4kRaASJfbmBLBOeABjWX/2kKSGuPzwp4hxIBhNLgVT2BfPhZpNy7G7AST41SGUFFvXW0VA/AI3H53u/UBuVSDAyeqccEQ",
+   "level": 5
+  },
+  {
+   "id": "b261009a3",
+   "date": "2026-10-09",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "1·3·8 돌 가져가기",
+   "text": "돌 N개가 쌓여 있어요. 민준과 서연이 번갈아 돌을 가져가는데, 한 번에 1개, 3개, 8개 가운데 하나만큼만 가져갈 수 있어요(남은 돌보다 많이는 못 가져가요). 마지막 돌을 가져가는 사람이 이겨요.\n민준이 먼저 하고, 두 사람 모두 이기기 위해 가장 좋은 수만 둬요.",
+   "ask": "N이 1부터 100까지일 때, 먼저 하는 민준이 반드시 지는 N은 몇 개일까요?",
+   "input": "number",
+   "unit": "개",
+   "hint": "돌이 적을 때부터 '이 개수에서 차례가 온 사람이 지는가'를 하나씩 표로 적어 보고, 되풀이가 언제 시작되는지 끝까지 확인해 보세요.",
+   "h": "94775b152cc01b46c479342c715a2f89d89be002c026c32a8093f3024f6e652f",
+   "x": "qHvxaAxJuKexVq8vs4g2qEKgxneHAgsln8y0HHpfPD51f9tv5n5qVMD2cxW4S1LripcZCOHb5GLolBKeatHpJwjoftqYTv+HIjW2S4Wl80S404izwQxLTd4KcjiGNpzieaQ9Da42qKSxxHSya42Q92gdP2aS7XJL0VRASiqdhlTTqGaUsDKW7q7oCz59PNTVQbVUozrZD3pQ/nYI/snp25jqB6o8gLeqyOGwiPuTtjjV0DR9jSjhUIHGrLddQIoPemiVijCdu9JYp0ApUXDSEhCKLTkDA9b7a87ZRKhLG6OtpbrurqOR2dzsH0CRfFdH9xeFFmDXZBmZKONccokJNttWmw9c8G0YMAJDWDVepxmajqElQR6RUfW0PRx3gz2CjK9ljHxxq+Dz2tnbsNhF77DFKi/ZAGq2IzhV273Of26fC642sk+b0cFcwZ/D2Q4LOlfxIajSIauGKdAhKN/VQIIZCuPxjfHNR8BHjQqC2Ej8SU7Y94cTJeOQDTN/OMuKbgnwJ2jFa0SWpbodqd9KUSlBWtSfqS6OMkPtPk7XalnQZtdRe2Du",
+   "level": 5
+  },
+  {
+   "id": "b261009p1",
+   "date": "2026-10-09",
+   "slot": "pm",
+   "n": 1,
+   "kind": "행렬",
+   "title": "돌며 불어나는 줄",
+   "text": "4×4 칸의 수예요. 둘째 가로줄부터는 바로 위 가로줄 하나만으로 만들어져요. 만드는 방법은 줄마다 조금씩 달라지는데, 그 달라지는 방식에도 일정한 규칙이 있어요.",
+   "grid": [
+    [
+     "7",
+     "12",
+     "5",
+     "9"
+    ],
+    [
+     "13",
+     "7",
+     "12",
+     "11"
+    ],
+    [
+     "9",
+     "16",
+     "17",
+     "21"
+    ],
+    [
+     "19",
+     "23",
+     "?",
+     "21"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "위 줄의 수가 아래 줄에서 어느 칸으로 옮겨 갔는지 먼저 찾아보고, 옮겨 가면서 얼마씩 커졌는지 줄마다 비교해 보세요.",
+   "h": "e91356aea9b3b6ab19d1fd0ea77794c30b3b97667efeaffeabfa69f695918b23",
+   "x": "YMhHXmHJ+j3lntDC8yk+ODbujCszGo+YeQerSYdxlbyDcNs6ogEeusEBe9ZKxy0uJgkACnCijvr7FdFKjSNBggq7bTgOWJkdsejIR/shX5W4EY8wr6RNXw/YcaC037n+erEJ4aH/kqhPIf53oZUy0RkdnK/7QYSRJOiVwXQsKDf5gv7r1ZiHs1aPJK+g9mD9J9mXDeyeAGTt+YAxajJwfCjxMb5DAYkAWNorFDaN46Jsvc8pOOww4s53tOkDjffrThH6eeGfs08IN4M7lnTZRWmjxVm2KnzjS+ui5KmsZ/dgjZ3WUutM2p95/xSpC6YRAM6iUcIGOtsYF+bon/dqha5JsxJwZ8TA29jvKllHbFdEa20hxmMLJoBgsgkfg6cpHYGGSbZ/9pexPJxxiupTsmBb5T6ZdATSKzuUOuXTGg==",
+   "level": 5
+  },
+  {
+   "id": "b261009p2",
+   "date": "2026-10-09",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "세 쌍의 부부",
+   "text": "남자 민준·지호·도윤과 여자 서연·하은·수아는 남녀 한 명씩 짝지어진 세 쌍의 부부예요. 누가 누구와 부부인지는 몰라요. 여섯은 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요. 여섯이 한 마디씩 했어요.",
+   "clues": [
+    "민준: 도윤의 아내는 거짓말쟁이예요.",
+    "지호: 서연의 남편은 참말쟁이예요.",
+    "도윤: 둘 다 거짓말쟁이인 부부는 딱 한 쌍이에요.",
+    "서연: 제 남편은 거짓말쟁이예요.",
+    "하은: 민준의 아내는 참말쟁이예요.",
+    "수아: 둘 다 거짓말쟁이인 부부는 딱 두 쌍이에요."
+   ],
+   "ask": "서연·하은·수아의 남편을 민준 1, 지호 2, 도윤 3으로 바꿔 차례로 쓰고, 이어서 여섯 가운데 참말쟁이의 수를 쓰면 어떤 네 자리 수일까요?",
+   "input": "number",
+   "hint": "도윤과 수아의 말은 둘 다 참일 수 없어요. 서연의 말은 서연이 어느 종류든 서연 부부에 대해 무엇을 알려 주는지 따져 보세요.",
+   "h": "bcbade5b94a749885b7e2a16be039063dfaed5429bd9a7ebd4a69b50291397f2",
+   "x": "k88ev9ytwpblbFLBjBCr4cXCvp9Bt79w+ABBV7irOPvki/clZFBm6fiAul3Tm6LcNaPV2xDZlyHK2YWx04urql3/YJcDFVNXgdA6P+3LZEflmyc1PL1FoBMBprw+8PQTyqdskWLvYlk0ia0n7E8MFbMQg9Cxsd/d4KfYv8Fub2Fkby8gYjSMecGE58769ezh8ptYXuijwVV2HM2f+jv+yTPkuTbkaIFVJKDJOznBbcTYFosEcAW9hGkFqojKJwjJm5q1uBx42c7Bi1PvB9vY2a70mK0DhTCsaqxYt1e48v8eTXzEz93K08+oQFn1GvKGe+wMdrl7+0nqBbGurODt7jdd3FtA33dAafEhIiPUT5fCHHq0U7cSf5ivDCCidEGzJMiWRLIUmMNFM1/Cto2TdlRW1/3ycDGffhU0L8SVYPw8xtRKx+UbYWvcNtFgezPsdV0iMHcOxn5ISZPKS9QyNhwM/RJZx4/V6nhr8kaI9F0vLcCN7NshUVSI6stnfZlyBMkPufrsj8G2F/x/DQC8RJYpW66DU56V9Olwm3TNTv473RqXiWzll1NnZ+hszBhTDsXJ3gNLd5GihlM7Ejf9slTVyjcb1t5ZdPACQNQ28PAGexXI4KyeYQqUUS6NCDZsmmGLgtiP0r5SzPl3kfE/zhoRqzgj7ziEZeJ/Iri/gK5MIRaPV4/n2zor3GGzViiS+Qi1WnwDtahB9Lujpgdl92zj32J6UADruh2opd6s7vAAbFEypHlFCd0/B8Nj9dHb9CFYozGclxUkIC0K+YGmVIW8MrpIdsLFR9C0e8TNL1CcW4D/CgCYaLxhbS31EyKt/QRF1q0j2JGXaltckwbE2nqf6+Xvtkdt04+p",
+   "level": 5
+  },
+  {
+   "id": "b261009p3",
+   "date": "2026-10-09",
+   "slot": "pm",
+   "n": 3,
+   "kind": "암호",
+   "title": "갔다 오는 글자",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, Z 다음은 다시 A로 이어져요.",
+   "clues": [
+    "LAMP → PQTE",
+    "CLOUD → HTIZQ",
+    "PLANET → VGKZTR"
+   ],
+   "ask": "같은 규칙으로 KINGDOM을 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "글자마다 알파벳에서 밀린 칸 수가 낱말마다 다르고, 글자의 자리도 바뀌었어요. 두 가지를 따로 찾아보세요.",
+   "h": "1353823ea37488858cf8d57cd49d6e625ee7f0c4e95f71290f7303c7abcf39f3",
+   "x": "ufLJP/DZJB5INWnQ02ZLhsmIbTQUFGwjdaWh6we8gmbD3dUWPYFgZ3sfOO1/32JUitqxykq4s6l1WHN/yd3sY+j/vWpOu2LT2F0hBeWEMd8iKR8GV8FVivm7dSSaBQ4roBl5Ghd4uVSG5DTLMnG8MA376sNWK3/b5ghE2LVfWzH9SROF0JYziIKiv630wffR9IS38r+13oRTCgnYyM4NBy8OVMMpgL7osJHY+vN3tcxanyBZDQNcWKBjg9UycDZ4jIr2LkupmWyk0xhnybpXEp6EInRYb45r74cZiEjnKA6cU8Zupq2IADqRW+Nxv3UPi93EVNyVjvS4t9q2XgcBhXj14BSmuW017+0jm5o+KWYswyXjw1FLC9X9zWUvwMvBem+GEd4he5TsFqer",
    "level": 5
   }
  ]
