@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-08T02:08:00+09:00",
+ "updatedAt": "2026-10-09T02:26:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -1802,6 +1802,153 @@
    "hint": "글자마다 알파벳에서 밀린 칸 수가 낱말마다 다르고, 글자의 자리도 바뀌었어요. 두 가지를 따로 찾아보세요.",
    "h": "1353823ea37488858cf8d57cd49d6e625ee7f0c4e95f71290f7303c7abcf39f3",
    "x": "ufLJP/DZJB5INWnQ02ZLhsmIbTQUFGwjdaWh6we8gmbD3dUWPYFgZ3sfOO1/32JUitqxykq4s6l1WHN/yd3sY+j/vWpOu2LT2F0hBeWEMd8iKR8GV8FVivm7dSSaBQ4roBl5Ghd4uVSG5DTLMnG8MA376sNWK3/b5ghE2LVfWzH9SROF0JYziIKiv630wffR9IS38r+13oRTCgnYyM4NBy8OVMMpgL7osJHY+vN3tcxanyBZDQNcWKBjg9UycDZ4jIr2LkupmWyk0xhnybpXEp6EInRYb45r74cZiEjnKA6cU8Zupq2IADqRW+Nxv3UPi93EVNyVjvS4t9q2XgcBhXj14BSmuW017+0jm5o+KWYswyXjw1FLC9X9zWUvwMvBem+GEd4he5TsFqer",
+   "level": 5
+  },
+  {
+   "id": "b261010a1",
+   "date": "2026-10-10",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "지워진 도미노 선",
+   "text": "0~3이 적힌 도미노 10개(0-0, 0-1, 0-2, 0-3, 1-1, 1-2, 1-3, 2-2, 2-3, 3-3)를 4×5 판에 빈틈없이 한 번씩 깔았어요. 도미노 하나는 가로나 세로로 붙은 두 칸을 덮어요.\n그런데 도미노 경계선이 지워져서 칸마다 적힌 수만 남았어요.",
+   "grid": [
+    [
+     "1",
+     "3",
+     "3",
+     "0",
+     "1"
+    ],
+    [
+     "2",
+     "1",
+     "1",
+     "1",
+     "2"
+    ],
+    [
+     "2",
+     "0",
+     "0",
+     "2",
+     "2"
+    ],
+    [
+     "0",
+     "0",
+     "3",
+     "3",
+     "3"
+    ]
+   ],
+   "ask": "0-0, 1-1, 2-2, 3-3 도미노가 가로로 놓였으면 1, 세로로 놓였으면 2로 바꿔 이 차례로 이어 쓰면 어떤 네 자리 수일까요?",
+   "input": "number",
+   "hint": "도미노마다 판에서 놓일 수 있는 자리를 모두 찾아 보세요. 어떤 도미노는 후보 자리가 둘뿐인데, 그 둘이 한 칸을 함께 써요.",
+   "h": "fca6a0d7de90601c4714859e6b608dee6a181fbdf2da879b655c5a8f023b9b08",
+   "x": "te7YjcNjnYkQ02mArZEx6eICckiJtzkFUzBXI3HHdb30smPjCW/g5QLHwE8bEwQSHoQxQY3tzLQMg1DelnEB8U+eamHyGe/2ig41YjIgPVd6+zKn4rVr+qKXeMrKkrLfU1zmT01ctyKT5S3SJRvzuVLXf3DIHb74AWHa8hO5aibWbyf8m+rEEwIh/byGCvWHLuRLRP6Y1MKJ8zemvym8JSjRcxryv+/EwJFm63dEfx78C2vgEF8CFTmo1EE9q0gqk/bUTsbt22gi2Yv5xaUy8EXy88AQuSH7xLuvxhQltLBmn/jPygx4rOcxBKPYBmBSkTfTti0k6uz4n5K+sjbtAduUxKWH8Wma2CdEV5/onaJrNKo1eFbaXfNuFxOOvS3wIfzKtdocNPdnEYKJTjK6BMMWbP+/IboAhEVuk8iuGev/eo95ZS6ZHul3Pqhpn0p/tEZavKgc5Am4LQQ06mWGdFz9adFASVSQd3OI5PCKZX4lnzPIZxsDTZYyNpibYlMAM5Y26e/44xRUUSBBs8Rv76gEIjumPq4D+7pB/gfVxBSosGbWhsBd5RcAi3zbrgfn6ZyVBbBsAiwIJhKiQr58/RB4u0lWU2Wu+HfW5KLIobn6GjR1nGgwWqqtUv/FCFFOC2S+AXmUeHP3su/k8Y5EAVgQy9xCovJ7MMbqdjaxmLKPcxK4BE0U3lyZ/4H3tX/yOq2FNyJQ+cpyEWXI67E4P5xSbV+6UvwoQyo+/TMy9tlqixSN3JenTrfcCeAeFWylY8X37gdfiXnspblVOxx0KpwU9+MOaK2OOhp6Y46uLIuIlZsgITHT/E8vBw==",
+   "level": 5
+  },
+  {
+   "id": "b261010a2",
+   "date": "2026-10-10",
+   "slot": "am",
+   "n": 2,
+   "kind": "수열",
+   "title": "나머지의 발걸음",
+   "text": "일정한 규칙으로 이어지는 수예요. 첫째 수를 1번째로 쳐요. 둘째 수부터는 모두 바로 앞의 수와 자기 순서로 정해져요.\n10, 10, 11, 14, 18, 18, 22, 28, 29, 38, 43, 50, 61, ?",
+   "ask": "?(14번째 수)에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "이웃한 두 수의 차를 늘어놓고, 그 차가 늘 순서보다 작다는 점에 주목해요.",
+   "h": "1a770ae477cae2216d223abe82c2a88e15c9e4a88b996b18b19800f90e56389a",
+   "x": "fuCYMYX03HIaKeFf0Xe4XaRc0RcetN8Erub62prx1fH5RrAUMQ9dkho2pgsebsVWKP/pZmnweUUOL4D+4hAr95MZ/zQpW4UqqAwjPO2SzrjE+KOn/IqqnQSwsSk99jOvtqvgTavff86/j2xXpm1C9adYv1ncOIlbvoOEWMuur1UdLcr/iq+PHMAfxEkvQ2jn1E99qBFUbaCWUwwxIRU318BlcW5OC/FW4VYUO/5hfoF2GqYz7Vin4q6Fh0kgiejbkstJQPN9BwwCCFfX4smNwldabc+8EgHBGi8IqeyaH6IE7Jix9zyPm2rFeqd6MM/0bdieumjdZ+3wX7JARv0VMWIaQznLTZs/Q7FNqN8ni10RKQJO0z9wYPy0b7RxFUG7tFdwEXaRM6fM+VrRylv/dylc7LYh8c0kCzp4nqNP6C1RbJnrbXvg/wHlE5NZww==",
+   "level": 5
+  },
+  {
+   "id": "b261010a3",
+   "date": "2026-10-10",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "곱이 합의 세 배",
+   "text": "세 자리 수의 각 자리 숫자를 모두 곱한 값과 모두 더한 값을 비교해요. 예를 들어 124는 곱이 1×2×4=8, 합이 1+2+4=7이에요.\n곱이 합의 정확히 3배가 되는 세 자리 수를 모두 찾으려고 해요.",
+   "ask": "이런 세 자리 수는 모두 몇 개일까요?",
+   "input": "number",
+   "unit": "개",
+   "hint": "0이 들어가면 안 되는 이유를 먼저 생각하고, 세 숫자를 크기순으로 놓았을 때 작은 두 숫자의 곱이 얼마 이하여야 하는지 따져 봐요.",
+   "h": "f717805de0619dde07f74fa159bbbc1ebc4ccc542e6e7f500bd228d85055f363",
+   "x": "Hpd4XZU9oE0u/4NESkRsTHb2PA/ZwBxVzT1uYaiEk3xzBCRbXQMNxhDEcqW+cQzzQOv0oCfJC3vYOucOzxXwaU1rmcOTiEhIZIyFqWfKKrT0q74f1C2/sZuLTcKeQ+9f64d7gw1WaFXT3nmB4EGmq0scE1ATxFJq/2E83Ws90kY4WldA4CunD+V9FCuy/cXMiytiVzNk3QOJgxvwV+CyGaZ9RFLYAX5c1APkVZHBQ0Y7MkvDeLBnglD8YHGevzpcG4Dr6rmqVNigUiRJk5FLTeo43kUmJNa+XQN9W+pKyh1QQbDA5gxSiAlJA2RsRSJPEnjG4H/E1oRJLYxsKUls7Od2N5C1oDzIGer9Sm6T4ZRcpZdfNUF/5lezRLS7yDIATZtN6z7B5/UptV2Y68BV8DbdsT/NTsWBX4Q1MRbBMy5B4OWJ2AJCs4GUIqwCKw==",
+   "level": 5
+  },
+  {
+   "id": "b261010p1",
+   "date": "2026-10-10",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "세 갈래로 쪼개는 수",
+   "text": "어떤 수를 '연속한 자연수 두 개 이상의 합'으로 나타내 보려고 해요. 자연수는 1, 2, 3, …이에요. 예를 들어 9는 4+5와 2+3+4, 이렇게 두 가지 방법이 있어요(더하는 순서만 바꾼 것은 같은 방법이에요).\n1부터 60까지의 자연수 가운데, 이런 방법이 정확히 세 가지인 수를 찾으려고 해요.",
+   "ask": "그런 수는 모두 몇 개일까요?",
+   "input": "number",
+   "unit": "개",
+   "hint": "연속한 수 k개의 합을 '가운데 값 × k'로 생각하고, k가 홀수일 때와 짝수일 때를 나눠 보면 방법의 수가 수의 어떤 약수들과 짝지어져요.",
+   "h": "4cace101756e16d5ede3fb85147d7c5e204f9bef771aa8fbf9b9ff5a8cd718b6",
+   "x": "guX/7Zt3qGsXw9IBQ2hYARnsuaPE244MaOYSbW+bbVnBG02Ehug4QgDZDmcfHNyj0mhzL80tmDy3yEHSDDpeCYOlC8PL0rM+NzZkKWcSagDCmKnHiYU1sMsJCfdwgHd+ydg/GACckWBB0TD5t/UFnlnQKMrctv/JQ/oQmOfE8zphr2EV+hOZqimvccA43y8YtVcKGlDGVhroxr58/dagu7lfiglI05lgsGdl+wpTYagp7QtOcyZGKy/OXy1+MgBLg6qjNXd+odt2uW3U/22Yiv+ODEqWycZp3PWNxUFDOwXJLtWo0iTC33vffEIl0LUNq9RsX76sh1urnO9lwiy6fHuF7WaAxsu7U1nGOk9dVsd0rAsikbkTCfQzTP3zVJJD8e0Rx88KZL19y4rRQfpKLIFAh5PQsvs+jsQXO3E6E4UMHoAv3wDCrTxa7AFBg59wDJTrj9T4HEADTEd3SSazx2YKLYjsTvwrzdOz1a3DJUU+hs4oBbUyY37OKooV9vtMguHu3c9CH46ITZDEb5V4X3Kdb3pkouOWOeAisrHmuCYzB0gT+N/egw1aYTwfU8AShe5yTkEBlMZiX3gS6v6EsGg30UuJhG8gQ/0=",
+   "level": 5
+  },
+  {
+   "id": "b261010p2",
+   "date": "2026-10-10",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "푸와 카",
+   "text": "1~6번 여섯 사람은 저마다 참말쟁이(늘 참으로 대답해요)이거나 거짓말쟁이(늘 거짓으로 대답해요)예요. 이들은 '예'와 '아니요'를 '푸'와 '카'로만 말하는데, 어느 쪽이 '예'인지는 몰라요. 한 사람에게 한 번씩 묻고 이렇게 대답을 들었어요.",
+   "clues": [
+    "1번에게 '우리 여섯 가운데 거짓말쟁이는 세 명이에요?' → 카",
+    "2번에게 '우리 여섯 가운데 참말쟁이는 홀수 명이에요?' → 푸",
+    "3번에게 '2번은 참말쟁이예요?' → 푸",
+    "4번에게 '2번과 6번은 같은 종류예요?' → 푸",
+    "5번에게 '2번과 3번 가운데 참말쟁이가 한 명이라도 있어요?' → 카",
+    "6번에게 '1번과 2번은 같은 종류예요?' → 푸"
+   ],
+   "ask": "1~6번을 참말쟁이는 1, 거짓말쟁이는 2로 바꿔 차례로 쓰고, 맨 끝에 '푸'가 '예'면 1, '아니요'면 2를 붙이면 어떤 일곱 자리 수일까요?",
+   "input": "number",
+   "hint": "'푸'라는 대답 하나가 질문의 참거짓, 대답한 사람의 종류, '푸'의 뜻 세 가지를 어떻게 묶는지 먼저 정리해 보세요.",
+   "h": "a74e10e9ec3466fb86d78870da6afa6759c0ab4e4d205451496b031d837015b7",
+   "x": "0wZO7yFayWrKK3eQm2xFmw9WPxYkvwJ+9J2+y4rJM37uVmSojg4CDEWR5obH1WRKGHHH8eh6YKThJAt1RE2Lrkrw+KBiQX5TqcjjJfePEDvWXbmLGoFCJ90cGeg6K6TJtfH8bpRphgGoH5ulu862464Aato/BkRFV1KHpealG00h+xxdIcO+z1m4bpjt5Z9qntHnJoZlZdAaCTSU0CNjpyyFlOXZbR/66XYS2VJQrGMsCfpl9FuLw9l2AcWUeY5LnU3QnGLEelwG9VcfAkfxriOIaem78RSOwHoR/jGowIR9my5rAUm01hd1lctk+uYq+45iFBDUAxMVAMbIHHHoMfmIYp+/r9L/VdgoyIxyhzW0HqDVkBMiTbuWavOZRoC3irX/g6LNhMCX9oI0oxDTnMhYodk2ST1ZQZ/2xedNNQbhwMuNBBdL8nYGLRXoNtq4xSvMw4J3TCN1R72iQQT2vWJBAkxp1rWH21+3R+UEEB1lLwgcNNUD6ValJSxg0pFSHwoIeU2IqFJ4+vR9T4Yq+p0mq4aisd3TwJ9vTKdwTVLaH5z88Tjz/f5YRCF4MFh570/2+K2wZuvdb8m6axaNGmT1G11GGlQD71NEyV3N/3Zn00gocTDg0nI/5LyQIxPY8FX9mCRsTNm7WkXugAuG/TtWckFXdD7zoeO+SuaNiYSfUgT1J+u1AfSYmfvbHGWhdU9VWUzYuz5DgYfyhwM9Tu7s4WWuF1nCFjy2/sRQq25T/5tAl9UsDFBmNn9hPizAYwbB9PLDuvGshTaj21mrktPiP80wOjSyvR10OKBcOMxHqCJDQnHOgEywWPEzvZuWjyWv41DYK5SzVwhdv7zDS/OSFQaH246eBuZMQ2BZ//M=",
+   "level": 5
+  },
+  {
+   "id": "b261010p3",
+   "date": "2026-10-10",
+   "slot": "pm",
+   "n": 3,
+   "kind": "행렬",
+   "title": "한 셈으로 짠 표",
+   "text": "3×3 칸의 수예요. 가로줄마다 셋째 칸은 앞의 두 칸(첫째, 둘째)으로, 세로줄마다 셋째 칸은 위의 두 칸(첫째, 둘째)으로 정해져요. 가로줄 셋과 세로줄 셋 모두 똑같은 한 가지 셈을 써요.",
+   "grid": [
+    [
+     "3",
+     "1",
+     "13"
+    ],
+    [
+     "2",
+     "7",
+     "34"
+    ],
+    [
+     "18",
+     "25",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "?는 가로로도 세로로도 구할 수 있어요. 두 방법의 답이 같아야 한다는 점이 셈을 좁혀 줘요.",
+   "h": "469fb90035b8de81bc8ace22ab709a053923e86b99df40aca1efb60708346cde",
+   "x": "IK9T2UtKPDIlVE1jReK703Ct2ia+NJ5Vxns4UhlNT21Cvw8LX6WRrMXZCqykFcNOeOM9sYHl+TCj6GoXlomBgecMIPnIxQmpvq8YFjSHitZD+77RBCWtIxaml+A3nHeoyCoTVBLzGbfiTUYWnb32oGBPLze6/zpKDCO+TmysSiK4/63yDeXasCX0w8EnRuhFzZPu2Z9qBv9bk30Mo3R/5vtJchlGb18Y2ronSYQqaC5WNRZ56vT1rj2hf2JA6ZQ/DeDa0D5LAdiPEP5q6WxVQNYnssn+YCNs8sZCi4E1nNEi/xDWK7ba6VwlUv3xZkFRi5yRGL8qweRcwTcinWXkCXmP43q2US2MSqs=",
    "level": 5
   }
  ]
