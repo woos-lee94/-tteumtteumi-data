@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T02:26:00+09:00",
+ "updatedAt": "2026-10-10T02:32:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -1949,6 +1949,177 @@
    "hint": "?는 가로로도 세로로도 구할 수 있어요. 두 방법의 답이 같아야 한다는 점이 셈을 좁혀 줘요.",
    "h": "469fb90035b8de81bc8ace22ab709a053923e86b99df40aca1efb60708346cde",
    "x": "IK9T2UtKPDIlVE1jReK703Ct2ia+NJ5Vxns4UhlNT21Cvw8LX6WRrMXZCqykFcNOeOM9sYHl+TCj6GoXlomBgecMIPnIxQmpvq8YFjSHitZD+77RBCWtIxaml+A3nHeoyCoTVBLzGbfiTUYWnb32oGBPLze6/zpKDCO+TmysSiK4/63yDeXasCX0w8EnRuhFzZPu2Z9qBv9bk30Mo3R/5vtJchlGb18Y2ronSYQqaC5WNRZ56vT1rj2hf2JA6ZQ/DeDa0D5LAdiPEP5q6WxVQNYnssn+YCNs8sZCi4E1nNEi/xDWK7ba6VwlUv3xZkFRi5yRGL8qweRcwTcinWXkCXmP43q2US2MSqs=",
+   "level": 5
+  },
+  {
+   "id": "b261011a1",
+   "date": "2026-10-11",
+   "slot": "am",
+   "n": 1,
+   "kind": "암호",
+   "title": "흐트러진 글자 줄",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, Z 다음은 다시 A로 이어져요. 낱말 안에 같은 글자가 두 번 나오는 일은 없어요.\nWOLF → GNRA\nCHAIR → WMBKE\nPLANET → ZGRBOU",
+   "ask": "같은 규칙으로 TIGER를 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "결과 글자를 원래 낱말의 어느 글자와 짝지을지부터 의심해 보세요.",
+   "h": "8679b1fbdd2bbe507969e206aab222c607094507f4a3eb4f74e7a7f6f82a53d3",
+   "x": "wzbva3y/P+B/5xAFa4nqdH8/ruxfBZ2MK1dxpbDG0OhYy9vUCGzFjVbWH+tI8mubWGfOhE7hqPGpQ0Kp/pV4hRvnecGO3aw9Kleya62p2WrEq9J7XgiQBrjNjduowMdKli073U4rFK1/nrWL59hqwDxdJVGOyxAaEl6PYd4yXNisZgWqEaXWXUv0aZrl6H7c/MVv5oMAqpH5Ig0dhTBP5NJFFA9blkSWHoMVHKZ5Y30nM5Y2HkcvFYCXZ4NVkPGVpHcfWH88nIkkKlyFyd4c2jR0SFxcty2IHVjRq1i1ZXpkCX9U5VKoxIhIFVtBSORzLhjkUWfeveYprLZwLy8AIaEloQ/bq/HMqgsAC0aH9mG8aMS6K2bf0MTS6V+DLgjUAz1LRsyVwytqbvMyLYZ+EAS4TrLndF/Q/mQIyRBGZNKaCoVB6kdYLl1mpzdXaI0GlJqn7/i+0RJo9swp16/T76RMa/cXGOI2vPD+UFgjUmEFChMBZI1cw9nrMJ3O4UZc2iN+2G+7vF9jQ38P5WGcVMB/Xu2vdfeyYNM7lllZbzKC5e0pwaXfYQ0xNm/qIz8p+gw6hhEG5tHSdQAbUUeEPXGIpD0zM6dBmivgjKq38GCy+wIeTB2x7VZ2aPvzI8gLZQeVEwhnqgKCf4PzTGXqtxyPADVK8h9opyoYzaSsHJjbjAtUMoTksYG3H0U3VnC4OWhl1qiOeSirgCYHmEV7bKLwhJt/EyWag7YSDgfO/EGA9p9Xv9sFZIp73echJxodnKPrUWS7h8ZAXUY9kUSQx1suhWqZCH4=",
+   "level": 5
+  },
+  {
+   "id": "b261011a2",
+   "date": "2026-10-11",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "보이는 빌딩 수",
+   "text": "4×4 땅의 칸마다 1층·2층·3층·4층 빌딩 가운데 하나를 세웠어요. 가로줄마다, 세로줄마다 1~4층이 한 번씩 있어요.\n바깥의 수는 그 자리에서 줄을 따라 안쪽을 바라볼 때 보이는 빌딩 수예요. 앞쪽에 더 높은 빌딩이 있으면 그 뒤의 낮은 빌딩은 가려서 안 보여요. □는 빌딩 칸, ·는 단서가 없는 자리예요.",
+   "grid": [
+    [
+     "·",
+     "3",
+     "3",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "·",
+     "□",
+     "□",
+     "□",
+     "□",
+     "·"
+    ],
+    [
+     "2",
+     "□",
+     "□",
+     "□",
+     "□",
+     "·"
+    ],
+    [
+     "·",
+     "□",
+     "□",
+     "□",
+     "□",
+     "·"
+    ],
+    [
+     "·",
+     "□",
+     "□",
+     "□",
+     "□",
+     "2"
+    ],
+    [
+     "·",
+     "·",
+     "·",
+     "·",
+     "3",
+     "·"
+    ]
+   ],
+   "ask": "맨 아랫줄 네 칸의 층수를 왼쪽부터 차례로 이어 쓰면 어떤 네 자리 수일까요?",
+   "input": "number",
+   "hint": "단서가 2나 3인 줄에서 4층 빌딩이 놓일 수 있는 자리부터 좁혀 보세요.",
+   "h": "00307d3ab147244769873aa309db8fb1c364fcead8a6f96aac7df1979969d7a3",
+   "x": "PYy8pi5EFngCgC3uHEXr6UnEbx4NV/20soLHfSXDJYTplTDlwKodDCNpSTc4JdLuOMGxPu1oy00whoRLRUm9W7pRqTy3Tpmv+5hKXCMCOPRZsBkCESZZ7KTBYM2xlLmQyHhpGQrvLqNFGdMeCoc2/hgYlzTVt2ht2/BM/P0JePpW2HSHngKfQ6eV11Wwj5OoZdFhRkvhY9N2HCzehpQa9Zu/mKRTrjO/HdubmqTHcDzOabgrQHciEcsEq4jPed0H4pmS2P9K+oBwA8CN7cVZ6dqgrb+hGMe1v3CPXuJ4uT3GYYckBK//NY+FE/PKWvOuQXKtVf/dxEBAqeaLbpjdrPloxdHwLufAMuNEBA+CTcrooLPDzrDua/gUfeTDhcbdpbciz7mDtvem/UdQbQ0BjLnC+441/VtxCwf7d1R8cdfEFRndS6GEqxwFnmKLI42Fr25GpTMXMe0+e1Zbdg5tCwPQu8IR8TQ4repUu6bHRiDviXC2FvPQfczKhVcyU/J6DESwVV2tPqT/Jgrk7TidXjeDXuCzPQ==",
+   "level": 5
+  },
+  {
+   "id": "b261011a3",
+   "date": "2026-10-11",
+   "slot": "am",
+   "n": 3,
+   "kind": "기호",
+   "title": "기호로 쓴 덧셈",
+   "text": "칸마다 기호가 숫자를 나타내요. 같은 기호는 같은 숫자, 다른 기호는 다른 숫자예요. 칸 속 기호를 왼쪽부터 숫자로 바꿔 이어 쓰면 하나의 수가 되고, 맨 앞 기호는 0이 아니에요.\n가로줄마다 첫째 칸 수 + 둘째 칸 수 = 셋째 칸 수이고, 세로줄마다 맨 위 칸 수 + 가운데 칸 수 = 맨 아래 칸 수예요.",
+   "grid": [
+    [
+     "▲■",
+     "▲◆",
+     "■●"
+    ],
+    [
+     "▲★",
+     "◎◎",
+     "●▲◆"
+    ],
+    [
+     "■▲",
+     "●▲■",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "●◆★",
+    "●★◆",
+    "●◎▲",
+    "●★★",
+    "●■★"
+   ],
+   "hint": "두 자리 수 두 개를 더해 세 자리가 된 칸에서, 맨 앞 기호가 될 수 있는 숫자부터 생각해 보세요.",
+   "h": "c292ef0e53e4aeceea1c5fe9f268cce8d41cddd40bdfd1440345327bddcdfdce",
+   "x": "yYJvO9rpt+9MtuqwDjtWmGK4t9nY0RdWopfnb2+XNWph7UwPg1psUJUklj2mDqelNzrrEikr73WbxtAB1Mm78YbpM4+paN6c8uvJ+3j+vlhtQkLSHfqZkwFxbGn86CMUh/R71cMhNDPMgiT8O3c3lcMAOdfnsCUuA6YMiq4w3jV33HFDp75gscGYb7VclQ90xEEPIQiS9BqbHc3TuBFd3oeZVD65k19dj04+zFxodvOZqGOMjjKm/xA2J6WZ4BBfQxbcy6tKVvogEzPNhpn/gtf0h6cjA9ak5kTDPEFuJ1VmAJT4JeMPgouYRWL6uRSML17pK0u23pT6ezh/bpZIYgnjbBm7Nb+YEM1MNhTfWWTUCNkJfq7Eg/jKFf2KTDK1VBUW1FW3iEwicA+oYW8jKVj5yuLb/BeS3vy8WNZM/zdr7owgzds+0L2/1b0cesa059vxDc9PI9PO4qTiYor1D9jqhygucifHRNY48R1gYitOPGkTLJ45u1B3IeTlotqY6CUKF/YLuUyXZftG3bznxPrCqFtAq/DgiD6b3YzGernhxX2Jb602F0HFH6rD2e25mQFnHcWFb2yU90mcnHmeHa/lhfHVlfIA0iFx75Kr1MjTYNGioYp7RV7XfA3d5pP4cLpYOltQYdbkIqroU4sUk0XlW564cicxHlolZrZv2toEvF6nP7A3+ZcZOTHyRncvIPUpDJzu5LfYTO2oB7DMfpHE26F+WHXjREelKBldIoninTdQ25rXvgzJBj+B/Ph73MBFObKB9RP6y524WMBQcz3sMyPoWekPbwpJOtp0aE7Ifm48QRn3+8Cg8pf8vNPsQKmooF8=",
+   "level": 5
+  },
+  {
+   "id": "b261011p1",
+   "date": "2026-10-11",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수열",
+   "title": "흔들리는 사다리",
+   "text": "일정한 규칙으로 이어지는 수예요. 첫째 수를 1번째로 쳐요.\n1, 6, 15, 34, 57, 102, 139, 234, 261, ?",
+   "ask": "?(10번째 수)에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "한 수만 보지 말고 이웃한 두 수를 함께 묶어 순서 번호와 견줘 보세요.",
+   "h": "a5bc06f659dce340e3d45d8f3cee870f590aad90bbb5f71df828f56e6553f74b",
+   "x": "2Pb8iS9g8vbGmjhD2obXnWCcECshhrcXGEKqo7CSbCNjHrVjyT+GdNcLNRIMY4K8uCe71oXCEFxQI908bEXOLXfMHQvEuvl0QybTFmpds6QBksJ4fT3qS5qaR0uOOPkVyvW0oAD1nAtFiVHc+iPslvFHt7uaAkY50Y4bKPDWojcTXrtHiHQmga4gdhuT8ecCfNY0UF+ANuWv2Qu2Izrk9Lo6lX8xjmadh7tT9mzK59sYVqMy/8oUEafoAgt2+iuM2r5IYwiIDGdgcVqx0KLN2x08YC8rLZAnJWJPyVLck1Qtz5Yf97LSzX3AgSmiDrMOo0LyYt+HqVVdBvL0OVnIeMVKorptU9oWjfUzYJmSQFqJennaE/5pKTWdd4Uy1rNZYneWXA1ObrJlyZnpXOOOFcLM6hD09KIohRDsN1I+d86SzA8uVX4ukUSK4ZI4F2hYPFegUag/+V7FGJNQHodSvImcgbMXtDOUzNyDAbXY/YDLg2nzTgPGR2wAbr4+XhDR+1MLh6r+nFoUEPh7IfRm6GwCtlEgkQmbq1G8HyBO63aGF1lRzDnF/V5P7369Mn0Ehkft",
+   "level": 5
+  },
+  {
+   "id": "b261011p2",
+   "date": "2026-10-11",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "키와 거짓말",
+   "text": "민준·서연·지호·하은·도윤 다섯은 키가 모두 달라요. 저마다 참말쟁이(두 마디 모두 참)이거나 거짓말쟁이(두 마디 모두 거짓)예요. 나보다 키 큰 사람이 없으면 '나보다 키 큰 사람은 모두 ~'는 참, '~ 가운데 ~가 있어요'는 거짓으로 쳐요. '키 순서가 바로 이웃'은 두 사람 사이 키인 사람이 없다는 뜻이에요.",
+   "clues": [
+    "민준: ① 나보다 키 작은 사람 가운데 참말쟁이가 있어요. ② 나보다 키 큰 사람은 모두 거짓말쟁이예요.",
+    "서연: ① 나보다 키 큰 사람은 모두 거짓말쟁이예요. ② 지호는 나보다 키가 커요.",
+    "지호: ① 하은은 나보다 키가 커요. ② 민준과 서연은 키 순서가 바로 이웃해요.",
+    "하은: ① 서연과 도윤 가운데 키가 더 큰 사람은 거짓말쟁이예요. ② 민준과 도윤 가운데 키가 더 큰 사람은 거짓말쟁이예요.",
+    "도윤: ① 하은과 지호 가운데 키가 더 큰 사람은 거짓말쟁이예요. ② 나보다 키 큰 사람 가운데 참말쟁이는 정확히 2명이에요."
+   ],
+   "ask": "키가 가장 큰 사람부터 차례로 민준 1, 서연 2, 지호 3, 하은 4, 도윤 5로 바꿔 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "가장 키 큰 참말쟁이가 '나보다 키 큰 사람은 모두 거짓말쟁이예요'를 말할 수 있는지, 서연의 두 마디가 함께 참일 수 있는지부터 보세요.",
+   "h": "bb539382dfae7aea15edcbbfa306919747d7fc3c93850873aef24f3e1a8ce025",
+   "x": "KDTwCM66aAlaQHITx2m/UBJRCRtts7eI63dmV42iHjTVMyWXytuG76Dbgsg2HpeWwLPe2BaDkGYSfmlW6KPINpvLV8cuug0ktbhnr6wnOfjlBI2HzdlRSjrg2B5cvXTEtSJXZkfczNgk5O+iN/7dWN6tiypPYRbpwNvOouzfR6RwGj4a26eC8iTHBhCWkiIkst4LZtqN4CYRcIVSZrfrF+YBN4HPOWVTkhLwS9Yk8DYs72718AYYGauXnzNRtxmLd/5qJVmJ+3KKhT1rIg8HrcU76RxRT2BsQiuHZt/YORz/iJtHfbKhIA82MO/pYGG/iFhqm0rLU9Q3KDUU7E1U9e1/iPHyJhTOPMssN+Dp3v75krvg6xrySqUVlJFlPd+JggmSZsrSnMQ7RjFPJO459U3vukAyHND6eNvjZ+EjC4D2tCsjk9otv8xEeY95wEQP+oYjJRloM1DtmQRgYB9DH4XlwWFrDvdjpJ+XRiT+dBaKTsHCrUrbgJgL9l/7xS8rWbVYOv29B78sfPRgFAj3OGmDmgrUSe2cMiIiJCj35L0qqNWvDEf7egxMzjheDm/gXJDpMjZrZmrBolS4Zbrm3JpZF1irhL3/QbZmFUO5HD5qEd0leWHwXPr9NrGOOh3wh7KjDxzKpqfTAlZz1p8fiZE934GB3Ts+RHx23MrfhsGrB392It3ucR//xbSoZNrEAeNCWUirI3ggLxP+gDeeeGAYjBD0b32fQXIQgv6feO+K15OZlC02pV5BJ6nOuo75JAkWcFqfcyeOO/V77d+sb6IDXyyBmbpt7RcuLcQ7w8F6QUPJ1tPx9nl3YTzhXpR16X99ZrblxROH7WTX04t4QTm92q/wRrF3Lz/Rad7jRAQHqegE80dmX9vRUyokHNHb0o6QbAiAWgIQpXWhCvYK7Sq3ufZfyO7W4ZSFykymBr/PvItp5klBg6ZNURKQACSn0qHw2nvh1VBUOohLlMZ5SvXXc/heNls95ifI1GT9AyQ=",
+   "level": 5
+  },
+  {
+   "id": "b261011p3",
+   "date": "2026-10-11",
+   "slot": "pm",
+   "n": 3,
+   "kind": "수리",
+   "title": "일곱을 피하는 놀이",
+   "text": "민준이 1부터 차례로 수를 하나씩 세요. 그런데 7의 배수이거나, 숫자 7이 한 자리라도 들어 있는 수 차례에는 수를 말하지 않고 손뼉만 쳐요. 예를 들어 7, 14, 17, 70, 77은 모두 손뼉이에요. 손뼉 친 차례도 수 하나를 센 것으로 치고, 다음 차례에는 그다음 수로 넘어가요.",
+   "ask": "민준이 150번째로 소리 내어 말하는 수는 무엇일까요?",
+   "input": "number",
+   "hint": "백 단위로 끊어서, 손뼉을 치는 수를 두 무리로 나눠 세되 두 무리에 다 드는 수를 조심하세요.",
+   "h": "7465f8b5688ddd9c815b8090e7be3517123c6bc028368dad09fa9646a399bd80",
+   "x": "ofe7oRz08ilJS9sLnzTNzvMfAbr+0oUAxfSftDsEXKp2RLh0tcNWp/Mjjv9cMxuTlQrAwR2usUPOqy74ck7tjDHuL7YpzyKbyvwh11ndE2VhB0SDZqOoLOtHQcbXyW0PGj3Inq7O8xkJZFJCBJrJb9I1hsG/ee2iFQJlnXFN01Jv7bCUU6KrAsS4jVZD5tjG/6DASUOffi3gEQhHaBhl5jzv+nsJg53o/XkrpH5fBu0Y78D1M0ZWaSSX4869fK/R25+iCd2VRlgoU/Wd2fB2JxMCr+9zCJfZr+I3+nXT7xaRuLD7aKCUR6FVwOkn3CiXdykNTB+wHsW+8YG2lKdla6tZ+289E20fUY6EUqOQPfZ/J2yWTEI5DEC2SiPjCVwfTb+fCTmbPqc/I05sQZqTJDV03VWD46U03mfpj8+HH158shVCn4cuxvPHzClRSpL6pFxQnulOSRCdhuaMJ3BWtY2AcdDxk3tLNxxZscDiExNDAP8MCb/M5ClRIl4h6crulj/JvOWmpSJ1pt74gfwRMnkA3JUoKKB+qH2TZiIKKr1C1wmhSAEq3pShiHUE8d7OTZu5hLMsIfc005wrT4J81bOWVK56TyhgxZgBAebvbN9QJZCxvcQqSnRfUuidRGMySf+cZss88BPwYaemgWasWtQPOp7ZLtrBTVSCID5XwGM3WuCFoLP6Q8C3TRXZLTCuvIDkVoRrHqytlcpeSEcSai8/56JajZing2S09sE0doBLSP4ORQdKT3/gz151ZSh1bvu1dvVbXjE9hGwn1g==",
    "level": 5
   }
  ]
