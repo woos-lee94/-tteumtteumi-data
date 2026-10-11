@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T02:24:00+09:00",
+ "updatedAt": "2026-10-12T02:12:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -2308,6 +2308,158 @@
    "hint": "민준이 하은과는 마주칠 수 없다는 데서 민준이 마주친 세 사람이 누구인지부터 정해 보세요.",
    "h": "4fe407bc68d4031bd21ef4d06ddd2f2aeda5cc1d79e0e6a9db00bf2b5ba77982",
    "x": "xPoxbOqiyTkhSumlV3/piG7iCUebJXUydVdDBee80NCECfk61WWxyqgl4L+AoXGleDqoPJ5FlCg8+DXzwJHJBCr9uy1w1L5fmJlt7wAu+h/WTJiX9IZzODgygMkeRmeOthzCke8oERnJh/YgPCoxzFMmtiRDswig706OfXE/PJ45rLyWKL7/VbcsaCgt8JcjR3aBRiFbyC7Lb96lJJoIikeSUVeJx44y2gNEILrWhj8YtTpfSCvFNjOmrzGUeoorJgVhoIhHnE+7rOUJaqNtPxB4DFDA4kwb8loSh5d/ieIzGQmFb5tRRrXPGpyCZiyjXW1ZvvUe3uh6+nx1YfdFjVBzqtbh4nloAD50tcsOdbT2nOCb/S5st1Yjg1eNcwEgXQF5w89Xaxl4n+d6HqHzWT3hbrM5t7q4cjASagABVLv2iWNi0PzS627x6xXhov4O7EzvBRW8E89YKHDz+s0PfnXPvbt/ODFZOLxnRISxrjdSA1CndcCIwrz3K+DK/AVsu66nUkEBNOolqYETOEi+NGuRtoKW1fxUo0f1cF7YbfjE1Ithhk5NC7XwartXYcHm5kqyj/ZQBKYEJXOnfj6i+mu4p5+tRGA/AUvwR1y4tWSm3m7vE+AUFDQ1XLLeQpSHagHf8bXP+0XvPpjB9oruQUXgSAHSUKUyxZWpWhnYuEFA2XZv+rlAk+x6A15GVLWkq7iNFS+TD/e8YERn6N8Nse3do21munbENbWuULE5Ckhuubtz6z5mOZtquaVcLP+SWoaWCKsOHHqBFdF2wzmB2qTsbWO7wElMNVLUeY7rt33amtRHfNAr1fvuR1nQgwukViQ5vctQ5E8+ys+WsygbeDDDCEJDgSSqXRi3NxpqvxAjE4msJBwR2uyeuzdysOhR8K/2P19i36PZRLkVpDbRgRIqt18/hNl2+cMu0TrGSOVWBLpJtwKQaOBYIwx1p3l417Mv6SwW1RosVFr8qCm1bkhQws11yv/HeVcYlg==",
+   "level": 5
+  },
+  {
+   "id": "b261013a1",
+   "date": "2026-10-13",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "어긋난 네 시계",
+   "text": "민준·서연·지호·하은은 3시에 만나기로 했고, 저마다 자기 시계가 3시 정각을 가리킬 때 약속 장소에 도착했어요. 네 시계 가운데 딱 하나만 정확하고, 나머지 셋은 실제 시각보다 1~9분(정수) 빠르거나 느린데 어긋난 분은 셋 모두 달라요.",
+   "clues": [
+    "민준이 도착했을 때 서연의 시계는 3시 4분이었어요.",
+    "지호가 도착했을 때 하은의 시계는 2시 55분이었어요.",
+    "민준이 도착했을 때 먼저 와 있던 사람은 딱 한 명이었어요.",
+    "서연의 시계가 어긋난 분은 민준의 시계가 어긋난 분의 딱 두 배예요."
+   ],
+   "ask": "실제로 도착한 차례대로 민준 1, 서연 2, 지호 3, 하은 4로 바꿔 이어 쓰면 어떤 네 자리 수일까요?",
+   "input": "number",
+   "hint": "빠른 시계를 가진 사람일수록 실제로는 일찍 도착해요. 두 사람이 같은 순간에 본 두 시계의 차이는 언제나 그대로예요.",
+   "h": "56e4192b2833df511f1e2745729e37ed2b680d58126bdc392deb5c1596acfa35",
+   "x": "ohWIID0ceQRMmTkwGRgjk+8yTEh/LzBuUZ3bgwXGtAy6i235TgBgcJ+0dU84s3KriG3ULJzZfcCf1wXt7L6Xeg0Lw/NUIZRBIGz9IvnuL3qJTgJYMbhrd3u/T34m2byPkjQtOAKaKzrnd85CQmt7O42zL/GiwUiyxScvW3WMWuzWNJs+vWhvdDenFA59OgeP3neJAtWsd+L4irwffJiMqHa0mKZYlYqXVowZhOzq2Ur/PJT2FFQbvFhNdT4v2qt5IjhF+tNP/4IVBahFvj+u3kI0qNBLlcxUDXOQO9/r38Dhk6y18MenNviDkeQYjInHKPBUpUwOQ+u5z1p00dJriUc2VkLA3E2++2rMipYnatwXFf2KNo8rxJRfqHiUGWvcBfGFguSLSjaclINy03OH+nSGFpcafYGh4OrUr7FUfr4ES9KdpPq42VS5shJFAi3qYlqBIq8IOTOBA1X8jRMea2R0Wee4VMcRRl0q0Prpzp9tIn9UR9q9KQLN6QDAaNSPDqq7qPB0GcxDrO0XdPq5fRyWL+2d8cIm9C4ISRB0Ss5V2VTi+aNUj7lVfgy4NT4u7MwLYr5Nf85eOVQZrnX7HaTksj+RB8/lpnmcYysp9gK0I4Canrl/t5ALDBCJ7jRJsW9eJN9XgT725EDs/hX8DV7kWrOe7tpH/gXIc6FqGgDUmHHGqGow7zjISswfPkAdxZB/x5Lo7rkLMSim/L9LxJEGQY3uiyQcLP/P5ZzY7OpdCfyHnzEzHExhzalK1S8r2Y4XjzJ3H5gduJTvKMNSS2NgAoFvyNQpddZs3+dyQ3TiDsLAXBDgbt7oOj4VFyAGN6NYQwNdaV57i4g8FwMl2v0pxD0+02tWYVGShvpPGwNSgneFcLHk1rQ+PWN2u8m4UqvSHvoTfin2IAAgQIrYU/5eDZWA",
+   "level": 5
+  },
+  {
+   "id": "b261013a2",
+   "date": "2026-10-13",
+   "slot": "am",
+   "n": 2,
+   "kind": "수리",
+   "title": "고리 다이얼 자물쇠",
+   "text": "0~9가 적힌 다이얼 네 개(1~4번)가 고리처럼 이어진 자물쇠예요. 1번과 2번, 2번과 3번, 3번과 4번, 4번과 1번이 서로 붙어 있어요.\n한 번 돌릴 때는 서로 붙은 다이얼 두 개를 함께 같은 방향으로 한 칸씩 돌려요. 둘 다 1씩 커지거나 둘 다 1씩 작아져요(9 다음은 0, 0 앞은 9).\n지금 1~4번 다이얼은 차례로 0, 0, 0, 0이에요.",
+   "ask": "1~4번을 차례로 4, 9, 3, 8로 맞추려면 적어도 몇 번 돌려야 할까요?",
+   "input": "number",
+   "unit": "번",
+   "hint": "붙은 두 다이얼마다 '모두 합쳐 몇 칸 돌렸는지'를 미지수로 두고, 다이얼 하나가 그중 어느 두 값으로 정해지는지 보세요.",
+   "h": "8881a6cbd0aad61436c0286012486df9b9f126b33db8eb5033a5eaab0edc159d",
+   "x": "noeqy3Sfik37I2T7Zy65vGauvFsn48kj2MKMLiLwfnDLqzaUF3ctT9MPdZ4m2d7Ht1Bg7REIO2+538WCQkRT9tcJP4lNwYhIo6yBQ/RiHaZMgNoxMQSx0Jme1zHPHmn8BKihqPuFONU+sLf2eZczDHj2lr3Etnj/WM69R5No9rTWGu32Plpl1JyfOtcCGSztBtrPOPnFpvLRYemm0RJDq5CPd0lvzC8hxByOhp0PiieqYOQkTcznvmwhC7WFxsHfxO4TSP+LTKhZbHai6qXu2GVXPYOQ8f6lum4NWfnjcUpXi/rvGNxJUW3bqkaj7ph2+qz3NPJIt9G2dE62MkW6HV8W2B+auxGru+wjgc+UKxEp7k33aB5VKcsIJvLIlDVKz/2znKp/le1wJ/81x1/q1akjHcy+JY9j35cJlo0+gmAmXhTWakMZjkphEPb9eU43hxdRQoLqBVDP17ZsfAYOeyM3q3DHo/xyPzNrzHcHxwibQ0mimCJYKgNqDrG3XaeDM9kIJXZq25Arxj/1HBrqqXx8Cu49wkYiLIfJs4NAnltRxRd653U1FMTFXFSy3z5iABVnnNQOQOPgUflsPTtheFAngaxLjBBy",
+   "level": 5
+  },
+  {
+   "id": "b261013a3",
+   "date": "2026-10-13",
+   "slot": "am",
+   "n": 3,
+   "kind": "행렬",
+   "title": "이웃의 합만 남은 판",
+   "text": "1부터 9까지 수를 3×3 칸에 한 번씩 넣은 판 A가 있어요. 판 A의 칸마다, 그 칸과 가로나 세로로 바로 붙은 칸(2~4칸)의 수를 모두 더해(자기 칸의 수는 빼요) 같은 자리에 적은 것이 아래의 판 B예요.",
+   "grid": [
+    [
+     "11",
+     "18",
+     "4"
+    ],
+    [
+     "11",
+     "19",
+     "19"
+    ],
+    [
+     "15",
+     "12",
+     "8"
+    ]
+   ],
+   "ask": "판 A의 맨 윗줄 세 수를 왼쪽부터 이어 쓰면 어떤 세 자리 수일까요?",
+   "input": "number",
+   "hint": "판 B의 가운데, 네 귀퉁이, 네 변 가운데 칸이 판 A의 어떤 칸들을 몇 번씩 더한 것인지 묶어서 세어 보세요.",
+   "h": "ea0a5850125d23ff736478a3c78eb5b5dfe72d85a25a9646facde8d2695397ab",
+   "x": "LunIskAIBIk5tvDjfp+BXig2AE4JAbIhO+uvzrmmRkk/2MBksw3bDSR7b5RBANbAVyed+w3my0L8iltURiDhGyERG+idAIT50hRiRFUwzbdj332CJ8xstytPDLRa3RuLWPhU6c7+qXAaDWV7neprpFJMjXVoPvpLv5LOknYfh4HWj7rrB6K+oa87WxLdoZ6YAvUqago91xiJD1ylRCjRO+xbNgkYIXjSUnzZpQ/AGLnDhfNSgxrHXKOegWwQbfEap4WjK5/AeF4HA+/NM+EAB2dRQ1HxNufDMYtPFDY44f+6LJT0vUhN28oSoSZNQ3D8GOz+TDVN9c7FlUupFC5w+yqXcHviUTnNcQDKUifyY7JPb/kpQC42jlPtaQ9SSbtGdBpG3dhzyH+jXoySXSJUnBp2+Sjjk2loEU7n50UzYoqm3UCWDu4pPVa7c6JQezuP386pqmwOqZM8LN5xbY3MekLh4ppg+A2FOXiwzNuR8EFIuvtqBq5KhL71JiwP9zADqFXD0ze1dsrOF8nAtjziryvNjRcQz/Wp04F2JU9OZYcO3A+GyyBKGRUOOjlIA1NraeHs64HMBSSXgo2aGAGFZLzh0bVpcBrHAikpMO8UI0gvgrx6UW8YfBB6/kbZnBiYimLoAEyUSu71ksviFWilC5XM5mVQ6O/3DXLvZT38HebLErLXeGAGCMUjaCzc9xXeIMecoWmKkVcRkt0wdDMpzS0Nwh+1LmiCzrS3daAgEHfBMWPmNHZEATgfKCOuz19fpDqX164mL69v2IOodzQZ58Uqm9M=",
+   "level": 5
+  },
+  {
+   "id": "b261013p1",
+   "date": "2026-10-13",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "물으면 뭐라고 할까",
+   "text": "1~5번 다섯 사람은 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요. 다섯 모두 서로가 어느 쪽인지 알아요. '물으면 ~라고 할 거예요'는 그 사람에게 실제로 그 질문을 하면 그렇게 답한다는 뜻이고, 질문을 받은 사람도 자기 방식대로(참말쟁이는 사실대로, 거짓말쟁이는 거꾸로) 답해요.",
+   "clues": [
+    "1번: 2번에게 '5번은 참말쟁이인가요?'라고 물으면 '아니요'라고 할 거예요.",
+    "2번: 3번에게 '1번은 참말쟁이인가요?'라고 물으면 '아니요'라고 할 거예요.",
+    "3번: 5번에게 '4번은 참말쟁이인가요?'라고 물으면 '네'라고 할 거예요.",
+    "4번: 1번에게 '2번은 참말쟁이인가요?'라고 물으면 '네'라고 할 거예요.",
+    "5번: 나에게 '2번은 참말쟁이인가요?'라고 물으면 '네'라고 할 거예요."
+   ],
+   "ask": "참말쟁이들의 번호를 작은 수부터 차례로 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "X에게 'Y는 참말쟁이인가요?'라고 물었을 때 '네'가 나오는 건 X와 Y가 어떤 관계일 때인지 먼저 정리해 보세요.",
+   "h": "32fc5a6919b929cc15cba8104711d685ba6da3230a90d4716a78a489b98410e4",
+   "x": "/Eq0sUJiSwNLZkGiiJIQim0opY6eACo5w42Wb9AgimOj9NOQO2p5sz7km5pBtFl35tqx2dzqhAGgO72TyC1gwIosYl6iUN/HXE6g57+puLtk6IuP2o0I7Wcs2hvyGaOBs1fimaqgKBnV4IzyIjtk4VjROUdP9ptCaEGuySqxI8vv7kT/N074inmGZknMoDkyRnhZnohB5nS1/McKtUEHu3DXw8xG3c7OzdInXcZum7ZdveoheYQehju4HVHxh9PG1rYEQxwoNbdoJdg0hflonQi9uwSB0vDBzIeuIAgOvY9izAhuTCMO5DxL5DePxX7q6DnhbImPMOBGnSyD1io6BMoqQTFSZnAEg3A+Nq/GY9TyMpYb66D9pf4kwtGNctNxKPpVYROROjp91b1upLCSAPwt3e8LCh5fEfqQMOIYf4P1Z1jqXqkPFR5cbYlFFoGS0nqjgx87NmoTcs0GUNI9KXMkrnPQQjVl4i4SRhBg2mUICVQwhuk0HbAjEd4R8yNrtDepg8yQ/N+mGWT9vLZyRxHSME4K/c9jlFivXlYduUBPjRBJ6OFleGBp95WBGJ93oqDo5/OUy4me23bfV1ZG/smyOAJohmM4o0q8GuttjVRrVqPSItpj71bgL3AAMmtYyG2006yK2LK8rh57gucPrEAT0zq6bzT3ShUt0YPj+1/+m2e82O888FWl5EUrh09nieyx2AfXK4Qs+CeIpIV8U41b9ycyjhKbetVU60s/2ujtrqAFDj9Zk1ruoUI4g6ocU5lJ4k3mDlMyqrbPdg9nKbCnAmCicPrFAuF6oydpr3E4Gd9q5LFpYXWRCqEtCxJLAThgVMfL4dZqQxz8//8z1dVNoRjQ+798x1xlhqtouNLR+s7hK7oy09lw+XOlUhE=",
+   "level": 5
+  },
+  {
+   "id": "b261013p2",
+   "date": "2026-10-13",
+   "slot": "pm",
+   "n": 2,
+   "kind": "행렬",
+   "title": "곱과 합의 판",
+   "text": "3×3 칸에 1부터 9까지 수가 한 번씩 들어가요. 가로줄마다 세 수를 곱한 값을 그 줄 오른쪽 끝에, 세로줄마다 세 수를 더한 값을 그 줄 맨 아래에 적었어요. □와 ?는 아직 모르는 칸이에요.",
+   "grid": [
+    [
+     "□",
+     "□",
+     "□",
+     "56"
+    ],
+    [
+     "?",
+     "?",
+     "?",
+     "72"
+    ],
+    [
+     "□",
+     "□",
+     "□",
+     "90"
+    ],
+    [
+     "15",
+     "12",
+     "18",
+     "·"
+    ]
+   ],
+   "ask": "?가 있는 가운데 가로줄의 세 수를 왼쪽부터 이어 쓰면 어떤 세 자리 수일까요?",
+   "input": "number",
+   "hint": "먼저 곱 56, 72, 90을 서로 다른 한 자리 수 세 개의 곱으로 나누는 방법을 모두 찾고, 아홉 수를 겹치지 않게 나눌 수 있는 경우만 남겨 보세요.",
+   "h": "025e0260a4ead293ff8d71feafb513409795dd636363df93a0333deb3aa17600",
+   "x": "WT1lCPcNqWnOFFsFZQDutl5j3yZ2Ag9yUgqy1x5ybHRDXEMtPajiPgIs4DGjXI945Weh2nvlbMPjNV2HXZdSS+NZh//3UvN9FEcAU7lKcPWbw2SCgtjsWFRxbMxMoSF3376Cc/JXVKP0O64YzAa/2D0dsy3mGmlE1zYlNFz1getDRSX6unjKyVnY2oM++7E1grkxlKK5aZnfbqbbchyUywCwoCa2f/w2pRhsUoVopURlUJxOujP9YD43JKQfS2ERvv0MxNaRyvOSSZZI7tsook14hwTMFX5CdJzZqQ77bYH1tuS0YIMSb0nZ/viuQ8v4JJjX8Hfepv/l/5utZlR8xiAZmlWJk+ECbUhHN5c4NTn3LLNt9aBCb6A7K70jPOGu8kkCMH02nkPSC9ShEenr9m+X1XfqpAH7SLsQFGeDd99PlEjb6x1VFbRiNQ5dMD27QVVueDAako02XDh7ZAqrvJdTz+N+6aqaZ5Ivttxv4KJwj2KYKTWiYVbFrQ8vjQprzZeHjxIdCtpt/niPHdCAR/Hei7wLdyj+qKNY3w==",
+   "level": 5
+  },
+  {
+   "id": "b261013p3",
+   "date": "2026-10-13",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "네 스위치 실험",
+   "text": "스위치 A·B·C·D와 1~4번 전구가 있어요. 스위치마다 정해진 전구들이 있어서, 누르면 그 전구들의 켜짐과 꺼짐이 모두 뒤바뀌어요(켜진 건 꺼지고, 꺼진 건 켜져요). 네 스위치에 정해진 전구 수는 1개, 2개, 3개, 4개로 모두 달라요.\n실험마다 전구를 모두 끈 상태에서 시작해, 적힌 스위치를 한 번씩 눌렀어요.",
+   "clues": [
+    "A·B·D를 누르면 1번과 3번 전구만 켜져요.",
+    "B·D를 누르면 3번 전구만 켜져요.",
+    "B·C를 누르면 2번, 3번, 4번 전구만 켜져요."
+   ],
+   "ask": "C 하나만 누르면 켜지는 전구의 번호를 작은 수부터 차례로 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "같은 스위치를 두 번 누르면 아무 일도 없었던 것과 같아요. 첫째와 둘째 실험을 견주어 보세요.",
+   "h": "9aa0ed6ebf2ae321db1d807346a238583b1640b2f1334708c14dfe865aa74b16",
+   "x": "n+Z6lz2/FJqYqctbiHZI35XqlUSPutOY13ckFWSKEAO4u4Xi1EU1whJavM5hN4mD7Ui13w6aCzL4xPHFRoq5yGeJNsyJkqQfgOJCJhhBlKYEyyJMqLNlVLdG7XKSvQGhXQBcQNdzO2K21c4qsAnU2o8BnYbCumkioEf/w8HUVQ+HXU7LFS8+mcJGFGt0BgbuQsaV3/rptzhkERJYFSiH/9uQ4F2Do+HWoUuJ+Wz9T78cWW+9qGeNK3J606ASlqk0xwW8cLmo7BWqc+aAWH3X5kgkbPPvAsU2GFNtpMKpZ0R5Sng5StLxRyxPDFPZh9a4pzXDjuxISskRyWk7CSw6AO+UgxzgkzWSYmaEiamsUaYO01GyI5EQF8fWk1FMg/AoMtEK1IdeyyjcnibzuaDR9CLyZkN9MONivSoLXxZ036tSkrll9bvUrm2OuoyQEj3MSZRRJjqf8G+ue3qyFejoMbnf6mtietabtIJ45wraGeZGYMZbe51c7xbbizmq6YVm+f7d80gXadyo9SMvOiOqfneBW0XtmdFM4AQrmxCaoZa7YpV+kJXW9h7Gkz98U38Zg6sGHAuF0os24dvxktZ93Uz9Up48lk+c1hYtz8f+nQTCDMitSuH9AZX1sQk4HGk6sb+nIMw6VzGHBb6fyLA0uOY8ABsEjg73zD6ALVB7y9kK4VLdYVSLxyoP1ASI5RFqt54d92Z9ZgG+I+xmlS5bOJpwHBA293l+T7UL5Vbt69LEYd5mjJN/TobsOmXw3u+BElsZfLweAjiauIN4Rh1+nZygUjQ9WkW2STY/Bdo=",
    "level": 5
   }
  ]
