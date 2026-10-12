@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T02:12:00+09:00",
+ "updatedAt": "2026-10-13T02:36:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -2460,6 +2460,138 @@
    "hint": "같은 스위치를 두 번 누르면 아무 일도 없었던 것과 같아요. 첫째와 둘째 실험을 견주어 보세요.",
    "h": "9aa0ed6ebf2ae321db1d807346a238583b1640b2f1334708c14dfe865aa74b16",
    "x": "n+Z6lz2/FJqYqctbiHZI35XqlUSPutOY13ckFWSKEAO4u4Xi1EU1whJavM5hN4mD7Ui13w6aCzL4xPHFRoq5yGeJNsyJkqQfgOJCJhhBlKYEyyJMqLNlVLdG7XKSvQGhXQBcQNdzO2K21c4qsAnU2o8BnYbCumkioEf/w8HUVQ+HXU7LFS8+mcJGFGt0BgbuQsaV3/rptzhkERJYFSiH/9uQ4F2Do+HWoUuJ+Wz9T78cWW+9qGeNK3J606ASlqk0xwW8cLmo7BWqc+aAWH3X5kgkbPPvAsU2GFNtpMKpZ0R5Sng5StLxRyxPDFPZh9a4pzXDjuxISskRyWk7CSw6AO+UgxzgkzWSYmaEiamsUaYO01GyI5EQF8fWk1FMg/AoMtEK1IdeyyjcnibzuaDR9CLyZkN9MONivSoLXxZ036tSkrll9bvUrm2OuoyQEj3MSZRRJjqf8G+ue3qyFejoMbnf6mtietabtIJ45wraGeZGYMZbe51c7xbbizmq6YVm+f7d80gXadyo9SMvOiOqfneBW0XtmdFM4AQrmxCaoZa7YpV+kJXW9h7Gkz98U38Zg6sGHAuF0os24dvxktZ93Uz9Up48lk+c1hYtz8f+nQTCDMitSuH9AZX1sQk4HGk6sb+nIMw6VzGHBb6fyLA0uOY8ABsEjg73zD6ALVB7y9kK4VLdYVSLxyoP1ASI5RFqt54d92Z9ZgG+I+xmlS5bOJpwHBA293l+T7UL5Vbt69LEYd5mjJN/TobsOmXw3u+BElsZfLweAjiauIN4Rh1+nZygUjQ9WkW2STY/Bdo=",
+   "level": 5
+  },
+  {
+   "id": "b261014a1",
+   "date": "2026-10-14",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "숨은 배 다섯 척",
+   "text": "6×6 바다에 배 5척이 숨어 있어요. 3칸짜리 1척, 2칸짜리 2척, 1칸짜리 2척이에요. 배는 가로나 세로로 곧게 이어진 칸을 차지하고, 서로 다른 배끼리는 변으로도 꼭짓점으로도 닿지 않아요. 가로줄은 위에서부터 1~6번, 세로줄은 왼쪽부터 1~6번이에요. 아래 수는 줄마다 배가 차지한 칸의 개수예요.",
+   "clues": [
+    "가로줄 1~6번: 2, 2, 1, 1, 2, 1",
+    "세로줄 1~6번: 0, 2, 1, 1, 3, 2"
+   ],
+   "ask": "1칸짜리 배 두 척이 있는 두 칸의 가로줄 번호와 세로줄 번호, 네 수를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "세로줄 5의 세 칸이 3칸짜리 배 하나인지, 여러 배가 나눠 쓰는지부터 따져 보세요.",
+   "h": "d0c9b5064458d0de039fcdb411ac562451b5505f6ec46796af107e02f480cee2",
+   "x": "u3QgMCNqQcgdiQPjv0r/hu0x3WryQXvg9vc+i4K2/6hAeTSSdcZk1OFeRVk+shNv9DLIzCrpqY8EisiZZZxilx0kC+4NcTFJ8M4wogFM1wbrq4UbGdeE/TDwEP1HgOT9h9J3xLQElpohyatRodD3qLAp2JnlU1Cihsz9lD5ya0FHljtAtNPXXv29S99Ae4oe1WPilajTPJ1IXuA/9U36UZPBk9EzmFYbfMt/LQxh5Z80RK/diAaGoZo4zXNPs0xdsM4OvE+F/9tf2bDOrq+tB8VM+dw8Dlwuiz2G3zNz6w8oftiKvHyr6UeZSqB5o3hu0snY+7YEiaAlTIPkl5R+ikDskcv+PS23AZCtKaygevFMBrxgGRIjlOYEERMfiXTYTxq4Yww3iWgxSLhO4if5wGawL/CbbwQzs7ihcya8UT9pP9QgLohnINryvTdsq+JnUoum8Glk8ISsM2WlhBPa5p+ZFj2JKy6Ctw6WF52FTJf7/6ixhGqE6BjEMytT8HUeVF3sCW+F9KSPSFZhVmv6UXqSrPQtC1yIsVoifHeYyAM2hFSIeHGGtTojEzTJqIhi/RlTKB0/0zqjDAhRZy4q6x/0WgM7H0UcKmTU+KlG5F+I7vrve0irDX9QiUcuV6931OSxBH4K0cRP0ucC5RwcI/OnHV/CU2is2ON2qwvhpqYl",
+   "level": 5
+  },
+  {
+   "id": "b261014a2",
+   "date": "2026-10-14",
+   "slot": "am",
+   "n": 2,
+   "kind": "기호",
+   "title": "숨은 서열의 줄",
+   "text": "칸마다 ●▲■◆★ 다섯 기호가 한 번씩 한 줄로 놓여 있어요. 가로줄마다 첫째 칸이 바뀌어 둘째 칸이 되고, 둘째 칸이 바뀌어 셋째 칸이 돼요. 이렇게 바뀌는 여섯 번은 모두 똑같은 한 가지 방법을 따라요.",
+   "grid": [
+    [
+     "◆■▲●★",
+     "■▲●★◆",
+     "▲●★■◆"
+    ],
+    [
+     "▲■★◆●",
+     "▲★■●◆",
+     "★▲●■◆"
+    ],
+    [
+     "▲●■★◆",
+     "●▲★■◆",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "★●▲■◆",
+    "●★▲■◆",
+    "●▲■★◆",
+    "●★■▲◆",
+    "●▲★◆■"
+   ],
+   "hint": "다섯 기호 사이에는 겉으로 드러나지 않은 순서가 있어요.",
+   "h": "5681795fd5d9f09deba60376ab595bddb4a2906a87f46da8c7714e8e4756a11b",
+   "x": "JuxNaR3mzb7NXGfZ/Qfg0beYf/89BtgsKmmLkU32kRESPErb5AGTKuhYTwJC46oFKOB7mafX603JHIlaMEbH7SlgXTxZIHhdlAuwj5RH/0jYZ8qUD4Z+K+ef+t6ZQz8/NUqRqLicYLsUghwl1KFj+nP3Me5OKkLzqEGC06EP3Z1azVeiYqRzDmrBmG2h9EAFMkvTLACy/L33mHVsk4zcjrAWzKwLR4xhwOjcdWrEYbPoUoT7qdO05nwk+FTYsHgQASTbbq7JJehn5kCehWL42uLbX3AD/WDvcUgE/WRdgvjX5S0C8FMXwsP+BnOOpOhu3HdURGOnF5NXrzrjBuG+u0UmaqfyDmSBPVNUbWGItuysVZ3br2zRBiYEDdxaNfXyxi8iwdWUsGx3+jowrXkPbj1zAhD1co8oH/kReJ4E6h0T+ONnPLrSErKoubITdmulj46MgqMRV6nC3mPircP+w2ZCiiu2fSWd2yZ3AayQLT4Th8qoJ2uBAG4jxq5BrGxUh7r0iIJ55yCTuyYAJ4UmhjnL5CdDRQAe4jenWrYh035q8gI9H6Ms12h24aePe9pZ+PA29FxZoC4PJCfANIJN5SHr+/H36rq53ZEvVTMtrZPYjlIigiHVwjWAzrS4/GkhNfiq8ma8RgXBljG4nRypHafp3yka1kBDwpQuqvY/JhBzsGc197c7uPgBJCcG1ysnL3+kWP64Qv+QVa7v2VuUVrIfPyvVhWa/lbpcNdQo33RKyOpPwQWTSWlzPdfVcg==",
+   "level": 5
+  },
+  {
+   "id": "b261014a3",
+   "date": "2026-10-14",
+   "slot": "am",
+   "n": 3,
+   "kind": "참거짓",
+   "title": "모자와 거짓말",
+   "text": "1~5번 다섯 사람이 빨간 모자나 파란 모자를 하나씩 썼어요. 저마다 다른 네 사람의 모자는 보이지만 자기 모자는 못 봐요. 다섯은 저마다 참말쟁이(두 마디 모두 참)이거나 거짓말쟁이(두 마디 모두 거짓)이고, 서로가 어느 쪽인지는 다 알아요. '내 눈에 보이는 사람'은 나를 뺀 네 사람이에요.",
+   "clues": [
+    "1번: 내 눈에 보이는 빨간 모자는 0개예요. / 2번과 5번은 모자 색이 같아요.",
+    "2번: 내 눈에 보이는 사람 가운데 빨간 모자를 쓴 거짓말쟁이는 2명이에요. / 3번과 4번은 모자 색이 같아요.",
+    "3번: 내 눈에 보이는 사람 가운데 빨간 모자를 쓴 거짓말쟁이는 3명이에요. / 5번은 거짓말쟁이예요.",
+    "4번: 내 눈에 보이는 사람 가운데 빨간 모자를 쓴 거짓말쟁이는 1명이에요. / 3번은 거짓말쟁이예요.",
+    "5번: 내 눈에 보이는 빨간 모자는 2개예요. / 2번은 빨간 모자를 썼어요."
+   ],
+   "ask": "빨간 모자를 쓴 사람들의 번호를 작은 것부터 이어 쓰면 어떤 수가 될까요?",
+   "input": "number",
+   "hint": "3번과 4번은 서로를 두고 말했어요. 3번이 참말쟁이인 경우부터 끝까지 따라가 보세요.",
+   "h": "d5a39410ffaa85e574bb3b28ffb898e7d266b93c2d11bdeae3cb63b5e9f1eefe",
+   "x": "r53dxd3jMe5WqsWbzxHVlHLJGvbGlJrtnYjplGCfFPxyMxwtzr27mi+APA7011FiJngur19WfeqHvGhhs0Hg6Rzhb0q1b5Aj0XQuTk5bFA5don80jsCoYCLoVkscnSWrXcLR3vaOarR3ZnfTTcKS7V9LYHfLoNvvwvOkBuD+xzDN5nm0M78C81YhprrVhlkRk5/edtOq4hu3N/rLuHD5H7swxxtojFTTIg16Zm4ufSbMrZKqlOIS/dVe9GnqRpEmcal7KxXkj5HXyvs4kYnHZxJKnQuRz5lzl4Wt9gIu3b9QAlcP9343nVj1Ym0vYLtz8NOjrYPH5D/Eqm21mrPAx8hYabGNTAe44MwdbWHR/zq4cdKQL538Gn4CBg766BakV2zk89aPi3eiuzf+kbqaHD5sMZeicUI6LEaRU8h+zZeHcMckS5+qImf7ZkP9lM03ZjtCZt5C4/YqrjKDKv2NOJn5mpLacyyfpXOUN01GmGdRZQO1IWVceXn024aNdIrn3wL640AWYroIIGUazCAySzVltTbhxSRonE6oMLCftg6wYDuMIlAtOinK0n0ZY7LKlO5YVMAcCdWO8uWjD58AMznuMRBigL+TvqF7s0txYFJknpoZ2lJW3G5JawANCZcSr9WcnlcI3I8WZ/kscv88sTFQeOzRC0LW3lkvZkzm3Cwf+PTipLFaAPaqnVLmQrYBq3B0o5dRSWaSmz9sx5E6DKMQbHiSm4ZlfehiIbjd2VqYDWH6TkLo4tmI6n8UA+BOBKkWfoamuY+LzbpVazBtKJMNqF4JVCCL473+tn8wZzmfF3ZGIuZ2KASnbxj/GC8UTa3qM4xzY4WsJJ2P5xpmb92vRxtpD0dz+YKGdewo1rzpCADL+e20yFo1Lgms+IM5Zcr7IB8w4kvgGIy7rfhn7skb",
+   "level": 5
+  },
+  {
+   "id": "b261014p1",
+   "date": "2026-10-14",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수열",
+   "title": "숫자의 속셈",
+   "text": "일정한 규칙으로 이어지는 수예요.\n14, 59, 70, 98, 119, 187, 176, 224, 112, 32, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "수의 크기보다 수를 이루는 숫자들에 눈을 돌려 보세요.",
+   "h": "e969816938b1e340747aebce184f6e18c514ac1d1baf76dbca71f883c0aa7802",
+   "x": "sypKalrrZ3BHzec8AifAEaegasJjYzP1goJi4ALwZ9eOG1amZtIX3Rg4W90eSy6lnsvfzSfCJHvELYNQd8IkHjUj+DJy39KB+7wuKEM+ei77TSkD9QBKxL091Y2a5nOSj37kloMcfggfXJ0YDTPgN0tRPIuO8t4a/IOT0tlxEGBxFDhkyeuzGJfoZQp21xK8IEgnMTuNCpNiLZhd9E3ta8F1b/8MMTQayHVj6uvBAtcRWQLXCtD83F0GI0bz76jq5tUeMISc6EnpW2mAKhP4hk9IJCTg0r/gyNrIhj1gSipbIM9ei2bSxUVvllSpeuuh1heteCH5ky5BZ5q+xjb1El6f2z4p3+7I+GDbvuEUo/CneKBSYhP0GvImrINQBeAYu+SeXW9u5pSXGnFMI062+S/09o8KFqsyvw==",
+   "level": 5
+  },
+  {
+   "id": "b261014p2",
+   "date": "2026-10-14",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "손을 든 사람 수",
+   "text": "1~6번 여섯 사람이 번호 차례로 한 줄로 섰어요(1번이 맨 왼쪽). 저마다 참말쟁이(늘 바른 답을 해요)이거나 거짓말쟁이(늘 틀린 답을 해요)예요. 사회자가 아래 물음을 하나씩 여섯 모두에게 던졌고, 그때마다 자기 답이 '예'인 사람만 손을 들었어요. 왼쪽에 아무도 없는 1번에게 셋째 물음의 바른 답은 '아니요'예요.",
+   "clues": [
+    "물음 1 '당신 번호는 짝수인가요?' → 2명이 손을 들었어요.",
+    "물음 2 '참말쟁이는 3명 이상인가요?' → 3명이 손을 들었어요.",
+    "물음 3 '당신 바로 왼쪽 사람은 참말쟁이인가요?' → 3명이 손을 들었어요.",
+    "물음 4 '당신은 맨 끝(1번이나 6번)에 서 있나요?' → 3명이 손을 들었어요."
+   ],
+   "ask": "참말쟁이들의 번호를 작은 것부터 이어 쓰면 어떤 수가 될까요?",
+   "input": "number",
+   "hint": "참말쟁이는 바른 답이 '예'일 때, 거짓말쟁이는 바른 답이 '아니요'일 때 손을 들어요. 물음 2부터 참말쟁이 수를 정해 보세요.",
+   "h": "a7c90b8c811f575b76fee16b845a970c17d069d23168abbc3a9d919bf07b6998",
+   "x": "va8SM1YbEtvR40UNMzWMlMIA8m+zcL4q5zlf+r7myZB5FNSVzgCBt5LUDjZdQh3jMmnJONh92xTMxH69A7irq0TBn67ZtI3ErSPOMnh4a0RdAgnp2OnVKZfKnKmDhNSVZc0e3qyBSllyxh6ZYA7/fGNIM94BqXtJbnDtDj8+u4wi/2+i+Elux4+jhcMFC1RolzbGUOZmSx/VD7B8vf/+b6J5nXMljD1309M2fLHIWMVoUk1Op766XTaxjFA4Fu8bcrLyRuIXgqSpDOWhExcVq7iYqPOFFCZxjryzxjF//HDyMsR93EQJscPug364N5hT9FveR448pHsOaFZgr9cAVu+zSPUY3ysnI7zLtlepR2NYGqMph45ehrNO8eENzU43ulNfeR3di/Okp6C9ay3+Bn1DAc2EdHXIzZsbmQzDwa4H/OAJZNUfxcZQ5YegV7aERebugw9dM5OFizdzBWOvesPjRfw0+38criKgWey11t0jPx6G2PjsG0gMo/IqcIMWzN05vcXYyYA1rFr8zcwvKw+0c1/VH2zfUuIBlaaieEUszEfcG7l47a7LCvMA8A0LLmZNUBTy6Z8LKJMLboWNjTTIXJLxAHuiqZhpuxjVcWX5fBsmF2ZDtFA0WTmbZ+iFfDqPyLuyZhkkvzxr7NeanGtU7ekF1JnrZQL9wnGJUn5WyDr8UTyA6iBv92nMhuAaR4RZa0qr5Wmi4BXX9DrJltl4K/2TIuPi7YgeVQ3XgJKMKZQNcO6LZFxvSr+OSRlH05+dWTx0AQPnUJE9YhcQeONyNdhXZLcBHe9a4XNghbPofNTXD0bM4BphoNfPi7Nml0xGJbeVOQTcOaYtPpuHnbnnJMsHSrcd0ec52NnC6XDpJBePSO+K7etrXzMx51xSuksJfzbmzrLAY68R5CM=",
+   "level": 5
+  },
+  {
+   "id": "b261014p3",
+   "date": "2026-10-14",
+   "slot": "pm",
+   "n": 3,
+   "kind": "수리",
+   "title": "돌려도 같은 무늬",
+   "text": "3×3 판의 아홉 칸 가운데 정확히 네 칸을 검게 칠해 무늬를 만들어요.\n판을 90°, 180°, 270° 돌려서 서로 똑같아지는 무늬는 같은 무늬로 쳐요. 판을 뒤집는 건 안 되므로, 뒤집어야만 똑같아지는 두 무늬는 서로 다른 무늬예요.",
+   "ask": "서로 다른 무늬는 모두 몇 가지일까요?",
+   "input": "number",
+   "unit": "가지",
+   "hint": "칠하는 방법을 모두 센 뒤 4로 나누면 틀려요. 돌려도 모양이 그대로인 무늬가 몇 개인지 따로 따져 보세요.",
+   "h": "a8fbb1c87608a0a9e1706449203cae11485cefe55ea1806b8b3fed1fe10bad87",
+   "x": "dGHT3hrw92SSjn8F3cOBQsytEBpb35cQoZCnIA4Jo+QaJ4R+dRoLJq3YHOYaoEVVBbSCnJ4F+gvxvrgmexc4HIVaWnfya2Vx+oO5M1G+f+ZQwu1AqyoZXVInLmHHLiiEyW+3vvCTTMQ0jlo3z1Y7sUYp+ILQk3CnRWosE907M6GR5E8wY22hQROKUHYSI75te12YwHyPR7iV50Eru1APy3uE+/0suj06v0VXoh8hneB4SnrXToG8y0yUlTP9SsipQbE6Zq6CWLJVuhyDSHiTLOEZe7JNuKI6vNrVjm68bAGeAtjd1OloMGYNL1DMOBFzXYMgQoc0y/ADOQjrdKXtX0sGTmrwFrYDrTqkWd/MRp4Z+hlpATSUOLVwebd6jbSmm8qZgwobghPvaQNV6qxGmuLlXXu8Z63sopWvZs5ojnaNbX0fTapga1NSypsNhPSdoyykTykRrB8XUigjtX7mE5f+zQtnr9tLo2ym3XN9bvuAO6oWzcin3HhxZCUi+6PyFo2Qa+bBRN4mJS3I9qOTZi2YUNSRcmNtesPWAgHFl7e1lLDYbtpovhrd4ZnMDYvojbt4UcrS7zVwgzKrKh9NLKNkz/qZD/ZC+lZRBpscy1ZMVbsO4b2tH5GL18PuxgzvD0woPlgH/Y0BWUi1Z8oqfIttmTwIZBBAbuPMyOZVsagM32d5hXFIFJaZ",
    "level": 5
   }
  ]
