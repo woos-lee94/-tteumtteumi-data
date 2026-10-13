@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-10-12T04:36:00+09:00",
+ "updatedAt": "2026-10-14T04:36:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -1039,6 +1039,82 @@
    "source": {
     "name": "세계일보 – 교차로 진입 전 황색불, 대법원 '정지 안 했으면 신호위반'",
     "url": "https://www.segye.com/newsView/20240513501777"
+   }
+  },
+  {
+   "id": "tv70",
+   "title": "독감 예방주사는 왜 해마다 맞을까?",
+   "answer": "바이러스가 계속 변하고 면역도 점점 약해져서예요",
+   "body": "독감 바이러스는 해마다 조금씩 모습을 바꿔요. 그래서 다음 겨울에 돌 바이러스를 미리 내다보고 해마다 백신 성분을 새로 정해요. 게다가 주사로 생긴 면역은 시간이 지나면 약해지기 때문에, 독감이 돌기 전인 가을에 다시 맞는 거예요.",
+   "tags": [
+    "몸",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "미국 질병통제예방센터(CDC) – Key Facts About Seasonal Flu Vaccine",
+    "url": "https://www.cdc.gov/flu/vaccines/keyfacts.html"
+   }
+  },
+  {
+   "id": "tv71",
+   "title": "지구가 해와 가까워서 여름일까?",
+   "answer": "아니에요, 지구 자전축이 기울어 있어서 계절이 생겨요",
+   "body": "지구가 해에 가장 가까워지는 때는 오히려 한겨울인 1월 초예요. 계절이 생기는 진짜 까닭은 지구가 약 23.5도 기운 채 해를 돌기 때문이에요. 북반구가 해 쪽으로 기울면 햇빛을 정면으로 오래 받아 여름이 되고, 반대로 기울면 햇빛이 비스듬히 짧게 닿아 겨울이 돼요.",
+   "tags": [
+    "우주",
+    "과학",
+    "날씨"
+   ],
+   "level": 1,
+   "source": {
+    "name": "NASA Space Place – What Causes the Seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "id": "tv72",
+   "title": "팝콘은 왜 '펑' 하고 터질까?",
+   "answer": "낟알 속 물이 수증기가 되어 껍질을 터뜨려서예요",
+   "body": "팝콘용 옥수수 낟알에는 물이 13.5~14%쯤 들어 있어요. 가열하면 이 물이 수증기로 변하는데, 단단한 껍질이 꽉 막고 있어 안의 압력이 점점 높아져요. 약 175℃에 이르면 껍질이 버티지 못해 터지고, 말랑해진 녹말이 부풀어 원래보다 40~50배 커진 채 굳어요.",
+   "tags": [
+    "음식",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "The Popcorn Board – What Makes Popcorn Pop?",
+    "url": "https://www.popcorn.org/All-About-Popcorn/What-Makes-Popcorn-Pop"
+   }
+  },
+  {
+   "id": "tv73",
+   "title": "섭씨 0도는 원래 끓는 물이었다?",
+   "answer": "네, 처음엔 끓는점이 0도, 어는점이 100도였어요",
+   "body": "스웨덴 천문학자 안데르스 셀시우스가 1742년 내놓은 온도 눈금은 지금과 거꾸로였어요. 생활 속 온도가 영하로 내려가지 않게 해 마이너스 표시를 빠뜨리는 실수를 줄이려 했다는 설명이 있어요. 그가 1744년 세상을 떠난 뒤 곧 뒤집힌 눈금이 쓰이기 시작했고, 식물학자 린네가 바꿨다고 보기도 해요.",
+   "tags": [
+    "과학",
+    "역사"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Linda Hall Library – Anders Celsius",
+    "url": "https://www.lindahall.org/anders-celsius/"
+   }
+  },
+  {
+   "id": "tv74",
+   "title": "무지개는 원래 동그란 모양이다?",
+   "answer": "네, 땅에 가려 반원만 보일 뿐 원래는 둥근 원이에요",
+   "body": "무지개는 햇빛이 물방울 안에서 꺾이고 반사되며 색이 나뉘어 생겨요. 그래서 해를 등지고 앞쪽에 물방울이 있을 때만 보여요. 해가 높으면 땅 위로 올라오는 부분이 작아지고, 해가 낮을수록 큰 반원이 보여요. 비행기처럼 높은 곳에서는 아래까지 이어진 둥근 무지개를 볼 수도 있어요.",
+   "tags": [
+    "날씨",
+    "과학"
+   ],
+   "level": 2,
+   "source": {
+    "name": "영국 기상청(Met Office) – Rainbows",
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
    }
   }
  ]
