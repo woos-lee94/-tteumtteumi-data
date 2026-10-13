@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T02:36:00+09:00",
+ "updatedAt": "2026-10-14T02:13:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -2592,6 +2592,145 @@
    "hint": "칠하는 방법을 모두 센 뒤 4로 나누면 틀려요. 돌려도 모양이 그대로인 무늬가 몇 개인지 따로 따져 보세요.",
    "h": "a8fbb1c87608a0a9e1706449203cae11485cefe55ea1806b8b3fed1fe10bad87",
    "x": "dGHT3hrw92SSjn8F3cOBQsytEBpb35cQoZCnIA4Jo+QaJ4R+dRoLJq3YHOYaoEVVBbSCnJ4F+gvxvrgmexc4HIVaWnfya2Vx+oO5M1G+f+ZQwu1AqyoZXVInLmHHLiiEyW+3vvCTTMQ0jlo3z1Y7sUYp+ILQk3CnRWosE907M6GR5E8wY22hQROKUHYSI75te12YwHyPR7iV50Eru1APy3uE+/0suj06v0VXoh8hneB4SnrXToG8y0yUlTP9SsipQbE6Zq6CWLJVuhyDSHiTLOEZe7JNuKI6vNrVjm68bAGeAtjd1OloMGYNL1DMOBFzXYMgQoc0y/ADOQjrdKXtX0sGTmrwFrYDrTqkWd/MRp4Z+hlpATSUOLVwebd6jbSmm8qZgwobghPvaQNV6qxGmuLlXXu8Z63sopWvZs5ojnaNbX0fTapga1NSypsNhPSdoyykTykRrB8XUigjtX7mE5f+zQtnr9tLo2ym3XN9bvuAO6oWzcin3HhxZCUi+6PyFo2Qa+bBRN4mJS3I9qOTZi2YUNSRcmNtesPWAgHFl7e1lLDYbtpovhrd4ZnMDYvojbt4UcrS7zVwgzKrKh9NLKNkz/qZD/ZC+lZRBpscy1ZMVbsO4b2tH5GL18PuxgzvD0woPlgH/Y0BWUi1Z8oqfIttmTwIZBBAbuPMyOZVsagM32d5hXFIFJaZ",
+   "level": 5
+  },
+  {
+   "id": "b261015a1",
+   "date": "2026-10-15",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "세 장의 카드 대화",
+   "text": "1~6이 하나씩 적힌 카드 여섯 장 가운데 민준·서연·지호가 한 장씩 뽑아 자기 카드만 봤어요. 셋 모두 이 사실을 알고, 거짓말을 하지 않으며, 완벽하게 추리해요. 셋이 아래 말을 차례로 했고, 모두 다른 사람의 말을 들었어요.\n'가장 크다·작다'는 세 사람의 카드 가운데에서 따져요.",
+   "clues": [
+    "민준: 제 수가 셋 중 가장 큰지 저는 몰라요.",
+    "서연: 제 수가 셋 중 가장 작은지 저도 몰라요.",
+    "지호: 제 수가 셋 중 가장 큰지 저도 몰라요.",
+    "서연: 이제 세 수의 합을 알아요."
+   ],
+   "ask": "민준·서연·지호의 카드 수를 차례로 이어 쓰면 어떤 세 자리 수일까요?",
+   "input": "number",
+   "hint": "말할 때마다 '그 말을 할 수 있는 수'만 남겨 보세요. 1이나 6처럼 바로 아는 수만 걸러지는 게 아니에요.",
+   "h": "45462828547333a3d8b95381df07427f47bb16107a46e74e2c9d62924ec6d8eb",
+   "x": "EIM4bU4cOPmSn32zi2kZ1uhokdAR42S9QKW4EPZbrsyjC6HboN7dwlmDiX4R7HQeQzkQSWrzYPFYx8mULsr2w7Ct6PDHv8zPhfJHtK3qyWoI8jmnqDsmhzH8ASAZxLaLCS5WWLPfOX049IneSq/XgOU/SZzn9JVbH9Gjn86zZ7vWxPEv5RNKv607DDAMrpHtoogvf1m+8NC2fU/KRBZbutj0HW0DVeWZmdC2iObj7h4kHAgkKqFsFQ7NFxn3VAXUP4QiX4IylO6/9wBnax2+TJ1pi2gadh3Pt9X/QRW38xjVJ5artuzPbzePYdxzi99TRgkHwaACOjgOLEfQRvOCjyxDcfLxD6Ox3h/T9iZBR6tS9z3dUIsfD4YmjIIpGMU5Fyql/c5LvrAaaQyTxenDRyK4t/nUyAxeD13THEr6p62B5cxyRb/CG/L5shZI22egCIegBRUO6ecGTqzD/QJ8n7521gPEkKF0j5e1ifCrcOvR0z7PJ9rY5Sh7zCXIo1gfvdQMG9n+cPXckUQI8r5G7XsmdKj73BjKj8eGsT1PZHt7PWuhUpmgFbyCOP3B3TuVELu2yW7xCdQih+9cA5uMjZkBXq+rG/CXxc8TH1Ep4N5ebUMvBfAfp1fvpeWACQZiP0tjf2R735phFGSp6lCWc+RA9dqtQPUXbe9wHxPXcAIQqknD3UJtvcLZL5/6Q0tFDDV02LErgH2ohVDSiQQj+LrBR2JFFZ9gfgVhsZ/m5kHqT+Bm",
+   "level": 5
+  },
+  {
+   "id": "b261015a2",
+   "date": "2026-10-15",
+   "slot": "am",
+   "n": 2,
+   "kind": "수리",
+   "title": "두 단추 엘리베이터",
+   "text": "1층부터 15층까지 있는 건물의 엘리베이터에는 단추가 두 개뿐이에요. '위' 단추를 누르면 7층 위로, '아래' 단추를 누르면 4층 아래로 한 번에 움직여요. 1층보다 아래나 15층보다 위로 가게 되는 단추는 눌러도 움직이지 않아요.\n엘리베이터가 1층에서 출발해 1~15층에 모두 한 번 이상 서게 하려고 해요(1층은 이미 섰다고 쳐요).",
+   "ask": "단추를 적어도 몇 번 눌러야 할까요?",
+   "input": "number",
+   "unit": "번",
+   "hint": "단추를 하나만 쓸 수 있는 층과 둘 다 쓸 수 있는 층을 나눠, 엘리베이터가 어떤 고리를 따라 도는지 그려 보세요.",
+   "h": "25b5eeb721cbf1101850c27f1a4b33f2fec1eb048dd1579eed91f1e3401c2317",
+   "x": "wLz++cg914HAVde2/Ov4eO5drTKNpNjH30ZT2z+b0rTJ2/gI0GB6IL53ZpMCTZdIh3eAdW/2QyQbrBzc6jCuf2PbExRiRtbTZVU7ZzxozzZG518OoPzRLHKGRvOTP4JYKN75Gl5b6wYI6+p/3z6Wtec3D2otd7ooaXoj2w1RLRqHatr1FzoImgPqDl4+qpNrZy/sPbcl/Hd4zcc83KG9JM3oCFZdEULqJhD5ibAIookYcmPs01EXXNoYlxVxeUjTD2rbiYHZxql62MRlATR1uzqwDulJb71u/YAjWH8YJk94joandP63iRznUwvgYU45iNiup2lspqGxmhvbOzsIhX53PBD21zpgnCkLPO+eR/N5aTneO/bTVLyBFenCN3F3HREgJHE8rmIs/uQ+WkmN4ISFyhpN/BEJYcKKERwYcOAsCP0vHfX15NkCTUwqpz23xJYSNG7yxO4pui7hkoGUZb6sJJ5aMGiNaYngu+w1kBEh2cGr89Gc8Gv+4MVSXZu0d0bvyuwlNsWxouKS2aE7PPoxlxzA98se7AkkVhe0GjJQlMzLux8smOG9NdoX4NuWee0urm8T00tfIytv5vSKdON0aZXDFvu6SgHzs8cog0Dgcow30nSwayQTWlSOV1oowNCtdHNMuEN3QFePw3IVOpz9CL1eXAwgdmzOlUEG8yF7Rd4OmfH/lZOvFCQxbxwBIBz3AtHO9xsQJFnkS6lnWuHhV9/UR6Ur+s/chTNXPHWuwvtEAzvH5PyJMeciaFHDHYb9PE8Lt1yY4lFUIRUgB8MjD3+CbvxE0/Rk/f7zatleT/oCkOKSo5s=",
+   "level": 5
+  },
+  {
+   "id": "b261015a3",
+   "date": "2026-10-15",
+   "slot": "am",
+   "n": 3,
+   "kind": "행렬",
+   "title": "네 칸 창문의 합",
+   "text": "4×4 칸에 1부터 16까지 수가 한 번씩 들어가요. 2×2 크기로 붙어 있는 네 칸 묶음은 모두 아홉 개(서로 겹쳐도 돼요)인데, 어느 묶음이든 네 수의 합이 똑같아요. 그 합이 얼마인지는 알려 주지 않았어요. □와 ?는 아직 모르는 칸이에요.",
+   "grid": [
+    [
+     "□",
+     "□",
+     "16",
+     "3"
+    ],
+    [
+     "□",
+     "□",
+     "□",
+     "14"
+    ],
+    [
+     "4",
+     "15",
+     "□",
+     "□"
+    ],
+    [
+     "?",
+     "□",
+     "9",
+     "□"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "네 귀퉁이의 묶음으로 합부터 구하고, 옆으로·아래로 한 칸씩 밀린 두 묶음을 비교해 보세요. 모르는 수를 하나로 두고 나머지를 나타내 보면 돼요.",
+   "h": "3553e7fd51cb2da19e2732775ec9c03c546c68d3384c8e9574508162527f1376",
+   "x": "mbPv3yW6oNBLhfNHrGlWveRsBgBShA7MbBbsZDaBJaw3+lMNFhJneL3B/Jv1dwmxIrKhn5KMNWMwAHyYaCnTIl4L7Qph+bbSceFFm5GqjwRGPLwEkS56jan1oVJmhkCmD6CYvkPfemypltXvoXliQjzPj7e6p4XW0OLNCzQaep7ev+v4lTACMUMt7l0DpnRodAAOdWaUQd00skufwdNOc2g6F+VgC8MWOQIq7gZd1htFE4LAwJi//ni9wcQEO4z0b/cTbNBi32yxDXPozglsPcY4ZRsUESVxGDRiQrJZ7uzTuz5ynQpX8w38i28mRBjH2WgjDoP7JTuKKJtsD6/JfUQOETeWEC+A00OprNk//HfeKsfWRNqEF36SQslOgsiU7HQqMEfvRanOMi32WHKtwvwTCMyxCJz1mLVliZ3vPipSs99ttdzJY5yWFGsRluZdqDgr9NlF3Ri59FExdSEX/tBOFtWCzieqncHhLL2ItSDv/Tvn5j8C40G8zTRG4PY5kVVDypXv2RNWTQjBAm/gDUJTDkN47nIpyB/5gbQTHqJfSGhzxob9uh3dFV+yGbb39fp8w1iOj0aKTvrWT5RT5fkz8Ppu0T8KC0At8TjHW3plt0eSxGYxj+NdKcDQe4MXQyHm250RVhdY/mNxp0RFKU/KYeYQt8vzCq6mGkhsGc5N2A==",
+   "level": 5
+  },
+  {
+   "id": "b261015p1",
+   "date": "2026-10-15",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "그리고와 또는",
+   "text": "1~6번 여섯 사람은 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요. 여섯이 한 마디씩 했어요.\n'ㄱ이고 ㄴ'은 둘 다 참일 때만 참이고, 'ㄱ이거나 ㄴ'은 둘 가운데 적어도 하나가 참이면 참이에요.",
+   "clues": [
+    "1번: 4번은 참말쟁이이고, 거짓말쟁이는 두 명 이하예요.",
+    "2번: 4번이 거짓말쟁이이거나, 1번이 거짓말쟁이예요.",
+    "3번: 5번이 거짓말쟁이이거나, 4번이 거짓말쟁이예요.",
+    "4번: 거짓말쟁이가 두 명 이상이거나, 5번이 참말쟁이예요.",
+    "5번: 3번은 거짓말쟁이이고, 1번은 참말쟁이예요.",
+    "6번: 5번은 거짓말쟁이이고, 거짓말쟁이는 세 명 이하예요."
+   ],
+   "ask": "참말쟁이들의 번호를 작은 수부터 차례로 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "거짓말쟁이의 'ㄱ이거나 ㄴ'은 둘 다 거짓이라는 뜻이고, 'ㄱ이고 ㄴ'은 적어도 하나가 거짓이라는 뜻이에요. 3번과 5번을 함께 보세요.",
+   "h": "cd7337e25144cf478d4cfdc0c6635c9210cc3517b6b01f0fbaf7a135ca603f8b",
+   "x": "JIv3D6VA5eSr7bZgihk5WMgu4mHagXGXFIrB2tR2cN45AvQh01WL7udUsZjvO6iwfDbcMxOe1L/vDkGs5CeGFKmO04tgh2q+A1oB/zRbn0X/l/LCm4fFlK9dQGtcnOh2I/925MbxpJNdcmWnIrQ7gPt+i2DcRNpzsFzgOst4hIyWiMY2ez0xzLjPC/ldD5fwluudtSMNC8X3a52LEnlLMHbFq4dQxoewmKTAHtNnNUQYaszu6RGeV/BelizAbNto7bjvaPwMjdBMCOi0w3gAq/+upA5ln9+f0g5PbOAuDIxqFOAAMgPDYmB4RPgnFQ9f3FC0/vJPWkuu3xOpBQWO6jrncOWRSpAx8SKgO9WMfDAVqJ7D1y07f8lEbedbUctVpNGz5am+pgqjZKCr1rdBtIU+outoPuOmKVWpD63qR8UuDW2gjFB6R3sReh3weN40JBoU3hij59ln9T7GxttP6o5LK9vmBCfiGRv9pvF2E8pvHOvl5izDOv5m0WbaTRttqoTeRasoI2FTLQYG+OHwqFUcOJemoy/zKnY4UJ2kCmYKUJak7+AMJBrNWtkXmWs8wGRmcey86h07qk7px2SGj4BDfNlSYeZNap6S+YSmtHUudb8GMj4oAdcETSWRMtj871S/wIMP5/ZuNADoHc1k6B8uvSo5V94Iyhq0G22fCItUOLj3ZuZOa4dW3xWOcE/vfPMigdlFWOl8KOubTtXVjaB8aIsiYSftSNHI+YiAiKk4btnauuGWN2qhVPupWKJmvA4AhKXVjWpVo2jpqUKkTFoxHEYyiw6R2qyAsamdAkkNZI0nQg9HmNZf9SBghDtIaMzb/8pq9Y7IrSOxvMORNLXJD4OSqg5b5xI1OUOPBT6YvQRA4zL0E365QRgUMe7+mWlXXpgecfdM7jRb46/3AGCT04dbDykJ5fEUpW1+AIE=",
+   "level": 5
+  },
+  {
+   "id": "b261015p2",
+   "date": "2026-10-15",
+   "slot": "pm",
+   "n": 2,
+   "kind": "수리",
+   "title": "이어 쓴 숫자 띠",
+   "text": "1부터 999까지 자연수를 차례로 빈칸 없이 이어 써서 긴 숫자 띠를 만들었어요.\n123456789101112131415…998999\n이 띠에서 바로 붙어 있는 두 숫자가 '1' 다음 '2'인 곳을 모두 찾아요. 두 수에 걸쳐 나온 것(앞 수의 끝 숫자가 1, 뒤 수의 첫 숫자가 2)도 세요.",
+   "ask": "'12'는 모두 몇 번 나올까요?",
+   "input": "number",
+   "unit": "번",
+   "hint": "한 수 안에 들어 있는 경우와 두 수의 경계에 걸친 경우를 나눠, 경계는 어떤 수 다음에 생길 수 있는지 따져 보세요.",
+   "h": "b98fbc4f10c35c05c1ae58985d38000064718ccf4feaa155eb0e4a03bdfebc8b",
+   "x": "Pp4a6y30guu4PTcpfRcycYs06v6sxRYQOwOHKRUvw1Ol4nvFsdAcpICpf/BrWBQOS4t4dvDXHnCfYQCV3ekK1Lh6iwh80ICn8e9DGxaKu3Y0eUWyIppgFWlrqw9g5TcEjQq4UpD/gkLcB9uTacYLs8L88nzH5QmGLMcaZ/lPQh2JAXmKl7f3G7fLyMq2J2XPyKfPkfvf6PC09ai9ryUzYFCsFhXaZjeYa0AJCJigZMbNaYv1FMJftsQ0fauszWKoD19Zty2QJO5ytsJa1v5icaGy3m2FF/3RVtXpOXP+3h4NKujFrqHNbh3q60TROBN/l1vXR89GGZe2GK8TAxYk2MWayJkUQYARWchouLFpAYvfQFt9CteLo8zIUAX1YLMjorfO5jJ66q8qImxzr8TL/u2IotFdl3Rq4f3q52w6SWqc39RrWWumZFOzF80tO9e9W4cL/cAubjE=",
+   "level": 5
+  },
+  {
+   "id": "b261015p3",
+   "date": "2026-10-15",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "다섯 장의 투표 쪽지",
+   "text": "민준·서연·지호·하은·도윤 다섯이 반장 투표를 했어요. 저마다 자기가 아닌 사람 한 명의 이름을 쪽지에 써서 냈어요(한 사람이 한 표). '서로 뽑았다'는 두 사람이 상대의 이름을 썼다는 뜻이에요.",
+   "clues": [
+    "표를 한 장도 받지 못한 사람은 딱 한 명이에요.",
+    "서로 뽑은 두 사람은 딱 한 쌍이에요.",
+    "지호가 뽑은 사람은 정확히 2표를 받았어요.",
+    "민준이 뽑은 사람은 도윤을 뽑았어요.",
+    "서연은 1표 이상 받았고, 서연을 뽑은 사람은 모두 표를 한 장도 받지 못했어요."
+   ],
+   "ask": "민준·서연·지호·하은·도윤이 뽑은 사람을 민준 1, 서연 2, 지호 3, 하은 4, 도윤 5로 바꿔 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "표 다섯 장이 다섯 사람에게 어떻게 나뉠 수 있는지부터 따지고, 서연에게 표를 준 사람이 누구일 수 있는지 생각해 보세요.",
+   "h": "85339c4803a4a20fc6dfff3e184c4c51fb05b9c4b5083bfbb3a71b540b21048a",
+   "x": "n27pj4CXvcTm+6C+jxoF1DCGSHZomShii62lTHkaT72QdDjz8D7n1a3kjxKoiNUS6TW2VsBkyy9NZEJ87HvItOXMW6iQh7UgqcaMGwy+KQ5fo4OX9rfc4NqsASzs4Ue1dsscbOjQSRmKih0My7zpuVVYPpgWK9K0W/vAmZjxHzvQ7jELMztRB9zIxIKd+D2GslYcuCmNhaBuKnRNtURCieegpa3Gy7sorqeQ0OE/1VuMYPayhT2b8PIVuQ1ET/TcBFfN59mlQdA9ojnYL+1mfOIeoAQX7HIu1IIHEkF8hmZZ6vZxxDv+x5otoIYgJi8DqeqJMM8ik1tXn1pcAGMmL8+emX1EoXMrmIOUsJ9LeCsQHpKyqStiz/D2tHaNJ+v9X2tquqQ4YTtqh8P66/8bC+gcjYgDFhpqJsIXXvZyd//dZw+UOOd9KmWwqUj/ka6sYMlJwFpSR1jiYiU1YylMLyYrMLlhP7qJY+h0COh5uMCVr7YD7chs1rhPnErnaCGWGd7cQ4ZJXovyq0S9DO9fj8RA0To7W5iutdZKKBj1gct4OeaZb3pMi4KxlYOdTiC+RNpoAk/9GMetIyryb9guFm+JBG0/ZrdjzdQQDBZUitxUhmuYqbJthMIwJW55jk/5pSGMd2ydmVkUh5pVJEBk+Esaw20DTqL3VmZapYgOf+amKb7gdXcEzcB9QMZOxH76FVH5R3nGspvtAzVbdZ3K6GellQyIOuT2Cp2Pk/peA778",
    "level": 5
   }
  ]
