@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T02:13:00+09:00",
+ "updatedAt": "2026-10-15T02:11:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -2731,6 +2731,185 @@
    "hint": "표 다섯 장이 다섯 사람에게 어떻게 나뉠 수 있는지부터 따지고, 서연에게 표를 준 사람이 누구일 수 있는지 생각해 보세요.",
    "h": "85339c4803a4a20fc6dfff3e184c4c51fb05b9c4b5083bfbb3a71b540b21048a",
    "x": "n27pj4CXvcTm+6C+jxoF1DCGSHZomShii62lTHkaT72QdDjz8D7n1a3kjxKoiNUS6TW2VsBkyy9NZEJ87HvItOXMW6iQh7UgqcaMGwy+KQ5fo4OX9rfc4NqsASzs4Ue1dsscbOjQSRmKih0My7zpuVVYPpgWK9K0W/vAmZjxHzvQ7jELMztRB9zIxIKd+D2GslYcuCmNhaBuKnRNtURCieegpa3Gy7sorqeQ0OE/1VuMYPayhT2b8PIVuQ1ET/TcBFfN59mlQdA9ojnYL+1mfOIeoAQX7HIu1IIHEkF8hmZZ6vZxxDv+x5otoIYgJi8DqeqJMM8ik1tXn1pcAGMmL8+emX1EoXMrmIOUsJ9LeCsQHpKyqStiz/D2tHaNJ+v9X2tquqQ4YTtqh8P66/8bC+gcjYgDFhpqJsIXXvZyd//dZw+UOOd9KmWwqUj/ka6sYMlJwFpSR1jiYiU1YylMLyYrMLlhP7qJY+h0COh5uMCVr7YD7chs1rhPnErnaCGWGd7cQ4ZJXovyq0S9DO9fj8RA0To7W5iutdZKKBj1gct4OeaZb3pMi4KxlYOdTiC+RNpoAk/9GMetIyryb9guFm+JBG0/ZrdjzdQQDBZUitxUhmuYqbJthMIwJW55jk/5pSGMd2ydmVkUh5pVJEBk+Esaw20DTqL3VmZapYgOf+amKb7gdXcEzcB9QMZOxH76FVH5R3nGspvtAzVbdZ3K6GellQyIOuT2Cp2Pk/peA778",
+   "level": 5
+  },
+  {
+   "id": "b261016a1",
+   "date": "2026-10-16",
+   "slot": "am",
+   "n": 1,
+   "kind": "기호",
+   "title": "만나면 사라지는 짝",
+   "text": "칸마다 기호가 왼쪽부터 한 줄로 놓여 있어요. 기호는 ●○▲△■□ 여섯 가지예요.\n가로줄마다 셋째 칸은 첫째·둘째 칸으로, 세로줄마다 셋째 칸은 위의 두 칸으로, 모두 똑같은 한 가지 규칙에 따라 만들어져요. 칸 안 기호의 순서가 중요해요.",
+   "grid": [
+    [
+     "△□",
+     "△●▲",
+     "△□△●▲"
+    ],
+    [
+     "△○▲",
+     "△●■",
+     "△■"
+    ],
+    [
+     "△□△○▲",
+     "△●●■",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "△□△○●●■",
+    "△□△●■",
+    "△△●",
+    "△□△■",
+    "△□△○■"
+   ],
+   "hint": "두 칸을 어떤 차례로 이어 붙이는지, 그리고 이어 붙인 자리에서 무엇이 없어지는지 살펴보세요.",
+   "h": "0c8251dd8f02c2ee9fc461988eb38a04d25271a4a5c1ecc69fc6b3557bf2d0f7",
+   "x": "vmlzQiEqk6Id+1UpH75H5Rl+9ZkP9s2k24d1W4hTdc/a6gvL+bSfJGImSiq2lFVTgDrwpQBQh011y52iB5eSFVduNP8XZ54BZG0lL49bJvZS/KZZQ60uZbPPdiaKEnvKGByXeT0Y0NpYNRwsJ0UaK+naiGn6bWxIh3DlcM3oWfMYKsRBg+afd+kEKUCknnC8w8WrKocT07FhepKkbMPm4G9Fj7BB6dGVbyuwvT3u5Nkt4a2uj9o2te2c7yxos7nZpjZigGy9CE6kf98Njxq5XdoP2M1Ff0TBp/LUXYfJtDmKOeNgpjsKbPD0LJe3gPiF5rhhKGp02pJvHt1oNf7BXapZdF3DMMyfb3DdJCYmglGIe8dJAsgE+V9lApWDiNeh4738G1SvYZGWygayD0C/ebe2XX5EbK7DopJ02Oh0cFCFk15fAbtLn74TFZCNVdfdrIVj16fgf1x/8RNNrQZH5H2ADd75axELwR9ihJAVJuTPiAoV3s5MCAmIJvdQUIrKioBIvjNV8g3/MQu/YjNsLDX+pusV9ewOTxjsW8zlHg1DvlCqfhqxkDGBlDBwMNL+jdPGdvR4DzRvZUi2kwrsgyNw5RsUwnGxf/03moVG/xyu8r/AfTRVhK+Kg9M=",
+   "level": 5
+  },
+  {
+   "id": "b261016a2",
+   "date": "2026-10-16",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "두 종목의 순위",
+   "text": "민준·서연·지호·하은·도윤 다섯이 달리기와 수영 두 종목을 겨뤘어요. 종목마다 1위부터 5위까지 같은 순위는 없어요(1위가 가장 높아요).\n'X가 Y를 앞섰다'는 X가 두 종목 모두에서 Y보다 순위가 높다는 뜻이에요.",
+   "clues": [
+    "지호를 앞선 사람은 없어요.",
+    "민준을 앞선 사람은 딱 1명이에요.",
+    "하은을 앞선 사람도 딱 1명이에요.",
+    "다섯 가운데 자기를 앞선 사람이 아무도 없는 사람은 딱 1명이에요.",
+    "두 종목의 순위가 같은 사람은 딱 1명이에요.",
+    "수영 순위가 달리기 순위보다 높은 사람은 딱 1명이에요.",
+    "민준과 도윤은 두 종목 순위를 더한 값이 같아요."
+   ],
+   "ask": "민준·서연·지호·하은·도윤의 달리기 순위를 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "아무도 앞서지 못한 사람이 한 명뿐이라면 그 사람은 어떤 순위여야 하는지부터 생각해 보세요.",
+   "h": "dbb08c1e39bdcf6b2ac677068588f82c1cf70e660b1428e4b87e975dc4d3f0b0",
+   "x": "olyceDDnd5OCcZFIuT9zjs3kjXuBmrv3dhox9a26uAwP7w7Q0L84QwyK1wk8rhFQAwWidJQnc5pIe3iZKz7qYFKxmNMM5iuhX6yXW4aMCrOrik/Xp5Ct+LSDvPuslQu34Q4emczzYFjBBk/6CFQ0F+Pu8vi0K+PrnWWFeBBpa8dZwdw15KkSidRlLlS4DR/5TzxtnD8jNlhjjce4jSNQsbBF5G5/hJx1/2ENyihnPABV4bfPa/Zqbq88VAod9AjPosx1YyNPWCvIyhLYZ9Kx3rX8RCJgwxiEib2yJcpWQbGIciw4MUC/va39UMTv0kcR30aXzHE/OtNAGCW6inra/JGmMNTN8lzJ8MKcQGQeB8Jr8izt7wbywFC6KzHWXdBQPDEaVJjNKZ7vSdIYvZi4AN1wowHyItbgTTNgQFwl5yrCoNIX5uw4Jn7pk5BeO5vEJX9n+3oF9OSzl2MwNgxbFH/xIwqRqWGP5wwT7UiaqiiNufeIXtzsL5EGXqKQE7uNk/LAP1/+arB5PafRA+qB3xdcuW3tXQvSTS3u00QZRHfNkiy+GK8/ML6fRy44ANOU5DIUKKx4lzFnvEbx5eR19WeJ4yJfhmCcPpU0BXWlW7gaCWjUrxHk1FFakqtu8Ov+NdNRQzWgcbSqrNRzpuQPUMuiMw/JYcEn8Cs1JJpiu3RODesCYIZGCJpaSkKsjW0wCMuwYWIgnzn7UTZFUZpUnpTyKEi1NB/Is+ogMSpwpSJ5P4hlu7KZG52WwILjnZBlhfq3ql/z2PmIQvsH4mYDkm5UhfFuGCqSr2D6aT+09HhabkXFnyQVlmP3tsNw8EK8MxaxaXmzj+p2eXhO+cpqZEARGzV0r9pNqEuc5Vx3PoEJjKbvrdk/A8X0kOnrT3BXDglzZ/xyMskZYiI3uA==",
+   "level": 5
+  },
+  {
+   "id": "b261016a3",
+   "date": "2026-10-16",
+   "slot": "am",
+   "n": 3,
+   "kind": "행렬",
+   "title": "가장 무거운 길",
+   "text": "4×4 칸에 1~9 숫자가 하나씩 있어요. 왼쪽 위 칸에서 출발해 오른쪽이나 아래로만 한 칸씩 옮겨 오른쪽 아래 칸까지 가는 길은 모두 20가지예요. 길의 합은 지나는 7칸(출발·도착 칸 포함)의 수를 모두 더한 값이에요.\n20가지 길 가운데 합이 가장 큰 길이 정확히 4가지예요.",
+   "grid": [
+    [
+     "4",
+     "5",
+     "8",
+     "5"
+    ],
+    [
+     "7",
+     "4",
+     "?",
+     "7"
+    ],
+    [
+     "6",
+     "4",
+     "8",
+     "4"
+    ],
+    [
+     "4",
+     "9",
+     "4",
+     "3"
+    ]
+   ],
+   "ask": "?에 들어갈 숫자는 무엇일까요?",
+   "input": "number",
+   "hint": "?를 지나는 길과 지나지 않는 길을 나눠, 각 무리에서 가장 큰 합과 그런 길의 수를 따로 구해 보세요.",
+   "h": "b0a65e86c1e0ee736916fbcb5a5690ecc86857a6c44d9b9e9e9cdf79a32ff13f",
+   "x": "PAvWeJnIYvq2W+d2L5f3l5/1nfZSafhQrZFvhwXPZ2D1hqkAnzsSvxb7oSGF8jKXBttif+CXboJrEZuauAzE8kIDPkSw9C1lYUxw2SqQrJAFPdjdyy5aE1a3K9dbJudKBo5MtQdjSS592N8M/gYtJ046S01ndNWwOKCmyVuvyWiWsK0QdKqPCHy7Jy6RxNXMXcZOAeY9aaIXvUWS5wqMBhfPv+f+jfKPz1ltI4WuIWWguvatPheIaVQmWO4HezTEs40942Na5xFr5mhZlDpC1uFMYjqwGN2dVKHNs46KfqyFmfuSSRDjDGRneXCxiH0+NUveeKL/upEsWrqbtWl2oXw5wIsDpg63rgiK+56dsnkpGB2i4eM8BVB1caP7tl33nIq8dmj+pImWMuIc6f60ZZ+cK/hcs8CPQrrWEgj3+B5obTJhaxgR1TM0QCYqQUePw3C+j1QZmZA8LLUI9byj3A==",
+   "level": 5
+  },
+  {
+   "id": "b261016p1",
+   "date": "2026-10-16",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "열네 장 카드 돌리기",
+   "text": "1~14가 적힌 카드 14장이 위에서부터 1, 2, 3, …, 14 차례로 쌓여 있어요. '한 번 섞기'는 이렇게 해요.\n① 맨 위 카드를 탁자에 내려놓아요(탁자에 카드가 있으면 그 위에 얹어요).\n② 이어서 맨 위 카드를 손에 든 더미 맨 아래로 옮겨요.\n손의 카드가 다 없어질 때까지 ①②를 되풀이하고, 탁자의 더미를 뒤집지 않고 그대로 들어 올리면 한 번 섞기가 끝나요.",
+   "ask": "한 번 섞기를 되풀이할 때, 처음으로 다시 1, 2, 3, …, 14 차례가 되는 것은 몇 번 섞은 뒤일까요?",
+   "input": "number",
+   "unit": "번",
+   "hint": "한 번 섞은 뒤 각 자리의 카드가 어느 자리로 옮겨 가는지 적고, 돌고 도는 묶음으로 나눠 보세요.",
+   "h": "5d11f6e6605385e44ba3e571c171394d2436960e56ec4f8dcdc7d910dbd6fcc0",
+   "x": "kVwpIpN2NetTaAlrKN/vP3LRshEK+36d808P6hRf5fB6V6Ext5wghID/VE+cTuaFmBtAky5tZJXr9idqv14P7jcBFpAkXvcmlvrKDEztumFaeRgSwUFAAmhLE8jpdOhTn/zPCy/yqcZHVHCNwm5dUAVBdrrWDUjguyKFIhqgkTKbKBmRIgN8v9D3UKb39zebjspk0OwNlY1YJpR5kN6ggLIqivKDVjYOeyhGEj+O1qP5mPmA8LOmgFrG7OAgsuWoaw7WFyKelA9J45lmUGV5TApt64oxjZoy0josKsOrgJL6pugQHYPToTahTsADjkAUkkoll6D9nY1IXrbFbJwu8oRtHSDKb3t86CVpQxWlI0vH4sJ9GhlhQqNBAkpERBKcE+HzY+RESAz/uel8xytEXtcBBrO8o1KGd4+Jp+/uUaujD3ZjcyMppugyFuYK45mhrx3STIj6PG0lhU5z5uFxv7KoBZ1JONbvME2L5KYfErDx7mHmy9f8nV65HxM2VyelrnUI/ic7hhCB6OuHyPlnlQ6hPZThwG9FCsCbb7tukkUjpTM=",
+   "level": 5
+  },
+  {
+   "id": "b261016p2",
+   "date": "2026-10-16",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "열두 칸의 이웃 셈",
+   "text": "1~12번 열두 사람이 3줄×4칸으로 섰어요. 맨 윗줄은 왼쪽부터 1·2·3·4번, 가운데 줄은 5·6·7·8번, 맨 아랫줄은 9·10·11·12번이에요. 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요.\n'이웃'은 가로나 세로로 바로 붙은 사람이에요(대각선은 아니에요). 모두가 '내 이웃 가운데 거짓말쟁이는 딱 □명이에요'라고 말했고, 표는 저마다 말한 □의 수예요(표의 자리가 그 사람의 자리예요).",
+   "grid": [
+    [
+     "1",
+     "2",
+     "2",
+     "2"
+    ],
+    [
+     "2",
+     "1",
+     "3",
+     "0"
+    ],
+    [
+     "2",
+     "3",
+     "2",
+     "2"
+    ]
+   ],
+   "ask": "거짓말쟁이들의 번호를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "0이라고 말한 8번이 참말쟁이라면 그 이웃들의 말이 어떻게 되는지부터 따져 보세요.",
+   "h": "684824d56112058aa787a20426fd0dc98066fae3ddb25ce09105535aa075d917",
+   "x": "/WxNQrrOIsqvWxZo45nWr81PfdSqQqvUy4S2NwvDy4rm8EDkE9jQ9x4OcJAuxBXN7fYUAamP1a9OgqbsX2QkNI0xoCap583xf3SpG5/VStzZCq43Gz5l5uL97vVdN/wjCxrdL7SogUFzs8gPkE+L1xJcBegM1ANhSMCwgHRJvtsPCOJ0/sY0TVwkRSdBZ8NOsiZ6TzPP6HB4oGe4sFexI26huKv8pxPslivz8ue5Ye8TWgFYwnHfYoqB5sxsqC5dLPZSv5g0oVC7/W9NNcrF+g+0xJbMOWUmolLM5/Wcp2J/si5ZTvcyK8PDjWZbB9EYmjzIl8V6zRF5ILaSlBxoeuHS4BIi167ng3wzaQcndIyBNbidaLWM73XHhoARQVM2RKK8H446c4pWElRFvwGEUQQZIn4P0VIepsFDErC4w3lkF+aNPCRjUegQAF1+06cMo8pH1VxgzMrT8pjE1JE9NITt7V6nrhceo8b7ZXccFDG8SpdKrou8ZLX3Ife5EUh0jMvABoGwMMMMC4gYlAzevWcztjTmwt/LIsXAmFsWyLfCBHWxEXNA85DCoe+pROOAohWcVPB/hk7e1GOMxsU3NCISW84rBcKl1T5ucO90f53dKINV6NUcc7ofcBN3Udt3RjexYLz2RdG1HnpoKuXfjnAWggkP01lUFcCreUryox+xyMkU5aed92dS9oyP4XTgS1/oZMmcy151oVPz0eEq6an+5rx5eSJ81ovhG+IVyg==",
+   "level": 5
+  },
+  {
+   "id": "b261016p3",
+   "date": "2026-10-16",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "빈집 하나 있는 빌라",
+   "text": "3층 빌라에 층마다 왼쪽 1호, 오른쪽 2호, 모두 여섯 집이 있어요. 민준·서연·지호·하은·도윤이 한 집씩 살고, 한 집은 비어 있어요. 다섯은 개·고양이·새·물고기·토끼를 한 마리씩 서로 다르게 키워요.\n'이웃'은 같은 층 옆집이나, 같은 호의 바로 위층·아래층 집에 사는 사람이에요. 빈집은 이웃으로 치지 않아요.",
+   "clues": [
+    "지호의 이웃은 3명이에요.",
+    "새를 키우는 사람의 이웃도 3명이에요.",
+    "민준과 도윤은 이웃이에요.",
+    "서연은 왼쪽 집(1호)에 살아요.",
+    "서연은 물고기를 키우는 사람보다 높은 층에 살아요.",
+    "민준은 토끼를 키우는 사람보다 높은 층에 살아요.",
+    "하은은 고양이를 키우는 사람과 이웃이에요."
+   ],
+   "ask": "개·고양이·새·물고기·토끼를 키우는 사람이 사는 층을 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "이웃이 3명이 될 수 있는 집은 어디뿐인지, 그런 사람이 두 명이면 집이 몇 채 차야 하는지 따져 보세요.",
+   "h": "654e7e7ffb43a94b0569bc6efa2590647a1d5b9f5909eb8b0afb5a36c3d6ddbc",
+   "x": "YOXf3DmrGYC7hvWFRAVd2N7Olqj4c8UUwqx7kJaLgtzFRqKIIOAVJ7K1PA3Z8N30qurpXRUk18IU3xUG4MueX5ti5kaRAR0NbLs199w8XoOhiMoJ6D6SUaZ9uNrHtl4OlhBqfvbc8/dhYYfRNfOx0fz3AsGmR15PnYAGzJBRdr+bVSFlQ9bMpmxIZgDt/eSU6damD2qIGr+t7onXiLwsFtJn8hClEQx98zByI7TLwa6RQOREMD+ZmxERLyKSvXKFEqrPfJiwmSoaM3n/IXGOPkxB6bsF+vDfFWfpLQzHViKD2PiT4PWeqZzLJEPbQEhpA4k/HZU7wFOsMKJod23VbVUintP8RWhGn94KIN3KgAqysjF9HqlypBX5a9LzJZtWtpv6ocCUrrMV9vrOJUxI8WMpvQZdegn4tQdIjqJzAnanhrO/5A230SXGbJDovTq2VRrQtbG4PsNlGcI3tanT5UVD9c4F7JbWmYMW9AagQ8SkiQoy+3ukfWLmciv/lcdU6hqvUu49FIB3129jNf7TipAU5RyTqJB6NsorPdqQnMgV5bACX+0phYdiD18D7S17iTiH09caMDWr2jsGO4oFinE7idkAAZcIKEPtxcAnKZoEJMm46xfy1eKF2FC7qMgUKWkruYNOUmDZRBT0DXvxIX9fd9bWtyrM3ufTzr8gxtjqN05X6SjgxnSvB59fXYUW4w+taVrBbvVhJvPGky3yuB0xO1EIf9eHNOSW+SFHyoZPFUZnkRHd/Jc7V4UeuKn4DvhSbS+Miea/L9A/NLQ0PXXJeNy30gY6PEysU4BJarN7uKk/h4kVfvkiNY3gz/e+llO+JTwkm6bw5PdxYII5VWOhfytncP3M1gHcdZy3w821s0kfRR228Tf8anti17txhgluiEhFWfeo+leyE//CnRX5kvErDeIH0jwRAV5rqBOohtchDyZGDhB8RYgZodOTHL1Pp3gvg1ZLsx9iDvwhfVNoxA==",
    "level": 5
   }
  ]
