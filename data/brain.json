@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T02:29:00+09:00",
+ "updatedAt": "2026-10-17T02:43:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -3017,6 +3017,125 @@
    "hint": "자리마다 숫자가 얼마나 움직였는지 비교하고, 그 크기가 원래 수의 어떤 값에서 왔는지 찾아보세요.",
    "h": "d2d2c8d8a5803537e81c79148f13e140b03d3954b622853e3e3cd4e28c827c00",
    "x": "qbhbr2gDeKmlJzI++fndrhipfmiZStu5EkO+3jRMpj7c92PexCNQjILwsUR2TGT9mOp/76SBoXPBt7+2UQ7BALtDIEZLtTrY5Xyh91z+FSZy/CzRr7o8cUROVrYghf2iBN4pMjTxb6ib6XXwQJsQSyzBR+3vcdnmjdMbbeMQCrKumTXCVVGNj+AOjZAMEkc+kFmEYBJG1WOi/12ec802B/pMj9YNqyl226mvkukSzwto2ELEdwRhha9ythFARFXUBzye+EHE5itm5vLQscALBrCv+BtjDTJFd+uUYarZrf8LHzW90qK3zWxQxTL18H8aDo5azaW8NQoFVmnhlVijdXRligtMX3EFJVMPpWANPu/EGYvdouaECRQffFgiKUjlZBqv1VuXtQG4CwcWANt+GAZeXETbBV7/X1kW8tUa8Ed5RkBhzTRMyYfRibk+WeqqO7wh5JBhNG2zdFyd5R2y5QHGu5vqnYzFXCyKovmYvIVmdyLjBKka113fOlKH3XqUCgppJxBHFWPsAquI0MyAu/pa34SSP/yiElZSE3NvAs4MAZsVT3ApIEYbUCFCxg8KSHs3WDrAnVRso4ASlcDWQknkkk+Mspp1JyKJvKKf/ZGPZH3Ne95S8Qk5tWlHsATcKA6Can+x9K2lijqkfmkpS4jErO3QmT2flHGo2hQ=",
+   "level": 5
+  },
+  {
+   "id": "b261018a1",
+   "date": "2026-10-18",
+   "slot": "am",
+   "n": 1,
+   "kind": "수열",
+   "title": "서로 기대는 두 줄",
+   "text": "일정한 규칙으로 이어지는 수예요. 첫째 수를 1번째로 쳐요.\n2, 1, 5, 3, 14, 8, 38, 22, 104, 60, ?",
+   "ask": "?(11번째 수)에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "홀수 번째와 짝수 번째를 짝지어 한 쌍으로 보고, 다음 쌍이 앞 쌍으로 어떻게 만들어지는지 찾아보세요.",
+   "h": "7c864c969825daeba7d733a679ec50738a163f26c60c6aefa21c66c206e2b35d",
+   "x": "i5qI/fP4Kmgur90uEPwYx1AOMjlyYbS+c1Ja3/VJYpiW5Te9fv7SVAK8rYTLi8rzIKEHneAQZrvYO41GNo8jvS6Jt7aMObsg0HJfFfRSGFX2jhP7laeynjqFwhIrlGFNgr+qeHK3BfNGB2sHqlQ9lZA3MIWKgEsqzEjGUSfBBVQC6ugVJI2qD07Ua7phZ1QEiHq+IobpwNl1xJOP96a89LtOXi3CH7Vp/nhVKUs6AAB8VlMHTESHRaI7ltIEdA6Q8RD+MJlmx203EYvXi/dyJVjf0T0xiYiAivf1AsBcpVebSgW86HJHQD8bdmND",
+   "level": 5
+  },
+  {
+   "id": "b261018a2",
+   "date": "2026-10-18",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "같은 달의 생일",
+   "text": "민준·서연·지호·하은·도윤의 생일은 모두 같은 달에 있어요. 이 달은 1일이 월요일이고 30일까지 있어요. '주'는 월요일에 시작해 일요일에 끝나요(1~7일이 첫째 주, 29~30일이 다섯째 주).",
+   "clues": [
+    "다섯 사람의 생일은 요일이 모두 달라요.",
+    "다섯 사람의 생일은 모두 서로 다른 주에 있어요.",
+    "서연의 생일은 민준의 생일보다 정확히 10일 뒤예요.",
+    "지호의 생일 날짜는 하은의 생일 날짜의 두 배예요.",
+    "하은의 생일은 월요일이나 화요일이에요.",
+    "도윤의 생일은 토요일이나 일요일이에요.",
+    "다섯 가운데 수요일이 생일인 사람은 없어요."
+   ],
+   "ask": "하은과 도윤의 생일 날짜를 차례로 이어 쓰면 어떤 네 자리 수일까요? (예: 3일과 12일이면 312)",
+   "input": "number",
+   "hint": "주가 다섯 개뿐이라 누군가는 반드시 29일이나 30일이 생일이에요. 하은이 될 수 있는 날부터 줄여 보세요.",
+   "h": "f72b5f39b8a5e6dbf70643a21cc3e39c9babab85c7f97e2510557912346a48e3",
+   "x": "AmaifKX7UTcgOMqyGUpG1sod4+z+b9J8hQffI624UO09NilKh2c77qi0L9QHzVdnCtq40Iwm40NFIdYPa02i/7P3X0yI8eUQq/mhpMmDgVvX7hx33aVJRSH9baZeZJNoBMbDFb/aB1G2htspMZU49rVZP3N5MRg2xF30p5G+HH0Xa+sDM9S36gimeafO9UOzofTU2Ox8qDqwS8ESHjK27VKZXj5Ipxi62vjYyydICP0goSBThQxNjor+79mgb3SGQ3OBvSya1EpJj1MBnDCI/wR7TVbwdpTMW3J6Lj3iZMQKZAL3XXE/8DS2sZwTDwkPNU+fYd1PWDBd/QAecnZY60DWjGY44oVSxysbkfPFnswMXwg3gispg9nQ2IBYu0Ge7rxDrIRnd9jzD8ypqFwHiB+Bi1mo5KctqRBe/SS2J/6Mbc2zs6Uxg7iCRvR8TbeqT1pAe0Fl4tW+EUn7eAyjO996JS0LbLKt6tJ6TKr8Tgg6qQb7wHxtKbYAHSm/v8qa6Hl7ukQ8vuOhXTWPpibDHmp7+8dDVsBP9DY+DsB0QrG4PV76xBaiuquo0D4BGWUYE4/Nm6x5wC3FS7S/ba5cEvEN4wllELRFwnvDK+eQ5NRRZCVUa+SNSwGsT92DMUtaAUUxkYYQFAIENM/iJ2eb2BI7XPtdQbQfeWEQzZC85MzoAgiDuAiJEdpOcgzqYrYnVqpbf1LUVUZ1US0PjdpVBId/TQwbCutVVCY+ZlrW+GcNJnb2KON/4KPYXYoDd9hAxr4M08elByzTCV7Ta9KO1PLs5f15Fu4oZBdMNmRndc/WlPBgK8+6O+xpNSnnBy8v6XF8WFvqG153fYp0sfNy/ebrQrCvj7s/fPd85K4XlOHaApFdug5c24xQkhZLn/b0DUkKK4hm4AE9WuI/zRFM3RKOorsbKJYfCmcnb4IeSgnFN+XfidfYD3BI+EVjWxM3iqCrH29Iuyij9ymMw7KfdAHl/g68A5Xh3O4A",
+   "level": 5
+  },
+  {
+   "id": "b261018a3",
+   "date": "2026-10-18",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "뒤집어 읽는 수",
+   "text": "종이에 네 자리 수를 적고 종이를 180° 돌려서 읽어요. 0·1·8은 돌려도 그대로, 6과 9는 서로 바뀌어 읽히고, 2·3·4·5·7은 돌리면 숫자로 읽을 수 없어요. 예를 들어 1689를 돌리면 6891이 돼요.\n어떤 네 자리 수를 돌려 읽었더니 역시 네 자리 수였고, 원래 수보다 정확히 2163만큼 컸어요.",
+   "ask": "원래 네 자리 수는 무엇일까요?",
+   "input": "number",
+   "hint": "돌리면 맨 앞자리와 맨 끝자리가 서로 자리를 바꿔요. 두 수의 일의 자리끼리 뺀 값부터 따져 보세요.",
+   "h": "963f5da57ea88706963fb3602fab8b62a2864672f3843bce13f188cfc0955131",
+   "x": "i4Tk3Aja+RfnPB9E7ik0KcduCtpP7xfh8PXM8Xbn++GUXG8RUT/b96vVkMoN2JD4fpSXOBj62ers4u9BIwJaQlJNp5VovDmedrS7/+mtpR2zT5qiiDVqkEHP7yvnvYudLLUKF+hYZCjwYvBAwgigq4+R6FviFIjlI8qnQR2U3RrkCi6uBtnRCkfyqcdDDH7xJCTNy8F6TZtsZT8SaUoqjA+WJKRTT0umMAZxp96FLJAgoxzSUv0J3ef5coJbG4pAhLel71PsfNC0S/IGS7YjIZ9VOQov7K5NSfyLz0iaNtuxqmK8zYq37AhkcYt7ONnPpU8GApyd1y8tklHYTsNBebGVsyEZn43B/ZBiXcUAJD/xbcPy1Kq2vBvhY7zUiF4vh5pfxK0Hpq+RMFNDCnKKcFah3K6ZyM2RUasdhmBPSIjHpMMFLDHmoGh7n5RyAiRL5rQTXjtF3wlLHjaZNKgNeK3H2jn71BKZLOat0+OB4XDx5Qq2RsaQoZnzNkoTTanmqjEF9Aqdeq6N/NZW89ap5CpGa3bhlao8Vj5WnhlFQH+rYIX+HBEIS1mJNj77MBdWplqBM497abUosG+2bPWgTuzdvGgR3sHk3hsW82/h4upw9DgDVCu8DyK3swXlxuH7hIaPp8qeA8fuCMKXYdp460Wzs/+sIiiK8HzWi+HvXOF+2sbtNKJeeJKQvq41MX1X9w5zrcgoxQP/zTa6n6UF3AM/9Ui18+j/avA/y3C2ZQAZPnZE3uaAOGnwAnQn/L/GRnokeaSmjLNglMdAMM4k3XJQPqO9yCML1kjxjuot9upcJfoKVdTm7fy9vBqLPMQdmn4gTeA3MWjvBnnliyXB1GGE5cNfTyJzSoMg71grRa4phcgre0QnJWj8phE09gTymIVQDp0OFQ==",
+   "level": 5
+  },
+  {
+   "id": "b261018p1",
+   "date": "2026-10-18",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "듣는 이에 따라",
+   "text": "민준·서연·지호·하은·도윤·수아 여섯은 저마다 해 부족이거나 달 부족이고, 서로의 부족을 모두 알아요. 누구나 같은 부족에게는 참말만, 다른 부족에게는 거짓말만 해요. 아래는 누가 누구에게 한 말이에요.",
+   "clues": [
+    "민준이 수아에게: \"우리 여섯 중 해 부족은 네 명이에요.\"",
+    "하은이 지호에게: \"나는 해 부족이에요.\"",
+    "도윤이 수아에게: \"너는 달 부족이에요.\"",
+    "하은이 민준에게: \"지호는 해 부족이에요.\"",
+    "도윤이 하은에게: \"지호와 서연은 같은 부족이에요.\"",
+    "수아가 서연에게: \"지호는 달 부족이에요.\""
+   ],
+   "ask": "해 부족인 사람을 민준 1, 서연 2, 지호 3, 하은 4, 도윤 5, 수아 6으로 바꿔 작은 수부터 차례로 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "\"나는 해 부족이에요\"나 \"너는 달 부족이에요\" 같은 말은 말한 사람이 어느 부족이든 한 사람의 부족을 바로 알려 줘요.",
+   "h": "17c16776f0683ca52e0df59b60bbfa88fffae254491bcc685cbc8d9952a73a00",
+   "x": "U7zF56A6R4ubULCAgWBSCbmbc61qkwlNRAJH5WrLSBDU5Q777L8QAQ+0C/HxfNAh0UbxmkaPZcO4mzcBhgt3PL+LBJ56Qq3wmiSvA+GYamtuRPO2e0y5xasg+3hfOX8cmppkF95oGonjqL7YomNya2O1jk0v6XQ3CdfRdX2jppYgAYGlPc18YWacrCiSchbc72gvPTnzeHWFMD8R1bQUOHQqW5YlZeQ/pFOYASF2UUdMjJdrzVhkb8KPUeV55tqwb6jtbXQTRDDuC35kUxNbZdTHTYw15IbDnDQYNprlCz1WA22ypV9NUxqSeiPSrRs4MsBiMIKJuzqITChOhgZt8YNeGGj1NzcAJpNttxZc6ybjTUBkwnt2oYh7ckzWx9ghcd6gJ2QTmcRjITEK0tjMIItlAWjNAHMlYiqZU3Q3lV9UbeVFhKv4RptHpOJbMTOsjQF8Q62xxaOd9sVFSx3rTp7Aodxod1xjhCvGzqexMjkdd/by4e0KgTewgP9JITJ8tmYT8DimAuh2zGEt4d+y/7tZ0I8DItXWxYqsx8xKo/GPT/kwpUB1N9T1lE0aw9fv1UWc6RPm7SOA8FQGTSoO1da01HhpLsaS9lnzAfj9gYizbkZ5/fJQYP6K3NQ/TEt6wZMv+Q8ip/ipudRsHsBAx+uy/7Vns3AY+vAlO5mVN3MuggCXTVKGXE6iyvYluHwsinZ1mLwscHbWdig6rXLNpZFVA4giIPFYAyHTGp5OizbOP7ROU/HCO2Nc4KBgep81z1SMVszqR5m3uTvKJ56E+04ogRQZdeLgPK2rYQbov0Snh5cZhv1G6uxaMxxdU3wMtNzlz14d1BWYFz0PT0ZndZgDK19b4UUmsu90oZWOn1RNcqUI5PAS6af3vKM//4wwUqn//F/iFidGFoUIUxngrkKKTMtPOEW0KOjfpDbwTtf306QI6ruXUIHzqXh6fB8BoC1lyL0B9tjFb5dUgS3LZGOwPeOAJc10v6/OKJyGPG57GYyrgdNv/Tfy6jHBMDfH5n5jPaRrdMVS7vgEgcanA/bC2VKdBhIOgvGYuRdIgWA=",
+   "level": 5
+  },
+  {
+   "id": "b261018p2",
+   "date": "2026-10-18",
+   "slot": "pm",
+   "n": 2,
+   "kind": "암호",
+   "title": "쌓아 올린 글자",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, 계산한 값이 26보다 크면 1~26 사이가 될 때까지 26씩 빼요.",
+   "clues": [
+    "CAKE → TODC",
+    "WINTER → KSNTFW",
+    "RABBIT → ZFWUSR"
+   ],
+   "ask": "같은 규칙으로 바꾼 결과가 GCONBI라면, 바꾸기 전 낱말은 무엇일까요?",
+   "input": "text",
+   "hint": "바뀐 낱말의 맨 끝 글자를 원래 낱말의 글자들과 견줘 보세요.",
+   "h": "a9565613edd6833fdd2c2ed92b0f75a9f328ff394f561e3b46a02ef0fc0d3249",
+   "x": "EsRUAnABhG2Tlx9PQHoNwEY1WcTajMsCKjhxQ2Jgi9h8vycWn5jJp7BW3J7mes7WE+td5eV+CZVNLhc2bQXwzzgFlq03gMzWQd6ZqCQFWaHq3BXCNhxJ+2H2wJ4EtM99QAX+VWypmNC0bmk3//wo0Vwczn5wDyeuD3a9DryU+9dyOlLn0e4IQnGFAs2Y4NNpLCxXeueQros3iAwvcMuQ4c97LEkeA/g8HaLns7xupf/oHsQwwoXCLzZQlvr+/5tWFX/a6kgM88wktVkk3d85JUt041E16ADn/E1MM69z8tCaREySXEheGKuKp/aYveWG+zdL4qAhAdiwDWQkZ9CdCraw0rx4YXUINzWdCa9Q4adCdDb8utC900b9n82H7Y+oKt+8lyF1YY2n2vZiAGW5TE1tIS+aRep/O2i2UqWa74DHJB3ytfXO1/oTHI+y7xzRIw9xhWswQw+LGHjfeMT1+PsMudyGB6Uht7owSiKakcQxEPFS4K2JGoXig7fxOSsLbHR/b/Rza3vx9rh2s80q7YDvCbWzOqVy8eZ7dulGfQ3TP/m5KBpzG8Qn8PgteHnVikxH7A391j62WH4kZH8XSxOrYE6vXgFUdtbZJXphVIm0yA==",
+   "level": 5
+  },
+  {
+   "id": "b261018p3",
+   "date": "2026-10-18",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "다섯 블록의 탑",
+   "text": "빨강·노랑·초록·파랑·흰색 블록 다섯 개를 한 줄로 쌓아 탑을 만들었어요. 블록 무게는 1kg, 2kg, 3kg, 4kg, 5kg 가운데 하나씩이고 모두 달라요. 어떤 블록이 '받치는 무게'는 그 블록보다 위에 있는 모든 블록의 무게를 더한 값이에요(맨 위 블록은 0kg).",
+   "clues": [
+    "바로 맞닿아 쌓인 두 블록은 무게 차가 언제나 2kg 이상이에요.",
+    "빨강이 받치는 무게는 9kg이에요.",
+    "노랑이 받치는 무게는 파랑의 무게와 같아요.",
+    "초록 바로 위에는 초록보다 무거운 블록이 있어요.",
+    "파랑은 4kg이에요."
+   ],
+   "ask": "맨 아래부터 블록 색을 빨강 1, 노랑 2, 초록 3, 파랑 4, 흰색 5로 바꿔 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "맞닿은 두 블록의 무게 차가 2 이상인 순서는 몇 가지 안 돼요. 그 목록에서 위쪽 무게의 합이 9가 되는 자리를 찾아보세요.",
+   "h": "5035159fa55f8d80d7ec56dc299c70fb88cda86881caf570845564a00b5b1a2d",
+   "x": "hO9LhuYOwNk47mZZUcSB3+q+ybP+h436ycVwwAK+yF7mSzQptnKI5p9UOitErPk6GQQ/jsD9MUJoQD4/ANTujMIGmPgGBmGE4EJPzi3LVnHgyZXHa1bvG/dS80T8DSSP5sZ1FF6vzBPMkljY2PiHK78ngdgngSHXkJtR3YahIaFsoNPwfP3fd2hZAJdB3HVp73S9T6OZi0wfAP7vTHCtrCNPJV5H1N3jtyNM+zHNCjs4rlNo/8ottX/Go55C0BCIfu48/blHsa3T1RvUeTxeut//ZU9w2mzXI5xD9A/AyfZVpF8d4DrL1LECdvEB6+FUUxKOFUS8cLss16Dx/0c65srbm+krSo4hd65KGLq6lP9iTiLK98vGvuXZFsUjs+FbEzUWEzNLDJ6ZwGrto029E9JjT6PCmbyM3a+Yeq570q7MiEb4RevXq6aB9p63sQDcCu39k/2wnUTgZdDK2rjTlSi/ZA94XMgmXxdjR8kr/JdGJTz234RGnoxyFOJeXrByhQYpRigCNF4WnyFpGq2QfFacjpkuOPxPIwtOuNBEPzfBkBAYxYzAJNTFQkRndwSpRgiyUp83WpWbZDYuSVr99ltqb3tPUL4EupxCjZYUbh3g3zcIWi2BpwlsQ+NzCh+jVwGY+tFtuzt+ksCoUzBaoC4A7jmajXTrAyEQBhtC1RjinIxSdZZEygdeBsGwErpfHTnz3jCWiDkzw8a9rQnj01z5IBsrBHh7C7enFaHbGyzlcM/e7QCUEYoJl/RB/2fyazb4AFJS0/4UKKyM+yKAFpQli32IkQ==",
    "level": 5
   }
  ]
