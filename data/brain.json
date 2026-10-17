@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T02:43:00+09:00",
+ "updatedAt": "2026-10-18T02:41:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -3136,6 +3136,171 @@
    "hint": "맞닿은 두 블록의 무게 차가 2 이상인 순서는 몇 가지 안 돼요. 그 목록에서 위쪽 무게의 합이 9가 되는 자리를 찾아보세요.",
    "h": "5035159fa55f8d80d7ec56dc299c70fb88cda86881caf570845564a00b5b1a2d",
    "x": "hO9LhuYOwNk47mZZUcSB3+q+ybP+h436ycVwwAK+yF7mSzQptnKI5p9UOitErPk6GQQ/jsD9MUJoQD4/ANTujMIGmPgGBmGE4EJPzi3LVnHgyZXHa1bvG/dS80T8DSSP5sZ1FF6vzBPMkljY2PiHK78ngdgngSHXkJtR3YahIaFsoNPwfP3fd2hZAJdB3HVp73S9T6OZi0wfAP7vTHCtrCNPJV5H1N3jtyNM+zHNCjs4rlNo/8ottX/Go55C0BCIfu48/blHsa3T1RvUeTxeut//ZU9w2mzXI5xD9A/AyfZVpF8d4DrL1LECdvEB6+FUUxKOFUS8cLss16Dx/0c65srbm+krSo4hd65KGLq6lP9iTiLK98vGvuXZFsUjs+FbEzUWEzNLDJ6ZwGrto029E9JjT6PCmbyM3a+Yeq570q7MiEb4RevXq6aB9p63sQDcCu39k/2wnUTgZdDK2rjTlSi/ZA94XMgmXxdjR8kr/JdGJTz234RGnoxyFOJeXrByhQYpRigCNF4WnyFpGq2QfFacjpkuOPxPIwtOuNBEPzfBkBAYxYzAJNTFQkRndwSpRgiyUp83WpWbZDYuSVr99ltqb3tPUL4EupxCjZYUbh3g3zcIWi2BpwlsQ+NzCh+jVwGY+tFtuzt+ksCoUzBaoC4A7jmajXTrAyEQBhtC1RjinIxSdZZEygdeBsGwErpfHTnz3jCWiDkzw8a9rQnj01z5IBsrBHh7C7enFaHbGyzlcM/e7QCUEYoJl/RB/2fyazb4AFJS0/4UKKyM+yKAFpQli32IkQ==",
+   "level": 5
+  },
+  {
+   "id": "b261019a1",
+   "date": "2026-10-19",
+   "slot": "am",
+   "n": 1,
+   "kind": "기호",
+   "title": "자라며 뒤집히는 줄",
+   "text": "가로줄마다 왼쪽 칸이 한 번 바뀌어 가운데 칸이 되고, 가운데 칸이 똑같이 한 번 더 바뀌어 오른쪽 칸이 돼요. 세 가로줄 모두 같은 규칙이에요.\n한 번 바뀔 때 칸 속 기호 하나하나는 기호마다 정해진 1~3개짜리 기호 묶음으로 바뀌어요. 그런데 그것만으로는 설명되지 않는 일이 하나 더 일어나요.",
+   "grid": [
+    [
+     "■●",
+     "■▲●■",
+     "●■■▲●●■"
+    ],
+    [
+     "●▲▲",
+     "●●■▲",
+     "●●■■▲■▲"
+    ],
+    [
+     "■▲▲",
+     "●●●■",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "▲■▲■▲■■●",
+    "●■▲■▲■▲■",
+    "●■■▲■▲■▲",
+    "■●■▲■▲■▲",
+    "●■■▲▲■■▲"
+   ],
+   "hint": "기호 수가 어떻게 늘어나는지부터 세어 보고, 바뀐 줄을 오른쪽에서부터 읽어 보세요.",
+   "h": "d906ebf845d413bebb5a04d81b542f12fc5b568a30d9d8b8863b716f71cb16f2",
+   "x": "O3aEGduoEcfqI4fUoaqFlAY978708KLhiZyzpCo9eTrNHS81GQeBEtJLRc8sRQrRNYPk70AtrKJRpHYU9K4akbuwq368RaE4/9Ifc0gnQUTnPZ1QmTynBVDqTLaSYKBmmxdUoS2TC+sONC0S6jvot/ShifH+VgtglQTxQkYhTzOleCc63/aYfcdyLGVFhhzky4mI+WhpOYSfcxyy4unzU3rLSIK97VD1Rca0VIP9+7qSzD+YOdkvYoomuVE6J1PQO54XDmEr2+yjxscVOuJmcCn+EMo1+DOJhAKELmTcsrLCW6HHgU3xwpaA4kRnL48Hzuwb4y3fAa5S8oJ1LZqWO3n91lO4alWl8MNnMXFnJsxPaTJQ7ZFacL8VXamJvftjmDEuz4hJhMQcNYTg1f98gj4xoNbPQmgOZEwySEZWtB7vM+PLPB/N9e/BLHJjIYBtunf2Urwk5daMc8ykiQU9RBEGzI7W8klSFoKsykqZ6uejSjpFw6ZWYFzdl1ouBPNcg4s/uBta+1MjaUR/Sh7TFvW18NFLHq3jO3VIU8ldbTZajqrdHHkR",
+   "level": 5
+  },
+  {
+   "id": "b261019a2",
+   "date": "2026-10-19",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "세 곡의 춤 짝",
+   "text": "민준·서연·지호·하은·도윤·지우 여섯이 세 곡에 맞춰 춤을 췄어요. 곡마다 여섯이 두 명씩 세 짝을 지었고, 세 곡 동안 같은 두 사람이 두 번 짝이 된 적은 없어요.\n'○○의 짝'은 그 곡에서 ○○와 함께 춘 사람이에요.",
+   "clues": [
+    "지호와 도윤은 한 번도 짝이 되지 않았어요.",
+    "민준과 하은도 한 번도 짝이 되지 않았어요.",
+    "둘째 곡에서 민준의 짝이었던 사람은 셋째 곡에서 하은의 짝이었어요.",
+    "셋째 곡에서 서연의 짝이었던 사람은 첫째 곡에서 도윤의 짝이었어요.",
+    "셋째 곡에서 지호의 짝이었던 사람은 둘째 곡에서 지우의 짝이었어요."
+   ],
+   "ask": "민준의 첫째·둘째·셋째 곡 짝을 서연 1, 지호 2, 하은 3, 도윤 4, 지우 5로 바꿔 차례로 이어 쓰면 어떤 세 자리 수일까요?",
+   "input": "number",
+   "hint": "한 사람의 짝을 다른 곡으로 따라가다 보면, 누군가 자기 자신과 짝이 되거나 이미 짝이었던 두 사람이 또 만나는 모순이 생길 수 있어요.",
+   "h": "2f628cc7923d8bf4f336ddd1a6b60157861e477f478044adf12494b792ea18d6",
+   "x": "A5z3P46Tx5t+52bcwPA9pQhUZOTdS7ukjImvcJdIWbfvbaCcupoEwiXcogT6nfe0aeRCrNdzbGLRqOl9/cltfDTor6beiMehoNsXAb0gihzz5oYUMSE94FYn4OdUw8KGTumKCcjboZHAYL9VewAn3jdEM2jzAEwZTLfqzeUBJe4bteaz1HCbsGdUQkdt55m2oy5ubnvq5RaJGsG/RPAqb6Jkrt7nBgh5rrQAbFoK4XkpyB1dqIHrNH9D5P5qTiatGQYkRtCiFkDRstlLfZ4u3zyejVn7EDRPzvLlGK1O+TMcauK+NgTgAMj708oj1hCnSDiBcAoCuJJX5q+4G1OFSfdrv0zz3wCpuFj7vh5sV0qZwf4mF9MeOydUB2gP+i2/xNXo2laLdIAbE4ggfXL97vFMLIGQWeWcysvzCf0ZEda5ioHirF4cq/qIlGQh7shUL3oxJSTrfKiDEi6mjOp5OyRWZQ9LyOcwweHoYl/m2cxYaVPQGbRC84KROnnrF0KEoVwUuRQOYeIk5SkDvsyCz7vey/sFkVbMFOvQ3az2Ki/huyYp0toQmpPRRfRcFezDnDVgLe79B9H/lmYXa/ln2KDTz4e9JGiPf1KiTn8feL7X31guaOvX1JzcdrrhDjSYz7AB+qSGg45WQNf1doUDtU9ymcZwipdS0bmUxXrraM2un1aO7Q/hpK8ttS8gKE9g2F8kvyRowmqCtqaH6sPD1ghLjm5UVnSV0iJuEJVwdM4cntSUCzYvURNP/OVnHTSX4WGD5CU7Ijokg1qVoKWVccJpl7aT7KdLXybE1VEHJTod+bbwgaOcRyuO4VDJy/DR41SGgaYLhL8ZjrIylTPbgaq2AqK+4IPdHfbYPYKYaPIoHm0NxHfjBxeU21klKP6d3dJv1wQsRO5wIxTtj2NNdcRc9N/xVaR32P10GijeX3o47Z7gmeR5ki+rBa0hWis9nMWliN1I6GVrq9O/VusQPPIGFiBfxU4d3VzDh5XuP7FSIXzojStj72Krdtkxm+TRvF/sRWAxo2vNMdiDQ8L00Nt1+KItZwqB2OZTQklm2xzGuObZI61zacYO5Z4UXaeS8beOQrNczSmcGFsikxzUW5vVXTTiwSNOP3zFOHcF9gdU2hdTuLd54pYqVCjmAPh3HdmLvF7mbO3oCFYlVEEVJgq47yfGd+RrRc/sDrlBrUvTuPXcVuCtnD7s2uNmmeMJ/NDdH90CEZ0Y3Le/0OdaL7fninQbRAAjrrP9FUmrjkRnWGRv5KtSC027kU55VWi6jOnX2Udic0eci104Jiz6nby3lcU1kI7+4CiVe0Wz9sxqzDR0iHxo3WaJJay7CznWXUW18pJp1QYfGzPSQ64C6nMe8Q66NepFOjzzjzjgcZvrusUQv8VHG0itKHAfVbDtGYDPslrtH4RJDt86GBu9qzmVhdL4ZnWsLj8oYHckzex/dZyA60eoJafFK6kPRHa1lVSZOnKChmJl+kvrjVE5drmM0arBVei9sGnHGAIl1kvdp+ozYJPmlNNUwxD6k9uNAm+uOqH1lYOATa1RIPVloCn/V/CQREdqc6d3EfXx0HPjqyzVkvJ6UdI+rnXnVl+2o4IYwgl88WzyaNg6iQ8i3uANO3wwRRy4g3lSH7qUryNQnf9R6IElMfpABQOhsSwP8wsYx2ch+ttZ917okja0jDvDrDs=",
+   "level": 5
+  },
+  {
+   "id": "b261019a3",
+   "date": "2026-10-19",
+   "slot": "am",
+   "n": 3,
+   "kind": "수열",
+   "title": "제멋대로 세 자리",
+   "text": "일정한 규칙으로 이어지는 수예요. 첫째 수를 1번째로 쳐요. 둘째 수부터는 모두 바로 앞의 수와 자기 순서(몇 번째인지)로 정해져요.\n139, 933, 342, 247, 747, 753, 364, 471, 183, ?",
+   "ask": "?(10번째 수)에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "앞의 수를 계산하기 전에 숫자의 놓인 순서부터 바꿔 보세요.",
+   "h": "5968da3fb344ff41f5eeadfee49bdb19d652bc47e540e3a561e437db40939b8b",
+   "x": "aiFfImT0Jo1SrEmEsZYN2HV31aOIEA6/TtjkbwanenhyMjxRkL36DWvYKuuUSYfxfVwY+zkFQ6/4UZ6Na4t63llKe6lrUhG3df0gYlVgVefwaLEHd/NRR6XjTN3FksbBrklyTCjvALgbQ2Tgx6tH5/8RYcsvBUIxN9/6SObVS2i+rKBSH6rPz+kFG6yNUHwYMi3f2INcmleiIYLbCsg4jmkvj8rVcNEA/azBUSB/WE7d2u/TKoJd6I4z9c/lyjWuOOsppjgNT3Ze6Bl1c758YPS9vIBGZSVo3jYcKxMS1aJH3UsnsJJLpYOuiVRYGeDwRbwjQielK408uujnRd0NnPBUA9S3SQxNtZA5Iz6sNVViDQKH+7GDGrCXiNVwKeOHXFypqlB/TNgqFfcVF6un8SxZRM5ZWxmpVm1m0oKGv5Zk/B2GdxKGfz8=",
+   "level": 5
+  },
+  {
+   "id": "b261019p1",
+   "date": "2026-10-19",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "성냥개비 숫자",
+   "text": "성냥개비로 디지털 숫자를 만들어요. 숫자 하나에 드는 개비 수는 이래요.\n0:6, 1:2, 2:5, 3:5, 4:4, 5:5, 6:6, 7:3, 8:7, 9:6\n숫자를 한 줄로 늘어놓아 자연수 하나를 만들어요. 성냥개비 31개를 남김없이 모두 써야 하고, 같은 숫자는 두 번까지만 쓸 수 있어요. 맨 앞 숫자는 0이 아니에요. 만든 수는 3의 배수여야 해요.",
+   "ask": "만들 수 있는 가장 큰 수는 무엇일까요?",
+   "input": "number",
+   "hint": "먼저 몇 자리 수까지 만들 수 있는지 정하고, 남는 개비와 3의 배수 조건을 함께 따지며 앞자리부터 크게 정해 보세요.",
+   "h": "e8552a554acff67fb38537c98bb0bda947cc378e218c0838f31663955bbb83e4",
+   "x": "8aP+KApnDPybtWsPXl75GaNAsDTpQwcHCvxl2OgNbF+olcUXiIzVSgC25fscmNPhf3qGY1FfffnK2b1bV+omlfTwZ8XbdeybE3h01T6ygrj6AnvKA3SF7L1hz+19IHtVfUiEzwT8haCbfSpCeLOgI33Vzhsr69JcNcEItLb03NpFnH5LHfDbqzId3VX0K2xotCOllSHLtzap4lzsFHc2dOS2KwWwdSrSn4KGCvTsE/mFiYFLtppjqm/QTehVKJ4zAdJeBgZNjRKdND1euYXJDDLHtEwnJWobdiNXMI5OjBcRY/ZWzNkd2A/a7jbFV7p/1wWU4QLy4Mf6ZyJFMbh/gFjZ0zqW3YcJ5LEzubb+NzOtLpoMUG4DdS/0aDqzdhB7D2OIQkS6SVdrP5dbiFLxlUVY2KHOGaAaxrDZ4Azq/47jJoZsPpTpaxA4xz8suxacMq0WTCNI31ShafGBv6S/jsk8KbHl2OWgMWWBhqg0rmecUGkxkayPjG5nBSlGoBYaw1hJmKE7mUeY01vU2fTmgPpGmedtnY4nTrRct7l5zOgD",
+   "level": 5
+  },
+  {
+   "id": "b261019p2",
+   "date": "2026-10-19",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "보물섬의 다섯 사람",
+   "text": "5×5 섬 지도예요. 맨 윗줄이 북쪽, 오른쪽이 동쪽이에요. 칸 번호는 윗줄 왼쪽부터 1~25이고, ①~⑤는 1~5번 사람이 선 칸이에요. 보물은 사람이 없는 칸 하나에 있어요. 다섯은 저마다 참말쟁이(두 마디 모두 참)이거나 거짓말쟁이(두 마디 모두 거짓)예요.\n'북쪽에 있다'는 가로줄이 더 위라는 뜻(세로줄은 상관없음), 동·서·남쪽도 같은 식이에요. '거리'는 가로줄 차와 세로줄 차를 더한 값이에요.",
+   "clues": [
+    "1번: 보물은 나보다 북쪽에 있어요. 4번과 나는 같은 쪽(둘 다 참말쟁이거나 둘 다 거짓말쟁이)이에요.",
+    "2번: 보물은 나보다 서쪽에 있어요. 5번은 거짓말쟁이예요.",
+    "3번: 나와 보물의 거리는 4예요. 우리 다섯 가운데 참말쟁이는 딱 2명이에요.",
+    "4번: 보물은 나보다 동쪽에 있어요. 보물은 나보다 남쪽에 있어요.",
+    "5번: 나와 보물 사이의 가로줄 차와 세로줄 차는 같아요. 3번이 나보다 보물에 더 가까워요(거리가 더 짧아요)."
+   ],
+   "grid": [
+    [
+     "④",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    [
+     "6",
+     "7",
+     "8",
+     "9",
+     "②"
+    ],
+    [
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    [
+     "16",
+     "17",
+     "①",
+     "19",
+     "③"
+    ],
+    [
+     "⑤",
+     "22",
+     "23",
+     "24",
+     "25"
+    ]
+   ],
+   "ask": "보물이 있는 칸 번호를 쓰고, 이어서 참말쟁이들의 번호를 작은 수부터 이어 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "1번과 4번은 늘 같은 쪽이에요. 4번이 거짓말쟁이라면 보물이 어디에 있어야 하는지 따져 보세요.",
+   "h": "7586ad5a15a73fa362a7688491ec2e240002f098de6a1d087b04c6febe9f3432",
+   "x": "MSLsZmeU5oxijO7egwQgsWDOw3P+10MDreCHYrCv7HR3pDnjwRPmo5OfKJiaBK8A7cYBRThvIZlLhvNRsvy2sCYc5XKJz+sRVymAbXGShocK1HbqGgHMgdvc8Cdyd+IlC6WaVVQc2tc1aS+94bpPqEASXY4xtv9KTgmXyREg0iJduc6IOjdDFLrcbTLdX5D32rxnU7Q2lUdmf1lW9E5ReDULJIkyckAUUvx5v9vGxGDynGEOx4zhdHSA7QFGFpK7XHp1p2EQ0L7fzFwBHaHigUReR6pyZHKWht0KXUWd0ZqBr2PHrS0q5sybj8b2s9WVIDL7YBXIXDZdySQf3QA4znin9oyCmWPvvdqrmZn1QB+mol6S58gw3WCpTSMoxxNn5WI51701CKE+RI4sa5wGp/pKrdK3rbWTCPaz2VF7d+KJ8g7AU+tVGG9ccN+9olK8bgKMrh4XEyhpdrjtn1ldTejPNPHatcZaP0NnyCeqvu6OAH5JaCsZII+JdZmsF+nQOGby6AafzNzIfEORU1mLM73bG7usE8kerHI186A+96nE9FY9/br4dBIPXVZvflNYTU/TBZORvYEzkNRiulA65mrahVDeovJO9LZLEoVzVNyHb0e56iNo/2/vOy5O+z1SlSePLYtYeTlBrxdOGE6OvuNXCKE+vYZ2E1FETMg1bTUZWan1tWHUELZdWEpOgC81RjTFCBBuGwcEk8KB4m6mLo7iuk4XjblvxMOVJVIIzgKDItNCFjRZA42PAF0a9VA6ePQ6OAjaIIyULPqV7/RnRiRXdxRWJwQN9M2e6T4uhUtj+uPDABhwoYhSG5f5U0Js9nG9KwPH327bU9v3tZ6yrfBtLUy40yUXiIT8/ymRgzlpDbBz1Grow+Ta1sjYaNEWWTcis+Z47bxBU3qqItfIFDN0cf93JzUKYaqjfU6vThsdTsyt8XujI3OZPHMNBX/3dRX/gAU7",
+   "level": 5
+  },
+  {
+   "id": "b261019p3",
+   "date": "2026-10-19",
+   "slot": "pm",
+   "n": 3,
+   "kind": "암호",
+   "title": "자기 글자로 짠 암호",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, Z 다음은 다시 A로 이어져요. 여기 나오는 낱말에는 같은 글자가 두 번 나오지 않아요.\nCHAIR → IJDSB\nPLANET → UOFQMB\nMONKEY → OZPNLF",
+   "ask": "같은 규칙으로 GARDEN을 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "바뀐 글자를 알파벳 순서로 한 칸씩 되돌려 보면, 원래 낱말에 있던 글자들만 나와요.",
+   "h": "7ef0e842d08d38864458d884b506f60a8b816993a5659a51a389f2dd12b65883",
+   "x": "CibXjL1bLks6BuCc2TlSsNibfg9TKDFUdsMqAXIGJ+f8JVXhEM/aDr7RMDG6Db9tDYTkaChOpC5onCZ19C7Yz4gw77nUdupOLmq9LvrysnIvJeD2YXc837b7D/PsDRRMJow2x5F+8U1SbALtJtpWu+C1tuOQk8Z/mT7/E/p4350jP+QGNxXwD33rzlpYjK09mFnyuUiLe16W/Wp7P2CuqYpNquy4e0Vsw50/Wn1nl5HyR3eGElpu9ahnOtVXE9iaQYvRJIjVXBy3QPthrMk2lMatktcG+CZLO7t/8A5GJ+GV1dGTTvMupmgzPePB7W3igd7vOmrFujWP1qT2olnzEmiDeX2zhRhPmgaFH5QyQvBOnsOH4yH/ouIIlZaWGfrmEKRMKIn1YKbA4lRyZ+lmFzPz/a/MUVdUeocosT2gQuhUY//jjnERQppxrbjYZ3Nuquo205w3HI73iO2JSjDM4MkmwpY90T9z6POa0NAuZLAI4QTycCoGOyfAvgaODJ6hd/wmHJG5naduuJPQLQ==",
    "level": 5
   }
  ]
