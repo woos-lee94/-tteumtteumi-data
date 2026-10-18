@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T02:41:00+09:00",
+ "updatedAt": "2026-10-19T02:15:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -3301,6 +3301,118 @@
    "hint": "바뀐 글자를 알파벳 순서로 한 칸씩 되돌려 보면, 원래 낱말에 있던 글자들만 나와요.",
    "h": "7ef0e842d08d38864458d884b506f60a8b816993a5659a51a389f2dd12b65883",
    "x": "CibXjL1bLks6BuCc2TlSsNibfg9TKDFUdsMqAXIGJ+f8JVXhEM/aDr7RMDG6Db9tDYTkaChOpC5onCZ19C7Yz4gw77nUdupOLmq9LvrysnIvJeD2YXc837b7D/PsDRRMJow2x5F+8U1SbALtJtpWu+C1tuOQk8Z/mT7/E/p4350jP+QGNxXwD33rzlpYjK09mFnyuUiLe16W/Wp7P2CuqYpNquy4e0Vsw50/Wn1nl5HyR3eGElpu9ahnOtVXE9iaQYvRJIjVXBy3QPthrMk2lMatktcG+CZLO7t/8A5GJ+GV1dGTTvMupmgzPePB7W3igd7vOmrFujWP1qT2olnzEmiDeX2zhRhPmgaFH5QyQvBOnsOH4yH/ouIIlZaWGfrmEKRMKIn1YKbA4lRyZ+lmFzPz/a/MUVdUeocosT2gQuhUY//jjnERQppxrbjYZ3Nuquo205w3HI73iO2JSjDM4MkmwpY90T9z6POa0NAuZLAI4QTycCoGOyfAvgaODJ6hd/wmHJG5naduuJPQLQ==",
+   "level": 5
+  },
+  {
+   "id": "b261020a1",
+   "date": "2026-10-20",
+   "slot": "am",
+   "n": 1,
+   "kind": "암호",
+   "title": "건너뛰는 글자",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요.\nBREAD → DTUOG\nSTRING → TVSIPH\nOCEAN → AGOIR",
+   "ask": "같은 규칙으로 PICTURE를 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "바뀐 뒤에도 모음 자리에는 모음이, 자음 자리에는 자음이 와요. 두 무리를 따로 줄 세워 보세요.",
+   "h": "314b8a31790113f517ebd659cf36c022fd962eb5c3271c8c47d655f061b653a1",
+   "x": "HcCeLgM8deKfLHM2qUD/cOicgR8zIqNr1xWpEJ3VIOElJ7p3NMP4zRQZ7AyI2hDgLiXJLw3O/jiyi3ODIdXySl5L9s11AHj7qlTDeHljSdSHaEBx1jumW8gNuAJglbAM8O7fRE497cGaNVspiregpg5ZjgabMmzZKKj5siuNbAb7zlnHLbjVyOZHL3bc1eEiTZsBZ5dqupcI3eHASxnE1Id+jVcNJYVqbZqJzWJv056xLJKGC5DIekHVT4epbpfwqfj27w8us/p07PMBMhhbDDahw/pKE5re8O1kKvcNpPeKaikftCk7Kbma1RunW5kJj0QYR4Mi8tFCqXU/nWbdz5N6Gb1hmAlE/1bUVIw12nama0ksug8oiwLjwOzXKi+wS98gmWKtX/mQvuv/xq+SIdyM4J9xr7Kep4WDmMupoRCjc6Z3EG13ykPdUAKgs+h4GdDwgR9dZRE0nYg4kHyRbEL3cPnTlvrFbrnO4+6Rev9emMdzrH8UeAnt+xcVawcspILRH/GNDhYCCYe8NtzKHEGIGNQqbGQGA9A4ibSywi0DF20WHRPWS7smO75q/K2kIVEQ6y4rP5miUWXuAY1GmyqmPey3k10I3+P2emsOqetbyIIqQBcO0X2YBTbKTeTPlEGyOOKpIWdpO75qmCyl+9MZBxZuQSFRr+3qicUwvcFEdP43YPd41RkBDNPI4I80HbrOdZSIgdjE9Hd6wK0lw6mLt1IvxvheNT2q8K8kg8Vu3q/dm9RgYjz/m2ZZRGHuYg==",
+   "level": 5
+  },
+  {
+   "id": "b261020a2",
+   "date": "2026-10-20",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "네 번의 맞바꾸기",
+   "text": "민준·서연·지호·하은·도윤이 처음에 사과·배·귤·감·밤을 차례로 하나씩 가졌어요(민준 사과, 서연 배, 지호 귤, 하은 감, 도윤 밤). 그 뒤 '맞바꾸기'를 네 번 했어요. 맞바꾸기 한 번은 두 사람이 서로 가진 과일을 바꾸는 거예요.",
+   "clues": [
+    "다섯 사람 모두 적어도 한 번은 맞바꾸기에 끼었어요.",
+    "감은 네 번의 맞바꾸기 때마다 빠짐없이 옮겨 갔어요(매번 감을 가진 사람이 맞바꾸기에 꼈어요).",
+    "서연은 둘째 맞바꾸기에 끼지 않았어요.",
+    "지호는 넷째 맞바꾸기에 끼지 않았어요.",
+    "도윤은 사과를 손에 쥔 적이 있어요."
+   ],
+   "ask": "네 번을 마친 뒤 사과·배·귤·감·밤을 가진 사람을 민준 1, 서연 2, 지호 3, 하은 4, 도윤 5로 바꿔 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "감이 매번 옮겨 갔다면 감이 거쳐 간 사람들이 한 줄로 이어져요. 다섯 모두 끼었다는 단서와 함께 그 줄이 어떤 모양인지 먼저 생각해 보세요.",
+   "h": "39c09a4f73c40ae70f95fca92b1165686b9695316ba705b0a75a91063e4b871d",
+   "x": "FRVSgKhTnAYMHA9qgU4SMxD7x0G2MCQVwiCYORUgKshUa6Ck4nPxCLoYpPGUIKN/3q5IdmVsWKVqQd8miTMm9jNbQGt8iZeAZH22bq9C4BIy+jgG+LobVbgXfNfBTWKEj2QKsE6JBhLidQDBQklUxxALKtcszjRZCcbpSYN0eB3CMHRtilXbOEq/A5nysWU+rvDvHFNbSKDXukYKbyswURjbXUOSIFTrZgCmQIzprHPOpxI0mXDbY1YXdrZUeGSVW6a0ncHHW+JLEkdTEO/RCNHBPT5/5a+UEnPwGDGnvFbNXpbXkGEYvc2he4ohhUbvr5NwswxS/xeGg+lI7ZAUuyAkm41eV/YlAbYRT07LI71KNyTqdhh3Z2iYJ+NjG4XqtxCdcQr9hr5maFrh0eacetp9GtIxGinasOEjeTunVrwe1OUKpJCa2mxalf9s4LG71GKKRSyMKchon+wCXusnNAMBFbeVOkkzdQTJpq+/dlVLuCr0F/DIFkvEAiKs8ijKdsq2BQCmi4yDbsWwyCpqaRO89bkd8pFIIXY1dSK0MSMo/hNvaTrIXnO3b4SaqMd3DS66hdYORexq3+JNL8m1xauJN1nNVPuJW2UPTT2ikYIIOu3WQZSlibkprSATaoBuIeo92CeBmh32qRJ53O5EtZGkRMBDazdOLgXF+2HiH3o8jx3A607YZuazLyanFTyC/M/jnmYuDx3Td7HqDfj7HtJnxzfAuIVVUGkoN5nNsfrKTbDncYKQkStNapQy5i7GvCXuqEn6r0JBHYrkdlljuzO/d9gFCump0KzbfXftqFH7OQRuNeTLSHhFYK+aTpBYfZuDDXT7NkwhOFi80H0oRRlYDwdHDD1qIwgA9JDM/oz9iZej5qLdJo4f5NVquaJRP1qOvL48qG6E53V+38yiAPMmo0EOIvGbOU39cvXUjxo6urM24/7AhuYJFdFRbC+BDuGCbKoV5wNS8aZyM0FL0GdknlxMm32BPjKPoUVjAEYB6yi7H020DZp2Q6AaotNfswe7OE8iWZcm+GOF",
+   "level": 5
+  },
+  {
+   "id": "b261020a3",
+   "date": "2026-10-20",
+   "slot": "am",
+   "n": 3,
+   "kind": "수열",
+   "title": "이어 달리는 수",
+   "text": "일정한 규칙으로 이어지는 수예요. 둘째 수부터 모두 바로 앞의 수 하나만으로 정해져요.\n5, 15, 23, 69, 95, 119, 143, 167, 501, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "앞의 수를 곱셈으로 쪼개 보세요. 69, 95, 119, 143이 무엇과 무엇의 곱인지가 열쇠예요.",
+   "h": "dc7a79c7446c1dd1dd347fcd3eaed4411b83324bd670167c82a702c9d532b2ec",
+   "x": "4FgGh/tJ6QcpEQ8J75rIWbRIqZZtKixorTy2F2Y3+oNN5TkCLX+PKaHVuwYrU+HTKP/2N5oZ2VhZcr3UEWrUQgaTHTvlPURLl+mHQUzbPEDfak4VDxdhr8adf8FzsAxfov1lZjhwzDGZjrXr8jeMCkVjVXQ87eLRHmOjPkU9Xv4ANuqQS/5ZV/IGmE8nbaT7rfFp4+xpQCgmCUDoNnan0+estlfQNNG8QyTT/cmiapYgzr39Tj/PupDYgbfgQwM0o6Vdzr/388vUDjVZ5qrAKSQggk4u0BeRAm1/CqtpqITJ/Zg8373KHfvCxv4BX3WCB6bISi+49i92lFXIxOmf7LPHf0DgrlVnOKKSdWDttFDxiNPx9m3/KzPuvlpDdyyfs8lgQNiNdkqkCrTA/U6VP3Op0p2KOFcf785z7tXCYywzfNXWpTz21CJaVQqlhcMeZ3su0YqbcoeThTKeTwiuAGl4SHoy8mIa1PZkEw==",
+   "level": 5
+  },
+  {
+   "id": "b261020p1",
+   "date": "2026-10-20",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "주사위와 거짓말",
+   "text": "민준·서연·지호·하은·도윤이 주사위를 하나씩 던졌고, 서로의 눈을 모두 알아요. 짝수 눈(2·4·6)이 나온 사람은 참말쟁이라서 말이 모두 참이고, 홀수 눈(1·3·5)이 나온 사람은 거짓말쟁이라서 말이 모두 거짓이에요. '차'는 큰 눈에서 작은 눈을 뺀 값이에요.",
+   "clues": [
+    "민준: 서연과 내 눈의 차는 2예요.",
+    "서연: 우리 다섯 가운데 거짓말쟁이는 4명이에요.",
+    "지호: 도윤은 거짓말쟁이예요. 서연도 거짓말쟁이예요.",
+    "하은: 민준과 내 눈의 합은 7이에요. 다섯 사람의 눈은 모두 달라요.",
+    "도윤: 지호의 눈은 내 눈보다 커요."
+   ],
+   "ask": "민준·서연·지호·하은·도윤의 눈을 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "차가 2인 두 눈은 짝홀이 같다는 점, 그리고 지호의 두 마디가 함께 참이거나 함께 거짓이라는 점에서 출발해 보세요.",
+   "h": "7d5c991d6d09a52916973342687bbb6bcc348a47d0390b2899643153c07632c3",
+   "x": "k3PUGQIE2TSnEzcLzHagKXmx7kGdR+wmDHIWlEQelYcIbJtD38a78s6PK3nfNfug3LNKeOFWInARNhB0XaVlV4IrR3ONPwhhSDVnnuA59S0i8ZVTEklgWr6C9f0k4AJm5hfoB2zdTVqpAlv7Z20KgO1uDiltW3wiy8EzJe9qetCnZOlVq8/y9vXBgG/dCYYzJAccizAI1tHCRmGRsh24Vo7oF7BsBgjvWAUWkkeA0bw3ek9nqdFC8D5vinU4GVfd4d2EtYRE62/gBCIE7W4LjoBj5Zdk6iWnaWZYH7a1/oLtK31VqlRYBX44YE6NXRloLtd8iJW5KIpY5w++bnGPsU8A5NHofbtdp5XHaPOHwuVfrF6V9jFEqrbN/DKIbFtfY/N9n9Am8o2lWkonk0uw0b61EG0KyooqLNR+YF4SbaG0qLYkX5e+KRWFdCE0NJbu13YAov/Yk5WlGKK+5IwqkTBTFAwcuCCMKAdAXPwD5cLVsGFC+6uCYIfUWaeaGqmh3xoamGIA8cXXKtAOvj5E+zxThw0cmIE93u2EyEY4OX1UQ8OdAuuY72D1QvHOItuBMVzniC5/awrpEgdMUcBVdqlX0iZnGMZJG4LNng4E7oE8fBFtChHzoRFyLRh9gpnt372YsNoM90cBNsASfQ1nOM6G8jlG848iExcR82XYSVKLj6pUmNHfREVzmRMoZmubpGF6JwXiphz4UcMsi01NusO3AUXEOzvi1uZj9cmHXcI+cHSvQOa89dTzoQfgsrBZFeGKRAEAvCi5fwQDxJHP80NG4ZoWBUtSB2WQVBAKyqSlERHhBE3c3DYZzZ6My9sJY9lrLIptekRoEGgTmNQu7CUthaBRNcnGTfKGGQk+W74NDKi/uByXm9sNQ11P2qT/gojcZpDbExj/pCSVztb3KtQUQn4KcCfB3O76wHex2FHNBW+rn/v3baG/SEignf6t+D4+qLCFA/e1JScorLwtdB66VutBnjKSSgSmVsxurGMyBSwQCQPZvg1dHVA+ED0TCf/UxFU4uZZgh1qEmvRcg4r6hrkySryVXw3dj1Mj7qD/YkWcQW2BWeydaMEv5vuRwGGrznOQA6vF28m242kqh8+9v47tUawd",
+   "level": 5
+  },
+  {
+   "id": "b261020p2",
+   "date": "2026-10-20",
+   "slot": "pm",
+   "n": 2,
+   "kind": "암호",
+   "title": "줄 서기 점수",
+   "text": "영어 낱말을 한 가지 규칙으로 숫자로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였고, 낱말 안에 같은 글자가 두 번 나오지 않아요. 바꾼 결과는 글자 하나에 숫자 하나예요.\nALMOST → 000000\nCHAIR → 11200\nWOLF → 3333\nFOREST → 111300",
+   "ask": "같은 규칙으로 DOLPHIN을 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "ALMOST가 왜 모두 0인지부터 생각해 보세요. 글자끼리 알파벳 순서를 견줘 봐요.",
+   "h": "beb59e5ff4fbf0d42575ad0f508c76720ca98fb1408c8a3597b41a34394cc29a",
+   "x": "tVlz8MDx5rdeNCOy1ZWLO8yrCMgkvapbfCeEE8uTmayiGH4zqZAfa7te4/Rsc5Emppnkfyd1gZOgd+5M7EpcwhMdYGFgIkp0lvQdMEjnroX86/KzXKma73UR+2zF75S1tjtZLev5GseM3f+RZh0Q9w3UjCfk972bXrXewInIvuwxzQi6RUsoAOb9i0J1L8DaY+DeB/cwmEZpOk5DBvA1WaSMYErPqrPXPL4O9LMu64UQgk/E9ObqifbDKegAA+KKEr4O4EBnpvJkdDbG93uRee2osu9wT+i+tL4lnXFBCGom7A6Kz20NXRdAQXh2HXTrKkCLPr6CHeQlTYMh/wUriUnjoM4p9n8afkATlE7gxV2tIG5bfebfNsfVlhcGKbQA4uBaVD6mGR7V1iDprXK7AOpsRbsdTkLDEOBbFSrE48S52Tn+yIF40F++AlPRGVZ/iOhgB1CNTO1EwuGm/MeZg2bT512cDNbBJhT/FnjwyE8L9/npgSE+t2GvCrLNwht1TJSIzv3mVbeDIdHVquece6PLbG2smbYebxhXx6rQI/PnFfh82csmO0MSA1FlV9OA7e2I0d7TOCi5sOJaqKbo0XQR/LnP/pL5qkughhCxpyAL+PWiKwt7pBI5PBFvDwZfSOLJATWIGjcRqIsHFimH60VsnfKv5oM0ilFn",
+   "level": 5
+  },
+  {
+   "id": "b261020p3",
+   "date": "2026-10-20",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "수영장 가는 주기",
+   "text": "민준·서연·지호는 저마다 정해진 날수마다 한 번씩 수영장에 가요. 세 사람의 날수는 2~7 가운데 서로 다른 수예요. 10월(1~31일)에 저마다 첫 방문 날부터 자기 날수마다 빠짐없이 갔고, 첫 방문 날은 1일부터 자기 날수째 날 사이예요. 예를 들어 4일마다 가는 사람이 3일에 처음 갔다면 3·7·11·…·31일에 가요.",
+   "clues": [
+    "서연은 10월에 7번 갔어요.",
+    "지호는 10월에 6번 갔어요.",
+    "민준이 10월에 마지막으로 간 날은 29일이에요.",
+    "민준과 서연이 함께 간 날은 10월에 딱 하루예요.",
+    "서연과 지호가 함께 간 날도 10월에 딱 하루예요.",
+    "10월 5일에는 셋 다 가지 않았어요."
+   ],
+   "ask": "민준·서연·지호가 10월에 처음 간 날짜를 차례로 이어 쓰면 어떤 수일까요? (예: 1일·12일·3일이면 1123)",
+   "input": "number",
+   "hint": "한 달에 간 횟수로 날수와 첫 방문 날의 후보를 먼저 줄이고, 두 사람이 함께 가는 날이 몇 번 생기는지 따져 보세요.",
+   "h": "8e3786a533c40fd65ea6530f580545767c19ccfae73f140cb6ac8b37920a442f",
+   "x": "UtaXopAf1qz9FaLG5FVUZT5njrbtE94gwpbMuKHumGff7lrOfkjhVOfdE8QF8mm+0C4sWvk7eCl84N3kxacFPw1rt/ThitPfKMSrFZW4ssX4quPU/sdBjYwqt7o+4MgMROpixrhST8Cinbzs/GXptyulJ1AgNMvfnOJ4mOZavSPW+sRS9gjmnOuZhCo1P56k0XjIeZqGSgLGgMjv26JcnU9FY07RALP91u6U1h7f+P2ihAaXzrhSfUGFhP3oZeEb4P/8+Ab9RE5Fkr5PYDOpw/rqWZnpCLf6fvTZTaptOI2aoxa/1YQSEl9wJt14400RIeXu5UAmuREt482kezoerG4Ws07bZ+ja0AecWPESy3N/7Z8AgyaOBoLHgRPdAzUvvl76VHpnx2UI+Tqg5++9tzu0Ye/UBlpQ92wOcUkQ5Qqlb+B3SA9TB6jRy5hjZraBWx+K6l8aZ5TTG8BHaJKftzv78iJnEAy03pFJ1Vq/UgGg/3+VxEfcgDl6/I1i/mwGfVM+TCOo4fcVMfJiPvj5bfow1c+W6tCUNKYulhka6dJsmQwvQnYvzGBrQer92YFMVtZ4YIuXAYoYs/Y1m6uu2lWl7MXBkJZEP2vQaOVVDw1nQLaDKp6/3nq+bKEzBnMjqUdGIcZxYYm9+SUUg1552ktRXjOMkbtbne/iV3YzvDCCtrzi0swRT6I/jjiBbtD4E2Y9Ml9neUQocpBh7v5YLkHZurdmmnOvJLaOC9xLH7uGBDWbctk9JH9GzbnDIbFbCzVQnlS7EQ1QnPrZUTC/tBchzDvzQyKLsNWSgSy3+GGZlQOM2KRRmHJHcrYgZFA5RR+6O/8XfD2+MiTQwsgG9+moaRrJKLVGnq0CpUjkbb74+IGIAxBxIb0oOXdOOlUixmYyj5CB5XUXiupkmQE3dPOnRqPk3OM1zRXhPNGJSqqIrHaZrwUNjFHB3EfsVNPfiLCbOWw2k6XcEgdU33QbEc0xH8JlD+5Y24XhnO1SsM3y6NgNLWlG2twmVLK+Cw5Qc5F1jyBkMlkrG9cEyYWJJimCJA==",
    "level": 5
   }
  ]
