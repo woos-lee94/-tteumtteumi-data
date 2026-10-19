@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T02:15:00+09:00",
+ "updatedAt": "2026-10-20T02:48:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -3413,6 +3413,210 @@
    "hint": "한 달에 간 횟수로 날수와 첫 방문 날의 후보를 먼저 줄이고, 두 사람이 함께 가는 날이 몇 번 생기는지 따져 보세요.",
    "h": "8e3786a533c40fd65ea6530f580545767c19ccfae73f140cb6ac8b37920a442f",
    "x": "UtaXopAf1qz9FaLG5FVUZT5njrbtE94gwpbMuKHumGff7lrOfkjhVOfdE8QF8mm+0C4sWvk7eCl84N3kxacFPw1rt/ThitPfKMSrFZW4ssX4quPU/sdBjYwqt7o+4MgMROpixrhST8Cinbzs/GXptyulJ1AgNMvfnOJ4mOZavSPW+sRS9gjmnOuZhCo1P56k0XjIeZqGSgLGgMjv26JcnU9FY07RALP91u6U1h7f+P2ihAaXzrhSfUGFhP3oZeEb4P/8+Ab9RE5Fkr5PYDOpw/rqWZnpCLf6fvTZTaptOI2aoxa/1YQSEl9wJt14400RIeXu5UAmuREt482kezoerG4Ws07bZ+ja0AecWPESy3N/7Z8AgyaOBoLHgRPdAzUvvl76VHpnx2UI+Tqg5++9tzu0Ye/UBlpQ92wOcUkQ5Qqlb+B3SA9TB6jRy5hjZraBWx+K6l8aZ5TTG8BHaJKftzv78iJnEAy03pFJ1Vq/UgGg/3+VxEfcgDl6/I1i/mwGfVM+TCOo4fcVMfJiPvj5bfow1c+W6tCUNKYulhka6dJsmQwvQnYvzGBrQer92YFMVtZ4YIuXAYoYs/Y1m6uu2lWl7MXBkJZEP2vQaOVVDw1nQLaDKp6/3nq+bKEzBnMjqUdGIcZxYYm9+SUUg1552ktRXjOMkbtbne/iV3YzvDCCtrzi0swRT6I/jjiBbtD4E2Y9Ml9neUQocpBh7v5YLkHZurdmmnOvJLaOC9xLH7uGBDWbctk9JH9GzbnDIbFbCzVQnlS7EQ1QnPrZUTC/tBchzDvzQyKLsNWSgSy3+GGZlQOM2KRRmHJHcrYgZFA5RR+6O/8XfD2+MiTQwsgG9+moaRrJKLVGnq0CpUjkbb74+IGIAxBxIb0oOXdOOlUixmYyj5CB5XUXiupkmQE3dPOnRqPk3OM1zRXhPNGJSqqIrHaZrwUNjFHB3EfsVNPfiLCbOWw2k6XcEgdU33QbEc0xH8JlD+5Y24XhnO1SsM3y6NgNLWlG2twmVLK+Cw5Qc5F1jyBkMlkrG9cEyYWJJimCJA==",
+   "level": 5
+  },
+  {
+   "id": "b261021a1",
+   "date": "2026-10-21",
+   "slot": "am",
+   "n": 1,
+   "kind": "수열",
+   "title": "끊어 읽은 띠",
+   "text": "일정한 규칙으로 이어지는 수예요.\n192, 549, 811, 211, 692, 252, 893, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "수를 하나씩 따로 보지 말고, 모두 이어 붙인 숫자 띠를 다르게 끊어 읽어 보세요.",
+   "h": "6f9a834e285ac602391680f155bae8cc64099a8015251c3c1d0b4cb090583d79",
+   "x": "7YeJR5QX+UUV0RIIv7IbVFOh2aK1dPZauVEJToD//5sLBmADciTKSs+pNko7v+qk8osEa+uRhirdi0puEZM4MC7PR9277GR/k86uxgXw9tz1NWKt0lsUReqF5Vr7Dc1mRknVPs6vUNVj8PxsbmYKqNwrwTCmflpVg2PGXhWYEC2jAN/IsOEyrPaSRR8EFrUY69VGcbkRg16Oqv7z6PhyZigdx/PlU78FgTUw8XzeZ6Ug4cgj92HGQFAJMnEFB6eiLhBXSFLjoG+gxiCWc0GJs7M8X3VpF4q3QlYkLt8gytSQd8+CcJZ6hcphSvH6Ek3scbA028eh",
+   "level": 5
+  },
+  {
+   "id": "b261021a2",
+   "date": "2026-10-21",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "마주 앉은 여섯",
+   "text": "식탁에 자리가 두 줄로 있어요. 위에서 내려다보면 윗줄은 왼쪽부터 1·2·3번, 아랫줄은 왼쪽부터 4·5·6번이고, 1번과 4번, 2번과 5번, 3번과 6번이 마주 봐요. 민준·서연·지호·하은·도윤·수아가 한 자리씩 앉아 김밥·라면·만두·우동·비빔밥·떡볶이를 하나씩 먹었어요(모두 달라요).\n'옆자리'는 같은 줄에서 번호가 하나 차이 나는 자리, '대각선 자리'는 마주 보는 자리의 바로 옆자리(예: 1번과 5번)예요.",
+   "clues": [
+    "지호는 수아의 옆자리이고, 라면을 먹는 사람과 마주 봐요.",
+    "민준은 서연과 마주 보고, 도윤과는 대각선 자리예요.",
+    "서연은 비빔밥을 먹는 사람의 옆자리이고, 떡볶이를 먹는 사람과 마주 봐요.",
+    "김밥을 먹는 사람은 윗줄에 앉았고, 자리 번호가 우동을 먹는 사람보다 커요.",
+    "도윤은 우동을 먹는 사람과 대각선 자리예요."
+   ],
+   "grid": [
+    [
+     "1",
+     "2",
+     "3"
+    ],
+    [
+     "4",
+     "5",
+     "6"
+    ]
+   ],
+   "ask": "민준·서연·지호·하은·도윤·수아의 자리 번호를 차례로 이어 쓴 여섯 자리 수는 무엇일까요?",
+   "input": "number",
+   "hint": "민준이 가운데 세로 칸에 앉았다면 도윤이 앉을 수 있는 자리의 대각선이 몇 개인지 세어 보세요.",
+   "h": "66182e7654bf2b395d8dddb819641e6a197852e6f07f3810e624a250277bacef",
+   "x": "5Yvz3Nf4DdL/BdIHLXfDu5OKYcSGzVJtXCuljFxRW4CFtDULUknH38QhhNQcc+ucLECLFr2aB+pRYOHDFzPkxbfq6R4/P7E4dfuqSkVtdhJEgm92MDPz04UoYFuRqKIGHBq5k+MSHLmwKfGbPswToDKZnANBClx0V9EtZCeslNyBbGOFmlvf3iCwEAvjyEMyL1CIGGqc/ZE5fuCmKU6fCJuqGj81fRe18Uaa5IxZp3mdPfyuKhHKZ9drlALwK0dUNVk5fyexqW2evkweQxoi2UKIkHTwLyiUgeiUzNCbXaryCRkaB9d0GRW80qTfwYBc4xv26++Q8Z3nFN9/bFIgjiaWZ6SPotFX0uOvCq0sCc2/ZetqKcT9kD8RenkQIF8kAw2nuYDqwWSp0x4GIiAZ111gkA+BQTbB71wlR22SGObJCWr03Q4REogCNKOr2JkuHJaO34U8DtEjVo4U9QtInLRhf9z4ri8UynhJf3dvzIHmTwflHH7v3Vd82ezW5ioDJr5otFE5bzxKZdXorwcTTTnA1S0jCBpPis9O9qu+1QwF5qSIPjJBTFzweIoJXIM+y+mcXxcQ/m7n6hojJVp+9RoSRTW7ge2X8cMh0P4fZX9GbNKYo4ExBVNr7gejkf8k3yTpyR+hCe583o891UFv4DdGNNge/MXE65ZYx2jZAWIXSUix+NMuO4atImcXvVRkqta8OPJ16oz1ckA0QyukMZMArjAllZP+ttEEy7Pyy8yEvRSB/+7ztmBqma5Z3UtpCXGufOPWw3aOKGtz4oUYi2RWC8NfOapNRC0UR/6qWKJ/f9v1q5y4RCgSrMxLXXzQqmX3pDw3WhC1Udokb8bnKL1yZsIF/pxUcj+a5yrKpknbxHrf9soYCWdFmnL48rdHUQ3RWKCsMYEPmbighlLg8j7xeOR+2FG8/kZkCJbzk1Cjd61S74lYShSzOAnwD4vyWSQO/Ot3JA4HxiposJwfo9wQZu4QmNqwelU4EavQiKpQTSau5tJZExRC0qmMb1PxloCUsiyoCv9mN6b86qNwHSfJmLrey1/1VzVs1gtZFghFFQ==",
+   "level": 5
+  },
+  {
+   "id": "b261021a3",
+   "date": "2026-10-21",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "다섯 번의 일요일",
+   "text": "어느 해 2월에는 일요일이 다섯 번 있었어요.\n한 달의 날수는 1·3·5·7·8·10·12월이 31일, 4·6·9·11월이 30일이고, 2월은 해에 따라 28일 또는 29일이에요. 2월이 29일인 해의 바로 다음 해는 2월이 28일이에요.",
+   "ask": "그해와 그다음 해, 두 해 동안 13일이 금요일인 달마다 그 달의 '월' 숫자를 적어 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "2월에 같은 요일이 다섯 번 있으려면 2월이 어떤 모양이어야 하는지부터 생각해 보세요.",
+   "h": "298869d850bbb71408114570b83735b856c99b5b686f82095b588096acf4f6bd",
+   "x": "g6Epipyk0Ru6Lg39aYMM7KZG9WG0mM7XyUw0Wi4RHbkxVo00+gK8dcpc4tNAScbODZzKE3e+otc7+D2wtNTSOOqxIQ3LzxOBAkIX2aGkU4X2tZzWBxTSuRvZjSdSAOiHmIxr0EobsTWjFrw4FdyxKcBj17RNzMnb1jmF9X92YBHaWR8+xmDQmOCtp4l/0JXanrEY/dnS7FXO5EtJ3bdXb98AJ2ZrNXXGwFxHKiXDit/LO6uLzxxvkp+sz5n4qRUJ4H+ynQujlcVUHqRZsHke5NWb+XOnIAqlY31nmd3WpY4qAkXdwlfMN18qbnie7JJ+RsDGYdP7AMqicZi2we0tUr9sDMntGcrHHH42Gial3WimTK6FablSS6QJHvopaa+r93uagKdDkJs+VTD3he83MBu3jvy9ddOlkNghmjQC0fSk/gowoCVstAk11Qn9P8FZhsEOV/DAXNB2XljUxdcttBhAqxgpa3OfKK9BLrej40DoLeAGEVAR1IvJMLs3pLz16C7x3XCjfT+aLxgLDmJmmoN8gVh0wkktp0jQHL6tgRJ7dEv2s4bTZqLjisz6JcyRenm37oBEoeZvGue+1Pv5Tq1sbso/p8Pajsa3uniUgsQ7DMaKUpWIRMK021XCXTqhtm11GtGnSUq9Bd0ee3u9zmOsp1cxCZdNyuy1vjd5iM6stmy70o3FtLUp6W6PQfXW2P/2",
+   "level": 5
+  },
+  {
+   "id": "b261021p1",
+   "date": "2026-10-21",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "번갈아 말하는 사람",
+   "text": "1~4번 네 사람은 저마다 참말쟁이, 거짓말쟁이, 번갈아쟁이 가운데 하나예요. 참말쟁이의 말은 모두 참, 거짓말쟁이의 말은 모두 거짓이에요. 번갈아쟁이는 참과 거짓을 번갈아 말해요(첫째 마디가 참이면 둘째는 거짓, 셋째는 참이고, 첫째가 거짓이면 그 반대예요). 네 사람이 저마다 세 마디씩 했어요. '나'는 말하는 사람 자신이에요.",
+   "clues": [
+    "1번: ① 2번은 거짓말쟁이예요. ② 번갈아쟁이는 딱 두 명이에요. ③ 3번과 나는 같은 종류예요.",
+    "2번: ① 1번은 참말쟁이가 아니에요. ② 거짓말쟁이는 딱 한 명이에요. ③ 4번의 첫째 마디는 참이에요.",
+    "3번: ① 참말쟁이는 두 명 이상이에요. ② 2번과 4번은 같은 종류예요. ③ 1번의 셋째 마디는 참이에요.",
+    "4번: ① 3번은 번갈아쟁이가 아니에요. ② 나는 참말쟁이예요. ③ 1번과 나는 같은 종류예요."
+   ],
+   "ask": "1~4번을 참말쟁이는 1, 거짓말쟁이는 2, 번갈아쟁이는 3으로 바꿔 차례로 이어 쓴 네 자리 수는 무엇일까요?",
+   "input": "number",
+   "hint": "4번의 둘째 마디를 번갈아쟁이가 할 수 있는지, 참말쟁이·거짓말쟁이라면 셋째 마디와 어떻게 맞는지 따져 보세요.",
+   "h": "7a4bb1ada5f84f009fdb9ae16aab5105e58031066a581f83914385e2771c2f02",
+   "x": "X09urgMxurBAyQ1D9DTVam9vGk0Vo0Z/Qvxh0rhVlPzfZIY5QgjEgzjiWPjy5iuFMKywRroxPyV1ddmrId0nCEy1v9k2n/RYszlrihf0P1tlq40mNJzl0TGgQDIZN1MibNZz47DEbdA/V3Cco8TAY1nV1QY8g4i1wrG/T6uWX0V9ktEfb3NLx4bO7emOPHeXFdlAsmRQHXzwQFSXXlPdFydFM4ujuZuPI+fx0mD+NXq63A4u0MMKVp9VgZDLK7e0ITu5fx00iS/TmitsqCF6H5J5bQlZL+tu+9ltjq9sIbM/tJ+XN3HMdCx/wTjKUA7bEgf7Kxu2yUfR9kao8L/nmTzYUt3Md8VrTteGvdYRkWL27+ApaJI8KHpAZ5KC+Jbjmm7dfIlQe6F6as95BWDof9EBIk8Zv35UejzSLP0xk2gILMSU3+ypKcqSx/DwtXShTHXIA7NfkGmi1Kj9K86jaXEG7COh5Ui5SLY9S0/bBUs7PHoWDOsgHOHq/J3o9i9zwvPaMh/L/2o43RSvpcqMVejRDypZHZMIZa5eMYD/qrUwP7sUg0ARdrTnoYWKFrpcZEmK2cR2uBdjoUeaJ5pnjBsFtvR+zDc/dx8+SN62Xyz8xZsHQ8v3sMSBy2vtgYoeMtNS3rCv+PrIapUk53qXl/L9AlZlK6uVgR7WRuVuLsHxeR0wRMTvNk1HeVJbdR12Ke2mA6DQf3SFtmUx52g2Xopa46zStn5VaSc8IW5NOyEtZw1fcZBZaSooXkX0eUm4djb2qOa59z47RocZzDFm3W+sHW35/QmFmgrYVgZ0wxiIkYoiaxXDLFz3EL8xkN7V0NO19W3HReEPYyvE0Hmd8Om1uTFUnhR+D8KjBXZ81ogli7ur3jc8B+aGHCuIpVQADXZjQ8TMmNzzZYkN7xYUOv11lv3qQ/2Og5Um+NA+qvnGSm9qrh2VTZwac/rpOgGd2PMw63wx9txVB9m4dm683VxLTEa3/vMT+v0r/VURQue0SHqmj+1k41DPVNUvAuY+GQsUCR/ZfkWPdHEb1Y89XivT4D7hBsvL7TxQpji6iQf7yEDIJ++pxtJfXGciMiFVMh4yUOGbuPbmzWohmyod6Q/Ti352S4/F6CWaLdt6JcBI1wFmpqsuNZkQqaD3N+UtVS82L6ZoS9yPJaJlV7/2REVh4IMxA2OzxgQZElTqYnP+H2lVwg1QUU1ZjdOwxwuvUi/nOlfhIP8y7FCKlXmkdd8LXsEjrN6lC1l818kXty2sDVxIftkCdjXbBsMuRXS+ga+SdE6u6LGX1nLycQidQfQLJiUItVkpdyZpYOlF7t/D08c2/m0CxlW9sQbD244yqCah",
+   "level": 5
+  },
+  {
+   "id": "b261021p2",
+   "date": "2026-10-21",
+   "slot": "pm",
+   "n": 2,
+   "kind": "논리",
+   "title": "숫자로 그린 그림",
+   "text": "6×6 칸 가운데 몇 칸을 칠했어요. 표의 왼쪽 수는 가로줄마다(왼쪽부터), 위쪽 수는 세로줄마다(위부터) 칠한 칸이 몇 칸씩 붙어서 덩어리를 이루는지 차례로 보여 줘요. 예를 들어 '1 2'는 1칸짜리 덩어리 뒤에 2칸짜리 덩어리가 있다는 뜻이고, 덩어리 사이에는 빈칸이 하나 이상 있어요.\n칸 번호는 맨 윗줄 왼쪽부터 1~6, 둘째 줄 7~12, …, 맨 아랫줄 31~36이에요.",
+   "grid": [
+    [
+     "",
+     "1 2",
+     "1 2",
+     "1 1",
+     "2",
+     "1 1",
+     "4"
+    ],
+    [
+     "1 1",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "2",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "1 2",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "1 1 1",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "1 1 1",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "1 1 1",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□",
+     "□"
+    ]
+   ],
+   "ask": "칠한 칸의 번호를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "맨 오른쪽 세로줄의 '4'와 아래 세 가로줄의 '1 1 1'을 함께 따져 보면 실마리가 생겨요.",
+   "h": "318a2f64e955c9a89875436f85ef8724bbbd9058033a116c9cc1f73badf55137",
+   "x": "6g3W09xQVk9Q2X6WI4KX2SXKGlXro+aVnxwlrQ71swHOfH4nMF2ssPBlLutAFZXIWSPtdfP5zW/TDbbAr5yqQ/be4hOV8idK6wwAi/XTMLbAjDRZoha3MbH4c8VWvVcP1wCbesaoqSVFuGWHinI6O5k2I17w9FpCeUeh/B+VuvcvicMPyZJLvSG6n7v6Tk749p7ncS915peF2ZYK3o2ZwKELFe+UQDLcNfNAftPMfhC0tK/flmuh7Jto/gr3bYgCEaZNngnaVPKRcCWQZVlZ1rSemYy+U8abPK9mUBq/Boe5YJo4Edrqg4onLInQaLNN9oVLS60LB1dVAHxmzM3xIlL3YS3tgJ0h/MBEa3JeTPet1HXxXo5Z40G75xhCBkaQpqT/tN9UFSUQ6fgPcoP9JV3sq1+tQJ29a1QInLf/Udw+aNJxEr4frB6N47S5Osco9H7lYRdZ",
+   "level": 5
+  },
+  {
+   "id": "b261021p3",
+   "date": "2026-10-21",
+   "slot": "pm",
+   "n": 3,
+   "kind": "기호",
+   "title": "밀려서 겹치는 줄",
+   "text": "칸마다 다섯 자리가 한 줄로 있고, ○는 빈자리예요. 가로줄마다 셋째 칸은 첫째·둘째 칸을, 세로줄마다 셋째 칸은 위의 두 칸을 자리끼리 겹쳐서 만들어요. 기호끼리 만나면 어떻게 되는지 살펴보세요. 가로줄과 세로줄의 방법은 거의 같지만 딱 한 가지가 달라요. 칸의 맨 오른쪽 자리와 맨 왼쪽 자리는 이어져 있다고 봐요.",
+   "grid": [
+    [
+     "■○●▲○",
+     "▲●○●○",
+     "■▲○▲●"
+    ],
+    [
+     "■●■○▲",
+     "○○■■▲",
+     "●●■■●"
+    ],
+    [
+     "▲■●○■",
+     "▲▲■■○",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "○●▲■■",
+    "▲■■●○",
+    "○○▲○●",
+    "▲●■■○",
+    "▲■●●▲"
+   ],
+   "hint": "그대로 포개면 맞지 않아요. 두 칸 가운데 하나를 한 자리 옮긴 뒤 겹쳐 보세요.",
+   "h": "703bf5a823ee8e51be49ec39b13154c39b35d2e0c23a96403349a8d10990c59d",
+   "x": "gT8npgsN33r8PEDp59VUMaHwAueyG/V4i3xBmrwtEkMufxHvRve+EjpOiUndWJKQAjx8HnN9YJPO4mGoo0idW/TbLe7MndlnocNdn/DNXpBeIw9szvpEHcGnaSUfBPutekWb/UeLlgRSHGxNoy/6GS94x+sB9Mu/zOPD/+vguYhmN2NoJhp/Ig/V/azoRhMRfKZl9OLw6n7Vgd9EZZVnXOpmPtLqao1sG2YihY4HJHYkrl1FUh4oneuqG4CNYRtrRhyg4RsP1yWGFXt9S4jy6xKi0NiQqEm5hplDxo0DGtyumbJYSGaYa7C4Pzt/hvVMOUuSyDJZrSsHToIlKtM4EyM719wZVQIbTpSGdTQ3gf1GPZesLqiVsvSdCY4KKL20ttzFg93CKdvEg5zJFi67vVi7moToS1EKv20/D9YL2xils7TChtjRARQM0JSWCTEer1m6NVwh2Ez4yZM22USI/9XPBHddqMqUoPpNJuXwEeB6L9X40NVG/bvMdMxd2pUTtqt2kl4plWHFbCJSdIyWqTMnZPwd1b64bVCmUIkp9W0/qhldoUmIfoRvSXmkyVeNlE/RFjQXja3chfS08Rr1YtsNBMCiKszKSwhJskhSp+3tdg==",
    "level": 5
   }
  ]
