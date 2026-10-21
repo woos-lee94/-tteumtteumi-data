@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-10-20T04:36:00+09:00",
+ "updatedAt": "2026-10-22T04:36:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -1343,6 +1343,81 @@
    "source": {
     "name": "Wikipedia 'Petrichor'",
     "url": "https://en.wikipedia.org/wiki/Petrichor"
+   }
+  },
+  {
+   "id": "tv90",
+   "title": "소라를 귀에 대면 왜 파도 소리가 날까?",
+   "answer": "주변 소리가 껍데기 속에서 울려 커진 소리예요",
+   "body": "바다 소리처럼 들리지만 사실은 내 주변의 작은 소음이에요. 껍데기 안 빈 공간이 특정 높이의 소리를 울려 키워 '쏴아' 하는 소리를 만들어요. 그래서 시끄러운 곳일수록 소리가 커지고, 소리를 막은 조용한 방에서는 거의 들리지 않아요. 컵이나 오므린 손을 귀에 대도 비슷한 소리가 나요.",
+   "tags": [
+    "과학",
+    "바다"
+   ],
+   "level": 1,
+   "source": {
+    "name": "UC버클리 동문회 California 매거진 'Glad You Asked'",
+    "url": "https://alumni.berkeley.edu/california-magazine/july-august-2007-summer-travel-issue/glad-you-asked/"
+   }
+  },
+  {
+   "id": "tv91",
+   "title": "우리가 마시는 공기는 대부분 산소일까?",
+   "answer": "아니에요, 약 78%가 질소이고 산소는 약 21%예요",
+   "body": "마른 공기를 100으로 치면 질소가 약 78, 산소가 약 21, 아르곤이 약 0.9를 차지해요. 이산화탄소는 0.04% 남짓으로 아주 적어요. 질소는 다른 물질과 잘 반응하지 않아서 숨으로 들이마셔도 대부분 그대로 다시 나와요. 우리 몸이 실제로 쓰는 건 그중 산소예요.",
+   "tags": [
+    "과학",
+    "몸"
+   ],
+   "level": 1,
+   "source": {
+    "name": "미국 해양대기청(NOAA) JetStream 'Atmosphere'",
+    "url": "https://www.noaa.gov/jetstream/atmosphere"
+   }
+  },
+  {
+   "id": "tv92",
+   "title": "단풍은 산 어디부터 물들까?",
+   "answer": "기온이 먼저 내려가는 꼭대기부터 아래로 내려와요",
+   "body": "아침 최저기온이 5도 아래로 떨어지기 시작하면 단풍이 빨리 들어요. 산은 높을수록 기온이 낮아 꼭대기가 먼저 물들고 차츰 아래로 번져요. 기상청은 해마다 전국 21개 산을 살펴, 꼭대기부터 약 20%가 물들면 '첫 단풍', 산 전체의 약 80%가 물들면 '단풍 절정'으로 알려요.",
+   "tags": [
+    "식물",
+    "날씨"
+   ],
+   "level": 2,
+   "source": {
+    "name": "대전지방기상청 웹진 '단풍, 자연이 보내는 계절의 메시지'(기상청장 기고)",
+    "url": "https://www.kma.go.kr/daejeon/html/pop/webzine/202511_DROM_webzine_41.pdf"
+   }
+  },
+  {
+   "id": "tv93",
+   "title": "오징어 피는 무슨 색일까?",
+   "answer": "푸른색이에요, 산소를 나르는 데 구리를 써서요",
+   "body": "사람 피는 철이 든 헤모글로빈이 산소를 날라 붉어요. 오징어와 문어는 구리가 든 '헤모시아닌'이라는 단백질로 산소를 나르는데, 산소와 붙으면 푸른빛을 띠어요. 구리가 빨간빛을 흡수하고 파란빛을 되돌려 보내기 때문이에요. 바닷가재와 투구게의 피도 같은 까닭으로 푸르스름해요.",
+   "tags": [
+    "동물",
+    "바다"
+   ],
+   "level": 2,
+   "source": {
+    "name": "홍콩과학기술대 Science Focus 'Nature's Palette: Animal Blood Colors'",
+    "url": "https://sciencefocus.hkust.edu.hk/node/234"
+   }
+  },
+  {
+   "id": "tv94",
+   "title": "비행기는 왜 지도에서 휘어서 날까?",
+   "answer": "둥근 지구에선 그 휜 길이 가장 짧은 길이라서요",
+   "body": "평평한 세계 지도는 둥근 지구를 펼쳐 그린 거라, 극에 가까울수록 땅이 실제보다 넓게 늘어나 보여요. 그래서 지구 위 가장 짧은 길인 '대권 항로'가 지도에서는 극 쪽으로 불룩 휜 곡선이 돼요. 지구본 위 두 도시를 실로 팽팽히 이어 보면 이 길을 바로 볼 수 있어요. 실제 항로는 바람과 안전 규정에 따라 조금씩 달라져요.",
+   "tags": [
+    "교통",
+    "과학"
+   ],
+   "level": 3,
+   "source": {
+    "name": "AGI 'Why Do Intercontinental Flights Head North?'",
+    "url": "https://www.agi.com/articles/why-do-intercontinental-flights-head-north"
    }
   }
  ]
