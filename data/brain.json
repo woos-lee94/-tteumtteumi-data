@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T02:50:00+09:00",
+ "updatedAt": "2026-10-24T02:38:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -4144,6 +4144,161 @@
    "hint": "A는 맨 윗줄, C는 셋째 줄 안에만 있어요. 그다음엔 F 구역이 놓일 수 있는 칸과 맨 오른쪽 세로줄을 함께 보세요.",
    "h": "ccb944ca72280f3cb298b30a7736bd901a96523c72c1333c4a401c141a7a4362",
    "x": "8rBKlxUnh6ILrGqOfTaFG7nc0LwUwTYBQIb403QtEVXpmxHEeePVog0FwsRbZdl56PR2b5HwAndRr986yM/j+yWTbA43IGdkD1xIZm37W2EcC09tyF0Zx73h+PsYVrmzw3Mv2cavQxjhPxtAWW02ArIhKlLb6/2Q4vTpVDFG2tVC3Gc4ALjZ4JswkXKMP651QGYYYa6S3qii/7yEPxKTPwpv57m6CqVYFj2z9HlvkdLqzAFwbZi7K/GQFW3iKHFHapcmU70a4oiPFdOXouF0MZ9aG6toPqz8W3kJVaZAlhX7YOxmmOkr4OGm7EKMSlsUf0bzL5Jl2MuA065//fXI9AKUYFCeFvCVpHIsnjtlvEGqc69WyZCVx0CKFEe3syscYuz260DAAwMktNTyPTpy6WhyI6Yh7e6DSHOgMtVUQ9y3BhZn81CXIEgwC2laIX2y49y3HXf6Mk7FgF3Lbj2uawiTl9RkUCOuTFp0eZZHJNAo1cVI4uZ2PyMIBQcdspFLrgD6+vp73UFiTQNVkF6HRwn3DCFqoiBc7qPhXS3W/D+g+p7pJgpl1u1sXcpOJRvyzo85J+vUzIPYvd7sY7Tt7+/7ani1ooaDbAJwcvlh9OAX5R1SycwKu1/LlOQrdmDCBXJFSDRtvS8r+W9IgdDU1ADqHgl+SY0+yj/Rcm5stoYWXZVb3esJfWyqbV41GNOdNeWF8UQq48TvtPgKl7yuSsanbnLP",
+   "level": 5
+  },
+  {
+   "id": "b261025a1",
+   "date": "2026-10-25",
+   "slot": "am",
+   "n": 1,
+   "kind": "기호",
+   "title": "서로를 세는 칸",
+   "text": "칸마다 한 가지 모양의 기호가 몇 개 있어요. 모양은 ●·▲·■ 세 가지이고(●와 ○는 같은 모양이에요), 한 칸의 기호는 모두 칠해졌거나(●▲■) 모두 비어 있어요(○△□).\n칸마다 기호의 개수와 칠하기는 그 칸의 모양과 다른 칸들의 모양만으로 정해지고, 아홉 칸 모두 똑같은 규칙을 따라요. ?칸의 모양도 찾아내야 해요.",
+   "grid": [
+    [
+     "△△",
+     "■■",
+     "●"
+    ],
+    [
+     "△△△",
+     "?",
+     "▲▲"
+    ],
+    [
+     "□□□",
+     "□□□□",
+     "□□□"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "○",
+    "●",
+    "△△△",
+    "□□□",
+    "●●"
+   ],
+   "hint": "맨 아랫줄 세 칸의 개수가 왜 서로 다른지부터 따져 보세요.",
+   "h": "7a0edc42b04ed981c9dc6b4ce2a100ebc30951d9b8d960b67c5bbd189eb640bf",
+   "x": "Wztr/fyiykzbP53mG9rFIvgrmed1qiyZ0rTA10BLz6dqENNbJbguljQAW62KExCFMfIyQA6PoKICCWgv/hRXPkGAP7SZwQUccdu3j2/eN4jUwR8Pmvw0Ic6qSCgvuPLCi9QD/aZYf62UlD7CAPDc9Ci07LjeHn1rHW9PtpsfXw8h2/Dw6OLVknpvI2nhhBVUK+gxzR+qB9IwAeammzifGHinlsP7YPefPEt8kJLhPKOBCUrhQzqLL7zsT28EdjXqxEBUGGUjxjtkrOUW2B83rii7s5rfPDJsVAgb7kqQwQyz7t3Zt/73YKg9gJq7SYzkBj8AvKXlUVVYimD+/DJPXRxij2b5EooR+i7sYWyGyYsXc4IInCLD9bP59DfF3iAe9GIvyAr0Xq8C+p2fVlb8eu/PUnG6RdhGH86afhfr81lP127a0JwQrFwIp4ji62GZxCNATqKH498s8P4p91SL8JhNNiJQKPyWaxoz/x5qS+kTB5z0MG93vFqRIWYhoe4TozoxTVVostlFES7c9GPyltdQfo3cIIj9F4vXuPbEQphC16/z356xiuSODKPX2N91x5A0CG4l0Hx6CGvyiZgDt2C7p19Tc8q9N6N7SAIn7hilfYsFwhoJO80bZWIolN08iB3Tw6oN+8UY16YxFci8qMrozw0j2k6EB8xsmvi7QIH/X9t1wo6+6/0rXgE+uJv1jiF9lheZsT7HEC41wexK0o+X5pCSD4yASf726rOs/470OOT1NX9FmIl52e7i+A75dUI8JbbSF3+XXev6tXwNoOzPTDdOLgUC/72hzwV7lQml5KRgFloy4CkBZeC6hS/dpbhzD0GI82ND8gRys9qFc5NAqlhhO4U=",
+   "level": 5
+  },
+  {
+   "id": "b261025a2",
+   "date": "2026-10-25",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "여섯 번의 패스",
+   "text": "민준·서연·지호·하은·도윤 다섯이 공 하나로 패스 놀이를 했어요. 처음에 공은 민준에게 있었고, 패스는 모두 여섯 번 했어요. 패스 한 번은 공을 가진 사람이 자기가 아닌 한 사람에게 공을 던져 그 사람이 받는 거예요.",
+   "clues": [
+    "같은 두 사람 사이에 공이 오간 건 많아야 한 번이에요(누가 누구에게 던졌는지는 따지지 않아요).",
+    "민준은 공을 딱 두 번 던졌어요.",
+    "하은은 공을 딱 두 번 받았어요.",
+    "서연이 받은 공은 모두 지호가 던진 거예요.",
+    "지호는 민준이 던진 공을 받은 적이 없어요.",
+    "하은이 처음 받은 공은 도윤이 던진 게 아니에요."
+   ],
+   "ask": "첫째부터 여섯째 패스까지 공을 받은 사람을 민준 1, 서연 2, 지호 3, 하은 4, 도윤 5로 바꿔 차례로 이어 쓰면 어떤 여섯 자리 수일까요?",
+   "input": "number",
+   "hint": "같은 두 사람 사이로 공이 한 번만 오가니, 공이 거쳐 간 길을 선으로 그려 보고 사람마다 선이 몇 개 닿는지(던진 횟수+받은 횟수) 따져 보세요.",
+   "h": "69e94c7c37da78ae8c2f4f60d83f8a113c638966075074174f8593bde1409db1",
+   "x": "V6b3onzaTP1tz4RnsFBxI6iUD3VA16CmaT6lML1JVno2HYPdAvE41o46lu+/eukKguzJo1IFBBWUe25PAISEDogh4tS8iF/v3NAumZ/hrfN0e+FiERBap5YRVTIXSuLmcPXGPdULIFo60gnCB2YFG6uPMkry1/fXP35BKcp9bmmhnJbEP6DpNvzt6tc64XZtcHYsrzmWomolSxKDsu4kNG+u9tbWPUdlMF46IyGkX4S67gaayIqz3y9rQDkKSLLE4g5wsqdwUBzS4XPqhjpOWCi6qfx+TvXL3yib1TVg8673Re7y/Cj0WbkLw5oANHLKdGXwlMi/j+yjwzejDGddRR1StOfaKxwwuZeLzrmTQsJQI+5Y19OSYgWDC/b077/yhIH2/KNAZNalqnR2HExjVNH4gAJx9zxQbQibbR7WO/VkuT1IXd6XL1t3gJRwZW4g3HKJUKk4lrheGtAtTqHqPB3zrNwlPOB6PzOeb8P7jCeo80i11ztzm6vsTLLcMfzd/9K2neMZTi16mmxf5h1MhmStdRRn/r5zN8DcCTyiv53LFM1BGaGXoRCWXtZRzGJbyyTiik9aq1GgVhYCw1oFObVECD/WZTNrRRJnTrF/+WjczxVpcNopjzsfy/X5hQv+lw50iG6MU6HjK8GNAhKgtzug5ckhOFCbEYiN+/T9O53L3cGENxtWip/fifn/NDzv4yxkUvFj1FeTaBGEZ26eDJBdQgC9oqdKPvBlrED+6F40DXTp3uz/zm/htypdpfh3P/kttgyMy3jWHupD5HTn+tOTRRGIf5vC44EcDhLab0I2z2QGwhwyMbHJY6g5t19pgNWF8TdPjYMH+deALVPtj5GT5q4CXJOWw+9REjDZvBxXKlEtU+sRO5SORZITboEg7KXIfZMZBPPa5Jj7oSRtwmocSZ9ud9UPoqNMod1vrHFElNGC",
+   "level": 5
+  },
+  {
+   "id": "b261025a3",
+   "date": "2026-10-25",
+   "slot": "am",
+   "n": 3,
+   "kind": "수열",
+   "title": "멀리서 온 곱",
+   "text": "일정한 규칙으로 이어지는 수예요.\n2, 1, 1, 3, 4, 7, 19, 47, 180, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "이웃한 두 수의 차를 적어 놓고, 그 차를 앞에 나온 수들과 견주어 보세요.",
+   "h": "ec5c57a479b0b21723a8833be41e684b243822065bfde1ecfc5bee5f8480f8d8",
+   "x": "3imU/YxOdbErZFqxEIEyQ0XOTenjD8DU4pAMVSGB17B7izJWLq+Cu3r24XXUXsNdH20+hkHNYOpCJJtOxxXP5HHponuIE9CrmV7pvmYpcaWWjrZARRTzIooVhNefIcr2GcceSDFAfTHOXJEulV6H1r+dMWv2YY2MxXqX72j4UM/CksmS325eC89PVx/klj97xfm7lJwLe5ZmKTw/GwTD7nT/ARV29HOPloJXFjAG18tubLElvfi9Rw/8OZZPUoeq4AdYs44ootnQCbDAz9jOFepZgCvlGpCC/e5nL7RCnoLsYIJIGgkj0JnDA2fC08+wO1sX+Zpi+OUSB7+7wLe9fgpx2FYYEjfg7NwpD/UyycyLZLLw7oebVA7cQG4CAqJ6FkEZuLmhIHjCs0Ry",
+   "level": 5
+  },
+  {
+   "id": "b261025p1",
+   "date": "2026-10-25",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수리",
+   "title": "열 장의 덧셈",
+   "text": "0부터 9까지 숫자 카드 10장을 모두 한 번씩 써서 아래 덧셈식의 □를 채웠더니 식이 맞았어요. 세 자리 수와 네 자리 수의 맨 앞자리에는 0이 올 수 없어요.\n□□□ + □□□ = □□□□",
+   "ask": "네 자리 수가 될 수 있는 가장 큰 수는 무엇일까요?",
+   "input": "number",
+   "hint": "네 자리 수의 둘째 자리 숫자가 얼마까지 커질 수 있는지, 받아올림과 함께 따져 보세요.",
+   "h": "1cafa4bcb822d36932542515f895f191f12639d496e180824da62f7605bee9ab",
+   "x": "ICTFFDmNtnuCPg2ZR2EGcG1fgy8VNdb6UV4CXiZ7d7Lw6zTzeW5ggy/O7Z7BMlitwYWMuar0izcQYhboTn/udzxKrqFfeKKYT1gOYHQKgcyOqNe0bFRvBhSi/0NWKFBsdyKIIZeoHtoXTHDijM9nTGDRZXztg7Ak9lpftJ3oitp9Lmzu33pFErTmLZ/edLdHsfOcspMdYnWUL1V/2yuSDqWZNZCx3/sIXvL4rJCTMwrlIcqpFbEKRQRh0dFB92NuCtgceptofT3cDzHQ5CBNVObzruDV+1XxZxSvWdb8Rl7DnsMVHEvYEhjsg61ZDTpedBOAuPw2lFEqW55sERspA1/LcxjuWJc/c6mmauD62vQvZKxXQa1USlSBclTjwfqT7KUEclH+JMikfEU5FqxDFO+mb7EtWLPwnxuzRcYRSZUL6OGUQKIbon/9gbhvwVy5/svUbYaBPucjS8xkOClcKeuX4aiN+SmbLMS3Ve9/eXerj9DHTqwPt+f7e8y7OblgmhYUBIhCObhE3ovWXSo4dlnHJ0Hf+NUK45QcVVgW1j7I52dGP40C/fMgMpaqHqzvpFZjyqLg1nSoMthVsfHe5h4QQOJgLbZ5QCUIDWZb486d5TV5odoSOu2tG7BE5M2Mou53I2iWtjygwCAAYDeO+OVQa9BXnvh9hsG7kvu6Q1bscQzL7HmTMu/S14ywgGC5G3hf1COTov3w4hqLmG4OcJgwhosR27bVKD8STWwG7dhYQfVGdMIcmomYGP9TuTz2alBEK0Z7hKIWbxyI5bLPdCoan2FALXqAISLGm1PeH8RZJprLcZaPIydCpVBSsgL8R8jgJ7AkqtYLp6G0k+rsH563aiq4CQmxDOua7npAr9vYXqqkg6hGvLCUEsAquacvfr6wvqZ33sxOXYnuVR25XCZMzo3UTNhXzyfeK1nkzLE5vdY1Prx7XtdRFt4Jao7QzRZl45zvKQ==",
+   "level": 5
+  },
+  {
+   "id": "b261025p2",
+   "date": "2026-10-25",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "한 끗씩 어긋난 말",
+   "text": "1~5번 다섯 사람은 저마다 동전을 1~5개 가졌어요(개수가 같은 사람이 있을 수도 있어요). 저마다 참말쟁이이거나 어긋쟁이예요. 참말쟁이는 수를 늘 정확히 말하고, 어긋쟁이는 수를 말할 때마다 진짜보다 딱 1 많거나 딱 1 적게 말해요(말마다 어느 쪽인지는 달라도 돼요). '참말쟁이들'에는 말한 사람 자신도 참말쟁이면 들어가요.",
+   "clues": [
+    "1번: 2번과 3번의 동전을 합하면 4개예요.",
+    "2번: 우리 다섯 가운데 참말쟁이는 3명이에요.",
+    "3번: 1번과 4번의 동전을 합하면 9개예요.",
+    "4번: 1번과 5번의 동전을 합하면 9개예요. 그리고 우리 다섯의 동전을 모두 합하면 18개예요.",
+    "5번: 참말쟁이들의 동전을 모두 합하면 17개예요."
+   ],
+   "ask": "1번부터 5번까지 동전 수를 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "어긋쟁이가 말한 수는 진짜와 홀짝이 반대예요. 4번의 두 말을 1번·3번의 말과 엮어 보세요.",
+   "h": "5fe9b3d7224a79e8b9521b03ed9cb90c330fed47f8faf52445b283b81c8ddd82",
+   "x": "SEonLGJ1jKFbJbGATg1ITmY1PJ1/lvQdVgMl2udwNv2VIZUnEiyJzEYCnLOYwBH5yV+fmnTdsluVLnQLq6onKOz11RSo/flY+lQOVmrdckHoEJw8oR95259h2/xi1nsKhb78x3K8OnN5oui+pcOR61cGPRXlsAsW4YwCYC70Umj69XrMOQLNBB4haRWDhAv7SERDHdeyr/hOcrwLNSStya/fgWSihTC7NO7PSbujOZBER70Fo2x2e2YXBOjWgo8JktBnQKGet3yOsRiX383QIxH4eVUbi4Hn3ysSRMlbzaI/zPbz+8Ek+g9fiTvUMgSamXcPxocm3Vss8vthtilgD0gntfJfrdfiAw4JV0TFiN0faemHfOIfbc5q27zT6jekhVMjfSzuEuPGJZJolztTg0dSsHKNmyYfA3JSVinG33g2h2Rg0GOpdAweiB6PSX0aFHwUFLqef6iAw2w6lveEEgQJtMUWRcIF1fbZ2py7TEQym8paLOoZXcy85dxAL1EN4+8w6695dM8gsEESf4KUOk1IVBjVfrd1TD2MkIvK6irUjosV6DgosJ5BG9eSzjdHDPk2sRc6aG5Q8fR3WsriTPnj7tazoB1SQSdDdvDCP1Og7g0tzNFKeUZAk0a4eCzeolKEAcNFA4CORPGiQNERKgJxWb6eu7Gx+TXDN3amzfthVI8z",
+   "level": 5
+  },
+  {
+   "id": "b261025p3",
+   "date": "2026-10-25",
+   "slot": "pm",
+   "n": 3,
+   "kind": "행렬",
+   "title": "커지기만 하는 판",
+   "text": "4×4 칸에 1부터 16까지 수를 한 번씩 넣었어요. 가로줄마다 오른쪽 칸으로 갈수록, 세로줄마다 아래 칸으로 갈수록 수가 커져요.\n가로줄마다 네 수를 더하면 위에서부터 차례로 19, 29, 33, 55예요. □는 아직 모르는 칸이에요.",
+   "grid": [
+    [
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "□",
+     "□",
+     "?",
+     "□"
+    ],
+    [
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "10",
+     "□",
+     "□",
+     "□"
+    ]
+   ],
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "16부터 거꾸로, 큰 수들이 들어갈 수 있는 자리를 하나씩 좁혀 보세요.",
+   "h": "e26625657974f84c18f8e3584829c1a5bd4ad87702ab9749a945fedbcb447ca0",
+   "x": "uA1R86SAHdFuIutEo/n9tbvmo/KgZTIO6Qrx6Ry3bdak2PHtjaJZZ/4bEaAW/KONoHZOglowFNt1gswW893sSEw/wSgfs0iYrtHI60wHuPJheEpv89u7iKDnXCtx2fzobuEf28C6sZXnboP/2GxJqPVYCF516gc7aWgr7Ubcu5BmzYaxkYmEU5JkWudSB0fuzlqiO+Luw/qv++8X3UXHT8BnazujZLnUTpl1NtUpcABmlsrGO8x9R0GKbwCQgKW9UhjxiG0mEe5ya68otJgNsofxz4Fw2ODKY1sUQY7dkpzwz0hKXalICEwT6j7RHTDO8Xcee3nO8RdwgPvQc0g/6f5yOkij8/G1GgkBX+9QC930sCZ1xw/ZQ50mruiGdoymAnJsfdQob+j0tfwbQtb6e92h5cQEbOPurZ+nGjdI2ohcSNhWA7pDGbhKmHjRU5xkVN9d2NT4FbmVf8PcN58069ye3wbZdiwhZfOC01iY88WvhBqrnWENu6GTtJoN0vqJb7PTTveH8/FWjNHS3Npoy/CKt5jLqXJL+wctGHm5ez1rz6VAjes/MGY7qDwD5J6yuulHfqrYq9E/zUAj9PzdMvj/QHIVa+8NdmZmasH3/8/i/txH8eZUDw1ulFKH1a8+3Ax2Cb2rEeCcA0pJHMOqxJSwk36cC+wRekfa3R6RI5dKmTUv6Te9rHaRHQ54NP59mhfvoy61v2clE0ary/Zm3xkgKoASBalSieh53uoV3CYj6zvCHYklbF0dgRMl7pC/qwD7WJqqqn/L0Fx3K1AeKtXgF5HjaB3s6YHhtj6eHxQG6xTDiawSwQ9kLIGWTB52Kuqy0uE=",
    "level": 5
   }
  ]
