@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-10-22T04:36:00+09:00",
+ "updatedAt": "2026-10-24T04:43:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -1418,6 +1418,81 @@
    "source": {
     "name": "AGI 'Why Do Intercontinental Flights Head North?'",
     "url": "https://www.agi.com/articles/why-do-intercontinental-flights-head-north"
+   }
+  },
+  {
+   "id": "tv95",
+   "title": "김장 배추는 왜 소금에 절일까?",
+   "answer": "배추 속 물을 빼내 숨을 죽이고 오래 두려고요",
+   "body": "배추에 소금을 뿌리면 잎 겉이 속보다 훨씬 짜져요. 그러면 '삼투' 현상으로 배추 세포 속 물이 짠 바깥쪽으로 빠져나와, 빳빳하던 잎이 쭈글쭈글하게 숨이 죽어요. 물이 빠진 자리에는 간이 배고, 해로운 세균이 살기 어려워져 김치를 오래 두고 먹을 수 있어요.",
+   "tags": [
+    "음식",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "생글생글(한국경제) '김장 김치에 담긴 발효 과학 이야기'",
+    "url": "https://sgsg.hankyung.com/tag/20161103181106681"
+   }
+  },
+  {
+   "id": "tv96",
+   "title": "낙타 혹에는 물이 들었을까?",
+   "answer": "아니에요, 물이 아니라 지방이 들어 있어요",
+   "body": "낙타 혹은 물주머니가 아니라 지방을 모아 둔 저장고예요. 먹이가 없을 때 이 지방을 꺼내 쓰기 때문에, 오래 굶으면 혹이 홀쭉하게 처져요. 대신 물은 한 번에 100L 넘게 마셔 몸 곳곳에 채워 둘 수 있어요. 콧속에서 내쉬는 숨의 물기를 되찾고 오줌도 아주 적게 누어 물을 아껴요.",
+   "tags": [
+    "동물",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "GIGAZINE(라이브사이언스·샌디에이고 동물원 인용) 'It is not water that is stored in camel bumps'",
+    "url": "https://gigazine.net/gsc_news/en/20201114-camels-humps"
+   }
+  },
+  {
+   "id": "tv97",
+   "title": "화성은 왜 붉은색일까?",
+   "answer": "흙 속의 철 성분이 녹슬어 붉어졌기 때문이에요",
+   "body": "화성의 흙과 바위에는 철이 많이 들어 있어요. 이 철이 산소와 만나 녹슬면서 붉은 산화철이 되었고, 그래서 땅이 불그스름하게 보여요. 이 고운 녹슨 먼지가 바람에 날려 하늘까지 떠다녀서 화성의 하늘도 누르스름한 분홍빛을 띠어요. '붉은 행성'이라는 별명도 여기서 나왔어요.",
+   "tags": [
+    "우주",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "NASA Science 'Mars Facts'",
+    "url": "https://science.nasa.gov/mars/facts/"
+   }
+  },
+  {
+   "id": "tv98",
+   "title": "커피를 마시면 왜 잠이 깰까?",
+   "answer": "졸음 신호를 받는 자리를 카페인이 막아서요",
+   "body": "깨어 있는 동안 뇌에는 '아데노신'이라는 물질이 쌓이고, 이것이 수용체에 붙으면 졸음이 와요. 카페인은 아데노신과 모양이 닮아 그 자리를 대신 차지해 졸음 신호를 막아요. 카페인은 마신 뒤 한 시간 안에 혈액 속 농도가 가장 높아지고, 효과는 4~6시간쯤 이어져요.",
+   "tags": [
+    "몸",
+    "음식"
+   ],
+   "level": 2,
+   "source": {
+    "name": "MedlinePlus(미국 국립의학도서관) 'Caffeine'",
+    "url": "https://medlineplus.gov/caffeine.html"
+   }
+  },
+  {
+   "id": "tv99",
+   "title": "문어는 심장이 몇 개일까?",
+   "answer": "세 개예요, 두 개는 아가미 전용 심장이에요",
+   "body": "문어에게는 심장이 셋 있어요. 두 개의 '아가미 심장'은 산소가 부족한 피를 양쪽 아가미로 보내고, 나머지 한 개의 '전신 심장'은 아가미에서 산소를 받은 피를 온몸으로 보내요. 물을 뿜으며 헤엄칠 때는 전신 심장이 잠깐 멈춘다는 연구가 있어, 문어가 헤엄보다 바닥을 기어 다니는 까닭 가운데 하나로 꼽혀요.",
+   "tags": [
+    "바다",
+    "동물"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Mental Floss '3 Creatures with More than One Heart'",
+    "url": "https://www.mentalfloss.com/article/52337/3-creatures-more-one-heart"
    }
   }
  ]
