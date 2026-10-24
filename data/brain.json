@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T02:38:00+09:00",
+ "updatedAt": "2026-10-25T02:24:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
   {
@@ -4299,6 +4299,252 @@
    "hint": "16부터 거꾸로, 큰 수들이 들어갈 수 있는 자리를 하나씩 좁혀 보세요.",
    "h": "e26625657974f84c18f8e3584829c1a5bd4ad87702ab9749a945fedbcb447ca0",
    "x": "uA1R86SAHdFuIutEo/n9tbvmo/KgZTIO6Qrx6Ry3bdak2PHtjaJZZ/4bEaAW/KONoHZOglowFNt1gswW893sSEw/wSgfs0iYrtHI60wHuPJheEpv89u7iKDnXCtx2fzobuEf28C6sZXnboP/2GxJqPVYCF516gc7aWgr7Ubcu5BmzYaxkYmEU5JkWudSB0fuzlqiO+Luw/qv++8X3UXHT8BnazujZLnUTpl1NtUpcABmlsrGO8x9R0GKbwCQgKW9UhjxiG0mEe5ya68otJgNsofxz4Fw2ODKY1sUQY7dkpzwz0hKXalICEwT6j7RHTDO8Xcee3nO8RdwgPvQc0g/6f5yOkij8/G1GgkBX+9QC930sCZ1xw/ZQ50mruiGdoymAnJsfdQob+j0tfwbQtb6e92h5cQEbOPurZ+nGjdI2ohcSNhWA7pDGbhKmHjRU5xkVN9d2NT4FbmVf8PcN58069ye3wbZdiwhZfOC01iY88WvhBqrnWENu6GTtJoN0vqJb7PTTveH8/FWjNHS3Npoy/CKt5jLqXJL+wctGHm5ez1rz6VAjes/MGY7qDwD5J6yuulHfqrYq9E/zUAj9PzdMvj/QHIVa+8NdmZmasH3/8/i/txH8eZUDw1ulFKH1a8+3Ax2Cb2rEeCcA0pJHMOqxJSwk36cC+wRekfa3R6RI5dKmTUv6Te9rHaRHQ54NP59mhfvoy61v2clE0ary/Zm3xkgKoASBalSieh53uoV3CYj6zvCHYklbF0dgRMl7pC/qwD7WJqqqn/L0Fx3K1AeKtXgF5HjaB3s6YHhtj6eHxQG6xTDiawSwQ9kLIGWTB52Kuqy0uE=",
+   "level": 5
+  },
+  {
+   "id": "b261026a1",
+   "date": "2026-10-26",
+   "slot": "am",
+   "n": 1,
+   "kind": "암호",
+   "title": "다섯까지만 쓰는 수",
+   "text": "영어 낱말을 한 가지 규칙으로 숫자로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였어요. 여기 나오는 낱말에는 Z가 없어요.\nKING → 32322441\nBREAD → 1411141532\nWATCH → 5141233513",
+   "ask": "같은 규칙으로 MOUSE를 바꾸면 어떤 수가 될까요?",
+   "input": "number",
+   "hint": "바뀐 수에 쓰인 숫자의 종류와, 결과의 자릿수가 낱말 글자 수의 몇 배인지 살펴보세요.",
+   "h": "2b356abd69342b7a850a7be37e560d1a1c3cc2673ff6fcdab1d7c2460837aef3",
+   "x": "VdzZeOZhWTEdlXGnCYxkXsybtxCwzZTgJSs7fR7TI+yVPwaV3Oao2QnLe0BHxMU15K9eNxiQTB6YBGRMu7mGpBA36zrHnOTsuNxjTeQCHiAy7zA8g2E2AcunA1xMqAz1D4NUr2fWSRU4eCPTnjqh4nizDXBo2HOJXuunx/t80C0k5Y0eJbc9v+exZz1yJvky3Nhpoyn7k29B3GaUq6KBoEUznra0KLpPkNifwp6acoS6G45gbZrPImrXa5wNldIIameS0edlV+3ZfB6zSwrHMRYF/pAmd482P71OdlL/6G/XK+Juik+0ONDM568m1vWqSOZdF/a99LZ9IKOHHCR+HoGMNgvsO65b5lkDPGcdWFDEd7Qq8hlPrZ6GQiS8qKjwGhvOqTeYISWnShvO8g7s8YSXI/+XcQwKOPuV/YmFsSVAWhzm3+ze5G3YD72u2wKSmzQcCSGDDgSLsqoQaCxNseT8OSOM8gcMh69cDtIp82RBEnqBKBFiTehhuyR7fldJvVIqd00tu4NQVFw/DrrIYngBkpJZciLDwkLjBuXQDaviednqRAEykDd/dmaqMRKRgni/sbUfsBzut9Y+JO1YEh/w723QwHui7CG0D8FQp/b4D/jSBZZ9wgUuUMss9P6vzNxbGMF1Qc6E8Oh2XRIP0rGH",
+   "level": 5
+  },
+  {
+   "id": "b261026a2",
+   "date": "2026-10-26",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "묶음 계산판",
+   "text": "5×5 칸에 1~5를 하나씩 채워요. 가로줄마다, 세로줄마다 1~5가 한 번씩 들어가요.\n같은 글자 칸끼리 한 묶음이에요. 단서는 묶음 안의 수를 모두 더한 값이나 모두 곱한 값이에요. 한 묶음 안이라도 같은 가로줄·세로줄이 아니면 같은 수가 들어갈 수 있어요.",
+   "clues": [
+    "A: 더하면 6",
+    "B: 더하면 9",
+    "C: 더하면 7",
+    "D: 곱하면 36",
+    "E: 더하면 9",
+    "F: 더하면 14",
+    "G: 더하면 8",
+    "H: 곱하면 40"
+   ],
+   "grid": [
+    [
+     "A",
+     "A",
+     "B",
+     "C",
+     "C"
+    ],
+    [
+     "A",
+     "B",
+     "B",
+     "D",
+     "E"
+    ],
+    [
+     "F",
+     "F",
+     "D",
+     "D",
+     "E"
+    ],
+    [
+     "F",
+     "G",
+     "G",
+     "H",
+     "E"
+    ],
+    [
+     "F",
+     "G",
+     "H",
+     "H",
+     "H"
+    ]
+   ],
+   "ask": "맨 아랫줄 다섯 칸의 수를 왼쪽부터 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "곱이 단서인 두 묶음에서 어떤 수가 꼭 들어가야 하는지, 그리고 C처럼 두 칸뿐인 묶음이 같은 줄에 놓였는지부터 따져 보세요.",
+   "h": "87ea68f140f87a17d4744a72ef42430e1999186ce18282bc0d73a19b5591a7d7",
+   "x": "zVwTXGnMs0W9gHDuxec2ays9ek0uGZAnuvAKipfVmxXorsP8qaxly0q/mUXIHxvgfuBiGlBTu5s4SKJdYAyoSy2VG7rMV/7Log7PKGWY2VlpnJoqgPPFnUhM7JkJE0Ac637zaW5bUJeTZkjl18y5aJG1FIfMueezz3lpuKbmw0bjdSAwtO4/+QqWq4zVwA02XpHHO1yFE4/1nnfu9j05ocCq9c7Kq8lkQjn9CJ3KdhBWw013XFAsUCWxXylxbfcfv1mQJNSk38M6XzXhBQ8RZ8q04xbFtEw9f7BHmts6ZvzCGCteUrNDXvre/Ad6SfVOS9jyp3qLnnDsPKYmpZ7kWQukq1Cv6nWjBdHyFcTbr12Pv0nkQeHj8Cy2j7x4qtBYJyOiFy7game6uPzTAizDeJiqCLccCHYCjoxeTVMxbN003AMyMWfVF66a8QSh39Whk69cSI9J5QOGUT60J7En9KBys7lt/K9We2NzmQcjrl9/j5+7ddCTgYMgKVBIJ5yDv0MUVL54CKrz9DcJeeHlXlXxD/55N81yxutFfSf0BFp2V8OdZ1xblM8i3CPDyfwR4fVGyARwRSY9MsQYlaVpNkVmYRdLFx0dCmw3M1qDxT22Wv1++/dhHNFT3CfQCoFcItTwl/AVYSlR2ytNlDtEgXzvlfRZHaqIjDgs8TJ5KtKlslWWK8NAPAop7Q5uimZvwoVGsUzbWQ==",
+   "level": 5
+  },
+  {
+   "id": "b261026a3",
+   "date": "2026-10-26",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "세 주자가 만나는 곳",
+   "text": "원 모양 트랙의 한 지점에서 세 사람이 동시에 출발해 쉬지 않고 아주 오랫동안 달려요. 빠르기는 늘 일정해요.\n· 민준: 한 시간에 3바퀴\n· 서연: 민준과 같은 방향으로 한 시간에 7바퀴\n· 지호: 민준과 반대 방향으로 한 시간에 5바퀴\n두 사람 이상이 같은 순간에 같은 지점에 있으면 그 지점에서 '만났다'고 해요. 출발할 때 셋이 함께 있던 출발 지점도 만난 지점으로 쳐요.",
+   "ask": "트랙 위에서 만남이 한 번이라도 일어나는 지점은 모두 몇 곳일까요?",
+   "input": "number",
+   "unit": "곳",
+   "hint": "두 사람씩 따로 떼어, 한 시간 동안 몇 번 만나고 그 지점들이 트랙에 어떻게 놓이는지부터 생각해 보세요.",
+   "h": "3ac925710d31b03b32829c26b3a54eb383989c63d5414a1eda5da1e73a16f152",
+   "x": "1zaMA0SrLFlw3sjnYbbMFsMBXgRBLTcijT/juyKB5dgQNu/lU5Ey79I8MVOYhz8aRZPXxPgcJf8rfXimk4AgQWoqcBZmxa/sMDLyjG2cqR4ZZERdmT8CzI63r6p3Q2L1VD802ehM7T46rPFJUokCiKSNBtfVN9oC0xNX0QmAIGRPR/FknW31cweMrAqvY3e4T3GIE86m7wMNGGfseDjpStlreyGRoE2MH9NlcKXZ6dvEr0SFJjk/pG3WQr5GFbjmGFjrmDXJ92D1Oc5VVuuNJCJoyGB0VX9rJRcqe1WVkgQ0hPsclXA5/qklwnhchYVMNXKl1WVl3Nsvdtnts/iZ0M297wEIjqCRQ+cRqwKjvR3qGTLzHJgJU/8hfzA4A+2s4hmwazEVgVBfiOKPsOdUbwMC8BP1MAhQ/11HCcMKlwJ0xpxZ6FYmi4OdWtj2hOhUDDF8EN5A+zqWMaS8ZdEpTbPGxxxioyLQR1b0+CdakAMFwCi7SufJER8Il/XCMNTqH/+gNk1PT/N1w84h9LNHFgVj2s4wQZwohX/CGYD2nDHm1g3wEkux6XP3bDTt/LM51lAYS+nD8sy/r0a70eurTqCWVK9bICN0pyldVHY2AOMSNxMwdkhQIxQwTwyunzbKcuu2RWSGPfjS7BTEcMSWsfmU8FelwS1cCxzDG+w977V1rjgd3QMhi7wfKO9x1J4LBmm/bDVTIHa125Ajwufrhuxo+L0vBXMn5DvBwO9R7j8zn1EfnhEaRkrpEsLqAVVzG0efp+klrVhkowArvWuZOIre",
+   "level": 5
+  },
+  {
+   "id": "b261026p1",
+   "date": "2026-10-26",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "탁구 승수의 진실",
+   "text": "민준·서연·지호·하은 네 사람이 서로 한 번씩, 모두 여섯 판의 탁구를 쳤어요. 비긴 판은 없고, 네 사람이 이긴 판 수는 모두 달라요.\n네 사람은 저마다 참말쟁이(참말만 해요)이거나 거짓말쟁이(거짓말만 해요)예요. 하은은 두 마디를 했어요.",
+   "clues": [
+    "민준: 참말쟁이들이 이긴 판 수를 모두 더하면 2판이에요.",
+    "서연: 나를 이긴 사람 가운데 참말쟁이가 있어요.",
+    "지호: 나를 이긴 사람 가운데 참말쟁이가 있어요.",
+    "하은: 서연은 거짓말쟁이예요.",
+    "하은: 참말쟁이들이 이긴 판 수를 모두 더하면 4판이에요."
+   ],
+   "ask": "네 사람이 이긴 판 수를 민준·서연·지호·하은 차례로 이어 쓰면 어떤 네 자리 수일까요?",
+   "input": "number",
+   "hint": "이긴 판 수가 모두 다르면 네 사람의 승수는 몇 판씩일지, 그리고 아무에게도 지지 않은 사람이 서연·지호와 같은 말을 하면 어떻게 되는지 생각해 보세요.",
+   "h": "77fb2e9a0954601cd86be052038405cc132b164a357819ad47e359573ef649fc",
+   "x": "LeiRwUNyYQrqjwUho45baf2bzRcZWMCZvXWUGT8KcU8SOShX/4VVU0SYxwgbA54AmJLHNN4FS2HSsGmP26HS3oTdD1e4czNHE5BQV1cg5eagjgUjNbC8Pb3021z8ReeQGoOFysdkjbftLVE+xJN5JRyQlbGAN4GH6uo1P3rPmuNOC974N3wdMB7abHBdTai/bZ/MugZ2ZPbi0VbRyBxPKDCGL8bwUTkSZ7gYDLgic6Kr64DAxyFULCuavMj3kl42D2vpwIxzdfLTgHfdBBg2IfqN9WTpHr6HJF0YMzOMS59z2UiO+5HMr2rkbBC1yGTSC/si+AQtMT+127B+rEuCjf470lE9g3tJAA5NG0qGammlUE3RElc9fnDIqTWTSQSI2PS17PdIvfH8zdg3Gj+Tm2cGTo3nRmEsKFQ+DD8QqJlVWmA0UecLu+SQKp712oIYwWnPldJMrNebXUnGlbJfV2J+/E1EAD1osJuK/6JGStcn3xEXwtU8gSbi6xXMxilFkLQC7uLXQ4rlCkAB6ApPb3MWnJpLaFs8HVhojuUsl2Yr5GO3hmPjhNnIxyPSInxcq3gbof7xn4dHXWJMkK5KPdi0sMYSuNKDnJm3qiF3IhNwXTP/KaA18V7NLglY+DU+hYuEhpX0ZdVZYlBdFZbP2W7XcXAXnJF0i/+xYVr8gKqp",
+   "level": 5
+  },
+  {
+   "id": "b261026p2",
+   "date": "2026-10-26",
+   "slot": "pm",
+   "n": 2,
+   "kind": "수리",
+   "title": "별 하나만 품기",
+   "text": "가로 6칸, 세로 6칸으로 나뉜 모눈종이에 별 세 개가 그려져 있어요(표의 ★, 한 칸에 하나씩). 모눈의 선을 따라 직사각형을 그리려고 해요. 정사각형과 한 칸짜리도 직사각형으로 쳐요. 별이 그려진 칸이 직사각형 안에 통째로 들어가면 그 별을 '품었다'고 해요.",
+   "grid": [
+    [
+     "·",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "·",
+     "★",
+     "·",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "·",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "·",
+     "·",
+     "·",
+     "·",
+     "★",
+     "·"
+    ],
+    [
+     "·",
+     "·",
+     "★",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "·",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ]
+   ],
+   "ask": "별을 정확히 하나만 품은 직사각형은 모두 몇 개일까요?",
+   "input": "number",
+   "unit": "개",
+   "hint": "한 칸을 품는 직사각형의 수는 위·아래·왼쪽·오른쪽 변을 어디에 둘지로 셀 수 있어요. 여러 별을 함께 품은 것을 몇 번 세었는지 조심하세요.",
+   "h": "a4660967af2a1faa7c14218f88854217e67ea8f286ff3a55ddd0e32ca32d69e8",
+   "x": "eDrJzILP0dAN1KF/M6TsuOhUpvtreEW0INEZ1O4HL240Nd7sJfB3LXNpHl6rqmhSPZ7026FGkc7QgekeDxe2lrPK9hEO0RYny5OGrLbaRjVcjIhxUBlC77D6wQYq3SnBhjd1OUbpm1p2Stm2qzaDmOle4T2B4OmGa3wf1RJ9aLnXY8mKOWzI/3MU9qKbn1OfUHRcWIuei/iHS0z5CDF7hIP9//aM+0jlMYmXuglRmysJB3bVdjYYGhDHvPKXRQE71XXIgMV6E1uq8Itadc/rEtooHziT1iIw92HXnlt2KIOHmQTzz4tNXkSmmexPSm/+wS6DFdS9Oahp9u6UYyABpC8PgApkyGM7XrPit34enSXMJIZQYMZMdFqniRZ6hhgBn8OqNFKDOf/U7s9865/xBYDgbDqKeGI8WEc+yzBHMwKX5uSP1Nusj02QL+J7L+kBHNB5OZPaqRYjwTb6JCgeKja0KSTWxe23kD+xDPaxCkI61M61E9EacryzjRAK",
+   "level": 5
+  },
+  {
+   "id": "b261026p3",
+   "date": "2026-10-26",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "숫자 없는 캠핑장",
+   "text": "6×6 캠핑장에 나무(♣) 8그루가 있어요. 빈칸(□) 8곳에 텐트를 하나씩 쳐서 나무와 텐트를 한 쌍씩 짝지었어요.\n· 텐트는 제 짝 나무와 변을 맞댄 칸(위·아래·왼쪽·오른쪽)에 있어요.\n· 텐트끼리는 변으로도 꼭짓점으로도 맞닿지 않아요.",
+   "grid": [
+    [
+     "□",
+     "□",
+     "♣",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "□",
+     "□",
+     "□",
+     "♣",
+     "□",
+     "□"
+    ],
+    [
+     "♣",
+     "□",
+     "□",
+     "□",
+     "♣",
+     "□"
+    ],
+    [
+     "□",
+     "♣",
+     "□",
+     "□",
+     "□",
+     "□"
+    ],
+    [
+     "□",
+     "□",
+     "□",
+     "□",
+     "□",
+     "♣"
+    ],
+    [
+     "□",
+     "□",
+     "♣",
+     "♣",
+     "□",
+     "□"
+    ]
+   ],
+   "ask": "가로줄마다 텐트가 있는 칸이 왼쪽에서 몇 번째인지를 맨 윗줄부터 차례로 이어 쓰면 어떤 수일까요? (한 줄에 둘이면 왼쪽 것부터, 텐트가 없는 줄은 건너뛰어요)",
+   "input": "number",
+   "hint": "곁에 쓸 수 있는 빈칸이 적은 나무, 특히 맨 아랫줄에 나란히 붙은 두 나무부터 살펴보세요. 텐트끼리 닿으면 안 된다는 규칙이 이웃 나무의 자리를 줄여 줘요.",
+   "h": "0c21c7b20fa40559f6102c0880f9091aa46ee7a654694464bc678add99c4ecc6",
+   "x": "Jlb2UCoS5LTCcEInznulI0i6f75AxdSLF0YzHdz4GT4OtNPMxV4fYihV3WcHcp3avi5UNfJjTi0c7I4cLZ0varJt2DJDlhn2OpvcDYkq6wG6Lw0uTWCKhmLr9eFl/c0vk0wKoeqmRmvrwQHr2exRxqyAxmlV1vE0lnbreNQZxnIhRf8nSqA7kmeikicKYbgPcbaRfCcp4ntlv5hdFTLn1I3dM9fUg5bAA8ReA2q2h+jKS21FHjeXoTaJ1NYH41mbNSGaC6zF1zZ7hrWxiJL0mviCk2sw0nX5tO7IbpbpC/56udODjwTHMwF3oGs8g2SUFZJL33uAiivUyWcXhc2zzNKRoNlg3q/IFNmMLZqEykJwVJEcF2DNk9VRHr8PTlOdsKJb4xlE1Wq3yaqfjCWycWW3xJ/AzbC9h6XipaKkPllXXtvTSxuXaRAHhaULQvPwpDmM1oJAReGPNyLgHSs7cufcOcQvaVS7jUJFgajTMrmpLUS0Xw3X6sOG/jJrvpACQYCMtNjyvWwBL24f+0i0CRXfwY7lFfUah7GRqujRd9Si3pFCloYDeMivf3iKOX2Hv4iUr+XtZyTIhsIt96x7i8q+5MOdcilY0Whd37wS1VhJcAP/PoeOU3SzqGJF9ME3Ajz0ICXBcsBumq0QKBJLJ1qoWfqhymy55V9cr/4SvcPxIyatvcoVBUduHRZDfSVU5fKRHQ0DMuOA4jQ/A7uAVNa0qH9IRBvXa8s1ESxhN7mUTEE8cBU2tQ==",
    "level": 5
   }
  ]
