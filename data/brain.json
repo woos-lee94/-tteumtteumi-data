@@ -1,58 +1,7 @@
 {
- "updatedAt": "2026-10-27T02:30:00+09:00",
+ "updatedAt": "2026-10-28T02:15:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
-  {
-   "id": "b260927p1",
-   "date": "2026-09-27",
-   "slot": "pm",
-   "n": 1,
-   "kind": "암호",
-   "title": "네 글자 암호",
-   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 알파벳 순서는 A=1, B=2, …, Z=26이고, Z 다음은 다시 A로 이어져요.",
-   "clues": [
-    "BEAR → TGFS",
-    "MOON → ABDC",
-    "FISH → NOBA"
-   ],
-   "ask": "같은 규칙으로 ROSE를 바꾸면 무엇일까요?",
-   "input": "text",
-   "hint": "글자마다 몇 칸 밀렸는지 적은 다음, 그 칸 수를 같은 낱말 안에서 찾아보세요.",
-   "h": "b3c0e54ef91d859120d0efbb76a3b20eee2be8f77f08239bb5116ce1be29563b",
-   "x": "djsN6r5MiTGbXPO4Ojc/e9kquUs+ldJTWbE5l1eRr+YQ8YsnW14aE+k1vcpVud1EQXTIdvTg0n8OYMP0cHyk3UnUQ5PXbdzTWDZB/rGnMgqVe6wox8sbzVuhopL/zeorzkf/PsTMOWrs0cgg+9qZI0sYRCfgAAS1wgmUGOaACAQuUSYFVq02uVyhQYXxnHhMFjE2rdHa/vSFpa6s8bCwZ8e7IuGl7Zif0/5WyNTLa/7o3rKmcsDf33X4FO8/gztxG1maYdvEdtMMMU+df7h9y/cjbJxNbUVjpaUkmxsh/UFhmi410MOXkEGxVCglAZhRUL19u3OSCf/0oYP1FfI=",
-   "level": 5
-  },
-  {
-   "id": "b260927p2",
-   "date": "2026-09-27",
-   "slot": "pm",
-   "n": 2,
-   "kind": "수열",
-   "title": "스스로 자라는 수",
-   "text": "일정한 규칙으로 이어지는 수예요.\n36, 45, 65, 76, 118, 128, 144, ?",
-   "ask": "?에 들어갈 수는 무엇일까요?",
-   "input": "number",
-   "hint": "이웃한 두 수의 차가 앞 수를 이루는 숫자들과 어떤 관계인지 살펴보세요.",
-   "h": "03da11f66a4bc7f35c8659850ca28157d630d8d88507082bf7bc5a141d4c003b",
-   "x": "lu4D4gPtSQw8n0oAwBciNB5vTimiYTE54K+puZsCUoMcMN1yI7XjzPf3FKDuESbWQTRVb0sPevqR8dqZzrQYQEqiBF7aquxzvRAx8p/bKTbOnWz+U6LIwwZjXBdZjKx8jsYvzk3SW94rQ3/lzoJ/fRnvmjBN8lz2AR2qZr/UAbMiGs429iV6oyK9vWs0NyLj3wQMmJ9qwA6f8kXPBRpb8h7A0RCZnECc29w7Rzhu1qq5Yfnd6jVesiPE2l5R3OGwcrDRogCPTAOEiUd7O4t0zIvXmSdLanU9OANvMv7xSgrCakn0rkPRUXttQGH4sUgH9YS8MAFTGOlRSg==",
-   "level": 5
-  },
-  {
-   "id": "b260927p3",
-   "date": "2026-09-27",
-   "slot": "pm",
-   "n": 3,
-   "kind": "수리",
-   "title": "디지털 시계",
-   "text": "24시간제 디지털 시계가 00:00부터 23:59까지 1분마다 바뀌어요.\n예를 들어 12:34는 네 숫자의 합이 1+2+3+4=10, '시'는 12, '분'은 34예요.",
-   "ask": "하루 동안 네 숫자의 합이 '시'나 '분' 가운데 적어도 하나와 같아지는 때는 모두 몇 번일까요?",
-   "input": "number",
-   "unit": "번",
-   "hint": "시와 분에서 각각 자기 두 숫자의 합을 빼면 늘 어떤 수의 배수가 되는지 살펴보세요.",
-   "h": "f11a310e118048dc459ede96ab0022f45d59aecaee1400b72c8feaee186ecfce",
-   "x": "utpI3kfT084uyZQsxP3lLJ3UvEDX0gNIj7TymaawiWqJgxVTlhWowQC6gvhtI6C+t44Xrh8djGM7VvksHZalJSoN3UvGgb3HJqLI+cHPN4yKBmLV2/bNqVr50mRDBCC3FLeFZit7ZeZelCo2A/jb52bOhxs6jn1qYezfSYG96BLtkgZ/c9kl2OMbVH5ZRmqURRI+pmHKBndQnmDDUfqLDgXET1oUwWTDrzpiHDLH01vP6+glwB7UqLWCKBxcxhzRg1UGLTnKXqVQmTAtb2w247uniYFEa+Gt0jd/1wah2RB61Nm50zArCA/v0lXYk22U2LKW8/HG7ciiFTEW8rCVzNkSrIHwTizNTqP+UZ3eyEeePf8UmoheK/JkLqi8EXAQDJ95NNo8mihs59Es9Q6JlF875v7t3VFqlnCDMzx78f1QzWtDX4q0HjG3PAff5beNzuwOcGOgqskv+wNn/HTdRurq7jMX4nfL1ziUFp29gGPUakNBrzo9hlDZnHYm+PYMoKMGhm9LWoTk3/Xh6F2mDroDcMsA+911EW2dbFIVj3EsZFY2MmSw/Fb7MQ==",
-   "level": 5
-  },
   {
    "id": "b260928a1",
    "date": "2026-09-28",
@@ -4918,6 +4867,137 @@
    "hint": "바뀐 글자마다 원래 낱말의 몇 번째 글자에서 왔는지 찾아보세요. 몇 칸 밀렸는지가 그 글자의 '자리 무리'에 따라 달라요.",
    "h": "6cb6f37a319bd94fb941d6bf5f0d552e18ef08c1808d4700fd70d31d3c9fa4b9",
    "x": "7dNQy4hvo45LPEIJppbuLKNCLoYrNINFCFi56+B6VnQNJfHJcDSTCxEg/scX0p26JtaZasDLwxHsKpDW8/K7p0kzLPWbmjbh0kXEwji8r5KqclmJFG9c7TIrRIoO612golMr8hpRfg2jdMWdPSJRV4xrllZIfCtYUHbHeRMfRhuQE+ude6hMIHNl3Xyv6Ps+XKGqDVbDCx54lEX0C82CCwkhJWXe9a4Ef+EawLpjjNnApWyibZxjHdbmNrUYfv0E+6ng90Bppt3i/t9aorF5H73v1SPlmo09FR/oVX30LrBIBh1G0PwlonVYk7CABl2hyTdJre43LxNMKMiQpTJ3+yC+NSYh8gQ4l9dc6PIOQuY7xCgo5/rpOxH0jtIvadomueAzt3W05NbiQWlQ/wjbyNyjX4AlF3zeaTQEnlnv9bSdoimL3XhM0OJOs7tJ7CvxvhtT8eV4OhhW5p7xvHqDq0JTjJbtSP9sW8aLka7i6TbpoQuEYEkV/8wCq/cHbqdmTnoR+C6E2xtf8eabhCK4yoizu1LjnrGcv/QvoJAPfaYqYj9AKi1/gSEmYNlWQrugM9dN12QUFH2JI1jn3MG0lg==",
+   "level": 5
+  },
+  {
+   "id": "b261029a1",
+   "date": "2026-10-29",
+   "slot": "am",
+   "n": 1,
+   "kind": "논리",
+   "title": "다섯 집의 거리",
+   "text": "동서로 곧게 뻗은 길가에 민준·서연·지호·하은·도윤의 집이 한 채씩 있어요. 다섯 집에서 두 집씩 고른 열 쌍의 거리를 모두 재었더니 1, 2, 3, 4, 5, 6, 7, 8, 9, 11km가 하나씩 나왔어요. 하지만 어느 쌍이 몇 km인지는 몰라요.",
+   "clues": [
+    "가장 서쪽 집과 가장 동쪽 집에는 민준도 도윤도 살지 않아요.",
+    "서연 집과 하은 집 사이의 거리는 짝수 km예요.",
+    "지호 집은 도윤 집보다 동쪽에 있어요.",
+    "민준 집에서 가장 가까운 집은 하은 집이에요.",
+    "도윤 집에서 가장 가까운 집은 지호 집이에요."
+   ],
+   "ask": "민준 집에서 다른 네 집까지의 거리를 모두 더하면 몇 km일까요?",
+   "input": "number",
+   "unit": "km",
+   "hint": "가장 먼 11km는 양 끝 집 사이예요. 그다음 큰 거리부터 한 집씩 자리를 정해 보세요.",
+   "h": "fac8f2360f50d8c607782c3804ecc25c1010dec507c6bb335bb18f6bf0c80e97",
+   "x": "fTQW0HnXWZMLtp/eYsod+yuzAXUfa90XTkrRq9e2fh0CeviKocnZ8s2M2PzqW0Gvpjxa5gRtpd5JCaO08LiUgYuHOxWmYs6KEvmW0TibJuMZ0LlUG4pgARfTG1MLJbSBH7cwau3RMzIPUJmRKsTLkfpkAYh/lxzccVBO8M2hEeqmIn9IJ8Q4KUsKdY03RsYMb8APT1zF8DhlsS5SjVKHNtueXXUuz8+5ya065kVxFn1APLOxr61UPqRO+3YDMSe7badmoKFKKQ7liVvzgoLZULevJSOAjd+X2Y4gdLKJIl7KhegZoyGxz6QfXrfm/DxaCZIaOdTht0mOLzNoGwGmV42TP2Mqhne3LOoYQgEZ+9VrkZHlYZXogLhLud/xG+79Br+NIpnV8qKClbfhexDKqoj0b+FhFvEy4bQI4VX2QSWX6IkNXFXh2reQrTFnESkTWAOi66iTOpRLh9bMhIxERW8iXYe/00sjvy/13ksHkefHIBXJnm3K9umKJLjWUzJpnpHykAeYkzD/dTYdiGsMhte/FDEXb6jYMrvfMsIP36uitLLmpbNmpG2kZDx3YJBwYbWzFa/sWcDXo6ofqs0b3ADDefrvFKrNZpsMYeI3wqTz2DJTUqa3YrhzcFHl98OiNqpmbRg8+S5MxW2GdBsng2fV66jGj93Nw80o2skjkEJ2HmYiXz5ImvA45Phl1DHf1JWCKwQ65IV5YY8tjsS9krmK92fJJnEbS7lmsOeEEjwQfzVnpDcgBKb3bwYikp9upx4BSeFCpspY1ipPms0zgr5QW7KsB0U6eeaeIz6fUvR4LAEauOI=",
+   "level": 5
+  },
+  {
+   "id": "b261029a2",
+   "date": "2026-10-29",
+   "slot": "am",
+   "n": 2,
+   "kind": "기호",
+   "title": "점으로 쓴 셈",
+   "text": "칸마다 ●와 ○ 다섯 개가 한 줄로 놓여 있어요. 가로줄마다 셋째 칸은 앞의 두 칸으로 만들어지고, 세로줄마다 셋째 칸도 위의 두 칸으로 만들어져요. 세 가로줄은 모두 같은 규칙, 세 세로줄도 모두 같은 규칙이지만, 가로와 세로의 규칙은 서로 달라요.",
+   "grid": [
+    [
+     "○●●○●",
+     "○●○○●",
+     "●○●●○"
+    ],
+    [
+     "○○○●○",
+     "○○○●●",
+     "○○●○●"
+    ],
+    [
+     "○●○●●",
+     "○○●●○",
+     "?"
+    ]
+   ],
+   "ask": "?에 들어갈 것은 무엇일까요?",
+   "input": "choice",
+   "choices": [
+    "○●●○●",
+    "●○○●○",
+    "●○○○●",
+    "○●●●●",
+    "●○○●●"
+   ],
+   "hint": "자리끼리 하나씩 비교하지 말고, 칸 하나를 통째로 수 하나로 읽어 보세요.",
+   "h": "b0e7bf685925fe227525e854efc6a3cef5c4c11c5c0f76a3941ea02c67769a3a",
+   "x": "vRVpe8doPRoBq5Dt/U0D7PGxPOD52zjDns3y+bHiz+0y/W9VkpW22ke5rAr9Rkm2gmPOvW/W8F17yKJzAZugqEpO6x7YmzGJqrY0ru06qubrqWlJS642apgtCXwJDilfdJ1sJqA/YeJ/Z+iytMj/7fIu9GrnKe3d4m8TN8jjCZ0ytKoGIMPaswoQWcPe6/hCzVYl1kBV9nrwNzPdrKeY72Ig48PsCIfjRj98x08qauCsgCIx7jCc+n1pzspG291Axt5db2qPn1DYEH9nrK0XOoaso2ILI9ZNoyDqh47MtMNsn/1Si2AOl7fGPJIukW9fN20F2uWFNJCP2Br6ZdwcZCNOvDScmSn1JvWbAZVmjdc9fu+LAASjKLYdOp6G17w=",
+   "level": 5
+  },
+  {
+   "id": "b261029a3",
+   "date": "2026-10-29",
+   "slot": "am",
+   "n": 3,
+   "kind": "수열",
+   "title": "제 몫만큼 걷는 수",
+   "text": "일정한 규칙으로 이어지는 수예요. 둘째 수부터 모두 바로 앞의 수 하나만으로 정해져요.\n50, 56, 64, 71, 73, 75, 81, 86, 90, 102, 110, 118, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "늘어난 크기가 2인 곳과 홀수인 곳에 놓인 앞의 수가 어떤 수인지 살펴보세요.",
+   "h": "49b252f056a41c26a3670f1b4da0cc59185677b05b7bc8b600d69c1b71699f78",
+   "x": "35oZlIM+WkAg5Cr/IpioCGxbVBcJOWjPoX97QWU4GUuo8sjQ7gZNd9fWhepQLoVNCGRdxx+awLHjvv8ZCA/s/t8rHUivYhQz77wd/PUj2JpEpBVBsp/ECH7rhFTrE5QQAl7icJ54w5d5jReS5hr7GDKZWG387Shazm5PGmHV6V3MBNmlm89rY5e8qvBMPLwIvApOWXLXpcWadL27QMBHof2foxxYA4j4NxpvXkvDeCFUxCO6PAkvfPhSDRdliankCylrBmtngsBfB+5GuPlg9yUZMiq1T9xgoceJ9PU7Lf70fDxFcep9DPI7gMJc3DphY8hyHMzbTphGzDmbPs2U2bw9Fy0llpq33AhydD9WW4cUvbJXKamoF5SdpTgTOueesr0qWyr+m+uuNE4kFQ==",
+   "level": 5
+  },
+  {
+   "id": "b261029p1",
+   "date": "2026-10-29",
+   "slot": "pm",
+   "n": 1,
+   "kind": "수열",
+   "title": "합으로 나뉘는 수",
+   "text": "어떤 성질을 가진 자연수를 빠짐없이 작은 것부터 차례로 늘어놓았어요(아래는 그 일부예요).\n80, 81, 84, 90, 100, 102, 108, 110, 111, 112, 114, 117, 120, 126, 132, ?",
+   "ask": "?에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "수의 크기 차이보다, 수를 이루는 숫자들과 그 수 자신의 관계를 살펴보세요.",
+   "h": "fc91c3c4abb566a8863fe9968b1a90adf0e61dd20166a7bc19c8d609089ebbaa",
+   "x": "H9otHujrdZIQAUT2/ChJhqervlLL6x+6Njlv37TPa7c9qFnG8TrFKR+cSqG0D0h0ospbyJTcA1QPYausO+wgQKRwAM/5otBQfP8GrQxvmddWn0g7wEclys5nNo6OtyFsWQabR6qmzAkmyvwjfXpbtd7ahN9BMH6clA50HZmZ038H7kbbOmvO7biFRPvHcF4edyFxDSkQLbcs3Y9G4xyI9xS3W+UEhCTyi99wU0CL3uPvkgTqHzhiUK+Jg3RDpkGSvViTZrt877MxlI4fyrFBkNADDmvrVFIud/vIcHiqh6H91MwIzrTSAWo8MqqTInfU24W5nppA0at0lnt+faCW",
+   "level": 5
+  },
+  {
+   "id": "b261029p2",
+   "date": "2026-10-29",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "세 계급의 말",
+   "text": "1~6번 여섯 사람은 저마다 참말쟁이, 보통 사람, 거짓말쟁이 가운데 하나이고, 셋 모두 한 명 이상 있어요. 참말쟁이는 참말만, 거짓말쟁이는 거짓말만 하고, 보통 사람은 참말도 거짓말도 해요. 계급은 참말쟁이가 가장 높고, 그다음 보통 사람, 거짓말쟁이가 가장 낮아요. 같은 쪽끼리는 계급이 같아요.",
+   "clues": [
+    "1번: 4번은 나보다 계급이 높아요.",
+    "2번: 3번은 나보다 계급이 높아요.",
+    "3번: 6번은 거짓말쟁이예요.",
+    "4번: 보통 사람은 딱 2명이에요.",
+    "5번: 나보다 계급이 높은 사람은 딱 1명이에요.",
+    "6번: 2번은 나보다 계급이 높아요."
+   ],
+   "ask": "1~6번을 차례로 참말쟁이는 3, 보통 사람은 2, 거짓말쟁이는 1로 바꿔 쓰면 어떤 여섯 자리 수일까요?",
+   "input": "number",
+   "hint": "참말쟁이가 '나보다 높다'고 말할 수 있을지, 거짓말쟁이가 그렇게 말하면 무슨 뜻인지부터 생각해 보세요.",
+   "h": "ef116d8f4abf5c5ce071750ae5c2984e445331ada01fa4e4fa291aa74b505f39",
+   "x": "07q9ca/evuTrvDHywjMZJQJhyFMWGHMdfuptekyCSSSHIwGKq+Le41PQgXiCc0IPlu83TMIRxXHZX1+nqT9+B8zK3GuK64Q3cVtfLa/PbvHR5UlRQM5DUx/10XBmQ3Bom1W31perU9sSw9N9N0t1+WLsmfkJu9NZ8Dcbzn79Byoj9rJYBI+hLdCwA0hgepaGU2m7USkTQGX5UuNfLrbvZaeIn154x1Hh+scPMHXpXnH3zCRJK4TfKmO60IZb1KMI3yDVIAydWbZRlyTetLt48NCAWiCuSRXh/1RWv0GzS6GwQ78K8WPXYQzjkxHsYR9O7q3ARnH+l2bfORSVvok09j9rd5wEIVO2G5s8pLIzDiBWugtSNrJhroKGWyHBFwMXmtXZ5kG7zvkzrNpKNGTNEJ9wVrqjehtKRx92rzgt24EMK2Aa4EDVp13YbnnI4pMVHGQpPaH0goVfPmgfC1PHHmhNTZuIPVz+tyhXcNUrU/+ve4/bxT07/qOdo+STHZlAJC/e8LR0/WY+SQFEtEqxpdavjTwDru0BELeU310V8chUExk89G/0hleSnQcv35iQvNPncKI7ExaegFWaKxOBgs7TzW/opBK36qXeOof4z4fmBCuOvAbHULxXtx73c/TfOZv2h3E8xaE7CKavIrVuoHlK+FQhDh1j0Uof5xBhIMiy/ODecU5IsUMjBs1X3StxVMCWrBiOQObREayWTqg2c6PsXmkT1TSwN91yAU+rAWPXVjjTRahsmrtlp98hlQKj/j00vY56hHMmEnaFSJTetKEH8XBzlSE/RQ3TaptKfyNRiOIjx0xA8GOYlnEafWQkllnmlApw/JzQY1BEWwD4gYdeM3wElJnj8YCiYeOQuktgRMzXaG/2apNmceXrp6nUYvVjzVGbjyNsv8+s2ryGrkkWnPtabCKmM3KqO75emZTuBmtl27lHesY+EFVtgzXKkrVDsVLl6zJN2cHs90X87ztsRLOky35vle/5ywds3B7oGWzICsORvuRTgNLoG1AIX58gpe+hafg=",
+   "level": 5
+  },
+  {
+   "id": "b261029p3",
+   "date": "2026-10-29",
+   "slot": "pm",
+   "n": 3,
+   "kind": "수리",
+   "title": "세 버스가 겹치는 때",
+   "text": "한 정류장에서 버스 세 대가 떠나요. 모두 첫차 시각부터 정해진 간격마다 꼬박꼬박 떠나고, 22시 00분이 지나면 더는 떠나지 않아요(22시 00분에 떠나는 차는 떠나요).\n· 1번 버스: 6시 00분부터 12분마다\n· 2번 버스: 6시 12분부터 18분마다\n· 3번 버스: 6시 00분부터 30분마다",
+   "ask": "하루 동안 두 대 이상이 같은 시각에 함께 떠나는 일은 모두 몇 번일까요? (세 대가 함께 떠나도 한 번으로 세요)",
+   "input": "number",
+   "unit": "번",
+   "hint": "두 대씩 짝지어 몇 분마다 겹치는지 먼저 찾고, 세 대가 모두 겹치는 때를 두 번 이상 세지 않았는지 따져 보세요.",
+   "h": "9a83cf8ba499f76cc708f005ca4fabaf1607a57db3bc1771f4f16bbaeab79531",
+   "x": "qwamw70qVCAUZHqFZYbN/696iEpqbi2Iwfb6xUqDNZZQw9H1eMcXa1P0OYSdFtm04PeMmyxuegU6nDCMs3uTO3oS2E42GAzxYJL6GWnklXeMT8qrBtx9YfOb/TMyBtF7ft8N2wEc6GN8TnnrWBWnlmsrqI7iqZNzZxWp8WHsN2YeW4FNqkSHMdPZd48tR1vyN8/FkzqsbeDwL0an1OzGJSxq6n1vD6aNu0rQewLprXs20i36RI1BaDQ0UOHaJKN/lWtwk6/ym4XQAA3L1WC8bFtChJNsI9k7MbFN3vyY3LLmxQLpHt1iW1Hg9tlk8XT+UEb1bkB1Xq94Ra1cLSCZuakWSN38rb+VX2yFA4AlMq6Pg31k8UMLSSzB1FiNQPsRncsgOhrZwEwWWxz979vi6G8laVVbqgEqgPwVt0chnHSUPY4tLz7OfuUzNeJ/AvQzE8YHhBND6i0kosemT6Myag8xB6DCvBgJlDBqPQkpoMeCguhcPwbmRcBqFaBzSHtL6nmdRXey",
    "level": 5
   }
  ]
