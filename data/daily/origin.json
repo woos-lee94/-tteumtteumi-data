@@ -1,7 +1,7 @@
 {
  "category": "origin",
  "label": "알고 보면 유래",
- "updatedAt": "2026-10-26T04:38:00+09:00",
+ "updatedAt": "2026-10-28T04:36:00+09:00",
  "items": [
   {
    "id": "or01",
@@ -1770,6 +1770,91 @@
    "source": {
     "name": "HangulHanja 사전 '짐작'(국립국어원 제공 자료)",
     "url": "https://hangulhanja.com/en/words/짐작"
+   }
+  },
+  {
+   "id": "or105",
+   "title": "'포클레인'은 원래 회사 이름이었다?",
+   "answer": "네, 프랑스 건설기계 회사 '포클랭(Poclain)'이에요",
+   "body": "땅 파는 장비를 흔히 포클레인이라 부르지만, 원래는 프랑스 회사 포클랭(Poclain)의 이름이에요. 우리 건설 현장에 이 회사 굴착기가 많이 쓰이면서 회사 이름이 장비 이름처럼 굳었어요. '포크'와 '크레인'을 합친 말이라는 이야기도 있지만 사실이 아니에요. 표준국어대사전에도 원어가 'Poclain'으로 올라 있어요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "말"
+   ],
+   "level": 1,
+   "source": {
+    "name": "표준국어대사전 '포클레인'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=포클레인"
+   }
+  },
+  {
+   "id": "or106",
+   "title": "'뷔페'는 원래 음식이 아니었다?",
+   "answer": "네, 프랑스어로 '찬장·탁자'를 뜻하던 말이에요",
+   "body": "뷔페(buffet)는 프랑스에서 온 말로, 옛 프랑스어에선 의자나 탁자, 계산대를 뜻했어요. 뒤에 그릇과 음식을 올려 두는 찬장을 가리키게 됐고, 영어에도 1700년대 초 이 뜻으로 들어갔어요. 찬장 위에 음식을 늘어놓고 손님이 덜어 먹는 상차림이 퍼지면서 지금의 뜻이 됐어요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "음식"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Merriam-Webster 'buffet'",
+    "url": "https://www.merriam-webster.com/dictionary/buffet"
+   }
+  },
+  {
+   "id": "or107",
+   "title": "테디베어의 '테디'는 누구일까?",
+   "answer": "미국 대통령 시어도어 루스벨트의 애칭이에요",
+   "body": "1902년 11월 미국 미시시피주 사냥에서 루스벨트 대통령은 나무에 묶어 둔 곰을 쏘라는 권유를 거절했어요. 이 일이 신문 만평에 실리자, 뉴욕 브루클린의 사탕 가게 주인 모리스 미첨이 곰 인형을 만들어 '테디의 곰'이라 이름 붙였어요. 비슷한 때 독일 슈타이프사도 곰 인형을 만들었어요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "역사"
+   ],
+   "level": 1,
+   "source": {
+    "name": "미국 국립공원관리청(NPS) 'The Story of the Teddy Bear'",
+    "url": "https://www.nps.gov/thrb/learn/historyculture/storyofteddybear.htm"
+   }
+  },
+  {
+   "id": "or108",
+   "title": "'바리캉'은 어디서 온 말일까?",
+   "answer": "프랑스 이발기 제조사 '바리캉 에 마르'의 이름이에요",
+   "body": "1883년 무렵 일본 외교관이 프랑스에서 이발기를 들여왔는데, 날에 새겨진 제조사 이름 'Bariquand et Marre'를 보고 '바리캉'이라 부르게 됐다고 전해져요. 이 말이 우리나라에도 건너왔어요. 표준국어대사전도 제조 회사 이름에서 유래했다고 적고 있어요. 다듬은 우리말로는 '이발기'라고 해요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "말"
+   ],
+   "level": 2,
+   "source": {
+    "name": "표준국어대사전 '바리캉'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=바리캉"
+   }
+  },
+  {
+   "id": "or109",
+   "title": "'동치미'라는 이름은 어디서 왔을까?",
+   "answer": "'겨울 김치'라는 뜻의 '동침(冬沈)'에서 왔다고 봐요",
+   "body": "동치미의 '동(冬)'은 겨울, '침(沈)'은 김치의 옛말 '침채(沈菜)'에서 온 글자로 풀이해요. 둘을 합친 '동침'에 '-이'가 붙어 부르기 쉬운 '동치미'가 됐다는 설명이 널리 받아들여져요. 다만 우리말을 한자로 적은 것인지는 분명하지 않아요.",
+   "kind": "물건·음식",
+   "reliability": "유력한 설",
+   "tags": [
+    "음식",
+    "말"
+   ],
+   "level": 2,
+   "source": {
+    "name": "YTN '동치미' 어원 기사",
+    "url": "https://www.ytn.co.kr/_ln/1222_201806180950274358"
    }
   }
  ]
