@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-10-30T04:37:00+09:00",
+ "updatedAt": "2026-11-01T04:38:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -1723,6 +1723,81 @@
    "source": {
     "name": "위키백과 '입동'",
     "url": "https://ko.wikipedia.org/wiki/입동"
+   }
+  },
+  {
+   "id": "tv115",
+   "title": "펭귄 발은 왜 얼음 위에서 안 얼까?",
+   "answer": "다리 혈관이 열을 주고받아 발을 알맞게 식혀서예요",
+   "body": "펭귄 다리에는 발로 내려가는 따뜻한 동맥과 올라오는 차가운 정맥이 바짝 붙어 달려요. 내려가는 피의 열이 올라오는 피로 옮겨 가서, 발은 얼지 않을 만큼만 따뜻하고 몸의 열은 덜 새요. 이를 '역류 열교환'이라 하고, 얼음 위에 오래 서 있는 오리도 같은 방법을 써요.",
+   "tags": [
+    "동물",
+    "과학"
+   ],
+   "level": 2,
+   "source": {
+    "name": "위키백과 'Countercurrent exchange'",
+    "url": "https://en.wikipedia.org/wiki/Countercurrent_exchange"
+   }
+  },
+  {
+   "id": "tv116",
+   "title": "전자레인지 속 포크에서 왜 불꽃이 튈까?",
+   "answer": "금속 끝에 몰린 전기가 공기로 튀어서예요",
+   "body": "음식은 마이크로파를 흡수해 데워지지만, 금속은 이를 반사하고 그 안의 전자가 크게 흔들려요. 이때 포크 끝이나 구겨진 은박지 모서리처럼 뾰족한 곳에 전기가 몰려 공기 중으로 튀면 '파직' 하는 불꽃이 생겨요. 금테 두른 그릇도 같은 이유로 넣으면 안 돼요.",
+   "tags": [
+    "과학",
+    "생활"
+   ],
+   "level": 1,
+   "source": {
+    "name": "삼성전자 고객지원 '전자레인지 작동 중 불꽃'",
+    "url": "https://www.samsung.com/ae/support/home-appliances/what-to-do-if-my-samsung-microwave-is-sparking-during-operation"
+   }
+  },
+  {
+   "id": "tv117",
+   "title": "바람이 불면 왜 더 춥게 느껴질까?",
+   "answer": "바람이 피부 둘레의 따뜻한 공기를 걷어 가서예요",
+   "body": "우리 피부 둘레에는 체온으로 데워진 얇은 공기층이 있는데, 바람이 불면 이 층이 날아가 열을 더 빨리 잃어요. 이 추위를 숫자로 나타낸 것이 체감온도예요. 기온이 영하 10도일 때 바람이 시속 5km면 체감온도는 영하 13도지만, 시속 30km면 영하 20도까지 내려가요.",
+   "tags": [
+    "날씨",
+    "몸"
+   ],
+   "level": 1,
+   "source": {
+    "name": "케이웨더 날씨정보 '체감온도'",
+    "url": "https://www.weatheri.co.kr/useful/useful03.php"
+   }
+  },
+  {
+   "id": "tv118",
+   "title": "치약 끝 색깔 네모는 성분 표시일까?",
+   "answer": "아니에요, 공장 기계가 자를 곳을 찾는 표시예요",
+   "body": "초록은 천연, 검정은 화학 성분이라는 이야기가 퍼져 있지만 사실이 아니에요. 이 네모는 튜브를 만들 때 센서가 빛으로 읽어 어디를 자르고 접어 붙일지 알아내는 표시예요. 색은 포장에 맞춰 고를 뿐이니, 성분은 뒷면의 성분표에서 확인해야 해요.",
+   "tags": [
+    "물건",
+    "생활"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Healthline 'Toothpaste color code'",
+    "url": "https://www.healthline.com/health/toothpaste-color-code"
+   }
+  },
+  {
+   "id": "tv119",
+   "title": "겨울잠 자는 곰은 오줌을 눌까?",
+   "answer": "몇 달 동안 누지 않고 몸속에서 재활용해요",
+   "body": "곰은 겨울잠을 자는 몇 달 동안 먹지도 마시지도 않고 오줌도 누지 않아요. 오줌의 재료인 요소를 장 속 미생물이 분해하고, 거기서 나온 질소로 단백질을 다시 만들어 근육이 덜 빠져요. 체온은 3~5도쯤만 내려가서 다른 겨울잠 동물보다 빨리 깰 수 있어요.",
+   "tags": [
+    "동물",
+    "과학"
+   ],
+   "level": 2,
+   "source": {
+    "name": "위키백과 'Hibernation'",
+    "url": "https://en.wikipedia.org/wiki/Hibernation"
    }
   }
  ]
