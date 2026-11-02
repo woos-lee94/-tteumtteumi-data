@@ -1,7 +1,7 @@
 {
  "category": "origin",
  "label": "알고 보면 유래",
- "updatedAt": "2026-11-01T04:38:00+09:00",
+ "updatedAt": "2026-11-03T04:42:00+09:00",
  "items": [
   {
    "id": "or01",
@@ -2024,6 +2024,88 @@
    "source": {
     "name": "표준국어대사전 '메리야스'",
     "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=메리야스"
+   }
+  },
+  {
+   "id": "or120",
+   "title": "'별안간'은 얼마나 짧은 사이일까?",
+   "answer": "눈길이 언뜻 한 번 스치는 사이예요",
+   "body": "별안간(瞥眼間)은 '언뜻 볼 별(瞥)', '눈 안(眼)', '사이 간(間)'을 합친 한자어예요. 눈길이 휙 한 번 스치는 그 짧은 틈을 뜻해서, '갑작스럽고 아주 짧은 동안'을 가리키게 됐어요. '별안간 소나기가 쏟아졌다'처럼 써요. 순우리말처럼 들리지만 한자어예요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "말"
+   ],
+   "level": 1,
+   "source": {
+    "name": "국립국어원 표준국어대사전 '별안간'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=별안간"
+   }
+  },
+  {
+   "id": "or121",
+   "title": "호주머니의 '호'는 무슨 뜻일까?",
+   "answer": "북방 민족을 가리키던 '오랑캐 호(胡)'예요",
+   "body": "표준국어대사전은 호주머니를 '胡주머니'로 적어요. 원래 한복에는 옷에 붙은 주머니가 없어서, 작은 물건은 소매에 넣거나 따로 주머니를 차고 다녔어요. 흔히 북방 민족의 옷처럼 옷에 덧대어 단 주머니라서 '호' 자가 붙었다고 풀이해요. 호떡의 '호'와 같은 글자예요.",
+   "kind": "물건·음식",
+   "reliability": "유력한 설",
+   "tags": [
+    "말",
+    "옷"
+   ],
+   "level": 1,
+   "source": {
+    "name": "국립국어원 표준국어대사전 '호주머니'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=호주머니"
+   }
+  },
+  {
+   "id": "or122",
+   "title": "스웨터는 원래 땀 내는 옷이었다?",
+   "answer": "네, '땀을 내게 하는 것'이라는 뜻이에요",
+   "body": "스웨터(sweater)는 영어 sweat(땀을 흘리다)에 '-er'이 붙은 말이에요. 1880년대에 이 이름이 털옷을 가리키게 됐는데, 처음엔 조정 선수들이 연습할 때 일부러 땀을 내 몸무게를 줄이려고 입었어요. 운동할 때 입던 옷이 지금은 겨울 옷장의 단골이 됐어요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "옷"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Dictionary.com 'sweater'",
+    "url": "https://www.dictionary.com/browse/sweater"
+   }
+  },
+  {
+   "id": "or123",
+   "title": "'도대체'는 한자어일까?",
+   "answer": "네, '모두 도(都)'에 '대체(大體)'를 더한 말이에요",
+   "body": "도대체(都大體)의 '대체'는 일의 큰 줄거리나 요점을 뜻하는 한자어예요. 여기에 '모두 도(都)'가 붙어, 표준국어대사전은 '다른 말은 그만두고 요점만 말하자면'이라고 풀이해요. 그래서 '도대체 무슨 일이야?'에는 '다 빼고 요점만 말해 봐'라는 다그침이 담겼다고 볼 수 있어요. 혼자 쓰는 '대체'도 같은 뜻이에요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "말"
+   ],
+   "level": 2,
+   "source": {
+    "name": "국립국어원 표준국어대사전 '도대체'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=도대체"
+   }
+  },
+  {
+   "id": "or124",
+   "title": "'물론'은 무엇을 하지 말라는 말?",
+   "answer": "'따져 논하지 말라', 곧 말할 것도 없다는 뜻이에요",
+   "body": "물론(勿論)은 '하지 말 물(勿)'과 '논할 론(論)'을 합친 한자어예요. 글자 그대로 '따져 논할 필요도 없다'는 뜻이라, 사전은 '말할 것도 없음'이라고 풀이해요. 그래서 '물론이죠'라고 하면 따질 것도 없이 당연하다는 대답이 돼요. 비슷한 말로 '무론'도 사전에 올라 있어요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "말"
+   ],
+   "level": 2,
+   "source": {
+    "name": "국립국어원 표준국어대사전 '물론'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=물론"
    }
   }
  ]
