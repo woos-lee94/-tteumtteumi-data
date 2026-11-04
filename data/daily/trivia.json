@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-11-03T04:42:00+09:00",
+ "updatedAt": "2026-11-05T04:44:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -1871,6 +1871,82 @@
    "source": {
     "name": "ScienceDaily – Festive medical myths (BMJ 2008)",
     "url": "https://www.sciencedaily.com/releases/2008/12/081218051243.htm"
+   }
+  },
+  {
+   "id": "tv125",
+   "title": "눈 오는 날은 왜 유난히 조용할까?",
+   "answer": "쌓인 눈의 빈틈이 소리를 빨아들여서예요",
+   "body": "갓 내린 눈은 눈송이 사이사이에 공기 틈이 많아 흡음재처럼 소리를 가둬요. 흡음률이 0.5~0.9쯤이라 소리의 절반 넘게 사라지기도 해요. 다만 몇 cm는 쌓여야 효과가 크고, 녹았다 다시 언 눈은 딱딱해져 오히려 소리를 튕겨 내요. 사람과 차가 덜 다니는 것도 한몫해요.",
+   "tags": [
+    "날씨",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Forest Preserve District of Will County(Reconnect With Nature)",
+    "url": "https://www.reconnectwithnature.org/news-events/the-buzz/why-is-the-world-so-quiet-when-it-snows-the-scien"
+   }
+  },
+  {
+   "id": "tv126",
+   "title": "추운 날 휴대폰 배터리가 빨리 닳는 이유는?",
+   "answer": "차가워진 배터리가 힘을 잘 못 내서예요",
+   "body": "휴대폰 배터리는 속에서 화학 반응으로 전기를 만드는데, 추우면 이 반응이 느려져 남은 양을 제대로 꺼내 쓰지 못해요. 애플은 아이폰을 0~35℃에서 쓰라고 안내하고, 추위로 줄어든 사용 시간은 일시적이라고 해요. 겨울엔 휴대폰을 안주머니에 넣어 따뜻하게 두면 좋아요.",
+   "tags": [
+    "IT",
+    "물건",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Apple 배터리 성능 극대화 안내",
+    "url": "https://www.apple.com/kr/batteries/maximizing-performance/"
+   }
+  },
+  {
+   "id": "tv127",
+   "title": "우리 지폐는 크기가 다 같을까?",
+   "answer": "아니요, 세로는 같고 가로가 6mm씩 달라요",
+   "body": "지금 쓰는 지폐는 세로가 모두 68mm예요. 가로는 천 원권 136mm, 오천 원권 142mm, 만 원권 148mm로 6mm씩 길어지고, 오만 원권이 가장 길어요. 그래서 두 장을 겹쳐 대 보면 끝이 삐져나온 쪽이 더 큰 돈이에요. 모든 권종이 같은 크기인 미국 달러와 다른 점이에요.",
+   "tags": [
+    "돈",
+    "한국"
+   ],
+   "level": 1,
+   "source": {
+    "name": "한국은행 화폐 정보(현용 은행권)",
+    "url": "https://www.bok.or.kr/portal/main/contents.do?menuNo=200377"
+   }
+  },
+  {
+   "id": "tv128",
+   "title": "귤껍질 즙을 뿌리면 풍선이 터진다?",
+   "answer": "터질 수 있어요, 껍질 기름 리모넨이 고무를 녹여서예요",
+   "body": "귤이나 오렌지 껍질을 접으면 작은 기름샘이 터지며 즙이 튀어요. 이 기름의 주성분인 리모넨은 고무와 성질이 비슷해 고무를 잘 녹여요. 그래서 즙이 닿은 풍선이 '펑' 터지기도 해요. 다만 미국 화학 교사들의 실험에서는 단단하게 가공한 풍선은 잘 버텼고, 얇은 물풍선이 쉽게 터졌어요.",
+   "tags": [
+    "과학",
+    "음식"
+   ],
+   "level": 2,
+   "source": {
+    "name": "ChemEd X(화학 교육 자료) 'How does orange peel pop a balloon?'",
+    "url": "https://www.chemedx.org/blog/how-does-orange-peel-pop-balloon-chemistry-course"
+   }
+  },
+  {
+   "id": "tv129",
+   "title": "꽁꽁 언 호수 속 물고기는 어떻게 살까?",
+   "answer": "바닥에는 약 4℃의 물이 얼지 않고 남아서예요",
+   "body": "물은 약 4℃(3.98℃)일 때 가장 무거워 호수 바닥으로 가라앉아요. 그보다 차가운 물은 위에 머물다 얼고, 물 위에 뜬 얼음이 이불처럼 아래 물을 감싸 줘요. 그래서 깊은 호수 바닥은 한겨울에도 4℃ 안팎을 지키고, 물고기들은 그곳에서 느릿느릿 겨울을 나요.",
+   "tags": [
+    "과학",
+    "동물"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Wikipedia 'Properties of water'",
+    "url": "https://en.wikipedia.org/wiki/Properties_of_water"
    }
   }
  ]
