@@ -1,7 +1,7 @@
 {
  "category": "origin",
  "label": "알고 보면 유래",
- "updatedAt": "2026-11-05T04:44:00+09:00",
+ "updatedAt": "2026-11-07T04:37:00+09:00",
  "items": [
   {
    "id": "or01",
@@ -2188,6 +2188,90 @@
    "source": {
     "name": "표준국어대사전 '주책'",
     "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=%EC%A3%BC%EC%B1%85"
+   }
+  },
+  {
+   "id": "or130",
+   "title": "'샤프'는 전자 회사 이름에서 왔을까?",
+   "answer": "반대예요, 회사 이름이 샤프펜슬에서 왔어요",
+   "body": "1915년 일본의 젊은 금속공 하야카와 도쿠지가 심을 밀어내 쓰는 연필을 만들어 '에버레디 샤프 펜슬'이라는 이름으로 팔았어요. 1923년 간토 대지진으로 공장을 잃은 그는 라디오 사업으로 다시 일어섰고, 제품에 '샤프' 상표를 붙였어요. 1970년에는 회사 이름도 '샤프'로 바꿨어요. 영어권에서는 보통 '메커니컬 펜슬'이라고 불러요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "역사"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Mechanical pencil'",
+    "url": "https://en.wikipedia.org/wiki/Mechanical_pencil"
+   }
+  },
+  {
+   "id": "or131",
+   "title": "'스티로폼'은 원래 상표였다?",
+   "answer": "네, 미국 다우케미컬이 만든 단열재 상표예요",
+   "body": "스티로폼(Styrofoam)은 1940년대 미국 화학 회사 다우케미컬 연구진이 개발한 발포 폴리스티렌 단열재의 상표예요. 진짜 스티로폼은 건물 벽과 지붕 속에 넣는 하늘색 단열판이에요. 우리가 흔히 부르는 하얀 포장재나 일회용 컵은 작은 알갱이를 부풀려 붙인 다른 제품(EPS)인데, 상표 이름이 일반 명사처럼 굳었어요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "외래어"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Styrofoam'",
+    "url": "https://en.wikipedia.org/wiki/Styrofoam"
+   }
+  },
+  {
+   "id": "or132",
+   "title": "'사족'은 왜 뱀의 다리일까?",
+   "answer": "뱀에 다리까지 그리다 술을 놓친 이야기에서 왔어요",
+   "body": "중국 《전국책》에 나오는 이야기예요. 초나라에서 모자란 술을 두고 땅에 뱀을 가장 먼저 그린 사람이 다 마시기로 했어요. 먼저 그린 사람이 여유를 부리며 발까지 그리는 사이, 다른 사람이 뱀을 완성하고 '뱀에 무슨 발이 있냐'며 술을 마셔 버렸죠. 그래서 쓸데없이 덧붙여 일을 그르치는 것을 사족(蛇足)이라 해요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "말",
+    "역사"
+   ],
+   "level": 1,
+   "source": {
+    "name": "표준국어대사전 '사족'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=%EC%82%AC%EC%A1%B1"
+   }
+  },
+  {
+   "id": "or133",
+   "title": "나일론은 뉴욕+런던에서 왔다?",
+   "answer": "흔한 이야기지만 사실이 아니에요",
+   "body": "흔히 뉴욕(NY)과 런던(Lon)을 합친 이름이라고 하지만, 런던은 나일론 개발과 아무 관련이 없어요. 1938년 나일론을 발표한 미국 듀폰은 처음에 '올이 안 풀린다'는 뜻의 'No-Run'을 떠올렸다가 과장이라 접고, 글자를 바꿔 'nilon'을 거쳐 'nylon'으로 정했다고 밝혔어요. 끝의 '-on'은 코튼·레이온에서 따왔다고 해요.",
+   "kind": "물건·음식",
+   "reliability": "속설 바로잡기",
+   "tags": [
+    "외래어",
+    "옷"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Wikipedia 'Nylon'",
+    "url": "https://en.wikipedia.org/wiki/Nylon"
+   }
+  },
+  {
+   "id": "or134",
+   "title": "'등용문'의 용문은 어디일까?",
+   "answer": "잉어가 오르면 용이 된다는 황허강의 급류예요",
+   "body": "용문은 중국 황허강 중류에 있는, 물살이 아주 거센 곳이에요. 이 급류를 거슬러 오른 잉어는 용이 된다는 전설이 있었어요. 그래서 '용문에 오른다'는 뜻의 등용문은 어려운 관문을 뚫고 크게 출세하는 일, 또는 그 관문을 가리키게 됐어요. 지금도 큰 공모전이나 대회를 '스타의 등용문'이라고 부르곤 해요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "말",
+    "지역"
+   ],
+   "level": 2,
+   "source": {
+    "name": "표준국어대사전 '등용문'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=%EB%93%B1%EC%9A%A9%EB%AC%B8"
    }
   }
  ]
