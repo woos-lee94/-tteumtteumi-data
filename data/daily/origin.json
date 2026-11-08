@@ -1,7 +1,7 @@
 {
  "category": "origin",
  "label": "알고 보면 유래",
- "updatedAt": "2026-11-07T04:37:00+09:00",
+ "updatedAt": "2026-11-09T04:39:00+09:00",
  "items": [
   {
    "id": "or01",
@@ -2272,6 +2272,90 @@
    "source": {
     "name": "표준국어대사전 '등용문'",
     "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=%EB%93%B1%EC%9A%A9%EB%AC%B8"
+   }
+  },
+  {
+   "id": "or135",
+   "title": "'지갑'은 무슨 뜻의 한자어일까?",
+   "answer": "종이 지(紙)에 갑 갑(匣), '종이로 된 갑'이에요",
+   "body": "지갑은 한자로 紙匣이라고 써요. 紙는 종이, 匣은 물건을 넣는 작은 상자나 갑을 뜻해서, 글자 그대로는 '종이로 만든 갑'이에요. 그런데 표준국어대사전은 지갑을 가죽이나 헝겊으로 쌈지처럼 만든 물건이라고 풀이해요. 재료는 바뀌었어도 이름은 그대로 남은 셈이에요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "말"
+   ],
+   "level": 1,
+   "source": {
+    "name": "표준국어대사전 '지갑'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=%EC%A7%80%EA%B0%91"
+   }
+  },
+  {
+   "id": "or136",
+   "title": "캥거루는 '모른다'는 뜻일까?",
+   "answer": "아니에요, 원주민 말로 캥거루의 한 종류를 뜻해요",
+   "body": "흔히 쿡 선장이 이름을 묻자 원주민이 '모른다'고 답한 말이 캥거루가 됐다고 하지만 사실이 아니에요. 쿡 일행은 1770년 오스트레일리아 북동부 해안에서 이 말을 처음 기록했어요. 뒷날 현장 조사로, 그곳 구구이미티르어에 캥거루의 한 종류를 가리키는 '강우루(gangurru)'라는 낱말이 있다는 게 확인됐어요.",
+   "kind": "말",
+   "reliability": "속설 바로잡기",
+   "tags": [
+    "외래어",
+    "말"
+   ],
+   "level": 1,
+   "source": {
+    "name": "American Heritage Dictionary 'kangaroo' Word History",
+    "url": "https://ahdictionary.com/word/search.html?q=kangaroo"
+   }
+  },
+  {
+   "id": "or137",
+   "title": "'헹가래'의 가래는 무엇일까?",
+   "answer": "흙을 퍼 옮기던 농기구 '가래'예요",
+   "body": "가래는 자루 하나를 한 사람이 잡고, 양쪽에 맨 줄을 두 사람이 당겨 흙을 퍼던 농기구예요. 가래꾼들은 일을 시작하기 전 흙 없이 손발을 맞춰 보는 '헛가래'를 했대요. 이 말이 '헌가래', '헨가래'를 거쳐 헹가래가 됐다는 설명이 널리 알려져 있어요. 사람을 들어 올렸다 내리는 모습이 가래질과 닮았던 거예요.",
+   "kind": "말",
+   "reliability": "유력한 설",
+   "tags": [
+    "말",
+    "민속"
+   ],
+   "level": 2,
+   "source": {
+    "name": "대학저널 〈우리말 바로알기〉 헹가래(『우리말 유래 사전』 인용)",
+    "url": "https://www.dhnews.co.kr/news/view/179510688712946"
+   }
+  },
+  {
+   "id": "or138",
+   "title": "'피망'은 어느 나라 말일까?",
+   "answer": "고추를 뜻하는 프랑스어 '피망(piment)'에서 왔어요",
+   "body": "표준국어대사전은 피망의 원어를 프랑스어 piment로 적어요. 그런데 프랑스어 piment는 원래 매운 고추를 가리키는 말이라, 프랑스에서 맵지 않은 피망을 말하려면 '달콤한 고추'라고 따로 불러야 해요. 일본에서 이 말을 '피망'으로 받아들였고 우리도 그렇게 쓰고 있어요. 영어로는 벨 페퍼(bell pepper)라고 해요.",
+   "kind": "물건·음식",
+   "reliability": "유력한 설",
+   "tags": [
+    "외래어",
+    "음식"
+   ],
+   "level": 2,
+   "source": {
+    "name": "표준국어대사전 '피망'",
+    "url": "https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=%ED%94%BC%EB%A7%9D"
+   }
+  },
+  {
+   "id": "or139",
+   "title": "카드놀이를 왜 '트럼프'라 할까?",
+   "answer": "카드놀이 중 들린 '으뜸패(trump)'를 이름으로 오해해서예요",
+   "body": "영어 trump는 카드놀이의 '으뜸패'를 뜻하고, 카드 자체는 playing card라고 불러요. 일본 사전들은 메이지 초기에 서양인들이 카드놀이를 하며 'trump'를 자주 외치자, 이를 듣던 일본 사람들이 카드 이름으로 잘못 알았다고 설명해요. 이 말이 우리에게도 건너와 표준국어대사전에도 서양식 놀이 카드라는 뜻으로 올라 있어요.",
+   "kind": "물건·음식",
+   "reliability": "유력한 설",
+   "tags": [
+    "외래어",
+    "놀이"
+   ],
+   "level": 3,
+   "source": {
+    "name": "코토뱅크(デジタル大辞泉) 'トランプ'",
+    "url": "https://kotobank.jp/word/%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97-1738028"
    }
   }
  ]
