@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-11-11T04:35:00+09:00",
+ "updatedAt": "2026-11-13T04:51:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -2175,6 +2175,82 @@
    "source": {
     "name": "SBS Biz(국립수산과학원·해양수산부 자료 인용)",
     "url": "https://biz.sbs.co.kr/amp/article/20000180524"
+   }
+  },
+  {
+   "id": "tv145",
+   "title": "바나나는 나무에서 열릴까?",
+   "answer": "아니에요, 바나나는 키가 아주 큰 풀이에요",
+   "body": "바나나는 꽃이 피는 풀 가운데 가장 큰 식물이에요. 보통 5m쯤 자라는데, 줄기처럼 보이는 부분은 나무가 아니라 잎자루가 겹겹이 말려 생긴 '헛줄기'예요. 헛줄기 하나는 열매송이를 한 번 맺고 나면 시들고, 땅속 덩이줄기에서 새 순이 올라와 그 자리를 이어요.",
+   "tags": [
+    "식물",
+    "음식"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Banana'",
+    "url": "https://en.wikipedia.org/wiki/Banana"
+   }
+  },
+  {
+   "id": "tv146",
+   "title": "기린 목뼈는 몇 개일까?",
+   "answer": "사람과 똑같이 7개예요, 뼈 하나하나가 길 뿐이에요",
+   "body": "목이 2m 가까이 되는 기린도 목뼈 수는 사람과 같은 7개예요. 대신 뼈 하나가 25cm 안팎으로 길쭉해요. 나무늘보와 매너티 같은 몇몇을 빼면 생쥐부터 고래까지 포유류는 대부분 목뼈가 7개예요. 목이 길고 짧은 차이는 뼈 개수가 아니라 길이에서 나요.",
+   "tags": [
+    "동물",
+    "몸"
+   ],
+   "level": 1,
+   "source": {
+    "name": "WorldAtlas 'The Long Neck Truth About Giraffe Bones'",
+    "url": "https://www.worldatlas.com/animals/the-long-neck-truth-about-giraffe-bones.html"
+   }
+  },
+  {
+   "id": "tv147",
+   "title": "추운 날엔 왜 콧물이 흐를까?",
+   "answer": "코가 찬 공기를 데우고 적시느라 물기가 넘쳐서예요",
+   "body": "코는 들이마신 공기를 체온 가까이 데우고 촉촉하게 만들어 폐로 보내요. 차고 건조한 공기가 들어오면 코 안이 마르지 않도록 콧물을 더 많이 만들어요. 게다가 따뜻한 날숨이 차가운 콧구멍 근처에서 식으면 수증기가 물방울로 맺혀요. 이 물기가 넘쳐 감기가 아닌데도 콧물이 주르륵 흘러요.",
+   "tags": [
+    "몸",
+    "날씨"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Rhinorrhea' (Low temperatures)",
+    "url": "https://en.wikipedia.org/wiki/Rhinorrhea"
+   }
+  },
+  {
+   "id": "tv148",
+   "title": "딸기 겉의 알갱이는 씨일까?",
+   "answer": "씨가 든 작은 열매예요, 빨간 살은 꽃턱이 부푼 거예요",
+   "body": "우리가 먹는 딸기의 빨간 살은 씨방이 아니라 꽃자루 끝의 '꽃턱'이 부풀어 생긴 '헛열매'예요. 겉에 깨알처럼 박힌 알갱이 하나하나가 씨를 하나씩 품은 진짜 열매예요. 꽃턱이 씨를 감싸지 않고 바깥으로 부풀어 올라서 씨가 겉에 드러나 있어요. 알갱이가 고르게 수정돼야 꽃턱도 고르게 부풀어서, 수정이 덜 된 딸기는 모양이 울퉁불퉁해져요.",
+   "tags": [
+    "식물",
+    "음식",
+    "과학"
+   ],
+   "level": 2,
+   "source": {
+    "name": "주간경향 '딸기는 열매를 먹지 않는다'",
+    "url": "https://weekly.khan.co.kr/article/17286"
+   }
+  },
+  {
+   "id": "tv149",
+   "title": "패딩의 '필파워'는 무슨 뜻일까?",
+   "answer": "털 1온스가 부풀어 차지하는 부피를 나타낸 숫자예요",
+   "body": "필파워는 오리털·거위털 1온스(약 28g)가 얼마나 부푸는지를 세제곱인치로 잰 값이에요. 700필파워라면 털 1온스가 700세제곱인치를 채운다는 뜻이에요. 많이 부풀수록 털 사이에 공기를 많이 품어 같은 무게로 더 따뜻해요. 다만 실제 따뜻함은 털을 얼마나 넣었는지(충전량)도 함께 봐야 해요.",
+   "tags": [
+    "옷",
+    "과학"
+   ],
+   "level": 2,
+   "source": {
+    "name": "PHD 'Testing Down Quality: Fillpower'",
+    "url": "https://www.phdesigns.co.uk/testing-down-quality-fillpower"
    }
   }
  ]
