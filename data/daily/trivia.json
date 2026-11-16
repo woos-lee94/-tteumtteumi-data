@@ -1,7 +1,7 @@
 {
  "category": "trivia",
  "label": "오늘의 상식",
- "updatedAt": "2026-11-15T04:38:00+09:00",
+ "updatedAt": "2026-11-17T04:36:00+09:00",
  "items": [
   {
    "id": "tv01",
@@ -2327,6 +2327,81 @@
    "source": {
     "name": "Wikipedia 'Seasonal lag'",
     "url": "https://en.wikipedia.org/wiki/Seasonal_lag"
+   }
+  },
+  {
+   "id": "tv155",
+   "title": "혀끝은 단맛, 혀뿌리는 쓴맛만 느낄까?",
+   "answer": "아니에요, 혀 어디서나 모든 맛을 느껴요",
+   "body": "교과서에 실리던 '혀 지도'는 1901년 독일 학자 헤니히의 실험에서 시작됐어요. 그는 부위마다 맛을 알아채는 민감도가 조금 다르다고 했을 뿐인데, 1942년 그래프가 다시 그려지며 '부위마다 한 맛만 느낀다'로 잘못 퍼졌어요. 실제로는 맛봉오리가 있는 곳이면 어디서든 여러 맛을 다 느껴요.",
+   "tags": [
+    "몸",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Tongue map'",
+    "url": "https://en.wikipedia.org/wiki/Tongue_map"
+   }
+  },
+  {
+   "id": "tv156",
+   "title": "땅콩은 왜 땅속에서 열릴까?",
+   "answer": "꽃이 진 뒤 씨방 자루가 흙 속으로 파고들어서요",
+   "body": "땅콩꽃은 땅 위에서 피어요. 꽃가루받이가 끝나면 씨방 아래 자루가 실처럼 길게 자라 아래로 휘어지고, 그 끝이 흙 속으로 파고들어요. 이 끝이 땅속에서 부풀어 꼬투리가 되지요. 이름에 '콩'이 붙은 것처럼 땅콩은 식물학으로 보면 견과가 아니라 콩과 식물의 열매예요.",
+   "tags": [
+    "식물",
+    "음식"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Peanut'",
+    "url": "https://en.wikipedia.org/wiki/Peanut"
+   }
+  },
+  {
+   "id": "tv157",
+   "title": "북극과 남극, 어디가 더 추울까?",
+   "answer": "남극이에요, 높고 두꺼운 얼음 대륙이라서요",
+   "body": "북극은 대부분 바다 위에 얼음이 떠 있는 곳이라, 얼음 아래 바닷물이 추위를 누그러뜨려요. 남극은 두꺼운 얼음이 덮인 대륙이어서 평균 높이가 해발 2,000m를 넘고, 높이 올라갈수록 기온도 내려가요. 1983년 남극 보스토크 기지에서는 영하 89.2℃가 관측되기도 했어요.",
+   "tags": [
+    "날씨",
+    "과학"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Climate of Antarctica'",
+    "url": "https://en.wikipedia.org/wiki/Climate_of_Antarctica"
+   }
+  },
+  {
+   "id": "tv158",
+   "title": "고등어 등은 왜 푸르고 배는 흴까?",
+   "answer": "위에서 봐도 아래서 봐도 눈에 덜 띄기 위해서예요",
+   "body": "위에서 내려다보면 고등어의 짙은 푸른 등은 어두운 깊은 바닷물에 묻혀요. 아래에서 올려다보면 흰 배가 햇빛에 밝게 빛나는 수면과 섞여 잘 보이지 않지요. 이렇게 등은 진하고 배는 옅은 몸 색을 '카운터셰이딩'이라 하는데, 상어나 펭귄처럼 바다에 사는 많은 동물에게서 볼 수 있어요.",
+   "tags": [
+    "바다",
+    "동물"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Wikipedia 'Countershading'",
+    "url": "https://en.wikipedia.org/wiki/Countershading"
+   }
+  },
+  {
+   "id": "tv159",
+   "title": "LED 신호등은 왜 눈에 잘 덮일까?",
+   "answer": "열이 거의 안 나서 붙은 눈이 녹지 않아서예요",
+   "body": "예전 백열전구 신호등은 열이 많이 나서 렌즈에 붙은 눈이 저절로 녹았어요. 전기를 적게 쓰는 LED는 거의 뜨거워지지 않아, 젖은 눈이 달라붙으면 그대로 쌓여 신호가 가려질 수 있어요. 그래서 눈이 많이 오는 곳을 위해 렌즈에 열선을 넣은 신호등도 개발됐어요.",
+   "tags": [
+    "교통",
+    "날씨"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Wikipedia 'Traffic light'",
+    "url": "https://en.wikipedia.org/wiki/Traffic_light"
    }
   }
  ]
