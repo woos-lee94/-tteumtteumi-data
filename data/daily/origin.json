@@ -1,7 +1,7 @@
 {
  "category": "origin",
  "label": "알고 보면 유래",
- "updatedAt": "2026-11-19T04:38:00+09:00",
+ "updatedAt": "2026-11-21T04:38:00+09:00",
  "items": [
   {
    "id": "or01",
@@ -2763,6 +2763,91 @@
    "source": {
     "name": "Wiktionary 'skate'",
     "url": "https://en.wiktionary.org/wiki/skate"
+   }
+  },
+  {
+   "id": "or164",
+   "title": "블랙 프라이데이는 왜 '검은' 금요일?",
+   "answer": "흑자가 아니라 교통 혼잡을 탓한 경찰의 말이었어요",
+   "body": "흔히 가게 장부가 적자에서 흑자(black)로 바뀌는 날이라서라고 하지만, 그건 1980년대에 퍼진 풀이예요. 1950~60년대 미국 필라델피아 경찰은 추수감사절 다음 날 쇼핑객과 관광객이 몰려 길이 꽉 막히는 날을 '블랙 프라이데이'라 불렀어요. 1961년 상인들이 '빅 프라이데이'로 바꾸려 했지만 실패했어요.",
+   "kind": "말",
+   "reliability": "속설 바로잡기",
+   "tags": [
+    "말",
+    "외래어"
+   ],
+   "level": 2,
+   "source": {
+    "name": "HISTORY",
+    "url": "https://www.history.com/news/black-friday-thanksgiving-origins-history"
+   }
+  },
+  {
+   "id": "or165",
+   "title": "'깁스'는 어느 나라 말일까?",
+   "answer": "석고를 뜻하는 독일어 '깁스(Gips)'에서 왔어요",
+   "body": "부러진 뼈를 고정하는 '깁스'는 독일어 Gips에서 온 말이에요. 원래 '석고'라는 뜻으로, 석고 붕대(Gipsverband)를 줄여 부른 거예요. 일본어 '기브스'를 거쳐 들어온 것으로 보여 '기브스'라고도 많이 하지만, 바른 표기는 '깁스'예요. 석고 가루를 물에 개면 단단히 굳는 성질을 이용했어요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "말"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wiktionary '깁스'",
+    "url": "https://en.wiktionary.org/wiki/깁스"
+   }
+  },
+  {
+   "id": "or166",
+   "title": "'오므라이스'는 어떻게 생긴 이름일까?",
+   "answer": "오믈렛과 라이스를 합친 일본식 영어예요",
+   "body": "오므라이스는 프랑스어 '오믈렛'과 영어 '라이스'를 일본식으로 줄여 붙인 이름이에요. 음식의 원조는 두 곳이 다퉈요. 1900년 무렵 도쿄 긴자의 양식당 렌가테이가 오믈렛에 밥을 섞었다는 이야기와, 1925년 오사카의 식당 홋쿄쿠세이가 케첩밥을 얇은 달걀로 감쌌다는 이야기예요.",
+   "kind": "물건·음식",
+   "reliability": "정설",
+   "tags": [
+    "음식",
+    "외래어"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Omurice'",
+    "url": "https://en.wikipedia.org/wiki/Omurice"
+   }
+  },
+  {
+   "id": "or167",
+   "title": "'삼천포로 빠지다'는 왜 삼천포일까?",
+   "answer": "기차를 잘못 탄 이야기 등 여러 설이 전해져요",
+   "body": "가장 널리 알려진 설은 부산에서 온 기차가 개양역에서 진주행과 삼천포행 칸으로 나뉘었는데, 잠든 승객이 삼천포까지 가 버렸다는 거예요. 진주로 가려던 보부상이 길을 잘못 들었다는 설, 진해로 돌아가던 해군이 삼천포행 기차를 탔다는 설도 있어요. 지역을 깎아내린다는 불만도 있었어요.",
+   "kind": "말",
+   "reliability": "여러 설",
+   "tags": [
+    "말",
+    "지역"
+   ],
+   "level": 2,
+   "source": {
+    "name": "경남신문",
+    "url": "https://knnews.co.kr/news/articleView.php?idxno=1093922"
+   }
+  },
+  {
+   "id": "or168",
+   "title": "'아메리카노'는 왜 '미국식' 커피일까?",
+   "answer": "연한 커피를 '미국식'이라 부른 데서 왔어요",
+   "body": "흔히 2차 세계대전 때 이탈리아에 온 미군이 진한 에스프레소에 물을 타 마셔서 생긴 이름이라고 해요. 하지만 기록으로 확인되진 않았어요. 옥스퍼드 영어사전은 1950년대 중앙아메리카 스페인어에서 연한 커피를 낮잡아 부르던 '카페 아메리카노'를 뿌리로 봐요.",
+   "kind": "물건·음식",
+   "reliability": "여러 설",
+   "tags": [
+    "음식",
+    "외래어"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Caffè americano'",
+    "url": "https://en.wikipedia.org/wiki/Caff%C3%A8_americano"
    }
   }
  ]
