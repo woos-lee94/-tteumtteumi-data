@@ -1,162 +1,7 @@
 {
- "updatedAt": "2026-11-24T02:20:00+09:00",
+ "updatedAt": "2026-11-25T02:38:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
-  {
-   "id": "b261025a1",
-   "date": "2026-10-25",
-   "slot": "am",
-   "n": 1,
-   "kind": "기호",
-   "title": "서로를 세는 칸",
-   "text": "칸마다 한 가지 모양의 기호가 몇 개 있어요. 모양은 ●·▲·■ 세 가지이고(●와 ○는 같은 모양이에요), 한 칸의 기호는 모두 칠해졌거나(●▲■) 모두 비어 있어요(○△□).\n칸마다 기호의 개수와 칠하기는 그 칸의 모양과 다른 칸들의 모양만으로 정해지고, 아홉 칸 모두 똑같은 규칙을 따라요. ?칸의 모양도 찾아내야 해요.",
-   "grid": [
-    [
-     "△△",
-     "■■",
-     "●"
-    ],
-    [
-     "△△△",
-     "?",
-     "▲▲"
-    ],
-    [
-     "□□□",
-     "□□□□",
-     "□□□"
-    ]
-   ],
-   "ask": "?에 들어갈 것은 무엇일까요?",
-   "input": "choice",
-   "choices": [
-    "○",
-    "●",
-    "△△△",
-    "□□□",
-    "●●"
-   ],
-   "hint": "맨 아랫줄 세 칸의 개수가 왜 서로 다른지부터 따져 보세요.",
-   "h": "7a0edc42b04ed981c9dc6b4ce2a100ebc30951d9b8d960b67c5bbd189eb640bf",
-   "x": "Wztr/fyiykzbP53mG9rFIvgrmed1qiyZ0rTA10BLz6dqENNbJbguljQAW62KExCFMfIyQA6PoKICCWgv/hRXPkGAP7SZwQUccdu3j2/eN4jUwR8Pmvw0Ic6qSCgvuPLCi9QD/aZYf62UlD7CAPDc9Ci07LjeHn1rHW9PtpsfXw8h2/Dw6OLVknpvI2nhhBVUK+gxzR+qB9IwAeammzifGHinlsP7YPefPEt8kJLhPKOBCUrhQzqLL7zsT28EdjXqxEBUGGUjxjtkrOUW2B83rii7s5rfPDJsVAgb7kqQwQyz7t3Zt/73YKg9gJq7SYzkBj8AvKXlUVVYimD+/DJPXRxij2b5EooR+i7sYWyGyYsXc4IInCLD9bP59DfF3iAe9GIvyAr0Xq8C+p2fVlb8eu/PUnG6RdhGH86afhfr81lP127a0JwQrFwIp4ji62GZxCNATqKH498s8P4p91SL8JhNNiJQKPyWaxoz/x5qS+kTB5z0MG93vFqRIWYhoe4TozoxTVVostlFES7c9GPyltdQfo3cIIj9F4vXuPbEQphC16/z356xiuSODKPX2N91x5A0CG4l0Hx6CGvyiZgDt2C7p19Tc8q9N6N7SAIn7hilfYsFwhoJO80bZWIolN08iB3Tw6oN+8UY16YxFci8qMrozw0j2k6EB8xsmvi7QIH/X9t1wo6+6/0rXgE+uJv1jiF9lheZsT7HEC41wexK0o+X5pCSD4yASf726rOs/470OOT1NX9FmIl52e7i+A75dUI8JbbSF3+XXev6tXwNoOzPTDdOLgUC/72hzwV7lQml5KRgFloy4CkBZeC6hS/dpbhzD0GI82ND8gRys9qFc5NAqlhhO4U=",
-   "level": 5
-  },
-  {
-   "id": "b261025a2",
-   "date": "2026-10-25",
-   "slot": "am",
-   "n": 2,
-   "kind": "논리",
-   "title": "여섯 번의 패스",
-   "text": "민준·서연·지호·하은·도윤 다섯이 공 하나로 패스 놀이를 했어요. 처음에 공은 민준에게 있었고, 패스는 모두 여섯 번 했어요. 패스 한 번은 공을 가진 사람이 자기가 아닌 한 사람에게 공을 던져 그 사람이 받는 거예요.",
-   "clues": [
-    "같은 두 사람 사이에 공이 오간 건 많아야 한 번이에요(누가 누구에게 던졌는지는 따지지 않아요).",
-    "민준은 공을 딱 두 번 던졌어요.",
-    "하은은 공을 딱 두 번 받았어요.",
-    "서연이 받은 공은 모두 지호가 던진 거예요.",
-    "지호는 민준이 던진 공을 받은 적이 없어요.",
-    "하은이 처음 받은 공은 도윤이 던진 게 아니에요."
-   ],
-   "ask": "첫째부터 여섯째 패스까지 공을 받은 사람을 민준 1, 서연 2, 지호 3, 하은 4, 도윤 5로 바꿔 차례로 이어 쓰면 어떤 여섯 자리 수일까요?",
-   "input": "number",
-   "hint": "같은 두 사람 사이로 공이 한 번만 오가니, 공이 거쳐 간 길을 선으로 그려 보고 사람마다 선이 몇 개 닿는지(던진 횟수+받은 횟수) 따져 보세요.",
-   "h": "69e94c7c37da78ae8c2f4f60d83f8a113c638966075074174f8593bde1409db1",
-   "x": "V6b3onzaTP1tz4RnsFBxI6iUD3VA16CmaT6lML1JVno2HYPdAvE41o46lu+/eukKguzJo1IFBBWUe25PAISEDogh4tS8iF/v3NAumZ/hrfN0e+FiERBap5YRVTIXSuLmcPXGPdULIFo60gnCB2YFG6uPMkry1/fXP35BKcp9bmmhnJbEP6DpNvzt6tc64XZtcHYsrzmWomolSxKDsu4kNG+u9tbWPUdlMF46IyGkX4S67gaayIqz3y9rQDkKSLLE4g5wsqdwUBzS4XPqhjpOWCi6qfx+TvXL3yib1TVg8673Re7y/Cj0WbkLw5oANHLKdGXwlMi/j+yjwzejDGddRR1StOfaKxwwuZeLzrmTQsJQI+5Y19OSYgWDC/b077/yhIH2/KNAZNalqnR2HExjVNH4gAJx9zxQbQibbR7WO/VkuT1IXd6XL1t3gJRwZW4g3HKJUKk4lrheGtAtTqHqPB3zrNwlPOB6PzOeb8P7jCeo80i11ztzm6vsTLLcMfzd/9K2neMZTi16mmxf5h1MhmStdRRn/r5zN8DcCTyiv53LFM1BGaGXoRCWXtZRzGJbyyTiik9aq1GgVhYCw1oFObVECD/WZTNrRRJnTrF/+WjczxVpcNopjzsfy/X5hQv+lw50iG6MU6HjK8GNAhKgtzug5ckhOFCbEYiN+/T9O53L3cGENxtWip/fifn/NDzv4yxkUvFj1FeTaBGEZ26eDJBdQgC9oqdKPvBlrED+6F40DXTp3uz/zm/htypdpfh3P/kttgyMy3jWHupD5HTn+tOTRRGIf5vC44EcDhLab0I2z2QGwhwyMbHJY6g5t19pgNWF8TdPjYMH+deALVPtj5GT5q4CXJOWw+9REjDZvBxXKlEtU+sRO5SORZITboEg7KXIfZMZBPPa5Jj7oSRtwmocSZ9ud9UPoqNMod1vrHFElNGC",
-   "level": 5
-  },
-  {
-   "id": "b261025a3",
-   "date": "2026-10-25",
-   "slot": "am",
-   "n": 3,
-   "kind": "수열",
-   "title": "멀리서 온 곱",
-   "text": "일정한 규칙으로 이어지는 수예요.\n2, 1, 1, 3, 4, 7, 19, 47, 180, ?",
-   "ask": "?에 들어갈 수는 무엇일까요?",
-   "input": "number",
-   "hint": "이웃한 두 수의 차를 적어 놓고, 그 차를 앞에 나온 수들과 견주어 보세요.",
-   "h": "ec5c57a479b0b21723a8833be41e684b243822065bfde1ecfc5bee5f8480f8d8",
-   "x": "3imU/YxOdbErZFqxEIEyQ0XOTenjD8DU4pAMVSGB17B7izJWLq+Cu3r24XXUXsNdH20+hkHNYOpCJJtOxxXP5HHponuIE9CrmV7pvmYpcaWWjrZARRTzIooVhNefIcr2GcceSDFAfTHOXJEulV6H1r+dMWv2YY2MxXqX72j4UM/CksmS325eC89PVx/klj97xfm7lJwLe5ZmKTw/GwTD7nT/ARV29HOPloJXFjAG18tubLElvfi9Rw/8OZZPUoeq4AdYs44ootnQCbDAz9jOFepZgCvlGpCC/e5nL7RCnoLsYIJIGgkj0JnDA2fC08+wO1sX+Zpi+OUSB7+7wLe9fgpx2FYYEjfg7NwpD/UyycyLZLLw7oebVA7cQG4CAqJ6FkEZuLmhIHjCs0Ry",
-   "level": 5
-  },
-  {
-   "id": "b261025p1",
-   "date": "2026-10-25",
-   "slot": "pm",
-   "n": 1,
-   "kind": "수리",
-   "title": "열 장의 덧셈",
-   "text": "0부터 9까지 숫자 카드 10장을 모두 한 번씩 써서 아래 덧셈식의 □를 채웠더니 식이 맞았어요. 세 자리 수와 네 자리 수의 맨 앞자리에는 0이 올 수 없어요.\n□□□ + □□□ = □□□□",
-   "ask": "네 자리 수가 될 수 있는 가장 큰 수는 무엇일까요?",
-   "input": "number",
-   "hint": "네 자리 수의 둘째 자리 숫자가 얼마까지 커질 수 있는지, 받아올림과 함께 따져 보세요.",
-   "h": "1cafa4bcb822d36932542515f895f191f12639d496e180824da62f7605bee9ab",
-   "x": "ICTFFDmNtnuCPg2ZR2EGcG1fgy8VNdb6UV4CXiZ7d7Lw6zTzeW5ggy/O7Z7BMlitwYWMuar0izcQYhboTn/udzxKrqFfeKKYT1gOYHQKgcyOqNe0bFRvBhSi/0NWKFBsdyKIIZeoHtoXTHDijM9nTGDRZXztg7Ak9lpftJ3oitp9Lmzu33pFErTmLZ/edLdHsfOcspMdYnWUL1V/2yuSDqWZNZCx3/sIXvL4rJCTMwrlIcqpFbEKRQRh0dFB92NuCtgceptofT3cDzHQ5CBNVObzruDV+1XxZxSvWdb8Rl7DnsMVHEvYEhjsg61ZDTpedBOAuPw2lFEqW55sERspA1/LcxjuWJc/c6mmauD62vQvZKxXQa1USlSBclTjwfqT7KUEclH+JMikfEU5FqxDFO+mb7EtWLPwnxuzRcYRSZUL6OGUQKIbon/9gbhvwVy5/svUbYaBPucjS8xkOClcKeuX4aiN+SmbLMS3Ve9/eXerj9DHTqwPt+f7e8y7OblgmhYUBIhCObhE3ovWXSo4dlnHJ0Hf+NUK45QcVVgW1j7I52dGP40C/fMgMpaqHqzvpFZjyqLg1nSoMthVsfHe5h4QQOJgLbZ5QCUIDWZb486d5TV5odoSOu2tG7BE5M2Mou53I2iWtjygwCAAYDeO+OVQa9BXnvh9hsG7kvu6Q1bscQzL7HmTMu/S14ywgGC5G3hf1COTov3w4hqLmG4OcJgwhosR27bVKD8STWwG7dhYQfVGdMIcmomYGP9TuTz2alBEK0Z7hKIWbxyI5bLPdCoan2FALXqAISLGm1PeH8RZJprLcZaPIydCpVBSsgL8R8jgJ7AkqtYLp6G0k+rsH563aiq4CQmxDOua7npAr9vYXqqkg6hGvLCUEsAquacvfr6wvqZ33sxOXYnuVR25XCZMzo3UTNhXzyfeK1nkzLE5vdY1Prx7XtdRFt4Jao7QzRZl45zvKQ==",
-   "level": 5
-  },
-  {
-   "id": "b261025p2",
-   "date": "2026-10-25",
-   "slot": "pm",
-   "n": 2,
-   "kind": "참거짓",
-   "title": "한 끗씩 어긋난 말",
-   "text": "1~5번 다섯 사람은 저마다 동전을 1~5개 가졌어요(개수가 같은 사람이 있을 수도 있어요). 저마다 참말쟁이이거나 어긋쟁이예요. 참말쟁이는 수를 늘 정확히 말하고, 어긋쟁이는 수를 말할 때마다 진짜보다 딱 1 많거나 딱 1 적게 말해요(말마다 어느 쪽인지는 달라도 돼요). '참말쟁이들'에는 말한 사람 자신도 참말쟁이면 들어가요.",
-   "clues": [
-    "1번: 2번과 3번의 동전을 합하면 4개예요.",
-    "2번: 우리 다섯 가운데 참말쟁이는 3명이에요.",
-    "3번: 1번과 4번의 동전을 합하면 9개예요.",
-    "4번: 1번과 5번의 동전을 합하면 9개예요. 그리고 우리 다섯의 동전을 모두 합하면 18개예요.",
-    "5번: 참말쟁이들의 동전을 모두 합하면 17개예요."
-   ],
-   "ask": "1번부터 5번까지 동전 수를 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
-   "input": "number",
-   "hint": "어긋쟁이가 말한 수는 진짜와 홀짝이 반대예요. 4번의 두 말을 1번·3번의 말과 엮어 보세요.",
-   "h": "5fe9b3d7224a79e8b9521b03ed9cb90c330fed47f8faf52445b283b81c8ddd82",
-   "x": "SEonLGJ1jKFbJbGATg1ITmY1PJ1/lvQdVgMl2udwNv2VIZUnEiyJzEYCnLOYwBH5yV+fmnTdsluVLnQLq6onKOz11RSo/flY+lQOVmrdckHoEJw8oR95259h2/xi1nsKhb78x3K8OnN5oui+pcOR61cGPRXlsAsW4YwCYC70Umj69XrMOQLNBB4haRWDhAv7SERDHdeyr/hOcrwLNSStya/fgWSihTC7NO7PSbujOZBER70Fo2x2e2YXBOjWgo8JktBnQKGet3yOsRiX383QIxH4eVUbi4Hn3ysSRMlbzaI/zPbz+8Ek+g9fiTvUMgSamXcPxocm3Vss8vthtilgD0gntfJfrdfiAw4JV0TFiN0faemHfOIfbc5q27zT6jekhVMjfSzuEuPGJZJolztTg0dSsHKNmyYfA3JSVinG33g2h2Rg0GOpdAweiB6PSX0aFHwUFLqef6iAw2w6lveEEgQJtMUWRcIF1fbZ2py7TEQym8paLOoZXcy85dxAL1EN4+8w6695dM8gsEESf4KUOk1IVBjVfrd1TD2MkIvK6irUjosV6DgosJ5BG9eSzjdHDPk2sRc6aG5Q8fR3WsriTPnj7tazoB1SQSdDdvDCP1Og7g0tzNFKeUZAk0a4eCzeolKEAcNFA4CORPGiQNERKgJxWb6eu7Gx+TXDN3amzfthVI8z",
-   "level": 5
-  },
-  {
-   "id": "b261025p3",
-   "date": "2026-10-25",
-   "slot": "pm",
-   "n": 3,
-   "kind": "행렬",
-   "title": "커지기만 하는 판",
-   "text": "4×4 칸에 1부터 16까지 수를 한 번씩 넣었어요. 가로줄마다 오른쪽 칸으로 갈수록, 세로줄마다 아래 칸으로 갈수록 수가 커져요.\n가로줄마다 네 수를 더하면 위에서부터 차례로 19, 29, 33, 55예요. □는 아직 모르는 칸이에요.",
-   "grid": [
-    [
-     "□",
-     "□",
-     "□",
-     "□"
-    ],
-    [
-     "□",
-     "□",
-     "?",
-     "□"
-    ],
-    [
-     "□",
-     "□",
-     "□",
-     "□"
-    ],
-    [
-     "10",
-     "□",
-     "□",
-     "□"
-    ]
-   ],
-   "ask": "?에 들어갈 수는 무엇일까요?",
-   "input": "number",
-   "hint": "16부터 거꾸로, 큰 수들이 들어갈 수 있는 자리를 하나씩 좁혀 보세요.",
-   "h": "e26625657974f84c18f8e3584829c1a5bd4ad87702ab9749a945fedbcb447ca0",
-   "x": "uA1R86SAHdFuIutEo/n9tbvmo/KgZTIO6Qrx6Ry3bdak2PHtjaJZZ/4bEaAW/KONoHZOglowFNt1gswW893sSEw/wSgfs0iYrtHI60wHuPJheEpv89u7iKDnXCtx2fzobuEf28C6sZXnboP/2GxJqPVYCF516gc7aWgr7Ubcu5BmzYaxkYmEU5JkWudSB0fuzlqiO+Luw/qv++8X3UXHT8BnazujZLnUTpl1NtUpcABmlsrGO8x9R0GKbwCQgKW9UhjxiG0mEe5ya68otJgNsofxz4Fw2ODKY1sUQY7dkpzwz0hKXalICEwT6j7RHTDO8Xcee3nO8RdwgPvQc0g/6f5yOkij8/G1GgkBX+9QC930sCZ1xw/ZQ50mruiGdoymAnJsfdQob+j0tfwbQtb6e92h5cQEbOPurZ+nGjdI2ohcSNhWA7pDGbhKmHjRU5xkVN9d2NT4FbmVf8PcN58069ye3wbZdiwhZfOC01iY88WvhBqrnWENu6GTtJoN0vqJb7PTTveH8/FWjNHS3Npoy/CKt5jLqXJL+wctGHm5ez1rz6VAjes/MGY7qDwD5J6yuulHfqrYq9E/zUAj9PzdMvj/QHIVa+8NdmZmasH3/8/i/txH8eZUDw1ulFKH1a8+3Ax2Cb2rEeCcA0pJHMOqxJSwk36cC+wRekfa3R6RI5dKmTUv6Te9rHaRHQ54NP59mhfvoy61v2clE0ary/Zm3xkgKoASBalSieh53uoV3CYj6zvCHYklbF0dgRMl7pC/qwD7WJqqqn/L0Fx3K1AeKtXgF5HjaB3s6YHhtj6eHxQG6xTDiawSwQ9kLIGWTB52Kuqy0uE=",
-   "level": 5
-  },
   {
    "id": "b261026a1",
    "date": "2026-10-26",
@@ -5414,6 +5259,121 @@
    "hint": "5번과 6번이 나간 직후 남아 있던 한 대가 누구일 수 있는지, 그리고 그때까지 1~4번이 어떻게 3대 한도 안에서 들고 났는지 따져 보세요.",
    "h": "b7e65175e10fec92dcf776c929786a62987055891c83d31cf11818a23e269794",
    "x": "dWLHjfvfnMeUalktvZs4X/bVcZxIpzZv+F9Tv/0kAvVMyNm8nOUKkFdpsXt3dA54zRESlARYZbHLsHFiY6eqh5zHRxjqrt14b0afiUsy+SvLGC0VRzsr1FNiLriDlX82+vn1cQbc6CJp72QH9wp3g4iIKZF+MadQxoeHnVtA4F2D4fKvu1u1kMrE3l/9nixlu0nJvV7brmQqX9X3vpNUxQlkgF8wPz2ph/Yne8WH8IJln5BgMrlAP2yTx2c+DPjo6m/Z1rMiJc+jWYhCzARThAQuTm1vGwvvGik2q0Jf9QPqAnHVwYNW4CQMGopZAYz7+6NOjhRpQTZWHRB5rhlOxKnIeHS1aUNKwDGbF04c0H06NbtWXvR8EN7ftQfwRrtaiU3PAgIQF9APkJEaJkmoGW6LXPGy23ELVxcue0pDnl80Vd1pK63GxojuJhCDA18gpS0/nsJng1kV7zzbs0jJ6JB53mMMX54ir2vXYMzEkyS6ocCpkJeaTVJBkJnf40LFa6M7yfIq3BxWvMGtZhQgwqD2Izv522qOcBbb9LgRu630CM1oeUFJmVMIqHQwzCaiLRqqHfp2oGppdFoZjgeh5hXoDSugG1tjzF79e195El84WHCiH9+nqXs8mtOmsHmNpCjdrv7l8l2ANggh0Q5VH1UA66eZZUkcd+AZRkcV0MuM8qHt3Zt/bUoCUTfR/pMfoNSvUVqvJfUGztI2dK5O5XFUYTLdJiSREVVMa53qTsT94A3gLL8pjMkcNCb676C3/Hfl3ZSDNx0p23skQs+FU+OYYoElE7EbLq7I7N0VjWnE6fyAesB004SWAUYPLA30vGSNDc3I5tr1r4dz5LdieNg/IGAtHeY2UyXzzsCefhwfB0Pmsj5dJpIz/Jb9HQRrCYJ6rIa96nK5DTRe40VCLgatR/C7tPHGLVlI/EKNlgchfzOje9TbSaW3QX1b5nteqNxvGZpyS+l+nHpgPy9j+Mk6EtLz",
+   "level": 5
+  },
+  {
+   "id": "b261126a1",
+   "date": "2026-11-26",
+   "slot": "am",
+   "n": 1,
+   "kind": "수열",
+   "title": "열두 장의 쪽지",
+   "text": "일정한 규칙으로 이어지는 수예요. 첫째 수를 1번째로 쳐요. 모든 수가 같은 방법으로 만들어졌어요.\n1, 0, 1, 3, 3, 2, 5, 6, 3, 1, 9, 4, ?",
+   "ask": "?(13번째 수)에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "수마다 자기 순서와 견주어 보면, 어느 수도 넘지 못하는 선이 있어요.",
+   "h": "335ab41878ac20761e669919cd72535c0fae1cec5b83590e9fa6c023bcf6f274",
+   "x": "VKnBzroiXH+oQdaJh0JT7hkhXiq4kdCZXzciRwSCIkS72EbiTyIBy0OG67Fue/CG9orO7UFQavhYb5LfzbT/xBcCHC12SIi5Ebjt3elOnbj1Dkrv8ntG1taQXD5DFwBi77mkQnHcTfht2rYvt34hbw2xRSGhFLJHAss8RHWj/KOTIA4JmL9PRnQ1lMFrgcfFePvBoVbjcPCtPmXagqcieXeJff/de/usG5dr2OCwD5WuFzvX4+nEt+MrbeNc9ixn86KEXze4s1pM0uigGHBWpUHsGugAOLSgI+mi1VQjgH68oHwTpQU3JjD6P1iEY6zEc3Oa9b/1FzTeyvdwGfcM49Np9XJ/iWvmAzkgO8iTuRHGbGHejcR5E74Jx1Xf26Hbk2qSRaBluZDt4bryNEWAac+njcTqFJI8IvBCgFmcn5lP8sLfLgO21PLD7up+bBa6ezcm/kEForX9kUxwtbxgaZ779AtuYLW7aw90j9MO0xQLNmyloOq9WaX7Mq8H9/eFid4xDerycNt9EbUnRuYnaMB2GH3mfWXhnDXB",
+   "level": 5
+  },
+  {
+   "id": "b261126a2",
+   "date": "2026-11-26",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "둥근 탁자의 음료",
+   "text": "민준·서연·지호·하은·도윤·수아 여섯이 같은 간격으로 놓인 둥근 탁자의 여섯 자리에 앉아, 커피·녹차·주스·우유·콜라·물을 한 잔씩 서로 다르게 마셨어요.\n탁자를 위에서 내려다볼 때 '다음 자리'는 시계 방향으로 바로 다음 자리, '이웃'은 바로 양옆 두 자리, '맞은편'은 세 자리 떨어진 자리예요. 단서에 나오는 두 사람은 늘 서로 다른 사람이에요.",
+   "clues": [
+    "커피를 마신 사람과 서연은 이웃이 아니에요.",
+    "우유를 마신 사람은 서연의 맞은편에 앉았어요.",
+    "물을 마신 사람과 민준은 이웃이 아니에요.",
+    "하은은 주스를 마신 사람의 다음 자리에 앉았어요.",
+    "커피를 마신 사람과 도윤은 이웃이 아니에요.",
+    "우유를 마신 사람은 녹차를 마신 사람의 다음 자리에 앉았어요.",
+    "지호와 하은은 이웃이에요."
+   ],
+   "ask": "민준부터 시계 방향으로 앉은 사람을 민준 1, 서연 2, 지호 3, 하은 4, 도윤 5, 수아 6으로 바꿔 차례로 이어 쓰면 어떤 여섯 자리 수일까요?",
+   "input": "number",
+   "hint": "우유를 마신 사람은 서연의 맞은편이면서 녹차를 마신 사람의 다음 자리예요. 이 두 자리를 서연 기준으로 놓고, 커피가 앉을 수 있는 자리를 지워 가 보세요.",
+   "h": "e91d0d2862885e34c1b3fd7f9d426133b895ca84617522c8b033814bde8a6b80",
+   "x": "zKPpt5JA5OTNWsU7zKdoGIwqk4m7MJOSXu9Z90rQ1+hsnzclGct26HZ3lr77KNE3a8mwK+rfKi4ReuxF6DOI4Z7ThKu2PdOswJkL8DMWMPtC7jWQ4z7PhNYmhv+YX3bQDWDbH7a2J4ECSpsCYVES8F4yrS5sgcT6daphs5niOaBIe4WAR+Y616PF3IvZC1bMmFUCjJg7P3142LlUS2Yx15bpPXQ4hDcnDhKJzZDRQ3RfycVssUytNGf0uDM228sN3KksfzQekYNUY8b1giujhZSjRAqZgDYlbyshu0AVdup7mKMv1BenX99weKbDEJwa0ZAlGHaMwQW8n4JSrLXBs2yhq54J2Ibo3Vp914WN4StIsVyrTmBjkAj7H3c2Kn2OwGR8Gj7aqpwnQWAbF+UP3ve7l4WjDXm/zcg8K+tRfkfnLDsw4krVuuF1KOlSX9FISxtNzI3GguP0k7gD15aqtv/ekr4pZxaV7ZH9vOBNV/t8nHB90K7Mq38j+4AFdnHRk5tRJkY5ndu7KUbDh0bs+PMc4T3VFmwH2r57U/3z6kjcnsu2h6xb/NkOxGkACiEujNAWvOGdRegbV/SVepRq9T5/coFqjbjVKHScilWpiXNl4UOHsZGQ39sdtNQj6k3Ggi0sf5T+yON7gcDJfoOD2VVpYZwVPQ75qd2wHtUUmzC7L0krBEI=",
+   "level": 5
+  },
+  {
+   "id": "b261126a3",
+   "date": "2026-11-26",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "짝지어 받는 사탕",
+   "text": "여섯 명이 둥근 탁자에 이 차례로 둘러앉아 있어요(수아 옆은 다시 민준이에요). 저마다 가진 사탕 수는 이래요.\n민준 2, 서연 8, 지호 7, 하은 1, 도윤 10, 수아 10\n선생님은 한 번에 바로 옆에 앉은 두 사람을 골라 두 사람에게 사탕을 1개씩 줘요. 사탕을 빼앗는 일은 없고, 선생님 사탕은 넉넉해요.",
+   "ask": "여섯 명의 사탕 수가 모두 같아지게 하려면 선생님은 적어도 몇 번 사탕을 줘야 할까요?",
+   "input": "number",
+   "unit": "번",
+   "hint": "한 사람이 사탕을 받을 때마다 그 사람 양옆 가운데 누군가도 꼭 함께 받는다는 점을 생각해 보세요.",
+   "h": "ded8b5543e1fd339564d38a11ef8423c96227d804684be6f54df12359aae485c",
+   "x": "k86auG44jTUfo5m1XGn7ZAgGgKgmH2AXm1p5/XRMT8IlB/6198jKsBnU9+m9W7WSU6dCvYmZwaaapCJ5/3K8fy9CrPAQJ2vn5a+W4mL7sv4dEhq977JvUR0uD7/RKj7HZRrfLWm+cqGdZ9IhmyM8b0TLHZS9Xr9EhXWC/n5Xsx7E9xj9anT2KF6vhvcrFMFfI+xliCFM7L558yKBnm4+PRZkf01gYRQw41NeeaP2IMMiqq5XPOkM0/aFuDM727TKIwN7BtabcxhTgnxjovziAJdd23fr/N1SIqb8OEpcXIFW5wjhE5AUqNOlIhYP6Up7D81v9HwDywx32gGNkzxenXnrfr6OwQ8qYiTw/ZscxXLqexWNM3aJCihp4+jkJVU7QlYfr98xhsJ4euljrZAUtf7Da6pm9WjaOJrMXuVRa273gZOFCjXN2QZSrrWElLRcPUbtJ8E5sfYj6DSXOKwW8PV/b1AXLsk+rjuqkPAe0YR355ODzB2JZpAa/9y7P4ySLB2RQZs4IJUOxZVetNh0fIE5CzuZF4cgntZzqUYgbG/fA2cFZ84evgPOrfVO7rTSRXVCdrsePvuedXbLLWw81AL4Xmz8TUl10rb2oMGQzoCEkZlLli7X/ebhe8mIz7i/ePYdt7kCMJJicLnf6g5LRm5uMvVgphI95Y2pXwd2pguBsqN/B8ZrobtV6S6wol7KsxV9CXmguVbC",
+   "level": 5
+  },
+  {
+   "id": "b261126p1",
+   "date": "2026-11-26",
+   "slot": "pm",
+   "n": 1,
+   "kind": "참거짓",
+   "title": "거울쟁이의 자리",
+   "text": "민준·서연·지호·하은·도윤이 모두 같은 쪽을 보고 다섯 자리 의자에 한 줄로 앉았어요. 자리는 왼쪽부터 1~5번이에요. 저마다 참말쟁이(말이 모두 참)이거나 거울쟁이예요. 거울쟁이는 왼쪽과 오른쪽을 늘 뒤바꿔 말해서, 말 속의 '왼쪽'과 '오른쪽'을 서로 바꿔 읽어야 참이 돼요(왼쪽·오른쪽이 없는 말은 그대로 참이에요).\n'왼쪽에 있다'는 자리 번호가 더 작다는 뜻, '바로 왼쪽'은 번호가 하나 작은 자리예요. 그 자리에 아무도 없으면 그 사람에 대한 말은 거짓이에요. '사이'는 두 사람 자리 사이에 앉은 사람이에요.",
+   "clues": [
+    "민준: 하은과 나 사이에는 아무도 없어요. 내 바로 오른쪽 사람은 참말쟁이예요.",
+    "서연: 민준은 내 왼쪽에 있어요. 지호와 나 사이에는 두 사람이 있어요.",
+    "지호: 도윤은 내 왼쪽에 있어요. 내 바로 왼쪽 사람은 거울쟁이예요.",
+    "하은: 서연은 내 왼쪽에 있어요. 거울쟁이는 짝수 명이에요(0도 짝수예요).",
+    "도윤: 서연은 참말쟁이예요. 지호와 나 사이에는 아무도 없어요."
+   ],
+   "ask": "민준·서연·지호·하은·도윤이 앉은 자리 번호를 이 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
+   "input": "number",
+   "hint": "왼쪽·오른쪽이 없는 말은 누가 했든 참이에요. 그런 말부터 모아 자리의 뼈대를 세워 보세요.",
+   "h": "d980a6541546425d8714667441c46bebbca6fa74088eb39242e2a58b954f8067",
+   "x": "XLEW8YAj/dsKY2pFvnw5VTsU9WrywDkn0XYvcpUfA74S062pXaelFE2OAl6fj+fnxiHFlpkFvnF7JvSAOjAMiInWNJb56apVZF7qOlijFNLHiVSSqmulQPFdvRw4ZSK0oVxZ3B3mP1Am1gOzYABZwfe9RL4DpfI3zfK3+ZUnLP1z0FOlnQmc8ngLhwVly6d0RWB9WHe8waTAQ16UTJ1UpzjzqEF5Zvp4Zv0wyxsRkpwpSmatVQs4FP41+VlXQSE1m2b4EzCruBzZMEki8pXlz5AOtnnYqPVoW6tV6bq/NbZrssGyxlpt12cUoFkMyzQ0EjMseCkzi0Asei5axQMOpuuprZ8z1J3dbNnYzMH4+8ZPh5qq15X4GUlnti3PA6+uldtOGN/am0s3FQ183KOFd+DdCxhz3uL0bHoKjboOPevwcs3NbT5JeI/+tSoYmTSBT1REKfK1+neyregAgA+eMbbHvBhajaTSpFTFVShf9VwA0mlNAU8q/wd2PLUYpbo2dxexiizauvDtRVxhELmj5ctAFzWwbgp8wqJOx+HXrMZiETkmcBnZpBIEtmKziDE2z8ff+Qe9MCVHc6r9WRyqRCuuZO2ERQP6WZmY7hvs5HTY57GRMMLMKQ3UPeb/X70SQPUheSqF14taXXoG+V46SqAqszONauFKUWVOv+yaJdd3/iEo+wPdb0+E56Q8y/LnNaVod/QhS1Cc2VhlzbEzFnLAGMC5VtRyLwQGPfEYY8z9CbQvfSveO3VHFJPeALTh",
+   "level": 5
+  },
+  {
+   "id": "b261126p2",
+   "date": "2026-11-26",
+   "slot": "pm",
+   "n": 2,
+   "kind": "암호",
+   "title": "한 번 훑은 낱말",
+   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였고, 바꾼 결과도 글자 수가 같아요. 여기 나오는 낱말에는 같은 글자가 두 번 나오지 않아요. 알파벳은 A, B, …, Z 차례예요.\nTIGER → IGERT\nMOUSE → MOSEU\nFROZEN → FORENZ",
+   "ask": "같은 규칙으로 DOLPHIN을 바꾸면 무엇일까요?",
+   "input": "text",
+   "hint": "글자는 그대로이고 자리만 바뀌었어요. 어느 글자가 얼마나 멀리 갔는지, 어디서 멈췄는지 보세요.",
+   "h": "414a90c3509bb8faa9975a2a67abb377e93573f25de8ca91f8261e73b23feabe",
+   "x": "pqE6d63rCAop5V+LKO7/UyFwSlk8p+ls7mZzl/9FdGDfpBYPvPJ02n1E9GPsfF7CxCd4n//aCsXvdViGZoSpjXp9sPNnO4PJ01YxenSw4OJaAbpAsyLNiy+9YsMJtiNVhKu9UZZSgFoDOF57x3T6FWngTZD8Xob89uoKBLxE37BC8FXlHtM2bnOwRa/Nrv8l/z7jAstygHpKpPi4huzZKIE4beRXWCzR+HHAuryJzIZOnKDalrO2mLaHtotWYqgK3cB3Mta3i8Fw5w4YJubbiMMFgtmTmpnwRAFts2/bPfgzA6ms9QYcEXfC6bowZfwj4RU7wcRQiiXcgKFx/3p6nZIsvJo7ED4/EKSunx1dGOte5nWIWhtLiOJyQpXcdBfa/lBaglFJvq4LQqS+rv5W+MVAtrb47gtvnsRGqoeVwHIafJR1AKi4u4jop7bvMDJIRpJZsloVmhutwIIoOhAEEYZSS7mIyJincULVeYCW748sRizc5XnCIEuyeM6qsno/8cHLLyKMd3zEd5sHFYciEd4gpbvryWJLOzgH/gJ/sFFYqVf3b9EEL9m1lPtKWFlBmUJS5WB4EVP5ME6xgAkO93CzXaXAx3RfwE9gFDtkQ1yuepElxcG2CDVNaD++taMOnpxqOWXp/+bFYxbu",
+   "level": 5
+  },
+  {
+   "id": "b261126p3",
+   "date": "2026-11-26",
+   "slot": "pm",
+   "n": 3,
+   "kind": "논리",
+   "title": "겹겹이 든 상자",
+   "text": "크기가 1~6으로 모두 다른 상자 여섯 개(빨강·주황·노랑·초록·파랑·보라)가 있어요. 큰 상자 안에는 더 작은 상자를 넣을 수 있는데, 어느 상자든 바로 안에는 상자를 많아야 하나만 넣었어요(그 상자 안에 또 넣는 건 괜찮아요). 이렇게 겹겹이 넣어 몇 개의 더미로 정리했어요. 혼자 있는 상자도 한 더미예요.\n'안 어딘가에 있다'와 '안에 든 상자'는 바로 안이든 그 안의 안이든 모두 쳐요.",
+   "clues": [
+    "노랑과 파랑은 서로 다른 더미에 있어요.",
+    "초록 안에 든 상자는 모두 3개예요.",
+    "주황은 빨강 안 어딘가에 있어요.",
+    "보라 바로 안에 주황이 있어요.",
+    "파랑은 보라보다 크기가 2 커요.",
+    "초록은 노랑보다 크기가 1 커요."
+   ],
+   "ask": "빨강·주황·노랑·초록·파랑·보라의 크기를 이 차례로 이어 쓰면 어떤 여섯 자리 수일까요?",
+   "input": "number",
+   "hint": "보라 바로 안에 주황이 있으니, 주황을 품은 빨강은 보라까지 품어야 해요. 초록 안의 세 상자가 누구일지 따져 보세요.",
+   "h": "b630705bf3c703167182e02ec9a114f86e913ca25e89493c5835c796221403ff",
+   "x": "MaX6/R0vO0vIwc65xB/CZqGIMNCZbar4ChZbtNokvGEplVPfxd4O2/vGW5+Y6DTAaZZa9wlRhMC1ABZeY6hCZfehrmH74GtWkaXcgYmtrzZhnIVYFsS9gWB16limAPJ9DrT6IeHO3DPcWtX6QoFTGLUmrmjxS6azGIv08NlK2BPkR3UsSmL+JJrobd1AbdqJIVfjj4QKRQ1OusBuCA9hxzo0Kdjs2uY54VtVTAo109agqy5pPCIR6VePT7QIhjCeaH5W4LK1w8qj6du1B0tfqKQ6s0VA9N4dclZoB43pWmr3yWnQfXrTYyIZsK+waNgFLnq4i3e7M9D8xh3Py6Z7wNDRFEGBdxy/KUFrFSm1cKdNvlK8TYMTkAofH6KsbvKzZz35O88HJWL5cO+nGRtr8Mowh45zQ5SA+IQ1wnrdEe5DTqY5WtXh/neCJS1fK3vUbAX9/2HEvFtx4/+ol+LxW78Ht4WsHg9JA5+bcIhJBM1aSDf++srRxYju55joyXBZvChspERuexDyIfzvu59o5PmL6HuPNoxbQOSXBfeMJ6IqRxahK0Cfi5QpeCVPfD1UWjGoIOtHwwOF/ig1jJeMCE5R5OOUFpkUP6ZvSiO/hXVMSAr0NyNyYfqoR0dtxvBHt8lYy1oh0O0q9TyVW1ninPmCUCEdgz56TUQq7ZS+GL4faK547nkcmCX2F8YC",
    "level": 5
   }
  ]
