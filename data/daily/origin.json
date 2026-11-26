@@ -1,7 +1,7 @@
 {
  "category": "origin",
  "label": "알고 보면 유래",
- "updatedAt": "2026-11-25T04:34:00+09:00",
+ "updatedAt": "2026-11-27T04:39:00+09:00",
  "items": [
   {
    "id": "or01",
@@ -3018,6 +3018,92 @@
    "source": {
     "name": "Wikipedia 'Marshmallow'",
     "url": "https://en.wikipedia.org/wiki/Marshmallow"
+   }
+  },
+  {
+   "id": "or179",
+   "title": "'섣달'은 무슨 말에서 왔을까?",
+   "answer": "'설'과 '달'이 합쳐지며 ㄹ이 ㄷ으로 바뀐 말이에요",
+   "body": "음력 12월을 부르는 '섣달'은 설을 앞둔 달이라는 뜻의 '설+달'이에요. 두 말이 붙으면서 '설'의 ㄹ 받침이 ㄷ 소리로 바뀌었어요. 한글 맞춤법 제29항은 이런 말을 ㄷ으로 적게 하는데, 술+가락이 '숟가락', 이틀+날이 '이튿날'이 된 것과 같은 짝이에요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "말",
+    "명절"
+   ],
+   "level": 1,
+   "source": {
+    "name": "국립국어원 한글 맞춤법 제29항",
+    "url": "https://korean.go.kr/kornorms/regltn/regltnView.do?regltn_code=0001&regltn_no=185"
+   }
+  },
+  {
+   "id": "or180",
+   "title": "'캐럴'은 원래 춤이었다?",
+   "answer": "네, 노래하며 둥글게 추던 춤 이름에서 왔어요",
+   "body": "캐럴은 중세 프랑스어 '카롤(carole)'에서 왔어요. 여러 사람이 손을 잡고 원을 돌며 노래에 맞춰 추던 춤이에요. 영어에는 1300년 무렵 들어와 춤과 함께 부르는 즐거운 노래를 뜻했고, 1500년 무렵 크리스마스 노래라는 뜻이 자리 잡았어요. 카롤의 더 먼 뿌리는 아직 확실하지 않아요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "명절"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Christmas carol'",
+    "url": "https://en.wikipedia.org/wiki/Christmas_carol"
+   }
+  },
+  {
+   "id": "or181",
+   "title": "'보드카'는 '물'이라는 뜻일까?",
+   "answer": "네, '작은 물'이라는 뜻의 러시아·폴란드어에서 왔어요",
+   "body": "보드카는 슬라브어로 물을 뜻하는 '보다(voda)'에 '작은'의 뜻을 더한 말이에요. 1405년 폴란드 기록에 처음 보이는데, 그땐 약이나 화장품 원료를 가리켰어요. 독한 술이 '생명의 물'이라 불린 라틴어 '아쿠아 비타이'의 영향이라는 풀이도 있어요.",
+   "kind": "물건·음식",
+   "reliability": "유력한 설",
+   "tags": [
+    "음식",
+    "외래어"
+   ],
+   "level": 1,
+   "source": {
+    "name": "Wikipedia 'Vodka'",
+    "url": "https://en.wikipedia.org/wiki/Vodka"
+   }
+  },
+  {
+   "id": "or182",
+   "title": "크리스마스트리는 어디서 시작됐을까?",
+   "answer": "15~16세기 발트해 연안과 독일 지역 기록이 오래된 편이에요",
+   "body": "1441년 에스토니아 탈린, 1510년 라트비아 리가의 상인 조합이 연말에 나무를 세웠다는 기록이 있어 두 도시가 서로 처음이라고 내세워요. 1539년엔 스트라스부르 대성당에도 나무가 섰대요. 루터가 촛불을 처음 달았다는 이야기는 기록으로 확인되지 않아요. 1848년 영국 왕실 트리 그림이 신문에 실리며 세계로 퍼졌어요.",
+   "kind": "관습",
+   "reliability": "여러 설",
+   "tags": [
+    "관습",
+    "명절",
+    "역사"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Wikipedia 'Christmas tree'",
+    "url": "https://en.wikipedia.org/wiki/Christmas_tree"
+   }
+  },
+  {
+   "id": "or183",
+   "title": "'이글루'는 원래 얼음집이란 뜻일까?",
+   "answer": "아니에요, 이누이트 말로 그냥 '집'이란 뜻이에요",
+   "body": "이누이트 말 '이글루(iglu)'는 눈이든 나무든 재료와 상관없이 '집'을 뜻해요. 눈 벽돌로 둥글게 쌓은 집은 캐나다 중부 북극과 그린란드 일부에서만 지었고, 다른 곳에선 고래뼈와 가죽 집에 눈을 덮었어요. 바깥이 영하 45도여도 안은 사람 체온만으로 영하 7도에서 영상 16도까지 올라요.",
+   "kind": "말",
+   "reliability": "정설",
+   "tags": [
+    "외래어",
+    "말"
+   ],
+   "level": 2,
+   "source": {
+    "name": "Wikipedia 'Igloo'",
+    "url": "https://en.wikipedia.org/wiki/Igloo"
    }
   }
  ]
