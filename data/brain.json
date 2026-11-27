@@ -1,233 +1,7 @@
 {
- "updatedAt": "2026-11-27T02:19:00+09:00",
+ "updatedAt": "2026-11-28T02:30:00+09:00",
  "note": "최상 난이도 두뇌 게임. 정답은 글자로 넣지 않고 확인값(h)만 두고, 풀이(x)는 맞힌 사람만 열려요.",
  "items": [
-  {
-   "id": "b261028a1",
-   "date": "2026-10-28",
-   "slot": "am",
-   "n": 1,
-   "kind": "기호",
-   "title": "칠하는 두 규칙",
-   "text": "칸마다 기호 세 개가 왼쪽부터 놓여 있어요. ●와 ○는 같은 모양이고 ●는 칠한 것, ○는 빈 것이에요(▲와 △, ■와 □도 마찬가지). 가로줄마다 셋째 칸은 첫째·둘째 칸으로, 세로줄마다 셋째 칸은 위의 두 칸으로 만들어져요. 기호는 자리마다 따로(첫째 자리는 첫째 자리끼리) 정해지고, 모양과 칠하기는 서로 다른 규칙을 따라요. 가로와 세로는 모양 규칙이 같지만 칠하기 규칙은 서로 달라요.",
-   "grid": [
-    [
-     "?",
-     "□▲▲",
-     "□○■"
-    ],
-    [
-     "△▲○",
-     "○▲●",
-     "□▲○"
-    ],
-    [
-     "●●●",
-     "△▲■",
-     "□■▲"
-    ]
-   ],
-   "ask": "?에 들어갈 것은 무엇일까요?",
-   "input": "choice",
-   "choices": [
-    "□□●",
-    "■□●",
-    "■■●",
-    "■□○",
-    "●□■"
-   ],
-   "hint": "모양만 떼어 보고 한 줄의 세 모양이 어떤 관계인지, 칠하기만 떼어 보고 가로줄과 세로줄이 어떻게 다른지 따로 찾아보세요.",
-   "h": "002bc2706c7c1221ce7f3f3b29000cc58b783ac2c4b04a6531c5b55235b40fd5",
-   "x": "Q7GF+xPWELD5MJmk22mfbjxrnsB7M9a5EXsmG9bUkV/GEzXKmSE3LcwrxTZPQ96TY0EfznlGGNhjRUOX0zt3Dwc6204ijQsS8tauey3gyi7pJVuJrV3pXFIDyuwq91HXEizGsV+qMgKxX3azncT9UtBPkvnKlY1+c2gcn/XcLVJObOQW2BW5h81S31s7BdYtsQqsd2PhW3Yy0lPS3jPcbz/9PL4yNfT5WEyE6VGM8FBVpmcDjrj1wAQ/VUng6e9UkrICArTdJGkZwpZUjIZHkQ+tKnf7hrBsYccAv+oq7f3QB/6TC+n4JF15daNNYP7OI0yMPyXPJEISBygvW7wbfNlcLUofXkcjrNVG0MeS6n7oRouKhSVkwNoLlFGQXtRue66nBBaM4SlnWMEVxzG17SHS0PeV6+sljLi/R0UEbYelixQAbtnhPKh2biY0yTiJLmSGEjLWAySu4eB7dRgWPv1MSW80pvzu4SkH5llQDR76J09Or42nNENjtId0NBOxzMnPu/NPtOOZZPbLrMn30kgX/unEGocj1/UWeZ0HUehLXcE+FzVhfVst5Egiy1j5+0ihHEVeKtCuib3Jq+czNlZvGm4Bn8sapWAV0GtUQqKCeLbMOEhamtDef2MD5JD1BSDWy6+XHZtnUerMwre052NBI3Fs7aUCM/jIGPvtVDwLa4Rq533C1hPJNZ/YgC03qAAgDBd80ID8u2aI6IrvZax+rZB53XXERx7ErYV79Dvaiz5ZPEkvaBMg+UAcUGLsCQD7Mc/83gHNk7NwLlBM7U87I5jrlo65e2qf+MRanqIJkAY+H2BDjClJS3X7A6SmBp8pgP7E0O4v8exEz/9e1BpoWyPDtwA7lbKrqyWgTuKU",
-   "level": 5
-  },
-  {
-   "id": "b261028a2",
-   "date": "2026-10-28",
-   "slot": "am",
-   "n": 2,
-   "kind": "논리",
-   "title": "불 밝히는 전구",
-   "text": "6×6 판에서 ■와 숫자 칸은 검은 칸, □는 흰 칸이에요. 흰 칸 몇 곳에 전구를 하나씩 놓았어요. 전구는 제 칸과, 가로·세로 네 방향으로 검은 칸이나 판 끝에 막히기 전까지의 흰 칸을 모두 비춰요.\n· 모든 흰 칸이 적어도 한 전구에 비춰져요.\n· 어떤 전구도 다른 전구를 비추지 않아요.\n· 숫자 칸의 수는 그 칸과 변을 맞댄 칸에 놓인 전구 수예요(■ 둘레는 몇 개든 돼요).",
-   "grid": [
-    [
-     "□",
-     "□",
-     "□",
-     "□",
-     "■",
-     "□"
-    ],
-    [
-     "□",
-     "2",
-     "□",
-     "□",
-     "□",
-     "□"
-    ],
-    [
-     "2",
-     "□",
-     "□",
-     "1",
-     "1",
-     "□"
-    ],
-    [
-     "□",
-     "□",
-     "■",
-     "□",
-     "□",
-     "□"
-    ],
-    [
-     "□",
-     "□",
-     "□",
-     "□",
-     "2",
-     "□"
-    ],
-    [
-     "□",
-     "2",
-     "□",
-     "□",
-     "□",
-     "□"
-    ]
-   ],
-   "ask": "맨 윗줄부터 차례로, 가로줄마다 놓인 전구 수를 이어 쓰면 어떤 여섯 자리 수일까요?",
-   "input": "number",
-   "hint": "셋째 줄에 붙어 있는 두 1이 둘레의 흰 칸을 어떻게 나눠 쓰는지, 그리고 그 줄 아래위로 빛이 어디까지 닿는지부터 보세요.",
-   "h": "11b8e23b6086061b96261bb53c9e50919ea1d5fe972e7efcec2a4f3502a8011d",
-   "x": "aOCxhIOX7sKQp/NDamV9QPJOdh0Urd46nqnBmmaYxtQmmn5/eaJhBr2uxqLQHOXF6VlrG+MuYfSvj2u6YO1Wr/A/0CCbfSTf0/Ys9/4rBJPt4Q/ENjmzBWu/nAayikU2CD+HuLiJ8HiMXtr8xkaYeizik0zvC/Q5b4DxB3rG2EVkDkQE/j+ZSSlovu6s3XV6ShRzh7mfyAnJ60YI8pBa3ABYw+8T4mF56mLutkA7jsfGye21q0d6xvJYJUzIudjkpZD5PatWuM2gTOzxaOxyBzh/p1HGpSOuTbnAYDhJgW07v2NTEh2gtBP+JvCcVV/aDcI8a2G3SK38RRU3X2WL/j+J6s8Uoi8Gk+aRoGk6D40p9nTr6NW+VtaVjXxpr3/r/97jlfLOvRYY2LkewR5XGXuitB3cmVvHW3oup+QrTSWe4uI2cDbiXssNyN4oYiRMQVSJ4ZUacVMFQPYtUyKVAZOGqRFs7FrM0YHYyWtDTwCrz59aC/+g+cTtbezZ8s+rChdlxeuu2OD4HTZUfd6mZnMQcRjFpWhccZ27zbQNS+i9gA5gnOsuNhth0rgOYy+PAb3x+GqElgJPYr6CB/rA/i/6IlcP8nI8aweXf76hRb/p44UcVq9dT4nAAZbXMW2hZoJgroki47wEOrWfN4uL0qLvhMNxVwr17GF7rKRZzsABQoQ49vJhoFQmHiiT4AwfSPuvRmiAsZyN0gWVsM2wAGXvsSYUPUzIEoaV6HulWscq07ZK0DqZHYe3vUtJCsWX5UDPLg4L/qDAdj6NXRceNkP//rGjyqWLebX+OKTsVo9lbBeNocCiGMFwp9dyAbwg++rWLZv/c/FaYowQBvpDCnyggAlDxW7bZRUkjglJWwApikPVe77AIkXdSk+PRdlKBNEo8OjrQIeFE6prTA==",
-   "level": 5
-  },
-  {
-   "id": "b261028a3",
-   "date": "2026-10-28",
-   "slot": "am",
-   "n": 3,
-   "kind": "행렬",
-   "title": "번호를 더한 색칠",
-   "text": "5×5 판의 칸 몇 개를 칠했어요. 가로줄은 위부터 1~5번, 세로줄은 왼쪽부터 1~5번이에요.\n오른쪽 끝의 수는 그 가로줄에서 칠한 칸들의 세로줄 번호를 모두 더한 값이고, 맨 아래의 수는 그 세로줄에서 칠한 칸들의 가로줄 번호를 모두 더한 값이에요.\n예: 어떤 가로줄에서 1번과 4번 칸을 칠했다면 그 줄 오른쪽 수는 5예요. □는 판의 칸, ·는 빈자리예요.",
-   "grid": [
-    [
-     "□",
-     "□",
-     "□",
-     "□",
-     "□",
-     "10"
-    ],
-    [
-     "□",
-     "□",
-     "□",
-     "□",
-     "□",
-     "10"
-    ],
-    [
-     "□",
-     "□",
-     "□",
-     "□",
-     "□",
-     "8"
-    ],
-    [
-     "□",
-     "□",
-     "□",
-     "□",
-     "□",
-     "7"
-    ],
-    [
-     "□",
-     "□",
-     "□",
-     "□",
-     "□",
-     "9"
-    ],
-    [
-     "10",
-     "4",
-     "10",
-     "6",
-     "11",
-     "·"
-    ]
-   ],
-   "ask": "1번부터 5번 가로줄까지, 줄마다 칠한 칸의 개수를 차례로 이어 쓰면 어떤 다섯 자리 수일까요?",
-   "input": "number",
-   "hint": "합이 4인 세로줄처럼 방법이 적은 줄부터 경우를 나누고, 가로줄 합과 함께 맞춰 보세요.",
-   "h": "9060d383a47a7af1ea5d1efd9ca93c749aac752e7d3e641f52706ed5b3761a1f",
-   "x": "HAFei2e8ldTfTnpraDJiEh3RPoY+SbGTIbOKWREn5sQQED6Vc5Jo9nGAU1eXxxd5utWGiOIhlwL66/AIlBgQwSHH5aNMopy+0oU3GaPxUP57NgfbEq1AKs+aN3eTltvm6Jm+N9bTNR3XNOKRiFVS4Rwdc7H1pEM+52SGgll4sP0SAmfuP1qXSOab12eSR+fA2dFdfLcWei9SQcXxnOh108QJERG1/im03uNjMgGkm0BZ/JMz5kNwO7+ooeHi3b7O9udi99+5ZfoaHAZyexiVBAWvJcIIl7sEfbvCNBXhZ7C9pfb5G+rqqHMLyP7Y1GxBJ62VAXTt9jC50vIJ348ajvOkxHSW2DOG1nsKI3C4DqWQgCTyVOcqSAs3P3l02kNZaFTcQ8LWBtN0CAosEtLXGcF+UuRP7hsMGok3iWsCB2QEJUJvrz0OdtcJruuWOq6CYEMlb73xCjxcx5xzeRONTtYdgFg0N7/8XmTE8HodsA0/bMN8tCerjqYNWJf51l5lHzSS8JLoJL3j5Vn7G1HiOfHCPs8D2cU=",
-   "level": 5
-  },
-  {
-   "id": "b261028p1",
-   "date": "2026-10-28",
-   "slot": "pm",
-   "n": 1,
-   "kind": "수리",
-   "title": "세 물통 나누기",
-   "text": "눈금이 없는 물통 세 개가 있어요. 12L 통에는 물이 가득 차 있고, 7L 통과 5L 통은 비어 있어요.\n'한 번 붓기'는 한 통의 물을 다른 통으로 붓는 거예요. 붓는 통이 비거나 받는 통이 가득 차면 멈춰요. 물을 버리거나 새로 채울 수는 없어요.",
-   "ask": "12L 통과 7L 통에 물이 6L씩 들어 있게 하려면, 적어도 몇 번 부어야 할까요?",
-   "input": "number",
-   "unit": "번",
-   "hint": "물을 도는 방향을 한쪽으로 정해 되풀이하면 상태가 정해진 차례로 바뀌어요. 두 방향을 모두 해 보고 짧은 쪽을 고르세요.",
-   "h": "137302aea4347b581cf30acda72bad59dcb22720bdc012f8330a4f3819a3925b",
-   "x": "FhQGgXdZn0RceSyOy/Y91dyzOyBMewIw2OJsS9sxdFg46hRlnzwbwSyQzsm3cmyWkEmU+RHuYg7ZtETzBGBjAQOSxMYQYW8hGVkB+iHgT7ktncExjL/LX8Zglk7BNKTq9eUvSg72dhi5y7iif95rDGmW2dGIm6LhuY04UFlrVb7Z2njQb/zF4AFhWw27iWGsaQg1l1sQ4VJIMqp8NSUwH+xezwKDC6SNe+HM2ymduvDqS5gcvBSPNktJly9TUG2dsFZ9/0YlQLkVE0Tx/n8hWqEleM8nZ3DSP5vUBghi/bLGDw04fDvfhnmjsKefL2XSxmS5czoKrVeYi5XCbQ49st4dQq1DdQ6o0GOnvWG08nzgPKODzo7uczIM1KgQ6WsViR3F+trxcwtOPHC2Ew7G9rJY35UTztSt4udblTgaO63oAMNoNnfr+kg0vYM/e2OBT40SelqfEDJW4EKxmcwtN/OiRmsfXD4EhXOz/tiHypLjU2K7NqT292vhb7+Jv5F7KcrKLnoUBEfL7EJqgtyqfHrjHj0fnz2T9+tCZi5BHzGe3vjNhmBoxkh/+dN5zmpdNDcu7MUpJm+18o7iFSSJXh52sZiyo4vxANV6ww==",
-   "level": 5
-  },
-  {
-   "id": "b261028p2",
-   "date": "2026-10-28",
-   "slot": "pm",
-   "n": 2,
-   "kind": "참거짓",
-   "title": "믿음과 말버릇",
-   "text": "1~4번 네 사람은 믿음과 말버릇이 저마다 있어요. 바른 사람은 참인 것을 참이라고 믿고, 뒤집힌 사람은 무엇이든 반대로 믿어요. 정직한 사람은 믿는 대로 말하고, 거짓말쟁이는 믿는 것과 반대로 말해요. 그래서 사람마다 바른·정직, 바른·거짓말쟁이, 뒤집힌·정직, 뒤집힌·거짓말쟁이 가운데 하나예요(같은 부류가 여럿이거나 아무도 없을 수 있어요). 넷은 서로의 부류를 알지만 믿음대로 받아들여요. '말버릇이 같다'는 둘 다 정직하거나 둘 다 거짓말쟁이라는 뜻이에요.",
-   "clues": [
-    "1번: 나와 3번은 말버릇이 같아요. 3번은 바른 사람이에요.",
-    "2번: 1번은 뒤집힌 사람이에요. 우리 넷 가운데 정직한 사람은 딱 2명이에요.",
-    "3번: 우리 넷 가운데 바른 사람은 딱 3명이에요. 나와 4번은 말버릇이 같아요.",
-    "4번: 우리 넷 가운데 정직한 사람은 한 명도 없어요. 2번은 거짓말쟁이예요."
-   ],
-   "ask": "바른·정직은 1, 바른·거짓말쟁이는 2, 뒤집힌·정직은 3, 뒤집힌·거짓말쟁이는 4로 바꿔 1번부터 차례로 이어 쓰면 어떤 네 자리 수일까요?",
-   "input": "number",
-   "hint": "믿음과 말버릇이 겹치면 결국 어떤 사람의 말이 참이 되는지, 그리고 한 사람의 두 마디가 어떤 관계인지부터 정리해 보세요.",
-   "h": "9a46bc8b7d7015cd8a8cf302d75245fea9ffea99a41969eb555ba0018c916477",
-   "x": "1J6PmYNKoeusWnpY8AfBekyFKW/Zl2Yx+xphiYNDRCd3aQs45n4pAaNvtkVbHRXA4PpfQH7yBu/p0gY8xpY2P5r/eR6Ssixz4ZYzK7JcPgXGzF4omYXe73pilaJiBuJR45kMoZLZRGbbxnY8yXMJEEZBtPXtWVW5Lx0bQ4ZgAn8tk7xXzZbCrNjujF2N3bwGGC60Cj+/WlCFDnSEIk/LySpmCIm8alN28WQxKzYTU4T8upAv/Df2xaNft/prf+Vl4Tw1hCu5cf38ZpwBINv43F17HzmLlF/qy4jAvni1TZqa6Mx6gA7kFY2yximPCroThcTSXXMRfUCxrpyRm+bcwPm0WxsZydi9D1HWdFpWW1YhixUzfc/uZYGh23Fqlzop2fZIaeWu+v5OLRR00Q4xKAnwfsWciwlSbyW5s6FyNGe0lpuxzCE0iPfWuNba76rUTTsqoXzmrGRHKsmn4oSy/RrXAQku06YJDjypo5kcpnJATrM+T90gviWcDDtO+4DtWNyXXeQOzXWUkgVrxz3+QUH+VSlCOI5vvs/6lC/NLprAzJFGGEucKC6B2zu706n4sAGsaRWuksFZPW5phAIpw6QHMVq7JoJ9m6G4tDRwEGwgv4a8XILL6TEaZwAm7ACopx5aJmMXADFH4zK5c5haB4KNllVOBv1PrA2/cGzB9XqjAso8xjeOhQgYbN1cLreiVW78909DW/T7eC6Up/cf/uTpFKPgHy+X3Di2PWnsEc6cq0usDB4o4neivHJ0B6BKy9Mj8Cmb/9Z3MIJcUOdwigvB5FVzHOEbQqpuziyYFm3j2UjKRT9pd1F/EQ3gGEu1CmULbvr8QrN/e5z+9ugGk0NzfsqTMCxFjE9rdZ9IMan7hVaBqZkdHPVrdO+I9qhqeRB64GW+uZjzsXxFI61ZDGpnj5YDC9n8CO06BRnEHKISvoDokDw1+ZzSNlp2xRIeOahViOy8AJeKAEGDeYTR2eb8J16RYYzWQ1O05pgYyfZEu8lxyow6D2NvU0IK5FukLVRiui1lO0KJMewpTrR8T5o7lk53X6AV4Umv0Iw4RtpYvmWHipJoFPe5GBY=",
-   "level": 5
-  },
-  {
-   "id": "b261028p3",
-   "date": "2026-10-28",
-   "slot": "pm",
-   "n": 3,
-   "kind": "암호",
-   "title": "물결 타는 글자",
-   "text": "영어 낱말을 한 가지 규칙으로 바꿨어요. 규칙은 모든 낱말에 똑같이 쓰였고, 바꾼 결과도 글자 수가 같아요.\n알파벳 순서는 A=1, B=2, …, Z=26이고, Z 다음은 다시 A로 이어져요.",
-   "clues": [
-    "PLANET → QFNPVD",
-    "MONKEY → NFQMAQ",
-    "PICTURE → QVKVTFH"
-   ],
-   "ask": "같은 규칙으로 KEYBOARD를 바꾸면 무엇일까요?",
-   "input": "text",
-   "hint": "바뀐 글자마다 원래 낱말의 몇 번째 글자에서 왔는지 찾아보세요. 몇 칸 밀렸는지가 그 글자의 '자리 무리'에 따라 달라요.",
-   "h": "6cb6f37a319bd94fb941d6bf5f0d552e18ef08c1808d4700fd70d31d3c9fa4b9",
-   "x": "7dNQy4hvo45LPEIJppbuLKNCLoYrNINFCFi56+B6VnQNJfHJcDSTCxEg/scX0p26JtaZasDLwxHsKpDW8/K7p0kzLPWbmjbh0kXEwji8r5KqclmJFG9c7TIrRIoO612golMr8hpRfg2jdMWdPSJRV4xrllZIfCtYUHbHeRMfRhuQE+ude6hMIHNl3Xyv6Ps+XKGqDVbDCx54lEX0C82CCwkhJWXe9a4Ef+EawLpjjNnApWyibZxjHdbmNrUYfv0E+6ng90Bppt3i/t9aorF5H73v1SPlmo09FR/oVX30LrBIBh1G0PwlonVYk7CABl2hyTdJre43LxNMKMiQpTJ3+yC+NSYh8gQ4l9dc6PIOQuY7xCgo5/rpOxH0jtIvadomueAzt3W05NbiQWlQ/wjbyNyjX4AlF3zeaTQEnlnv9bSdoimL3XhM0OJOs7tJ7CvxvhtT8eV4OhhW5p7xvHqDq0JTjJbtSP9sW8aLka7i6TbpoQuEYEkV/8wCq/cHbqdmTnoR+C6E2xtf8eabhCK4yoizu1LjnrGcv/QvoJAPfaYqYj9AKi1/gSEmYNlWQrugM9dN12QUFH2JI1jn3MG0lg==",
-   "level": 5
-  },
   {
    "id": "b261029a1",
    "date": "2026-10-29",
@@ -5351,6 +5125,225 @@
    "hint": "지호가 갈 수 있는 방이 둘뿐이고 방을 매번 옮기니 지호의 세 시각이 거의 정해져요. 그다음 3시에 쓸 수 있는 방이 둘뿐이라는 점과 '많아야 두 명'을 함께 보세요.",
    "h": "84598bd6feea2211b57a081248ffd0ce3d17c3860986064b7ef4a3f61444d0f4",
    "x": "7Wwhfh4uBKmBPRofB7Evr2Tblj6M15X5ReCqQL2HXvC1c0eLLpdKsKSdDLMIHKxPMKV0GoX13Ax09iPL1OGNTMZeKyFFTZOJkctivbvqo6GDrPtszonILx56tHzrwiKzYBsxWZr4LeeVm2Nq4I2kiliAFTVA1f4pDiJdl8eNfwpN2Uxl5VFS8nDO5P3Lnr9UtTFHYR/rwtmeCRKXevh2MRQRKYGjbXwZsZcoGbt/QmOILhwvOZf6p2IfT4CHSxi/M9uruQ/FY3wPJcabom7payfo/n27lftTbEWTCpWPU7P6tNnGJ+/+/4shjGWaFPiY8myLeWGE5Gq7hPnxRHQXi/rOU55mhcgv4x9853KiM2A2E70TqwRTpRVQwsH9ynacJj8giOnbBAtfxeSzc9Rtt8G8tKPNQaDXX9def6m23XNp2hLOCu7+JDJv7RkVCW6x3LevyJE5eHf2wY16+iHuMYx79Vf37ENKcwGBH64F+g4dp6vKA1kehQVRzMrIv+FwnpoYRSaxAl+xKNjptuSO7RtnaxSs8Wnt5XCv1yKyev9GpS5O9vmqncJUbPDeChpv1OHeXK/1J+rsLw54QSySjdRWEPtfx8AirG3QTJcfQxwgYkUgrlYZMdl0Xq4VuVoCZrmQ6ztlLCt9r6s725SnK08Qfl4GZ8a+kOyKtWSy9jVKwX20hf3t3ebeW8NnKKSUzNaFFOez2cpHvHZ/c53lyPJUqJxsVvLXvZ9J7yavd/25XMErpfr2f4Nh0hGb9qDYOeVz6hmyPA2aRf95T/Kdjk9K4jLoHButwn56vEOBG3LBjsxot9/sXSn8y809f45A+IUTGp+rAD5mgQ5zXRFKIx8JOFjFKglowJa930zM0ZntuWd5htPDg2B6Yqf1ziDazmU=",
+   "level": 5
+  },
+  {
+   "id": "b261129a1",
+   "date": "2026-11-29",
+   "slot": "am",
+   "n": 1,
+   "kind": "수열",
+   "title": "열에서 꺾인 줄",
+   "text": "일정한 규칙으로 이어지는 수예요. 첫째 수를 1번째로 쳐요. 둘째 수부터는 모두 바로 앞의 수와 자기 순서(몇 번째인지)로 정해지고, 늘 같은 규칙이에요.\n1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 22, 36, 52, 70, 135, 208, 357, ?",
+   "ask": "?(18번째 수)에 들어갈 수는 무엇일까요?",
+   "input": "number",
+   "hint": "11번째부터의 수를 저마다 자기 순서와 견주어 본 뒤, 왜 더 작은 후보가 건너뛰어졌는지 바로 앞의 수와 함께 따져 보세요.",
+   "h": "dbab4d4804f2f3a4b33d6bf2aa288e76d35060681cecf2d2f6f1bc8d68858230",
+   "x": "YPZfxrDRPUzLL8vbiR38pM/rT4b6Zv7YQMbrZyez/ex128rz+a8ygf/g7OcCzFEUB2i6cItsQdebKX/e1izzLRHs+UF4JmHhfziA4sV91zW/cklA8YzaRGMys72AzaO7dcrMksfytSkNiN/5oGKwST/CF+VPYsxfKJpiXT4NxQXORtV0CBDdLLea7ENGoH+M9B+S/I+1WRIxNXyO77y8oZnG6SCRwtzwDH6NTf0JTQus+hiY1SNuChn4eBTZxVZpICPnGx3LifwNRDEpG8zCQxQWCXzrAA4vmDTX13kvx0gpkkvTbCouWIltbfDg9XkWNFOC1QlC7YtDUWNZwqTuus1+qzGHaumBmk3Yc03f2SWN7UmEwiEuaMajLkkoCVMLbu51bL8qJ20cYAe2Q+BkZI+Jpx0GAK8bIq9U0GoWx+E+sPsnNBduwvhSenfLXZaL9zoSQdogFig8aeKuNSI6qMptFsn35xrbIWAf/ELWGFJIBrb/kh8zyaqM/YTz3HDyaCr0+4flCYom7fEy+Kzuj3e0/SVO28Z5dgdyBqkjmoRtPTBI0R96IVaDXEzbq553J+20pQOg3nVtTWbSQwvPGeGCAE5gNgpselmywAFP7EzOuXIu8JghY5/Ey94KO7LIV03MrXSlT8Hz8UGrckaoWKQ=",
+   "level": 5
+  },
+  {
+   "id": "b261129a2",
+   "date": "2026-11-29",
+   "slot": "am",
+   "n": 2,
+   "kind": "논리",
+   "title": "나무 곁의 텐트",
+   "text": "7×7 캠핑장에 나무(▲)가 10그루 있어요. 나무마다 텐트를 딱 하나씩 짝지어 쳐서 텐트도 10개예요.\n· 텐트는 제 짝 나무와 변을 맞댄 칸(위·아래·왼쪽·오른쪽)에 있고, 나무 칸에는 치지 않아요.\n· 두 텐트는 변으로도, 꼭짓점으로도(대각선으로 바로 옆) 닿지 않아요.\n· 표 바깥 수는 그 가로줄·세로줄에 있는 텐트 수예요.",
+   "grid": [
+    [
+     " ",
+     "2",
+     "2",
+     "1",
+     "2",
+     "0",
+     "2",
+     "1"
+    ],
+    [
+     "1",
+     "▲",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "2",
+     "·",
+     "·",
+     "·",
+     "·",
+     "▲",
+     "·",
+     "·"
+    ],
+    [
+     "1",
+     "·",
+     "·",
+     "·",
+     "▲",
+     "·",
+     "·",
+     "▲"
+    ],
+    [
+     "2",
+     "▲",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "1",
+     "·",
+     "▲",
+     "▲",
+     "·",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "1",
+     "·",
+     "·",
+     "·",
+     "·",
+     "▲",
+     "▲",
+     "·"
+    ],
+    [
+     "2",
+     "▲",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ]
+   ],
+   "ask": "칸 번호를 맨 윗줄 왼쪽부터 1~7, 둘째 줄 8~14, …, 맨 아랫줄 43~49로 매길 때, 텐트가 있는 칸 번호를 모두 더하면 얼마일까요?",
+   "input": "number",
+   "hint": "텐트가 0개인 세로줄부터 지우고, 나무 둘이 한 칸을 두고 다툴 때 '닿으면 안 된다'는 규칙이 어느 쪽을 막는지 보세요.",
+   "h": "9104238748cb9ad0f6fca550a3dd51e9d31eb002c4670efba9bd404480f3e69a",
+   "x": "Q3TkUk7G0K+Gx1LxZQlfrDWF7jtS6kC2hJF4nuCT2aG0BePDuGUHTZ+CzQ84pTeqUmY8FptwHYd6B/WpXDg7ULOgqwGMMEHjnCV5NoKDZcjIFH5pxzgfuJ2HJs+NXlTrXOhNttzT2JzEGBnjpixgqjBkNtPkWtmHDILLi8CnSAEP8lCpVg+y23bnwoe8hjKH34r9x6am5NiXIJ7XFvX6ygcBxL9IZAzKWs+B/sGcadVJ3DLYe4OJ8eV3QfSpNlT4ZeCpFgWn5sWuYIl8TtIvqeCBbQuA79rRImuVX5GWiqOXSTV59UTOimQBqt1EDkf39PCCbzI6BIvSQ8qjJman2mO7lIiF/qQsPPH4PFDkHDhg+2fUbNcD0T8tUQjSPmfkhAufnVSXGEf4Snqy+y5xDy9xAXpZY5/WS+ZZaY/K",
+   "level": 5
+  },
+  {
+   "id": "b261129a3",
+   "date": "2026-11-29",
+   "slot": "am",
+   "n": 3,
+   "kind": "수리",
+   "title": "잃어버린 기록",
+   "text": "쌀자루 다섯 개가 있어요. 자루의 무게는 모두 kg 단위 자연수이고, 다섯 개 모두 달라요.\n두 자루씩 짝을 지어 나올 수 있는 열 가지 짝을 모두 한 번씩 저울에 달아 두 자루를 합한 무게를 적었는데, 그 가운데 기록 하나를 잃어버렸어요.\n남은 아홉 기록을 작은 것부터 다시 적으면 이래요(kg).\n31, 37, 38, 44, 46, 47, 51, 53, 60",
+   "ask": "잃어버린 기록은 몇 kg이었을까요?",
+   "input": "number",
+   "unit": "kg",
+   "hint": "열 기록을 모두 더하면 자루 하나하나가 몇 번씩 들어가는지 생각해 보고, 가장 가벼운 쪽과 가장 무거운 쪽 기록이 어떤 짝인지 따져 보세요.",
+   "h": "f0f5c337ffd5d99cbdd466e033db40f1e7545125c9573592291b07bd6b26e601",
+   "x": "g/soW+aMjQ/psWUHf8D04imBokaHgBp+DGeymF7qB7T9QJqei8Zni95hcD8K2mkLmpQ5pAUBg3yWdIa+3Xvld4R14d/1s8LoztnnNMeW+J5kv7RLEDAQLaVjqzUeP0lmfI5+b3HoN+Ss1RCqv8eNv2ptMynbVLcMXTcDlQXxuYAkCItHYac/WX3JyDI0dYZZ86c33gBh704YmYL53IxZAkAIs6slDBW7jgoWTqygNESvZo4kpW7rFBd1r+UJG/967qrkvNKpLCZf9KR4BbvdMHinUCVG6gETevzEqx801qEF2tSDwtnw2/TTlfEKvUb0N9ChFtD27O/Cszg3bpPOjC6jgjahXOqhTywohd/uWm0BSNDKBl6V16PIjtuWeOQFBgwR98IUBX8RlVn6+6y8wj6Znj9YrUZKyLfRnnACxR3uTOoDI9Ymi27cjfgCgRHoSojgmbUJYleWbwW3UGKToF5aLh607pHqF6+NLWSfBnHr6pGbOzaXr4tbN9KiYhAKFcb+Ce+nYCDl2njx/tO5bXOfcj0UzLYHEZS0XOmTIGNHS1xe08lAFYsgclrBeYvNLap8+M6cRkwZkNNuJ7XP+T2YXu8ztWyfa0eLorpkk0Fjmg+77jy+low3hp+djpGLBByC/w6aC+cOHUsVAabahPTKhcMS4MPZNvoa4bWx6xBpDnRqzFD1ge2TxpjFZNYh9+WwWr4fA01qNSbEBwmogTRcTOvF8hoGJfeKdYIP7b2A1l4Fcmjc26vC2+4PDYpIlZzvkhwMVo6iH+M+NEPJftCHst6JojyiN+o=",
+   "level": 5
+  },
+  {
+   "id": "b261129p1",
+   "date": "2026-11-29",
+   "slot": "pm",
+   "n": 1,
+   "kind": "행렬",
+   "title": "여섯이 가리킨 보물",
+   "text": "5×5 판의 서로 다른 두 칸에 보물이 하나씩 묻혀 있어요.\n수가 적힌 칸의 수는 (그 칸에서 한 보물까지의 거리) × (그 칸에서 다른 보물까지의 거리)예요.\n거리는 가로로 떨어진 칸 수와 세로로 떨어진 칸 수를 더한 값이에요(예: 가로 2칸·세로 1칸 떨어지면 3).\n보물은 ·칸 가운데 두 곳에 있고, 수가 적힌 칸이나 ?칸에는 없어요.",
+   "grid": [
+    [
+     "·",
+     "6",
+     "·",
+     "·",
+     "6"
+    ],
+    [
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ],
+    [
+     "?",
+     "·",
+     "·",
+     "6",
+     "·"
+    ],
+    [
+     "·",
+     "·",
+     "6",
+     "·",
+     "·"
+    ],
+    [
+     "·",
+     "·",
+     "·",
+     "·",
+     "·"
+    ]
+   ],
+   "ask": "?칸에 적힐 수는 무엇일까요?",
+   "input": "number",
+   "hint": "6이 되는 두 거리의 짝은 몇 가지뿐이에요. 한 칸에서 두 보물까지 거리의 합은 두 보물 사이의 거리보다 작을 수 없다는 점도 써 보세요.",
+   "h": "34f6c5d77856d836063c779e4c963cfdbd4052f63daa748d122f769d03921b83",
+   "x": "mubTHDjKDmjJi/8cw04QQ1f7kpSr1wn7WKoC4k/osxzOEKh4Ls2D2VOBEax+WFTRm4KC7h9qdihC2zbRvP8VYKh57pfGvxO2zsnUXBRMmCj4vv1rzrD1s3NXTIK+z2XjCq3iDDMW1zgbhYthIjQMlFjvV13+Sk9akPv0ojgjAnZmdY75iHWQpSGckhvQ1LPxJyikVMHCzLw/ovglphuGiQxSt8dGt8j3ERTT3b9Uinyi4W4xhCG2OlLW28KsZPI+QdIdiXsD+jYOB01Vf7cprWvAWmOGbj+a5kQpJRsLOVFJ9UAoEr5pNW0ZsThR61BSnLCNQv1UvqshrbVdONmzEjmoiRgoBT8BC+oB5oXApnhWShkHi7G+yGE0uOICfSRP7yF3LkBsN0PqB6Q4fry+ep34OwSKNZTdiJKkyyc3x4yJ6luDcZOmpobaGiBX/PC3GL+W2dGzYpO1YHLxjoqgigLNNK9HExAd5MUErj+phCMG4dxgXxgoT34siGOA6IVC7A==",
+   "level": 5
+  },
+  {
+   "id": "b261129p2",
+   "date": "2026-11-29",
+   "slot": "pm",
+   "n": 2,
+   "kind": "참거짓",
+   "title": "이웃은 거짓인 상자",
+   "text": "1~7번 상자가 번호 차례로 한 줄로 놓였고, 딱 한 상자에만 보물이 있어요. 상자마다 글이 하나씩 적혀 있고, 글은 말한 그대로이면 참, 아니면 거짓이에요.\n보물이 든 상자의 글은 참이고, 그 바로 옆 상자(번호가 1 차이 나는 상자)의 글은 거짓이에요. 나머지 상자의 글은 참일 수도 거짓일 수도 있어요.",
+   "clues": [
+    "1번: 참인 글은 모두 1개예요.",
+    "2번: 4번 상자의 글은 거짓이에요.",
+    "3번: 보물은 1번 상자에 없어요.",
+    "4번: 참인 글은 모두 4개예요.",
+    "5번: 보물은 4번 상자에 없어요.",
+    "6번: 1번과 5번 상자의 글은 둘 다 참이거나 둘 다 거짓이에요.",
+    "7번: 3번 상자의 글은 거짓이에요."
+   ],
+   "ask": "보물 상자 번호를 먼저 쓰고, 이어서 참인 글이 적힌 상자 번호를 작은 것부터 모두 쓰면 어떤 수일까요?",
+   "input": "number",
+   "hint": "3번과 7번, 2번과 4번은 서로 참거짓이 반대예요. 그러면 참인 글이 몇 개일 수 있는지부터 좁혀 보세요.",
+   "h": "d21a6c291627086625d838b2ff6f9ee39ccd783a7df4322523f4f98aff77cecd",
+   "x": "SMlwGcjlqkTxYnPLitBXIlrWPFFl9od8G0vq1031kkRDw5zQ/w48bC9Km5Lt4RAmKhFh+2PqfrfiQ+AGtwqX2daC5Q9jSgA0MJ2euIxTTIbVt015OqpS6gnyL7nsqA1NG/Xy2wCVOYcEhzxDcLfEl09bGJWATOO6GSbgmj+Ys5B6xM1pzETAwLfL/bKL1a1CXkE7L+yMJrsibuzQhe1Z4B+eYIeoLOYjrj9aiuCMtsN+7diGyrXZoaGylJDJDosOz7HZx3God6SjegTZbq/q5gSxqiCHCP3ILk1Tdmv0Wu6zAM1XCCFZmNeGaQNLHNlfSIqWM5N714l0+2PyaeUva3QxCCCDZyYX4fo2av2NAo1jF0swAzZzetNi9FcCTP/+yCf5/hWNzWMxNDi1z79nezsJiyjhAFVayBIpYgFhFp3iJDK5H/hGRSs7kXxvcig5KRxYxLJNLGef5jiLFgl0Y1lknxvJHwTQQzAmpi0k0bb8IpDw+3VOms6Csth+jxwMrDF4jgppz5uMibWO0aAJjg0XALZNSZfsLD4weMaH00Z8rEKLa+E3kU/mWlQfS5mkjlhvpHipy1QOgSMbWnDnehbw9ZY8XIShtgZamuL8nByK0nwn7H4/nVl8C77E7mhfTEaGI192LrzuGmav5zcM",
+   "level": 5
+  },
+  {
+   "id": "b261129p3",
+   "date": "2026-11-29",
+   "slot": "pm",
+   "n": 3,
+   "kind": "암호",
+   "title": "속을 바꾼 수",
+   "text": "1보다 큰 자연수를 한 가지 규칙으로 다른 자연수로 바꿨어요. 규칙은 모든 수에 똑같이 쓰였어요.\n26 → 51\n84 → 495\n91 → 187\n75 → 245",
+   "ask": "같은 규칙으로 바꾼 결과가 1105라면, 바꾸기 전 수는 무엇일까요?",
+   "input": "number",
+   "hint": "바꾼 수가 모두 홀수인 까닭을 생각하며, 두 수를 곱셈으로 잘게 쪼개 보세요.",
+   "h": "3afc5e281dc2df4f7f9de1ff356a0278d7b79639eb53245466f2b9279a771c70",
+   "x": "qdAylFb65MDEEw5+1ty4R7K9hXxG2nt+0Gp59VWDa9j8ckpMgkcSAci88D9+D9rVLF4l8LbWBwDmCSMSv48o6BmOr/fRhVyyZABRgkCqDk3H32tx28VhNXWqqSM8jxrpcmOr99Ov51ePJ0Ow8PCDq+2NpEy1hezAhzu0iAYq2iveBOeJRGcrm+wGiZn2QBQTGaVs3vRj4B71ijkbFCfNYOHwdkPqWboIiHt8iK1j2Qyyj7NLKfIsKXBM53elkfwWmQCThlMYp6BUglaIdawgom2x59P2IEsZV2Ps9Q1JzuC6ezMmSz9f+KRkdhkYAiRVIMrrWEdruABShKdNnzvxPyB4yRgyJ2ovbPNylfyZk2dCivcv4TIefICnCAEDI6q5DQxeFCr56Q==",
    "level": 5
   }
  ]
